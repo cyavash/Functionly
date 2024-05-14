@@ -1,0 +1,153 @@
+[ {
+  "id" : "09dd8023-d7bb-effd-97af-e2981ece3150",
+  "name" : "tab",
+  "display_width" : null,
+  "label" : "Tab",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 2,
+    "max" : 10,
+    "sorting_label_field" : "b718ed84-6a83-ee02-19ec-9532de7d6f8d",
+    "default" : 4
+  },
+  "children" : [ {
+    "id" : "b718ed84-6a83-ee02-19ec-9532de7d6f8d",
+    "name" : "tab_label",
+    "display_width" : null,
+    "label" : "Tab Label",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Organization builder"
+  }, {
+    "id" : "bcf8e05a-f721-1d70-ae51-94a7fff0af93",
+    "name" : "left_image",
+    "display_width" : null,
+    "label" : "Tab Image",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : "5b5a4551-55ab-b4e6-5603-8c287a128c8b",
+      "controlling_field_path" : null,
+      "controlling_value_regex" : "false",
+      "property" : null,
+      "operator" : "EQUAL",
+      "access" : null
+    },
+    "responsive" : false,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "exact",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Alignment.png",
+      "alt" : "Alignment",
+      "width" : 2880,
+      "height" : 1800,
+      "max_width" : 2880,
+      "max_height" : 1800,
+      "loading" : "eager"
+    }
+  }, {
+    "id" : "fd187cec-4e64-f805-51b2-2be80b081ce9",
+    "name" : "videoplayer_field",
+    "display_width" : null,
+    "label" : "Video",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : "5b5a4551-55ab-b4e6-5603-8c287a128c8b",
+      "controlling_field_path" : null,
+      "controlling_value_regex" : "true",
+      "property" : null,
+      "operator" : "EQUAL",
+      "access" : null
+    },
+    "resizable" : true,
+    "show_preview" : true,
+    "show_advanced_options" : false,
+    "type" : "videoplayer"
+  }, {
+    "id" : "5b5a4551-55ab-b4e6-5603-8c287a128c8b",
+    "name" : "image_video",
+    "display_width" : null,
+    "label" : "Image/Video",
+    "required" : false,
+    "locked" : false,
+    "display" : "checkbox",
+    "type" : "boolean",
+    "default" : false
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "default" : [ {
+    "tab_label" : "Organization builder",
+    "left_image" : {
+      "size_type" : "exact",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Alignment.png",
+      "alt" : "Alignment",
+      "width" : 2880,
+      "height" : 1800,
+      "max_width" : 2880,
+      "max_height" : 1800,
+      "loading" : "eager"
+    },
+    "image_video" : false
+  }, {
+    "tab_label" : "Organization builder",
+    "left_image" : {
+      "size_type" : "exact",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Alignment.png",
+      "alt" : "Alignment",
+      "width" : 2880,
+      "height" : 1800,
+      "max_width" : 2880,
+      "max_height" : 1800,
+      "loading" : "eager"
+    },
+    "image_video" : false
+  }, {
+    "tab_label" : "Organization builder",
+    "left_image" : {
+      "size_type" : "exact",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Alignment.png",
+      "alt" : "Alignment",
+      "width" : 2880,
+      "height" : 1800,
+      "max_width" : 2880,
+      "max_height" : 1800,
+      "loading" : "eager"
+    },
+    "image_video" : false
+  }, {
+    "tab_label" : "Organization builder",
+    "left_image" : {
+      "size_type" : "exact",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Alignment.png",
+      "alt" : "Alignment",
+      "width" : 2880,
+      "height" : 1800,
+      "max_width" : 2880,
+      "max_height" : 1800,
+      "loading" : "eager"
+    },
+    "image_video" : false
+  } ]
+}, {
+  "id" : "0a67b23b-dc53-7846-13e3-1d0f9923839a",
+  "name" : "transition_time",
+  "display_width" : null,
+  "label" : "Transition Time",
+  "required" : false,
+  "locked" : false,
+  "display" : "text",
+  "step" : 1,
+  "type" : "number",
+  "default" : 4000
+} ]

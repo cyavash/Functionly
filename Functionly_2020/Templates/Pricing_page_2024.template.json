@@ -1,0 +1,825 @@
+{
+  "isAvailableForNewContent" : true,
+  "templateType" : 4,
+  "attachedStylesheets" : [ {
+    "type" : "cos_extension_resource",
+    "path" : "/Functionly_2020/Codes/Stylesheet_2020.css"
+  } ],
+  "attachedJs" : [ {
+    "type" : "cos_extension_resource",
+    "path" : "/Functionly_2020/Codes/script_2020.js"
+  } ],
+  "customHead" : "<link href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\" rel=\"stylesheet\"> \n\n\n\n",
+  "customFooter" : "",
+  "bodyClass" : "",
+  "bodyCss" : "",
+  "bodyEditable" : false,
+  "layoutData" : {
+    "x" : 0,
+    "w" : 12,
+    "name" : "",
+    "label" : "",
+    "type" : "cell",
+    "params" : { },
+    "rows" : [ {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_171437294873664",
+        "label" : "Header_2024",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "path" : "/Functionly_2020/Global_Modules/Header_2024.template.json",
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "",
+        "label" : "",
+        "type" : "section_delimiter",
+        "params" : { },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_171456945084463",
+        "label" : "Hero_Module_2024",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Hero_Module_2024",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Hero_Module_2024",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1645540937911105",
+        "label" : "Pricing Global Module",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "path" : "/Functionly_2020/Templates/Pricing Global Module.template.json",
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1645540945261114",
+        "label" : "Pricing Table Global",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "path" : "/Functionly_2020/Templates/Pricing Table Global.template.json",
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_162494171859137",
+        "label" : "Integration Block",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "display: none !important;",
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Integration Block",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Integration Block",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "display: none !important;",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_167879769791089",
+        "label" : "Logos_Slider_Module v2",
+        "type" : "custom_widget",
+        "params" : {
+          "btm" : [ {
+            "image" : {
+              "alt" : "Netflix_2015_logo",
+              "height" : 277,
+              "size_type" : "exact",
+              "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Netflix_2015_logo.svg",
+              "width" : 1024
+            }
+          }, {
+            "image" : {
+              "alt" : "University_of_Cambridge-Logo.wine",
+              "height" : 800,
+              "max_height" : 800,
+              "max_width" : 1200,
+              "size_type" : "exact",
+              "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/University_of_Cambridge-Logo.wine.svg",
+              "width" : 1200
+            }
+          }, {
+            "image" : {
+              "alt" : "motive-formerly-keeptruckin-seeklogo.com",
+              "height" : 400,
+              "max_height" : 400,
+              "max_width" : 400,
+              "size_type" : "exact",
+              "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/motive-formerly-keeptruckin-seeklogo.com.svg",
+              "width" : 400
+            }
+          }, {
+            "image" : {
+              "alt" : "Amazon_logo",
+              "height" : 182,
+              "max_height" : 182,
+              "max_width" : 603,
+              "size_type" : "exact",
+              "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Amazon_logo.svg",
+              "width" : 603
+            }
+          }, {
+            "image" : {
+              "alt" : "Marriott_Logo",
+              "height" : 384,
+              "max_height" : 384,
+              "max_width" : 744,
+              "size_type" : "exact",
+              "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Marriott_Logo.svg",
+              "width" : 744
+            }
+          }, {
+            "image" : {
+              "alt" : "New_Linksys_Logo,_Jan_5_2022",
+              "height" : 400,
+              "max_height" : 400,
+              "max_width" : 400,
+              "size_type" : "exact",
+              "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/New_Linksys_Logo%2c_Jan_5_2022.svg",
+              "width" : 400
+            }
+          }, {
+            "image" : {
+              "alt" : "3M_wordmark",
+              "height" : 58,
+              "max_height" : 158,
+              "max_width" : 300,
+              "size_type" : "exact",
+              "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/3M_wordmark.svg",
+              "width" : 110
+            }
+          }, {
+            "image" : {
+              "alt" : "Cisco_logo_blue_2016",
+              "height" : 114,
+              "max_height" : 114,
+              "max_width" : 216,
+              "size_type" : "exact",
+              "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Cisco_logo_blue_2016.svg",
+              "width" : 216
+            }
+          }, {
+            "image" : {
+              "alt" : "BMW_logo_(gray)",
+              "height" : 60,
+              "max_height" : 600,
+              "max_width" : 600,
+              "size_type" : "exact",
+              "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/BMW_logo_(gray).svg",
+              "width" : 60
+            }
+          } ],
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "item" : [ {
+            "image" : {
+              "alt" : "Gartner_logo",
+              "height" : 23,
+              "size_type" : "exact",
+              "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Gartner_logo.svg",
+              "width" : 100
+            }
+          }, {
+            "image" : {
+              "alt" : "Dominos_pizza_logo",
+              "height" : 60,
+              "max_height" : 400,
+              "max_width" : 400,
+              "size_type" : "exact",
+              "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Dominos_pizza_logo.svg",
+              "width" : 60
+            }
+          }, {
+            "image" : {
+              "alt" : "Zendesk_logo",
+              "height" : 70,
+              "max_height" : 259,
+              "max_width" : 363,
+              "size_type" : "exact",
+              "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Zendesk_logo.svg",
+              "width" : 98
+            }
+          }, {
+            "image" : {
+              "alt" : "Honeywell_logo",
+              "height" : 120,
+              "max_height" : 120,
+              "max_width" : 678,
+              "size_type" : "exact",
+              "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Honeywell_logo.svg",
+              "width" : 678
+            }
+          }, {
+            "image" : {
+              "alt" : "DocuSign_Logo",
+              "height" : 29,
+              "max_height" : 29,
+              "max_width" : 127,
+              "size_type" : "exact",
+              "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/DocuSign_Logo.svg",
+              "width" : 127
+            }
+          }, {
+            "image" : {
+              "alt" : "UNIQLO_logo",
+              "height" : 60,
+              "max_height" : 203,
+              "max_width" : 204,
+              "size_type" : "exact",
+              "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/UNIQLO_logo.svg",
+              "width" : 60
+            }
+          }, {
+            "image" : {
+              "alt" : "Spotify_logo_with_text",
+              "height" : 168,
+              "max_height" : 168,
+              "max_width" : 559,
+              "size_type" : "exact",
+              "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Spotify_logo_with_text.svg",
+              "width" : 559
+            }
+          }, {
+            "image" : {
+              "alt" : "NASCAR_logo_2017",
+              "height" : 48,
+              "max_height" : 48,
+              "max_width" : 278,
+              "size_type" : "exact",
+              "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/NASCAR_logo_2017.svg",
+              "width" : 278
+            }
+          }, {
+            "image" : {
+              "alt" : "Philips_logo_new",
+              "height" : 92,
+              "max_height" : 92,
+              "max_width" : 500,
+              "size_type" : "exact",
+              "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Philips_logo_new.svg",
+              "width" : 500
+            }
+          }, {
+            "image" : {
+              "alt" : "CLEAR_Logo",
+              "height" : 129,
+              "max_height" : 129,
+              "max_width" : 477,
+              "size_type" : "exact",
+              "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/CLEAR_Logo.svg",
+              "width" : 477
+            }
+          } ],
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Logos_Slider_Module v2",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Logos_Slider_Module v2",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_16002604096721297",
+        "label" : "Price Solution Wrap",
+        "type" : "cell",
+        "params" : {
+          "css_class" : "price-sol-wrap",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ {
+          "0" : {
+            "x" : 0,
+            "w" : 12,
+            "name" : "module_16002604096721298",
+            "label" : "Page Center",
+            "type" : "cell",
+            "params" : {
+              "css_class" : "page-center",
+              "css_id" : "",
+              "css_id_str" : "",
+              "css_style" : "",
+              "overrideable" : false,
+              "per_widget_wrapper_html" : "",
+              "wrapping_html" : ""
+            },
+            "rows" : [ {
+              "0" : {
+                "x" : 0,
+                "w" : 12,
+                "name" : "module_16002604096721303",
+                "label" : "Price Solution Text",
+                "type" : "custom_widget",
+                "params" : {
+                  "css_class" : "price-sol-text",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "html" : "<h2>Looking for Enterprise solutions?</h2>\n<p>For organizations that need additional security, control, and support. For enterprise leaders &amp; institutional consultants</p>",
+                  "overrideable" : true,
+                  "path" : "@hubspot/rich_text",
+                  "per_widget_wrapper_html" : "",
+                  "schema_version" : 2,
+                  "widget_name" : "Rich Text",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "price-sol-text",
+                "cssStyle" : "",
+                "styles" : null,
+                "widgets" : [ ]
+              }
+            }, {
+              "0" : {
+                "x" : 0,
+                "w" : 12,
+                "name" : "module_1600501958146186",
+                "label" : "Call-to-Action",
+                "type" : "custom_widget",
+                "params" : {
+                  "css_class" : "price-sol-cta",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "guid" : "0dc337b0-ef28-48ae-ae7b-32c50609db2c",
+                  "overrideable" : true,
+                  "path" : "@hubspot/cta",
+                  "per_widget_wrapper_html" : "",
+                  "schema_version" : 2,
+                  "widget_name" : "Call-to-Action",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "price-sol-cta",
+                "cssStyle" : "",
+                "styles" : null,
+                "widgets" : [ ]
+              }
+            } ],
+            "rowMetaData" : [ ],
+            "cells" : [ ],
+            "cssId" : "",
+            "cssClass" : "page-center",
+            "cssStyle" : "",
+            "styles" : null,
+            "widgets" : [ ]
+          }
+        } ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "price-sol-wrap",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_160066287859013",
+        "label" : "Video_Text_Module",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Video_Text_Module",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Video_Text_Module",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_160049344815269",
+        "label" : "Testimonial Slider Module",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Testimonial Slider Module",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "slides" : [ {
+            "author_name" : "Kattie Capozza",
+            "author_picture" : {
+              "alt" : "katiecapozza",
+              "height" : 500,
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Testimonial%20photos/katiecapozza.jpg",
+              "width" : 500
+            },
+            "job_title" : "Walt Disney Company (ex)",
+            "quote" : "<p>Functionly is something I wish I had decades ago. This would have saved my team hours of work setting up and maintaining clear role responsibilities.</p>"
+          }, {
+            "author_name" : "Arnie Boyarsky",
+            "author_picture" : {
+              "alt" : "ArnieB-LoRes",
+              "height" : 600,
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Testimonial%20photos/ArnieB-LoRes.jpg",
+              "width" : 600
+            },
+            "job_title" : "SugarShot Technology",
+            "quote" : "<p>The traditional org chart is something I've struggled with. After seeing how the many functional roles could be sliced and diced, Functionly helped me radically optimize the people and workflows in my company.</p>"
+          }, {
+            "author_name" : "Tyron Hayes",
+            "author_picture" : {
+              "alt" : "tyron",
+              "height" : 272,
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/tyron.jpg",
+              "width" : 272
+            },
+            "job_title" : "Growth Generators",
+            "quote" : "<p>It’s like Trello but purpose-built for functional work design.<br>The UX and the team behind it are awesome.</p>"
+          }, {
+            "author_name" : "Ron Schwartz",
+            "author_picture" : {
+              "alt" : "Ron-Schwartz",
+              "height" : 500,
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Ron-Schwartz.jpg",
+              "width" : 500
+            },
+            "job_title" : "Brass Tacks",
+            "quote" : "<p>Functionly is one of the best, if not the best tool I have found to help my clients organize (and reorganize) their talent to deliver excellence.</p>"
+          } ],
+          "widget_name" : "Testimonial Slider Module",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1600494160645121",
+        "label" : "Faq_Module",
+        "type" : "custom_widget",
+        "params" : {
+          "accordion_item" : [ {
+            "content" : "<p>A user account is for anyone that needs access to design an org, team, job, function, person, or scenario for their organization.</p>",
+            "title" : " What's a user account? "
+          }, {
+            "content" : "<p>Non-users are free and un-capped, so you can import your entire organization of 30 – 3000.</p>",
+            "title" : "How much do employees / contractors cost? "
+          }, {
+            "content" : "<p>Business Functions are the building blocks: strategic capabilities, expectations, key activities and people processes that your business needs in order to run effectively and deliver on your company’s goals and objectives. Think of them like departments.</p>",
+            "title" : "What is a business “Function”?"
+          }, {
+            "content" : "<p>It’s easy. We can help you to get up and running in less than an hour; If you have a complex, custom or unique organization then we have partners that can work on an implementation plan to help you navigate the process.</p>",
+            "title" : "How long does it take to implement Functionly?"
+          }, {
+            "content" : "<p>Functional architecture is an independent abstraction from the reporting structure (although there can be overlap). It represents the modern agility that most organizations have already developed but struggle to articulate and lead effectively with the tools available today.</p>",
+            "title" : "Is a Functional structure the same as a reporting structure?"
+          }, {
+            "content" : "<p>Functionly offers month to month terms or yearly terms. Paying in advance helps us and in turn, we help you by offering a 17% discount.</p>",
+            "title" : "When will I be billed?"
+          }, {
+            "content" : "<p>We are able to integrate from all the commonly-used HRIS tools via excel and CSV exports. In time will offer real-time APIs to keep everything magically up to date.</p>\n<p>We do partner closely with our client’s HR leaders so they have access to the valuable data we provide and can support in strategizing how it can be used to adapt the organization as it grows.</p>",
+            "title" : "Can you intigrate with HRMS/HRIS/Colaboration/Auth platforms?"
+          }, {
+            "content" : "<p>We are really unlike almost everything else on the market, but we are more closely related to work design, org design, team design, and job design. We most commonly replace spreadsheets, whiteboards, sticky-notes, and word documents.</p>",
+            "title" : "What are the alternatives to Functionly?"
+          } ],
+          "css_class" : "price-faq",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Faq_Module",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Faq_Module",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "price-faq",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_161418142677060",
+        "label" : "Integration_Module",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "price-intgr-wrap",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "item" : [ {
+            "image" : {
+              "alt" : "Slack",
+              "height" : 44,
+              "max_height" : 44,
+              "max_width" : 176,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Slack.svg",
+              "width" : 176
+            }
+          }, {
+            "image" : {
+              "alt" : "ADP",
+              "height" : 57,
+              "max_height" : 57,
+              "max_width" : 125,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/ADP.svg",
+              "width" : 125
+            }
+          }, {
+            "image" : {
+              "alt" : "zenefits",
+              "height" : 46,
+              "max_height" : 46,
+              "max_width" : 195,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/zenefits.svg",
+              "width" : 195
+            }
+          }, {
+            "image" : {
+              "alt" : "quickbooks",
+              "height" : 47,
+              "max_height" : 47,
+              "max_width" : 243,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/quickbooks.svg",
+              "width" : 243
+            }
+          }, {
+            "image" : {
+              "alt" : "gusto",
+              "height" : 53,
+              "max_height" : 53,
+              "max_width" : 137,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/gusto.svg",
+              "width" : 137
+            }
+          }, {
+            "image" : {
+              "alt" : "just",
+              "height" : 37,
+              "max_height" : 37,
+              "max_width" : 198,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/just.svg",
+              "width" : 198
+            }
+          }, {
+            "image" : {
+              "alt" : "Rippling-1",
+              "height" : 38,
+              "max_height" : 38,
+              "max_width" : 263,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Rippling-1.svg",
+              "width" : 263
+            }
+          } ],
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Integration_Module",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Integration_Module",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "price-intgr-wrap",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1603544212102497",
+        "label" : "Flexible column",
+        "type" : "widget_container",
+        "params" : {
+          "css_class" : "flex-column",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "flex-column",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "",
+        "label" : "",
+        "type" : "section_delimiter",
+        "params" : { },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_15999231076911006",
+        "label" : "Footer_2020",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "path" : "/Functionly_2020/Global_Modules/Footer_2020.template.json",
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    } ],
+    "rowMetaData" : [ ],
+    "cells" : [ ],
+    "cssId" : "",
+    "cssClass" : "",
+    "cssStyle" : "",
+    "styles" : null,
+    "widgets" : [ ]
+  }
+}

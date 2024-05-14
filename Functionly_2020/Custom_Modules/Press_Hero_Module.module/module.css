@@ -1,0 +1,244 @@
+/******** Post Hero Styling *********/
+
+.post-hero-wrap {  
+	width: 100%;
+	display: inline-block;
+	position: relative; 
+  padding: 100px 0px;
+}
+
+.post-hero-outer {
+    position: relative;
+    z-index: 99999;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    background: rgba(102, 45, 145, 0.05);
+    border-radius: 8px;
+}
+
+.post-hero-left {
+    width: 40%;
+    float: left;
+    position: relative;
+    min-height: 470px;
+}
+
+.post-hero-right {
+    width: 60%;
+    float: left;
+    position: relative;
+}
+ 
+.post-hero-wrap .post-hero-title h1 {
+    margin-bottom: 30px;
+    font-size: 36px;
+    line-height: 125%;
+    color: #414042;
+    letter-spacing: -0.02em;
+}
+
+.post-hero-topic a {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+ 
+.social-share-inner {
+    position: absolute;
+    bottom: 0px;
+}
+
+.post-hero-frtimg .featured-image {
+    min-height: 470px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+  
+.author-right-name {
+    font-size: 20px;
+    line-height: 150%;
+    color: #414042;
+}
+
+.post-hero-tag p a {
+    font-size: 20px;
+    line-height: 125%;
+    color: #6B2D90;
+    font-family: 'ceragr-bolduploaded_file';
+}
+
+
+.social-share-inner ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.post-hero-frtimg { 
+    padding-left: 30px;
+}
+ 
+.social-share-inner ul li {
+    float: left;
+    margin-right: 15px;
+}
+
+
+.social-share-inner ul li a {
+   opacity: 0.8;
+}
+
+
+.social-share-inner ul li a:hover {
+   opacity: 1;
+}
+
+.author-right-name a {
+    font-size: 20px;
+    line-height: 150%;
+    color: #414042;
+}
+ 
+.post-hero-tag p {
+    margin-top: 0px;
+} 
+
+/******** Banner - Mobile Styling *********/
+
+@media (max-width: 1080px) {
+
+  .post-hero-wrap { 
+      padding: 70px 0px;
+  }
+  
+  .post-hero-outer { 
+      padding: 20px; 
+  }
+  
+  .post-hero-tag p a {
+      font-size: 16px; 
+  }
+  
+  .post-hero-wrap .post-hero-title h1 { 
+      font-size: 28px; 
+  }
+  
+  .author-right-name {
+      font-size: 16px; 
+  }
+  
+  .author-right-name a {
+      font-size: 16px; 
+  }
+  
+  .post-hero-frtimg .featured-image {
+      min-height: 350px; 
+  }
+  
+  .post-hero-left {
+      min-height: 350px;
+  }
+  
+  
+  
+}
+
+@media only screen and (min-width:768px) and (max-width: 1024px) and (orientation: portrait) {
+  
+  .post-hero-left {
+      width: 100%; 
+      min-height: auto !important;
+      padding-bottom: 20px;
+  }
+  
+  .post-hero-right {
+      width: 100%;
+      float: left;
+      position: relative;
+      padding-bottom: 100px;
+  }
+  
+  .post-hero-frtimg {
+      padding-left: 0px;
+  }
+  
+  .post-hero-wrap .post-hero-title h1 {
+      font-size: 24px;
+      margin-bottom: 12px;
+  }
+  
+  .social-share-inner {
+      position: absolute;
+      bottom: -450px;
+      z-index: 99;
+  }
+  
+  
+}  
+
+@media (max-width: 767px) {
+  
+	.post-hero-left {
+      width: 100%; 
+      min-height: auto !important;
+      padding-bottom: 20px;
+  }
+  
+  .post-hero-right {
+      width: 100%;
+      float: left;
+      position: relative;
+      padding-bottom: 100px;
+  }
+  
+  .post-hero-frtimg {
+      padding-left: 0px;
+  }
+  
+  .post-hero-wrap .post-hero-title h1 {
+      font-size: 24px;
+      margin-bottom: 12px;
+  }
+  
+  .social-share-inner {
+      position: absolute;
+      bottom: -390px;
+      z-index: 99;
+  }
+  
+  .post-hero-frtimg .featured-image {
+      min-height: 300px;
+  }
+  
+}
+
+@media (max-width: 479px) {
+  
+  .post-hero-wrap {
+      padding: 50px 0px 40px;
+  }
+  
+  .post-hero-tag p a {
+      font-size: 14px;
+  }
+  
+  .social-share-inner { 
+      bottom: -340px; 
+  }
+  
+  .post-hero-outer {
+      padding: 10px;
+  }
+
+  .post-hero-frtimg .featured-image {
+      min-height: 250px;
+  }
+  
+}  
+  

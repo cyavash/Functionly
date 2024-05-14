@@ -1,0 +1,51 @@
+.blog-list-item {
+    display: none;
+}
+
+div#list-load-more {
+    text-align: center;
+    padding: 50px 0px 20px;
+}
+
+.btn-lblue span img {
+    position: relative;
+    top: -2px;
+    margin-left: 12px;
+}
+
+.btn-lblue span:hover img {
+    filter: brightness(0) invert(1);
+}
+
+.btn-lblue span {
+    color: #662d91;
+    padding: 16px 30px 14px;
+    text-align: center;
+    margin: 0px;
+    background-color: #fff;
+    border: 1px solid #6b2d90;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: all .5s ease;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 125%;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.btn-lblue span:hover {
+    color: #fff;
+    background-color: #662d91;
+    border: 1px solid #662d91;
+}
+
+
+
+
+
+
+
+
+
+

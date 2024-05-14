@@ -1,0 +1,121 @@
+[ {
+  "id" : "876ec876-14da-773a-4cfc-c11945744931",
+  "name" : "header",
+  "display_width" : null,
+  "label" : "Header",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : ""
+}, {
+  "id" : "d1973a3b-83ca-1885-abe7-ea561a258da6",
+  "name" : "description",
+  "display_width" : null,
+  "label" : "Description",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<p>Ditch DIY drawings, diagrams, and spreadsheets to create better org charts and organograms. Capture the present, click together the pieces, and communicate what matters.</p>"
+}, {
+  "id" : "0dc5bedc-ceee-b991-53cb-55f4c39af73c",
+  "name" : "img_vid",
+  "display_width" : null,
+  "label" : "Image / Video",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "b7a09cf5-7eca-bf56-ee92-499d8db81dae",
+    "name" : "image",
+    "display_width" : null,
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : "d8c5d845-ac93-d259-0e8e-f01d11adc932",
+      "controlling_field_path" : null,
+      "controlling_value_regex" : "false",
+      "property" : null,
+      "operator" : "EQUAL",
+      "access" : null
+    },
+    "responsive" : false,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Feature_2022/image-1.png",
+      "alt" : "image-1",
+      "width" : 1075,
+      "height" : 593,
+      "loading" : "lazy"
+    }
+  }, {
+    "id" : "73923ca3-3efc-84f8-8f91-b1d1b3b36952",
+    "name" : "videoplayer_field",
+    "display_width" : null,
+    "label" : "Video",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : "d8c5d845-ac93-d259-0e8e-f01d11adc932",
+      "controlling_field_path" : null,
+      "controlling_value_regex" : "true",
+      "property" : null,
+      "operator" : "EQUAL",
+      "access" : null
+    },
+    "resizable" : true,
+    "show_preview" : true,
+    "show_advanced_options" : true,
+    "type" : "videoplayer",
+    "default" : {
+      "player_id" : 95461610613,
+      "height" : 688,
+      "width" : 1000,
+      "player_type" : "hsvideo2",
+      "loop_video" : true,
+      "autoplay" : true,
+      "hide_controls" : true,
+      "mute_by_default" : false
+    }
+  }, {
+    "id" : "d8c5d845-ac93-d259-0e8e-f01d11adc932",
+    "name" : "image_video",
+    "display_width" : null,
+    "label" : "Image/Video",
+    "required" : false,
+    "locked" : false,
+    "display" : "toggle",
+    "type" : "boolean",
+    "default" : true
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "default" : {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Feature_2022/image-1.png",
+      "alt" : "image-1",
+      "width" : 1075,
+      "height" : 593,
+      "loading" : "lazy"
+    },
+    "videoplayer_field" : {
+      "player_id" : 95461610613,
+      "height" : 688,
+      "width" : 1000,
+      "player_type" : "hsvideo2",
+      "loop_video" : true,
+      "autoplay" : true,
+      "hide_controls" : true,
+      "mute_by_default" : false
+    },
+    "image_video" : true
+  }
+} ]

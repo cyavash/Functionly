@@ -1,0 +1,96 @@
+.txt-video-wrap {
+    padding: 80px 0 0px;
+    position: relative;
+}
+
+.txt-video-otr {
+    max-width: 1000px;
+    margin: 0px auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+     
+.txt-video-img {
+    background-image: url(https://www.functionly.com/hubfs/Functionly_2020/Feature_2022/border-2.png);
+    background-size: 100% 100%;
+    border-radius: 10px;
+    padding: 2px;
+    margin-top: 40px;
+}
+
+.txt-video-img img {
+    border-radius: 10px; 
+}
+
+.txt-video-img .hs-video-wrapper {
+    width: 100%;
+    min-height: 685px;
+    padding: 0px !important;
+    border-radius: 10px !important;
+}
+
+.txt-video-img video ,
+.txt-video-img iframe {
+    border-radius: 10px !important;
+}
+
+.txt-video-text {
+    margin: 0 auto;
+    max-width: 900px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+/******** Responsive code starts here *******/
+ 
+/************** ipad ***************/
+
+@media (max-width: 1080px) {
+     
+  .txt-video-wrap {
+      padding: 70px 0px; 
+  }
+ 
+  .txt-video-img .hs-video-wrapper {
+      border-radius: 10px!important;
+      min-height: 500px; 
+  }
+  
+}
+
+/************** ipad nd tab ***************/
+
+@media only screen and (min-width:768px) and (max-width: 1024px) and (orientation : portrait){
+ 
+  
+ 
+}
+
+/************** iphone roatate***************/
+
+@media (max-width: 767px) {
+    
+  
+}
+
+/************** iphone ***************/
+
+@media (max-width: 479px) {
+    
+  .txt-video-wrap {
+      padding: 50px 0px;
+  }
+  
+  .txt-video-img .hs-video-wrapper { 
+      min-height: 232px;
+      padding: 0 0px 0%!important;
+      width: 100%;
+  }
+
+}
+
+
+ 

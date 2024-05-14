@@ -1,0 +1,319 @@
+[ {
+  "id" : "a3159824-a37b-b4a9-1c40-68962a8c35dd",
+  "name" : "main_header",
+  "display_width" : null,
+  "label" : "Main Header",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "We’re in beta"
+}, {
+  "id" : "3271dd63-a128-f2a7-825d-d203b70aa9a6",
+  "name" : "popup_content",
+  "display_width" : null,
+  "label" : "Popup Content",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<h3>We’re in Beta</h3>\n<p>Functionly is currently featured rapid new feature sets and is in beta phase. We expect to have a full launched product out of beta by February 2021</p>"
+}, {
+  "id" : "09dd8023-d7bb-effd-97af-e2981ece3150",
+  "name" : "content",
+  "display_width" : null,
+  "label" : "Item",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 3,
+    "max" : 3,
+    "sorting_label_field" : "d2f7aa90-fe30-4602-562a-9f816336ed92",
+    "default" : 3
+  },
+  "children" : [ {
+    "id" : "d2f7aa90-fe30-4602-562a-9f816336ed92",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Professional"
+  }, {
+    "id" : "d06e8103-65da-f9f0-9e62-40399040bbef",
+    "name" : "sub_title",
+    "display_width" : null,
+    "label" : "Sub Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "For Executive Team Collaboration <b>Small to Large Organisations</b>"
+  }, {
+    "id" : "04621f1c-86ad-16b0-76fe-6f2141b63e75",
+    "name" : "price_country",
+    "display_width" : null,
+    "label" : "Price Country",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "From (USD)"
+  }, {
+    "id" : "a695970a-e2a3-fd29-d1a4-489249dcca4e",
+    "name" : "price_number",
+    "display_width" : null,
+    "label" : "Price Number",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "$249.75 <span>p/m</span>"
+  }, {
+    "id" : "7e25298a-3d5e-539d-1085-b793e62779b9",
+    "name" : "price_sub_text",
+    "display_width" : null,
+    "label" : "Price Sub Text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Annual commitment (billed monthly)"
+  }, {
+    "id" : "a0253d9d-2ed7-dddf-e44e-db19b6375c26",
+    "name" : "price_user_text",
+    "display_width" : null,
+    "label" : "Price User Text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "5 user accounts included$49.95 per extra user per month"
+  }, {
+    "id" : "2463fd8d-70c7-fe55-7436-28b1dd47ca35",
+    "name" : "cta_1",
+    "display_width" : null,
+    "label" : "CTA 1",
+    "required" : false,
+    "locked" : false,
+    "type" : "cta",
+    "default" : "233f4e6b-e2e7-4177-b37a-8ddcd6e4f2ee"
+  }, {
+    "id" : "6fec3719-d8a4-1fa9-2c99-c78c85353a16",
+    "name" : "cta_2",
+    "display_width" : null,
+    "label" : "CTA 2",
+    "required" : false,
+    "locked" : false,
+    "type" : "cta",
+    "default" : "233f4e6b-e2e7-4177-b37a-8ddcd6e4f2ee"
+  }, {
+    "id" : "22b391ad-8395-74ad-3e1b-51973608dc0c",
+    "name" : "content",
+    "display_width" : null,
+    "label" : "Price Details Content",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<h4>Key features:</h4>\n<ul>\n<li>Unlimited org size</li>\n<li>Access all libraries</li>\n<li>Quickly redesign your org</li>\n<li>Functional org charts</li>\n</ul>\n<h4>Account security:</h4>\n<ul>\n<li>SSO - Secure logins</li>\n<li>SSL - Encrypted at transit &amp; rest</li>\n<li>Secure data centres</li>\n<li>GDPR compliant</li>\n</ul>\n<h4>Easily import people:</h4>\n<ul>\n<li>People data import (CSV, HRIS)</li>\n<li>Import from slack</li>\n<li>More integrations coming soon</li>\n</ul>\n<h4>Org change exports:</h4>\n<ul>\n<li>Export org charts</li>\n<li>Export job descriptions</li>\n<li>Job descriptions</li>\n<li>Team allocations</li>\n</ul>\n<h4>Ongoing support:</h4>\n<ul>\n<li>Email support</li>\n<li>Self onboarding</li>\n<li>Assisted onboarding</li>\n<li>Assigned success manager</li>\n</ul>"
+  }, {
+    "id" : "e476eb9a-33ca-51c4-c690-b6d29137b86a",
+    "name" : "price_acc_title",
+    "display_width" : null,
+    "label" : "Price Accordion Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Key features:"
+  }, {
+    "id" : "21dcc974-7515-0c22-6140-27165e7ef9a7",
+    "name" : "price_details_acc",
+    "display_width" : null,
+    "label" : "Price Details Accordion",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<ul>\n<li>Unlimited org size</li>\n<li>Access all libraries</li>\n<li>Quickly redesign your org</li>\n<li>Functional org charts</li>\n</ul>\n<h4>Account security:</h4>\n<ul>\n<li>SSO - Secure logins</li>\n<li>SSL - Encrypted at transit &amp; rest</li>\n<li>Secure data centres</li>\n<li>GDPR compliant</li>\n</ul>\n<h4>Easily import people:</h4>\n<ul>\n<li>People data import (CSV, HRIS)</li>\n<li>Import from slack</li>\n<li>More integrations coming soon</li>\n</ul>\n<h4>Org change exports:</h4>\n<ul>\n<li>Export org charts</li>\n<li>Export job descriptions</li>\n<li>Job descriptions</li>\n<li>Team allocations</li>\n</ul>\n<h4>Ongoing support:</h4>\n<ul>\n<li>Email support</li>\n<li>Self onboarding</li>\n<li>Assisted onboarding</li>\n<li>Assigned success manager</li>\n</ul>"
+  }, {
+    "id" : "70e26e6c-702c-5036-25da-2e04320fe200",
+    "name" : "link_field",
+    "display_width" : null,
+    "label" : "Link",
+    "required" : false,
+    "locked" : false,
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG" ],
+    "show_advanced_rel_options" : false,
+    "type" : "link",
+    "default" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "https://labs.functionly.com/sign-up/?plan=price_1HglepB3rgwynYaJ8QTgiA3K",
+        "content_id" : null
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    }
+  }, {
+    "id" : "7e826c04-527f-eddf-a819-b89f65277f3a",
+    "name" : "link1_text",
+    "display_width" : null,
+    "label" : "Link1 Text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Trail Now"
+  }, {
+    "id" : "e1c073a1-eb5e-96f7-1106-c835103e44b9",
+    "name" : "link2",
+    "display_width" : null,
+    "label" : "Link2",
+    "required" : false,
+    "locked" : false,
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG" ],
+    "show_advanced_rel_options" : false,
+    "type" : "link",
+    "default" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "https://labs.functionly.com/sign-up/?plan=price_1HglepB3rgwynYaJ8QTgiA3K",
+        "content_id" : null
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    }
+  }, {
+    "id" : "343477f1-19a0-80ba-b7ea-57d15ba04121",
+    "name" : "link2_text",
+    "display_width" : null,
+    "label" : "Link2 Text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Buy Now"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "default" : [ {
+    "title" : "Professional",
+    "sub_title" : "For Executive Team Collaboration <b>Small to Large Organisations</b>",
+    "price_country" : "From (USD)",
+    "price_number" : "$249.75 <span>p/m</span>",
+    "price_sub_text" : "Annual commitment (billed monthly)",
+    "price_user_text" : "5 user accounts included$49.95 per extra user per month",
+    "cta_1" : "233f4e6b-e2e7-4177-b37a-8ddcd6e4f2ee",
+    "cta_2" : "233f4e6b-e2e7-4177-b37a-8ddcd6e4f2ee",
+    "content" : "<h4>Key features:</h4>\n<ul>\n<li>Unlimited org size</li>\n<li>Access all libraries</li>\n<li>Quickly redesign your org</li>\n<li>Functional org charts</li>\n</ul>\n<h4>Account security:</h4>\n<ul>\n<li>SSO - Secure logins</li>\n<li>SSL - Encrypted at transit &amp; rest</li>\n<li>Secure data centres</li>\n<li>GDPR compliant</li>\n</ul>\n<h4>Easily import people:</h4>\n<ul>\n<li>People data import (CSV, HRIS)</li>\n<li>Import from slack</li>\n<li>More integrations coming soon</li>\n</ul>\n<h4>Org change exports:</h4>\n<ul>\n<li>Export org charts</li>\n<li>Export job descriptions</li>\n<li>Job descriptions</li>\n<li>Team allocations</li>\n</ul>\n<h4>Ongoing support:</h4>\n<ul>\n<li>Email support</li>\n<li>Self onboarding</li>\n<li>Assisted onboarding</li>\n<li>Assigned success manager</li>\n</ul>",
+    "price_acc_title" : "Key features:",
+    "price_details_acc" : "<ul>\n<li>Unlimited org size</li>\n<li>Access all libraries</li>\n<li>Quickly redesign your org</li>\n<li>Functional org charts</li>\n</ul>\n<h4>Account security:</h4>\n<ul>\n<li>SSO - Secure logins</li>\n<li>SSL - Encrypted at transit &amp; rest</li>\n<li>Secure data centres</li>\n<li>GDPR compliant</li>\n</ul>\n<h4>Easily import people:</h4>\n<ul>\n<li>People data import (CSV, HRIS)</li>\n<li>Import from slack</li>\n<li>More integrations coming soon</li>\n</ul>\n<h4>Org change exports:</h4>\n<ul>\n<li>Export org charts</li>\n<li>Export job descriptions</li>\n<li>Job descriptions</li>\n<li>Team allocations</li>\n</ul>\n<h4>Ongoing support:</h4>\n<ul>\n<li>Email support</li>\n<li>Self onboarding</li>\n<li>Assisted onboarding</li>\n<li>Assigned success manager</li>\n</ul>",
+    "link_field" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "https://labs.functionly.com/sign-up/?plan=price_1HglepB3rgwynYaJ8QTgiA3K",
+        "content_id" : null
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    },
+    "link1_text" : "Trail Now",
+    "link2" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "https://labs.functionly.com/sign-up/?plan=price_1HglepB3rgwynYaJ8QTgiA3K",
+        "content_id" : null
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    },
+    "link2_text" : "Buy Now"
+  }, {
+    "title" : "Professional",
+    "sub_title" : "For Executive Team Collaboration <b>Small to Large Organisations</b>",
+    "price_country" : "From (USD)",
+    "price_number" : "$249.75 <span>p/m</span>",
+    "price_sub_text" : "Annual commitment (billed monthly)",
+    "price_user_text" : "5 user accounts included$49.95 per extra user per month",
+    "cta_1" : "233f4e6b-e2e7-4177-b37a-8ddcd6e4f2ee",
+    "cta_2" : "233f4e6b-e2e7-4177-b37a-8ddcd6e4f2ee",
+    "content" : "<h4>Key features:</h4>\n<ul>\n<li>Unlimited org size</li>\n<li>Access all libraries</li>\n<li>Quickly redesign your org</li>\n<li>Functional org charts</li>\n</ul>\n<h4>Account security:</h4>\n<ul>\n<li>SSO - Secure logins</li>\n<li>SSL - Encrypted at transit &amp; rest</li>\n<li>Secure data centres</li>\n<li>GDPR compliant</li>\n</ul>\n<h4>Easily import people:</h4>\n<ul>\n<li>People data import (CSV, HRIS)</li>\n<li>Import from slack</li>\n<li>More integrations coming soon</li>\n</ul>\n<h4>Org change exports:</h4>\n<ul>\n<li>Export org charts</li>\n<li>Export job descriptions</li>\n<li>Job descriptions</li>\n<li>Team allocations</li>\n</ul>\n<h4>Ongoing support:</h4>\n<ul>\n<li>Email support</li>\n<li>Self onboarding</li>\n<li>Assisted onboarding</li>\n<li>Assigned success manager</li>\n</ul>",
+    "price_acc_title" : "Key features:",
+    "price_details_acc" : "<ul>\n<li>Unlimited org size</li>\n<li>Access all libraries</li>\n<li>Quickly redesign your org</li>\n<li>Functional org charts</li>\n</ul>\n<h4>Account security:</h4>\n<ul>\n<li>SSO - Secure logins</li>\n<li>SSL - Encrypted at transit &amp; rest</li>\n<li>Secure data centres</li>\n<li>GDPR compliant</li>\n</ul>\n<h4>Easily import people:</h4>\n<ul>\n<li>People data import (CSV, HRIS)</li>\n<li>Import from slack</li>\n<li>More integrations coming soon</li>\n</ul>\n<h4>Org change exports:</h4>\n<ul>\n<li>Export org charts</li>\n<li>Export job descriptions</li>\n<li>Job descriptions</li>\n<li>Team allocations</li>\n</ul>\n<h4>Ongoing support:</h4>\n<ul>\n<li>Email support</li>\n<li>Self onboarding</li>\n<li>Assisted onboarding</li>\n<li>Assigned success manager</li>\n</ul>",
+    "link_field" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "https://labs.functionly.com/sign-up/?plan=price_1HglepB3rgwynYaJ8QTgiA3K",
+        "content_id" : null
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    },
+    "link1_text" : "Trail Now",
+    "link2" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "https://labs.functionly.com/sign-up/?plan=price_1HglepB3rgwynYaJ8QTgiA3K",
+        "content_id" : null
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    },
+    "link2_text" : "Buy Now"
+  }, {
+    "title" : "Professional",
+    "sub_title" : "For Executive Team Collaboration <b>Small to Large Organisations</b>",
+    "price_country" : "From (USD)",
+    "price_number" : "$249.75 <span>p/m</span>",
+    "price_sub_text" : "Annual commitment (billed monthly)",
+    "price_user_text" : "5 user accounts included$49.95 per extra user per month",
+    "cta_1" : "233f4e6b-e2e7-4177-b37a-8ddcd6e4f2ee",
+    "cta_2" : "233f4e6b-e2e7-4177-b37a-8ddcd6e4f2ee",
+    "content" : "<h4>Key features:</h4>\n<ul>\n<li>Unlimited org size</li>\n<li>Access all libraries</li>\n<li>Quickly redesign your org</li>\n<li>Functional org charts</li>\n</ul>\n<h4>Account security:</h4>\n<ul>\n<li>SSO - Secure logins</li>\n<li>SSL - Encrypted at transit &amp; rest</li>\n<li>Secure data centres</li>\n<li>GDPR compliant</li>\n</ul>\n<h4>Easily import people:</h4>\n<ul>\n<li>People data import (CSV, HRIS)</li>\n<li>Import from slack</li>\n<li>More integrations coming soon</li>\n</ul>\n<h4>Org change exports:</h4>\n<ul>\n<li>Export org charts</li>\n<li>Export job descriptions</li>\n<li>Job descriptions</li>\n<li>Team allocations</li>\n</ul>\n<h4>Ongoing support:</h4>\n<ul>\n<li>Email support</li>\n<li>Self onboarding</li>\n<li>Assisted onboarding</li>\n<li>Assigned success manager</li>\n</ul>",
+    "price_acc_title" : "Key features:",
+    "price_details_acc" : "<ul>\n<li>Unlimited org size</li>\n<li>Access all libraries</li>\n<li>Quickly redesign your org</li>\n<li>Functional org charts</li>\n</ul>\n<h4>Account security:</h4>\n<ul>\n<li>SSO - Secure logins</li>\n<li>SSL - Encrypted at transit &amp; rest</li>\n<li>Secure data centres</li>\n<li>GDPR compliant</li>\n</ul>\n<h4>Easily import people:</h4>\n<ul>\n<li>People data import (CSV, HRIS)</li>\n<li>Import from slack</li>\n<li>More integrations coming soon</li>\n</ul>\n<h4>Org change exports:</h4>\n<ul>\n<li>Export org charts</li>\n<li>Export job descriptions</li>\n<li>Job descriptions</li>\n<li>Team allocations</li>\n</ul>\n<h4>Ongoing support:</h4>\n<ul>\n<li>Email support</li>\n<li>Self onboarding</li>\n<li>Assisted onboarding</li>\n<li>Assigned success manager</li>\n</ul>",
+    "link_field" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "https://labs.functionly.com/sign-up/?plan=price_1HglepB3rgwynYaJ8QTgiA3K",
+        "content_id" : null
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    },
+    "link1_text" : "Trail Now",
+    "link2" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "https://labs.functionly.com/sign-up/?plan=price_1HglepB3rgwynYaJ8QTgiA3K",
+        "content_id" : null
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    },
+    "link2_text" : "Buy Now"
+  } ]
+} ]

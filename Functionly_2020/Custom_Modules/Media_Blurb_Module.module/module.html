@@ -1,0 +1,65 @@
+<div class="media-blurb-wrap"> 
+  <div class="page-center"> 
+    <div class="media-blurb-title"> 
+      <p>Sort by category:</p>
+    </div>  
+    
+    <ul id="filterOptions">
+        <li class="active"><a href="#all" class="all">All</a></li>
+        <li><a href="#news" class="news">In the news</a></li>
+        <li><a href="#press" class="press">Press release</a></li> 
+    </ul> 
+   <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script> 
+   <div id="ourHolder" class="media-blurb-inner">
+      {% for item in module.content %}
+       <div class="media-blurb-item item {{ item.tag_id }}"> 
+          {% set href = item.link_field.url.href %}
+            {% if item.link_field.url.type is equalto "EMAIL_ADDRESS" %}
+              {% set href = "mailto:" + href %}
+            {% endif %}
+            <a href="{{ href }}"
+              {% if item.link_field.open_in_new_tab %}target="_blank"{% endif %}
+              {% if item.link_field.no_follow %}rel="nofollow"{% endif %}
+              >
+            <div class="media-blurb"> 
+            <div class="media-blurb-top"> 
+              <div class="media-blurb-image">
+                {% if item.image.src %}
+                  {% set sizeAttrs = 'width="{{ item.image.width }}" height="{{ item.image.height }}"' %}
+                  {% if item.image.size_type == 'auto' %}
+                    {% set sizeAttrs = 'style="max-width: 100%; height: auto;"' %}
+                  {% elif item.image.size_type == 'auto_custom_max' %}
+                    {% set sizeAttrs = 'width="100%" height="auto" style="max-width: {{ item.image.max_width }}px; max-height: {{ item.image.max_height }}px"' %}
+                  {% endif %}
+                  <img src="{{ item.image.src }}" alt="{{ item.image.alt }}" {{ sizeAttrs }}>
+                {% endif %}
+              </div>
+            </div> 
+            <div class="media-blurb-btm"> 
+              <div class="media-blurb-details"> 
+                  <div class="media-blurb-name"> 
+                    <p>{{ item.tag_name }}</p>
+                  </div> 
+                  <div class="media-blurb-date"> 
+                    <p>{{ item.date }} </p>
+                  </div> 
+              </div> 
+              <div class="media-blurb-text"> 
+                  {{ item.content }} 
+              </div>    
+            </div>  
+         </div> 
+         </a>
+     </div>  
+  {% endfor %} 
+   </div>
+  </div>
+</div> 
+ 
+{% require_css %}
+<style>
+
+</style>
+{% end_require_css %}
+
+

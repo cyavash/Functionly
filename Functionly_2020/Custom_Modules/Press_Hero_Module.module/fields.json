@@ -1,0 +1,57 @@
+[ {
+  "id" : "1b24d053-92e4-469e-dfff-5225cee2163e",
+  "name" : "tag",
+  "display_width" : null,
+  "label" : "Tag",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Press"
+}, {
+  "id" : "72a32a8a-9a89-2fee-a469-674e133cce7a",
+  "name" : "title",
+  "display_width" : null,
+  "label" : "Title",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Press Release: July 13, 2020"
+}, {
+  "id" : "94b67f3f-c9c2-16e7-0f8f-c53db690a1a6",
+  "name" : "author_name",
+  "display_width" : null,
+  "label" : "Author Name",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Kaylynn Carder"
+}, {
+  "id" : "8bc61aa4-c46c-0495-a068-4a42a77c499d",
+  "name" : "right_image",
+  "display_width" : null,
+  "label" : "Right Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/commercialisation-700x404.jpg",
+    "alt" : "commercialisation-700x404",
+    "width" : 700,
+    "height" : 404,
+    "max_width" : 700,
+    "max_height" : 404
+  }
+} ]

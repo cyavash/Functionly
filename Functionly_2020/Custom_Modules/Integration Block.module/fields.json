@@ -1,0 +1,85 @@
+[ {
+  "id" : "d8d6c28a-5a33-27dc-71d7-ae20f3df5bf5",
+  "name" : "heading",
+  "display_width" : null,
+  "label" : "Heading",
+  "required" : false,
+  "locked" : true,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "A Growing List of Integrations"
+}, {
+  "id" : "176970f6-b761-0368-487b-a7aff0204062",
+  "name" : "sub_heading",
+  "display_width" : null,
+  "label" : "Sub Heading",
+  "required" : false,
+  "locked" : true,
+  "type" : "richtext",
+  "default" : "<p><span data-story-id=\"story_c1cb1c55d8dbc480659d98001836f4f5\" data-room-id=\"room_191aef710c7299811f17938675224aac\" data-timestamp=\"1624936669584\" data-text=\"We're investing into connecting with all your favorite tools and platforms. Vote for yours to be next.\" data-userid=\"714718320989278208\" data-orgid=\"714718321506926592\">We're investing into connecting with all your favorite tools and platforms. Vote for yours to be next.</span></p>"
+}, {
+  "id" : "7d7290ea-da96-3ea5-ef88-b2f4bb264e9b",
+  "name" : "field_group",
+  "display_width" : null,
+  "label" : "Field group",
+  "required" : false,
+  "locked" : true,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : "49549593-a784-8da4-8357-f32d286caf9a",
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "1ff0ccce-3698-f3ff-477d-89fa57718189",
+    "name" : "image_field",
+    "display_width" : null,
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "",
+      "alt" : null,
+      "loading" : "lazy"
+    }
+  }, {
+    "id" : "49549593-a784-8da4-8357-f32d286caf9a",
+    "name" : "text_field",
+    "display_width" : null,
+    "label" : "Text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "default" : {
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "",
+      "alt" : null,
+      "loading" : "lazy"
+    }
+  }
+}, {
+  "id" : "f97a1fca-4f34-332a-3ba1-1b31758845e5",
+  "name" : "cta_field",
+  "display_width" : null,
+  "label" : "CTA",
+  "required" : false,
+  "locked" : true,
+  "type" : "cta",
+  "default" : "8b87ccae-d9d0-4fef-b0de-a09734d9a035"
+} ]

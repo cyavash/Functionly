@@ -1,0 +1,62 @@
+<div class="hs_cos_wrapper_{{name}} txt-video-wrap">
+  <div class="page-center"> 
+    <div class="txt-video-otr"> 
+      {% if module.header %}  
+      <div class="txt-video-header">
+        <h2>{{ module.header }}</h2>
+      </div> 
+      {% endif %}
+      {% if module.description %}  
+      <div class="txt-video-text"> 
+        {{ module.description }}
+      </div> 
+      {% endif %}
+      <div class="txt-video-img"> 
+         {% if !module.img_vid.image_video %}  
+            {% if module.img_vid.image.src %}
+            {% set sizeAttrs = 'width="{{ module.img_vid.image.width }}" height="{{ module.img_vid.image.height }}"' %}
+            {% if module.img_vid.image.size_type == 'auto' %}
+              {% set sizeAttrs = 'width="{{ module.img_vid.image.width }}" height="{{ module.img_vid.image.height }}" style="max-width: 100%; height: auto;"' %}
+            {% elif module.img_vid.image.size_type == 'auto_custom_max' %}
+              {% set sizeAttrs = 'width="{{ module.img_vid.image.max_width }}" height="{{ module.img_vid.image.max_height }}" style="max-width: 100%; height: auto;"' %}
+            {% endif %}
+             {% set loadingAttr = module.img_vid.image.loading != 'disabled' ? 'loading="{{ module.img_vid.image.loading }}"' : '' %}
+            <img src="{{ module.img_vid.image.src }}" alt="{{ module.img_vid.image.alt }}" {{ loadingAttr }} {{ sizeAttrs }}>
+          {% endif %}
+         {% endif %}
+                
+         {% if module.img_vid.image_video %} 
+             {% if module.img_vid.videoplayer_field.player_id %}
+              {% set max_width = module.img_vid.videoplayer_field.size_type == 'auto_custom_max' ? module.img_vid.videoplayer_field.max_width : module.img_vid.videoplayer_field.width %}
+              {% set max_height = module.img_vid.videoplayer_field.size_type == 'auto_custom_max' ? module.img_vid.videoplayer_field.max_height : module.img_vid.videoplayer_field.height %}
+              {% video_player "embed_player"
+                player_id={{ module.img_vid.videoplayer_field.player_id }}
+                type={{ module.img_vid.videoplayer_field.player_type || 'scriptV4' }}
+                full_width={{ module.img_vid.videoplayer_field.size_type == 'auto_full_width' }},
+                conversion_asset={{ module.img_vid.videoplayer_field.conversion_asset|tojson|safe }}
+                autoplay={{ module.img_vid.videoplayer_field.autoplay }}
+                hidden_controls={{ module.img_vid.videoplayer_field.hide_controls }}
+                loop={{ module.img_vid.videoplayer_field.loop_video }}
+                muted={{ module.img_vid.videoplayer_field.mute_by_default }}
+              %}
+            {% endif %}
+          {% endif %}  
+       </div>
+    </div> 
+  </div>
+</div>
+ 
+
+{% require_css %}
+<style>
+
+</style>
+{% end_require_css %}
+
+{% require_js %}
+<script>
+  
+</script>
+
+{% end_require_js %}
+

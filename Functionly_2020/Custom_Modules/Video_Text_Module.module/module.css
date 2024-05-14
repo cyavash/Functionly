@@ -1,0 +1,217 @@
+.video-text-wrap {
+    padding: 120px 0px;
+}
+
+.video-text-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.video-text-right {
+    width: 50%;
+    padding-left: 50px;
+}
+
+.video-text-left {
+    width: 50%;
+    padding-right: 50px;
+}
+
+.video-text-text h2 {
+    font-size: 34px;
+    line-height: 125%;
+    color: #414042;
+}
+
+.video-text-text p {
+    font-size: 20px;
+    line-height: 150%;
+    color: #414042;
+}
+
+.video-text-cta a {
+    background-color: #fff;
+    padding: 14px 53px 14px 23px;
+    background-image: url(https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/play-icon-purple.svg);
+    background-position: 85% 14px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    border: 1px solid #652b89;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+    color: #662d91;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+  font-weight:500;
+}
+
+.video-text-cta a:hover  {
+    background-color: #652b89;
+    background-image: url(https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/play-icon.svg);
+    border: 1px solid #652b89;
+    color: #fff;
+}
+ 
+.video-text-image {
+    position: relative;
+}
+
+.video-text-img img {
+    max-width: 150px !important;
+}
+
+.video-img-otr {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.video-text-img {
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+/******** Responsive code starts here *******/
+ 
+/************** ipad ***************/
+
+@media (max-width: 1080px) {
+
+  .video-text-wrap {
+      padding: 80px 0px;
+  }
+  
+  .video-text-text p {
+      font-size: 18px; 
+  } 
+    
+}
+
+/************** ipad nd tab ***************/
+
+@media only screen and (min-width:768px) and (max-width: 1024px) and (orientation : portrait){
+ 
+   .video-text-inner {
+        display: -webkit-box;   
+        display: -moz-box;      
+        display: -ms-flexbox;   
+        display: -webkit-flex;  
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        -moz-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+  }
+  
+  .video-text-left {
+        order: 2;
+        -webkit-order: 2;
+        -moz-order: 2;
+        -ms-order: 2;
+        width: 100%;
+        padding-right: 0px;
+  }
+  
+  .video-text-right {
+        order: 1;
+        -webkit-order: 1;
+        -moz-order: 1;
+        -ms-order: 1;
+        width: 100%;
+        padding-left: 0px;
+        padding-bottom: 40px;
+  }
+  
+}
+
+/************** iphone roatate***************/
+
+@media (max-width: 767px) {
+  
+   .video-text-wrap {
+      padding: 80px 0px;
+  }
+   
+  .video-text-text h2 {
+      font-size: 24px; 
+  }
+  
+  .video-text-text p {
+      font-size: 16px;
+  }
+
+  
+  .video-text-inner {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-flow: row wrap;
+      -moz-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+  }
+  
+  .video-text-right {
+      order: 1;
+      -webkit-order: 1;
+      -moz-order: 1;
+      -ms-order: 1;
+      width: 100%;
+      padding-left: 0px;
+      padding-bottom: 40px;
+  }
+  
+  .video-text-left {
+      order: 2;
+      -webkit-order: 2;
+      -moz-order: 2;
+      -ms-order: 2;
+      width: 100%;
+      padding-right: 0px;
+  }
+   
+  .video-text-cta a { 
+      padding: 10px 45px 10px 15px; 
+      background-position: 87% 10px;
+      background-size: 17px; 
+      border-radius: 6px;
+      font-size: 14px; 
+  }
+  
+  .video-text-img {
+      margin-left: 20px;
+  }
+  
+  
+}
+
+/************** iphone ***************/
+
+@media (max-width: 479px) {
+ 
+}
+
+
+
+
+
+
+
+
+

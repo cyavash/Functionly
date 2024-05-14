@@ -1,0 +1,40 @@
+<div class="main-hero-wrap">   
+  <div class="page-center">
+    <div class="row-fluid"> 
+      <div class="hero-inner"> 
+      <div class="content_part">
+        <div class="sub-title"> 
+          <h4>{{ module.hero.sub_title }}</h4>
+        </div>
+        <div class="title"> 
+          <h1>{{ module.hero.title }}</h1>
+        </div>
+        <div class="content"> 
+          <div class="hero-cta"> 
+          <div class="hero-cta1">
+            {# cta guid="{{ module.hero.cta_1 }}" % #}
+            <p class="cta_button">{% if module.hero.link_field.url.href %} <a class="cta_button" target="_blank" href="{{ module.hero.link_field.url.href }}">{{ module.cta_text }}</a>{% endif %}</p>
+          
+          </div> 
+          <div class="hero-cta2">
+            <p class="cta_button">{% cta guid="{{ module.hero.cta_2 }}" %}</p>
+          </div> 
+          </div> 
+        </div>
+      </div> 
+      </div>  
+    </div>
+  </div>
+</div>
+  
+
+{% require_css %}
+<style>
+ 
+ 
+  
+</style>
+{% end_require_css %}
+
+ 
+

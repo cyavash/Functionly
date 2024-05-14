@@ -1,0 +1,138 @@
+.cta-module-wrap {
+    background: radial-gradient(127.65% 127.79% at 48.62% -14.13%, #FF8E35 0%, #F24398 100%);
+    transform: rotate(-180deg);
+    padding: 150px 0px;
+    text-align: center;
+    
+    
+  background: linear-gradient(0.62deg, #520CB3 -22.96%, #D83CA6 130.55%);
+  mix-blend-mode: normal;
+  border-radius: 10px;
+  transform: rotate(180deg); 
+}
+.cta-module-inner {
+    transform: rotate(-180deg);
+}
+.cta-module-inner .title h2 {
+    font-size: 34px;
+    line-height: 125%;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+.cta-module-inner .content-Text p {
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+.cta_links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+.cta_links p.cta_button a {
+    font-size: 16px;
+    line-height: 125%;
+    color: #662D91;
+    padding: 14px 54px 14px 28px;
+    text-align: center;
+    margin: 0px;
+    background-color: #fff;
+    border: 1px solid #ffffff;
+    font-weight: 500;
+    border-radius: 6px;
+    background-image: url(https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/arrow-purple.svg);
+    background-repeat: no-repeat;
+    background-position: 85% 16px;
+    transition: all 0.7s ease; 
+}
+
+.cta_links p.cta_button a:hover { 
+    color: #ffffff; 
+    background-color: transparent;
+    border: 1px solid #ffffff; 
+    background-image: url(https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/arrow-white.svg); 
+}
+
+.cta_links .cta_link2 p.cta_button a { 
+    color: #ffffff; 
+    background-color: transparent;
+    border: 1px solid #ffffff; 
+    background-image: url(https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/arrow-white.svg); 
+  
+      color: #662D91; 
+    background-color: #fff;
+    border: 1px solid #ffffff; 
+    background-image: url(https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/arrow-purple.svg); 
+  
+}
+
+.cta_links .cta_link2 p.cta_button a:hover { 
+    color: #662D91; 
+    background-color: #fff;
+    border: 1px solid #ffffff; 
+    background-image: url(https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/arrow-purple.svg); 
+  
+    color: #ffffff; 
+    background-color: transparent;
+    border: 1px solid #ffffff; 
+    background-image: url(https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/arrow-white.svg);
+}
+
+.cta_links p.cta_button {
+    margin: 0px 20px;
+}
+
+
+
+
+
+
+
+
+/******** Responsive code starts here *******/
+ 
+/************** ipad ***************/
+
+@media (max-width: 1080px) {
+  .cta-module-wrap { 
+      padding: 80px 0px; 
+  }
+  .cta-module-inner .title h2 {
+      font-size: 38px; 
+  }
+  .cta-module-inner .content-Text p {
+      font-size: 18px; 
+  } 
+}
+
+/************** iphone ***************/
+@media (max-width: 479px) {
+  .cta-module-inner .title h2 {
+      font-size: 28px;
+      padding-bottom: 5px;
+  }
+  .cta_links { 
+      padding-top: 20px;
+  }
+  .cta_link1 {
+      width: 50%;
+  }
+  .cta_link2 {
+      width: 50%;
+  }
+  .cta_links p.cta_button a {
+      font-size: 14px; 
+      padding: 12px 55px 12px 20px;  
+      background-position: 90% 15px; 
+      background-size: 14px;
+      letter-spacing: -0.06em;
+  }
+  .cta_links p.cta_button {
+      margin: 0px 0px;
+  }
+}
+
+

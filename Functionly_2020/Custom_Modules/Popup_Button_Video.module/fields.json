@@ -1,0 +1,25 @@
+[ {
+  "id" : "b6846e1f-c438-0a5b-37fa-7590c29c28d6",
+  "name" : "btn_text",
+  "display_width" : null,
+  "label" : "Button Text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Live demo"
+}, {
+  "id" : "56c794e1-229d-cfd2-fdcf-db5a15b7ce69",
+  "name" : "video_id",
+  "display_width" : null,
+  "label" : "Video Id",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "gwwbnrjC1h8"
+} ]

@@ -1,0 +1,256 @@
+[ {
+  "id" : "09dd8023-d7bb-effd-97af-e2981ece3150",
+  "name" : "content",
+  "display_width" : null,
+  "label" : "Item",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 4,
+    "max" : 40,
+    "sorting_label_field" : "04a49500-bb75-b4d5-be33-7b79600b7c30",
+    "default" : 16
+  },
+  "children" : [ {
+    "id" : "bcf8e05a-f721-1d70-ae51-94a7fff0af93",
+    "name" : "image",
+    "display_width" : null,
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : false,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/founder-1.png",
+      "alt" : "founder-1",
+      "width" : 452,
+      "height" : 452,
+      "max_width" : 452,
+      "max_height" : 452
+    }
+  }, {
+    "id" : "04a49500-bb75-b4d5-be33-7b79600b7c30",
+    "name" : "person_name",
+    "display_width" : null,
+    "label" : "Person Name",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Jocelyn Curtis"
+  }, {
+    "id" : "5f05b7a2-6ecc-11ab-3475-df1b58baa7f3",
+    "name" : "person_position",
+    "display_width" : null,
+    "label" : "Person Position",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Position"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "default" : [ {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/founder-1.png",
+      "alt" : "founder-1",
+      "width" : 452,
+      "height" : 452,
+      "max_width" : 452,
+      "max_height" : 452
+    },
+    "person_name" : "Jocelyn Curtis",
+    "person_position" : "Position"
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/founder-1.png",
+      "alt" : "founder-1",
+      "width" : 452,
+      "height" : 452,
+      "max_width" : 452,
+      "max_height" : 452
+    },
+    "person_name" : "Jocelyn Curtis",
+    "person_position" : "Position"
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/founder-1.png",
+      "alt" : "founder-1",
+      "width" : 452,
+      "height" : 452,
+      "max_width" : 452,
+      "max_height" : 452
+    },
+    "person_name" : "Jocelyn Curtis",
+    "person_position" : "Position"
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/founder-1.png",
+      "alt" : "founder-1",
+      "width" : 452,
+      "height" : 452,
+      "max_width" : 452,
+      "max_height" : 452
+    },
+    "person_name" : "Jocelyn Curtis",
+    "person_position" : "Position"
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/founder-1.png",
+      "alt" : "founder-1",
+      "width" : 452,
+      "height" : 452,
+      "max_width" : 452,
+      "max_height" : 452
+    },
+    "person_name" : "Jocelyn Curtis",
+    "person_position" : "Position"
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/founder-1.png",
+      "alt" : "founder-1",
+      "width" : 452,
+      "height" : 452,
+      "max_width" : 452,
+      "max_height" : 452
+    },
+    "person_name" : "Jocelyn Curtis",
+    "person_position" : "Position"
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/founder-1.png",
+      "alt" : "founder-1",
+      "width" : 452,
+      "height" : 452,
+      "max_width" : 452,
+      "max_height" : 452
+    },
+    "person_name" : "Jocelyn Curtis",
+    "person_position" : "Position"
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/founder-1.png",
+      "alt" : "founder-1",
+      "width" : 452,
+      "height" : 452,
+      "max_width" : 452,
+      "max_height" : 452
+    },
+    "person_name" : "Jocelyn Curtis",
+    "person_position" : "Position"
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/founder-1.png",
+      "alt" : "founder-1",
+      "width" : 452,
+      "height" : 452,
+      "max_width" : 452,
+      "max_height" : 452
+    },
+    "person_name" : "Jocelyn Curtis",
+    "person_position" : "Position"
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/founder-1.png",
+      "alt" : "founder-1",
+      "width" : 452,
+      "height" : 452,
+      "max_width" : 452,
+      "max_height" : 452
+    },
+    "person_name" : "Jocelyn Curtis",
+    "person_position" : "Position"
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/founder-1.png",
+      "alt" : "founder-1",
+      "width" : 452,
+      "height" : 452,
+      "max_width" : 452,
+      "max_height" : 452
+    },
+    "person_name" : "Jocelyn Curtis",
+    "person_position" : "Position"
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/founder-1.png",
+      "alt" : "founder-1",
+      "width" : 452,
+      "height" : 452,
+      "max_width" : 452,
+      "max_height" : 452
+    },
+    "person_name" : "Jocelyn Curtis",
+    "person_position" : "Position"
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/founder-1.png",
+      "alt" : "founder-1",
+      "width" : 452,
+      "height" : 452,
+      "max_width" : 452,
+      "max_height" : 452
+    },
+    "person_name" : "Jocelyn Curtis",
+    "person_position" : "Position"
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/founder-1.png",
+      "alt" : "founder-1",
+      "width" : 452,
+      "height" : 452,
+      "max_width" : 452,
+      "max_height" : 452
+    },
+    "person_name" : "Jocelyn Curtis",
+    "person_position" : "Position"
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/founder-1.png",
+      "alt" : "founder-1",
+      "width" : 452,
+      "height" : 452,
+      "max_width" : 452,
+      "max_height" : 452
+    },
+    "person_name" : "Jocelyn Curtis",
+    "person_position" : "Position"
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/founder-1.png",
+      "alt" : "founder-1",
+      "width" : 452,
+      "height" : 452,
+      "max_width" : 452,
+      "max_height" : 452
+    },
+    "person_name" : "Jocelyn Curtis",
+    "person_position" : "Position"
+  } ]
+} ]

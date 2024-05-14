@@ -1,0 +1,12 @@
+.logo {
+  position: relative;
+  z-index: 5;
+}
+.logo a{
+  position: relative;
+  z-index: 5;
+}
+.logo a img{
+  position: relative;
+  z-index: 5;
+}

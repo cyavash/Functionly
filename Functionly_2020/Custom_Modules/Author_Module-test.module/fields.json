@@ -1,0 +1,13 @@
+[ {
+  "id" : "43120c95-92c7-93a6-4b5f-cc7a6eab7605",
+  "name" : "author_name",
+  "display_width" : null,
+  "label" : "Author Name",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "{% set author = \"functionly\" %}"
+} ]

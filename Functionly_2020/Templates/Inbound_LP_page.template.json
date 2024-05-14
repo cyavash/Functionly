@@ -1,0 +1,848 @@
+{
+  "isAvailableForNewContent" : true,
+  "templateType" : 4,
+  "attachedStylesheets" : [ {
+    "type" : "cos_extension_resource",
+    "path" : "/Functionly_2020/Codes/Stylesheet_2020.css"
+  } ],
+  "attachedJs" : [ {
+    "type" : "cos_extension_resource",
+    "path" : "/Functionly_2020/Codes/script_2020.js"
+  } ],
+  "customHead" : "<link href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\" rel=\"stylesheet\"> \n\n\n\n",
+  "customFooter" : "",
+  "bodyClass" : "",
+  "bodyCss" : "",
+  "bodyEditable" : false,
+  "layoutData" : {
+    "x" : 0,
+    "w" : 12,
+    "name" : "",
+    "label" : "",
+    "type" : "cell",
+    "params" : { },
+    "rows" : [ {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1599923101440995",
+        "label" : "Header_2020",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "path" : "/Functionly_2020/Global_Modules/Header_2020.template.json",
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "",
+        "label" : "",
+        "type" : "section_delimiter",
+        "params" : { },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1600251241860424",
+        "label" : "Hero_Module",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "hero" : {
+            "sub_title" : "Trial Now",
+            "title" : "An all-in-one org design platform to plan and execute winning moves."
+          },
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Hero_Module",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Hero_Module",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_16008499788571447",
+        "label" : "Video_Text_Module",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Video_Text_Module",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Video_Text_Module",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_161418040646972",
+        "label" : "Integration_Module",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "item" : [ {
+            "image" : {
+              "alt" : "Slack",
+              "height" : 44,
+              "max_height" : 44,
+              "max_width" : 176,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Slack.svg",
+              "width" : 176
+            }
+          }, {
+            "image" : {
+              "alt" : "ADP",
+              "height" : 57,
+              "max_height" : 57,
+              "max_width" : 125,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/ADP.svg",
+              "width" : 125
+            }
+          }, {
+            "image" : {
+              "alt" : "zenefits",
+              "height" : 46,
+              "max_height" : 46,
+              "max_width" : 195,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/zenefits.svg",
+              "width" : 195
+            }
+          }, {
+            "image" : {
+              "alt" : "quickbooks",
+              "height" : 47,
+              "max_height" : 47,
+              "max_width" : 243,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/quickbooks.svg",
+              "width" : 243
+            }
+          }, {
+            "image" : {
+              "alt" : "gusto",
+              "height" : 53,
+              "max_height" : 53,
+              "max_width" : 137,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/gusto.svg",
+              "width" : 137
+            }
+          }, {
+            "image" : {
+              "alt" : "just",
+              "height" : 37,
+              "max_height" : 37,
+              "max_width" : 198,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/just.svg",
+              "width" : 198
+            }
+          }, {
+            "image" : {
+              "alt" : "Rippling-1",
+              "height" : 38,
+              "max_height" : 38,
+              "max_width" : 263,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Rippling-1.svg",
+              "width" : 263
+            }
+          } ],
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Integration_Module",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Integration_Module",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_16008500375721469",
+        "label" : "Pricing_Module",
+        "type" : "custom_widget",
+        "params" : {
+          "content" : [ {
+            "content" : "<h4>Key features:</h4>\n<ul>\n<li>Unlimited org size</li>\n<li>Access all libraries</li>\n<li>Quickly redesign your org</li>\n<li>Functional org charts</li>\n</ul>\n<h4>Account security:</h4>\n<ul>\n<li>SSO - Secure logins</li>\n<li>SSL - Encrypted at transit &amp; rest</li>\n<li>Secure data centres</li>\n<li>GDPR compliant</li>\n</ul>\n<h4>Easily import people:</h4>\n<ul>\n<li>People data import (CSV, HRIS)</li>\n<li>Import from slack</li>\n<li>More integrations coming soon</li>\n</ul>\n<h4>Org change exports:</h4>\n<ul>\n<li>Export org charts</li>\n<li>Export job descriptions</li>\n<li>Job descriptions</li>\n<li>Team allocations</li>\n</ul>\n<h4>Ongoing support:</h4>\n<ul>\n<li>Email support</li>\n<li>Self onboarding</li>\n<li>Assisted onboarding</li>\n<li>Assigned success manager</li>\n</ul>",
+            "cta_1" : "",
+            "cta_2" : "233f4e6b-e2e7-4177-b37a-8ddcd6e4f2ee",
+            "price_country" : "From (USD)",
+            "price_number" : "$249.75 <span>p/m</span>",
+            "price_sub_text" : "Annual commitment (billed monthly)",
+            "price_user_text" : "5 user accounts included <br>$49.95 per extra user per month",
+            "sub_title" : "For Executive Team Collaboration <b>Small to Large Organisations</b>",
+            "title" : "Professional"
+          }, {
+            "content" : "<h4>Key features:</h4>\n<ul>\n<li>Unlimited org size</li>\n<li>Access all libraries</li>\n<li>Quickly redesign your org</li>\n<li>Functional org charts</li>\n</ul>\n<h4>Account security:</h4>\n<ul>\n<li>Secure login</li>\n<li>SSL - Encrypted at transit &amp; rest</li>\n<li>Secure data centres</li>\n<li>GDPR compliant</li>\n</ul>\n<h4>Easily import people:</h4>\n<ul>\n<li>People data import (CSV, HRIS)</li>\n<li>Import from slack</li>\n<li>More integrations coming soon</li>\n</ul>\n<h4>Org change exports:</h4>\n<ul>\n<li>Export org charts</li>\n<li>Export job descriptions</li>\n<li>Job descriptions</li>\n<li>Team allocations</li>\n</ul>\n<h4>Ongoing support:</h4>\n<ul>\n<li>Email support</li>\n<li>Self onboarding</li>\n<li>Assisted onboarding (Ltd. time only)</li>\n<li>Email support</li>\n</ul>",
+            "cta_1" : "016196c3-83d9-4458-9e35-e68a65a44950",
+            "cta_2" : "233f4e6b-e2e7-4177-b37a-8ddcd6e4f2ee",
+            "price_country" : "From (USD)",
+            "price_number" : "$99.95 <span>p/m</span>",
+            "price_sub_text" : "Monthly commitment",
+            "price_user_text" : "1 user account included <br> $99.95 per extra user per month",
+            "sub_title" : "For Modern Leaders <b>Small to Large Organisations</b>",
+            "title" : "Starter"
+          }, {
+            "content" : "<h4>Key features:</h4>\n<ul>\n<li>Multiple clients</li>\n<li>Access all libraries</li>\n<li>Quickly redesign your client orgs</li>\n<li>Functional org charts</li>\n</ul>\n<h4>Account security:</h4>\n<ul>\n<li>SSO - Secure logins</li>\n<li>SSL - Encrypted at transit &amp; rest</li>\n<li>Secure data centres</li>\n<li>GDPR compliant</li>\n</ul>\n<h4>Easily import people:</h4>\n<ul>\n<li>People data import (CSV, HRIS)</li>\n<li>Import from slack</li>\n<li>More integrations coming soon</li>\n</ul>\n<h4>Org change exports:</h4>\n<ul>\n<li>Export org charts</li>\n<li>Export job descriptions</li>\n<li>Job descriptions</li>\n<li>Team allocations</li>\n</ul>\n<h4>Ongoing support:</h4>\n<ul>\n<li>Email support</li>\n<li>Self onboarding</li>\n<li>Assisted onboarding</li>\n<li>Partner support manager</li>\n</ul>",
+            "cta_1" : "63ffb503-7f0f-4b6e-976d-dc99ff2efbe1",
+            "cta_2" : "",
+            "price_country" : "From (USD)",
+            "price_number" : "$249.75 <span>p/m</span>",
+            "price_sub_text" : "Annual commitment (billed monthly)",
+            "price_user_text" : "5 user accounts included <br>$49.95 per extra user per month",
+            "sub_title" : "For Org Change Specialists <b>Multiple Organisations</b>",
+            "title" : "Premium"
+          } ],
+          "css_class" : "lp-price-wrap",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "display: none !important;",
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Pricing_Module",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Pricing_Module",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "lp-price-wrap",
+        "cssStyle" : "display: none !important;",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_164570756215288",
+        "label" : "Pricing Global Module",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "path" : "/Functionly_2020/Templates/Pricing Global Module.template.json",
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_164570756467290",
+        "label" : "Pricing Table Global",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "path" : "/Functionly_2020/Templates/Pricing Table Global.template.json",
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1599985755447963",
+        "label" : "Cases Blurb Wrap",
+        "type" : "cell",
+        "params" : {
+          "css_class" : "cases-blurb-wrap inbound-case-wrap",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ {
+          "0" : {
+            "x" : 0,
+            "w" : 12,
+            "name" : "module_1599985755447964",
+            "label" : "Page Center",
+            "type" : "cell",
+            "params" : {
+              "css_class" : "page-center",
+              "css_id" : "",
+              "css_id_str" : "",
+              "css_style" : "",
+              "overrideable" : false,
+              "per_widget_wrapper_html" : "",
+              "wrapping_html" : ""
+            },
+            "rows" : [ {
+              "0" : {
+                "x" : 0,
+                "w" : 12,
+                "name" : "module_16008506387821619",
+                "label" : "Cases Blurb Text",
+                "type" : "custom_widget",
+                "params" : {
+                  "css_class" : "cases-blurb-header",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "html" : "<h2>Use Functionly for</h2>\n<p>In today's uncertain global environment, Functionly helps organizations succeed in the following ways.</p>",
+                  "overrideable" : true,
+                  "path" : "@hubspot/rich_text",
+                  "per_widget_wrapper_html" : "",
+                  "schema_version" : 2,
+                  "widget_name" : "Rich Text",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "cases-blurb-header",
+                "cssStyle" : "",
+                "styles" : null,
+                "widgets" : [ ]
+              }
+            }, {
+              "0" : {
+                "x" : 0,
+                "w" : 12,
+                "name" : "module_16008507458901712",
+                "label" : "Cases_Blurb",
+                "type" : "custom_widget",
+                "params" : {
+                  "content" : [ {
+                    "content" : "<h3>Restructuring</h3>",
+                    "image" : {
+                      "alt" : "icon-8",
+                      "height" : 119,
+                      "max_height" : 119,
+                      "max_width" : 119,
+                      "size_type" : "auto",
+                      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/icon-8.svg",
+                      "width" : 119
+                    }
+                  }, {
+                    "content" : "<h3>Mergers and acquisitions</h3>",
+                    "image" : {
+                      "alt" : "icon-7",
+                      "height" : 151,
+                      "max_height" : 151,
+                      "max_width" : 192,
+                      "size_type" : "auto",
+                      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/icon-7.svg",
+                      "width" : 192
+                    }
+                  }, {
+                    "content" : "<h3>Workforce optimization</h3>",
+                    "image" : {
+                      "alt" : "icon-6",
+                      "height" : 138,
+                      "max_height" : 138,
+                      "max_width" : 138,
+                      "size_type" : "auto",
+                      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/icon-6.svg",
+                      "width" : 138
+                    }
+                  }, {
+                    "content" : "<h3>Business pivots and expansion</h3>",
+                    "image" : {
+                      "alt" : "icon-3",
+                      "height" : 119,
+                      "max_height" : 119,
+                      "max_width" : 194,
+                      "size_type" : "auto",
+                      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/icon-3.svg",
+                      "width" : 194
+                    }
+                  }, {
+                    "content" : "<h3>Planning and managing growth</h3>",
+                    "image" : {
+                      "alt" : "icon-4",
+                      "height" : 138,
+                      "max_height" : 138,
+                      "max_width" : 138,
+                      "size_type" : "auto",
+                      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/icon-4.svg",
+                      "width" : 138
+                    }
+                  }, {
+                    "content" : "<h3>Compliance without gaps</h3>",
+                    "image" : {
+                      "alt" : "icon-5",
+                      "height" : 138,
+                      "max_height" : 138,
+                      "max_width" : 149,
+                      "size_type" : "auto",
+                      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/icon-5.svg",
+                      "width" : 149
+                    }
+                  }, {
+                    "content" : "<h3>Transformation &amp; Strategy</h3>",
+                    "image" : {
+                      "alt" : "icon-2",
+                      "height" : 134,
+                      "max_height" : 134,
+                      "max_width" : 168,
+                      "size_type" : "auto",
+                      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/icon-2.svg",
+                      "width" : 168
+                    }
+                  }, {
+                    "content" : "<h3>Consulting with visibility</h3>",
+                    "image" : {
+                      "alt" : "icon-1",
+                      "height" : 138,
+                      "max_height" : 138,
+                      "max_width" : 138,
+                      "size_type" : "auto",
+                      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/icon-1.svg",
+                      "width" : 138
+                    }
+                  } ],
+                  "css_class" : "",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "overrideable" : true,
+                  "path" : "/Functionly_2020/Custom_Modules/Cases_Blurb",
+                  "per_widget_wrapper_html" : "",
+                  "schema_version" : 2,
+                  "widget_name" : "Cases_Blurb",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "",
+                "cssStyle" : "",
+                "styles" : null,
+                "widgets" : [ ]
+              }
+            }, {
+              "0" : {
+                "x" : 0,
+                "w" : 12,
+                "name" : "module_16008511382291722",
+                "label" : "Call-to-Action",
+                "type" : "custom_widget",
+                "params" : {
+                  "css_class" : "case-blurb-cta",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "guid" : "742d5d3f-cdb2-4cc5-8d25-483bf520592e",
+                  "overrideable" : true,
+                  "path" : "@hubspot/cta",
+                  "per_widget_wrapper_html" : "",
+                  "schema_version" : 2,
+                  "widget_name" : "Call-to-Action",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "case-blurb-cta",
+                "cssStyle" : "",
+                "styles" : null,
+                "widgets" : [ ]
+              }
+            } ],
+            "rowMetaData" : [ ],
+            "cells" : [ ],
+            "cssId" : "",
+            "cssClass" : "page-center",
+            "cssStyle" : "",
+            "styles" : null,
+            "widgets" : [ ]
+          }
+        } ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "cases-blurb-wrap inbound-case-wrap",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_16008501567701493",
+        "label" : "Testimonial Slider Module",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Testimonial Slider Module",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Testimonial Slider Module",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1600253368334704",
+        "label" : "Security Outer Wrap",
+        "type" : "cell",
+        "params" : {
+          "css_class" : "secure-outer-wrap lp-secure-wrap",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ {
+          "0" : {
+            "x" : 0,
+            "w" : 12,
+            "name" : "module_1600253368334705",
+            "label" : "Page Center",
+            "type" : "cell",
+            "params" : {
+              "css_class" : "page-center",
+              "css_id" : "",
+              "css_id_str" : "",
+              "css_style" : "",
+              "overrideable" : false,
+              "per_widget_wrapper_html" : "",
+              "wrapping_html" : ""
+            },
+            "rows" : [ {
+              "0" : {
+                "x" : 0,
+                "w" : 12,
+                "name" : "module_1676786558094121",
+                "label" : "Security Image",
+                "type" : "custom_widget",
+                "params" : {
+                  "css_class" : "secure-logo",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "img" : {
+                    "alt" : "SOC2-Functionly",
+                    "height" : 607,
+                    "max_height" : 607,
+                    "max_width" : 1216,
+                    "size_type" : "auto",
+                    "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Images/SOC2-Functionly.png",
+                    "width" : 1216
+                  },
+                  "overrideable" : true,
+                  "path" : "@hubspot/linked_image",
+                  "per_widget_wrapper_html" : "",
+                  "schema_version" : 2,
+                  "widget_name" : "Image",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "secure-logo",
+                "cssStyle" : "",
+                "styles" : null,
+                "widgets" : [ ]
+              }
+            }, {
+              "0" : {
+                "x" : 0,
+                "w" : 12,
+                "name" : "module_1600253409792741",
+                "label" : "Security Text",
+                "type" : "custom_widget",
+                "params" : {
+                  "css_class" : "secure-text",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "html" : "<h2>Privacy built in. <br>Enterprise grade security.</h2>\n<p>Navigate change and dial up org resilience with a completely secure and encrypted platform for your entire org.</p>",
+                  "overrideable" : true,
+                  "path" : "@hubspot/rich_text",
+                  "per_widget_wrapper_html" : "",
+                  "schema_version" : 2,
+                  "widget_name" : "Rich Text",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "secure-text",
+                "cssStyle" : "",
+                "styles" : null,
+                "widgets" : [ ]
+              }
+            }, {
+              "0" : {
+                "x" : 0,
+                "w" : 12,
+                "name" : "module_1600253419759745",
+                "label" : "Security Image",
+                "type" : "custom_widget",
+                "params" : {
+                  "css_class" : "secure-image",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "img" : {
+                    "alt" : "Security_Illustration",
+                    "height" : 60,
+                    "max_height" : 60,
+                    "max_width" : 78,
+                    "size_type" : "auto",
+                    "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Security_Illustration.svg",
+                    "width" : 78
+                  },
+                  "overrideable" : true,
+                  "path" : "@hubspot/linked_image",
+                  "per_widget_wrapper_html" : "",
+                  "schema_version" : 2,
+                  "widget_name" : "Image",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "secure-image",
+                "cssStyle" : "",
+                "styles" : null,
+                "widgets" : [ ]
+              }
+            } ],
+            "rowMetaData" : [ ],
+            "cells" : [ ],
+            "cssId" : "",
+            "cssClass" : "page-center",
+            "cssStyle" : "",
+            "styles" : null,
+            "widgets" : [ ]
+          }
+        } ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "secure-outer-wrap lp-secure-wrap",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1699890810103107",
+        "label" : "CTA_Module_Global",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/CTA_Module_Global",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "CTA_Module_Global",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1603544094408343",
+        "label" : "Flexible column",
+        "type" : "widget_container",
+        "params" : {
+          "css_class" : "flex-column",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "flex-column",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "",
+        "label" : "",
+        "type" : "section_delimiter",
+        "params" : { },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_15999231076911006",
+        "label" : "Footer_2020",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "path" : "/Functionly_2020/Global_Modules/Footer_2020.template.json",
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    } ],
+    "rowMetaData" : [ ],
+    "cells" : [ ],
+    "cssId" : "",
+    "cssClass" : "",
+    "cssStyle" : "",
+    "styles" : null,
+    "widgets" : [ ]
+  }
+}

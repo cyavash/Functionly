@@ -1,0 +1,30 @@
+<div class="section-cards">  
+  <div class="page-center-full">
+    <h2>
+      {{ module.heading }}
+    </h2>
+    
+      <div class="cards-slider">
+        {% for item in module.card_item %}
+          <div class="slider-item">
+            <div class="cs-inner">
+              <h3>{{ item.title }}</h3>
+              <div class="cs-img">
+                {% if item.image_field.src %}
+                  {% set sizeAttrs = 'width="{{ item.image_field.width|escape_attr }}" height="{{ item.image_field.height|escape_attr }}"' %}
+                  {% if item.image_field.size_type == 'auto' %}
+                    {% set sizeAttrs = 'width="{{ item.image_field.width|escape_attr }}" height="{{ item.image_field.height|escape_attr }}" style="max-width: 100%; height: auto;"' %}
+                  {% elif item.image_field.size_type == 'auto_custom_max' %}
+                    {% set sizeAttrs = 'width="{{ item.image_field.max_width|escape_attr }}" height="{{ item.image_field.max_height|escape_attr }}" style="max-width: 100%; height: auto;"' %}
+                  {% endif %}
+                   {% set loadingAttr = item.image_field.loading != 'disabled' ? 'loading="{{ item.image_field.loading|escape_attr }}"' : '' %}
+                  <img src="{{ item.image_field.src|escape_url }}" alt="{{ item.image_field.alt|escape_attr }}" {{ loadingAttr }} {{ sizeAttrs }}>
+                {% endif %}
+              </div>  
+            </div><!-- end cs-inner -->    
+          </div> 
+        {% endfor %}
+    </div><!-- end cards-slider -->
+    
+  </div><!-- end page-center -->
+</div>

@@ -1,0 +1,76 @@
+<div id="author-page" class="author-page-main ">
+  <div class="blog-list-wrap blog-list-wraptop">
+    <div class="page-center">        
+      
+      <!-- Sets a variable for posts by author of first blog -->
+      {{ module.author_name }}
+      {% set blog_one_posts = blog_recent_author_posts('29999495033', author, 100) %}
+
+      <!-- Sets a variable for posts by author of second blog -->
+      {% set blog_two_posts = blog_recent_author_posts('69790394419', author, 100) %}    
+
+      <!-- Sets a variable for posts by author of third blog -->
+      {% set blog_three_posts = blog_recent_author_posts('136546161798', author, 100) %}
+
+      <!-- Combines the three variables into a single variable and sorts them by publish date -->
+      {% set all_posts = (blog_one_posts + blog_two_posts + blog_three_posts) | sort(true, false, 'publish_date')  %} 
+
+      <div class="blog-section">
+          <div class="blog-listing-wrapper blog-listing-wrapper1 cell-wrapper">
+            <div class="post-listing blog-list-inner">
+              <!-- Loop through posts in custom all posts variable -->
+              {% for post in all_posts %} 
+               
+                <div class="post-item list-item-rss blog-list-item"> 
+                  <div class="post-list-inner">
+                    <a href="{{post.absolute_url}}">
+                      <div class="post-list-fimg" style="background-image: url({{ post.post_list_summary_featured_image }});">
+                      </div>
+                    </a>
+                    
+                    <div class="post-list-content">   
+                      <div class="post-list-top"> 
+                         <div class="post-list-tag">  
+                            {% if post.tag_list %}
+                              <p>
+                                {% for tag in post.tag_list %}
+                                  {% if loop.index <= 3 %}
+                                    <a class="ucTopicLink1" href="{{ blog_tag_url(group.id, tag.slug) }}">{{ tag.name }}</a>{% if not loop.last %},{% endif %}
+                                  {% endif %}
+                                {% endfor %}
+                              </p>
+                          {% endif %}      
+                        </div>
+                        <div class="post-list-time">   
+                            <p>{{ post.publish_date_local_time|datetimeformat('%e/%m/%y') }}</p> 
+                        </div> 
+                      </div>
+                      <div class="post-header-list">   
+                          <h4><a href="{{ post.absolute_url }}">{{ post.name }}</a></h4> 
+                      </div> 
+                       <div class="post-list-author">   
+                         {% if post.blog_post_author %}  
+                              By: {{ post.blog_post_author.display_name }}
+                                <a class="author-link" href="{{ blog_author_url(group.id, post.blog_post_author.slug) }}"></a>
+                        {% endif %}  
+                      </div> 
+                      
+                    </div>
+                  </div>  
+                </div>
+              
+              {% endfor %} 
+ 
+            </div><!-- end post-listing -->
+          </div><!-- end blog-listing-wrapper1 -->
+      </div><!-- end blog-section -->
+       
+      
+      <div id="list-load-more" class="btn-lblue">
+        <span>Load more <img src="https://www.functionly.com/hubfs/Functionly_2020/Images/blog.svg" alt="load-more"> </span>
+      </div>
+      
+      
+    </div><!-- end page-center -->
+  </div><!-- end blog-list-wrap -->
+</div><!-- end author-page -->

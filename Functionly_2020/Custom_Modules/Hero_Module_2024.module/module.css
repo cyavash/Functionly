@@ -1,0 +1,185 @@
+.main-hero-wrap {
+    background: rgba(123, 94, 146, 0.05);
+    background: #EDEEF2;
+    padding: 110px 0px 70px !important;
+    position: relative;
+  border-radius: 10px;
+} 
+.main-hero-wrap .row-fluid {
+    position: relative;
+    z-index: 9;
+}
+.hero-inner {
+    max-width: 1088px;
+}
+.hero-inner .sub-title h4 {
+    font-size: 20px;
+    line-height: 125%;
+    color: #25004C; 
+    color: #414042;
+    padding-bottom: 15px;
+    padding-top: 2px;
+    padding-bottom: 40px;
+  font-weight:400;
+}
+.hero-inner .title {
+    min-height: 180px;
+    min-height: 100%;
+    padding-bottom: 6px;
+}
+
+.hero-inner .title h1 {
+    font-size: 62px;
+    line-height: 120%; 
+    letter-spacing: -0.02em; 
+    color: #300D55;
+    color: #414042;
+    padding-bottom: 0px;
+  font-weight:600;
+}
+
+.hero-inner .Content-Text p {
+    font-size: 20px;
+    line-height: 150%;
+    color: #300D55;
+    color: #414042!important;
+    max-width: 420px;
+}
+.sub-title h4 {
+  color: #414042; 
+}
+.hero-cta {
+    display: flex;
+}
+
+.hero-inner .Content-Text {
+    padding-bottom: 25px;
+}
+
+.hero-cta p.cta_button a {  
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 15px 30px;
+    border: 0px solid #fff;
+    background: radial-gradient(127.65% 127.79% at 48.62% -14.13%, #FF8E35 0%, #F24398 100%);
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight:500;
+}
+
+.hero-cta p.cta_button a:hover {  
+    text-decoration: underline;
+}
+
+.hero-cta2 {
+    margin-left: 20px;
+}
+
+.hero-cta2 p.cta_button a.cta_button {
+    color: #fff;
+    padding: 14px 54px 14px 28px;
+    text-align: center;
+    margin: 0px;
+    background-color: #6b2d90;
+    border: 1px solid #6b2d90;
+    box-sizing: border-box;
+    border-radius: 30px;
+    font-size: 16px;
+    line-height: 125%;
+    color: #6b2d90;
+    background-color: transparent;
+    border: 1px solid #6b2d90;
+    background-image: url(https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/arrow-purple.svg); 
+    background-repeat: no-repeat;
+    background-position: 83% 17px;
+    background-size: 17px;
+}
+
+.hero-cta2 p.cta_button a.cta_button:hover {  
+    background-color: #6b2d90;
+    border: 1px solid #6b2d90;
+    color: #fff;
+    background-image: url(https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/arrow-white.svg);
+    text-decoration: none;
+}
+ 
+/******** Responsive code starts here *******/
+/************** ipad ***************/
+@media (max-width: 1080px) {
+  .hero-inner .title {
+      min-height: 100%;
+  }
+  .main-hero-wrap { 
+      padding: 80px 0px !important; 
+  }
+  .hero-inner .title h1 {
+      font-size: 44px; 
+      padding-bottom: 15px;
+  }
+  .hero-inner .title h1 br {
+      display: none;  
+  }
+}
+
+/************** ipad nd tab ***************/
+@media only screen and (min-width:768px) and (max-width: 1024px) and (orientation : portrait){
+  .hero-inner .title h1 {
+      font-size: 38px; 
+  }
+}
+/************** iphone roatate***************/
+
+@media (max-width: 767px) {
+  .main-hero-wrap {
+    padding: 50px 0px !important;
+    padding: 95px 0 50px 0!important;
+  }
+  .hero-inner .title h1 {
+      font-size: 32px;
+      padding-bottom: 15px;
+  }
+  
+  .hero-inner .sub-title h4 {
+      font-size: 18px; 
+      padding-bottom: 10px;
+  }
+  
+}
+
+/************** iphone ***************/
+
+@media (max-width: 479px) {
+
+  .hero-inner .sub-title h4 {
+      font-size: 16px; 
+      padding-bottom: 10px;
+  }
+  
+  .hero-inner .title h1 {
+      padding-bottom: 10px;
+      font-size: 28px;
+      letter-spacing: -0.03em;
+  }
+  
+  .hero-cta p.cta_button a { 
+      padding: 12px 30px; 
+      font-size: 14px; 
+  }
+  
+  .hero-cta2 p.cta_button a.cta_button { 
+      padding: 10px 40px 10px 15px; 
+      font-size: 14px; 
+      background-position: 85% 13px;
+      background-size: 14px;
+  }
+  
+  .main-hero-wrap {
+      padding: 40px 0px !important;
+  }
+  
+
+}
+
+

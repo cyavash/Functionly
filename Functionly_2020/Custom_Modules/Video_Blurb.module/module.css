@@ -1,0 +1,117 @@
+.video-blurb-wrap {
+    padding: 120px 0px 80px;
+}
+
+.video-blurb-inner {
+    display: flex;
+    align-items: start;
+   /* justify-content: space-between;*/
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.video-blurb-item {
+    width: 33.33%;
+    margin-bottom: 40px;
+}
+
+.video-blurb {
+    padding: 15px;
+}
+
+.video-blurb-image {
+    position: relative;
+    border-radius: 8px;
+}
+
+.video-blurb-text {
+    padding: 30px 0px 10px;
+}
+
+.video-blurb-text h3 { 
+    font-size: 22px;
+}
+
+.video-blurb-item:hover .video-blurb {  
+    background-color: #F8F7FA;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.video-blurb-item:hover .video-blurb .video-play
+{
+  opacity:1;
+}
+.video-blurb-item:hover .video-blurb .video-blurb-text h3 {  
+    color: #25004C; 
+}
+
+.video-blurb .video-play { 
+    top: 40%; 
+  opacity:0;
+  transition:all .5s ease;
+}
+ 
+
+
+/******** Responsive code starts here *******/
+ 
+/************** ipad ***************/
+
+@media (max-width: 1080px) {
+ 
+  .video-blurb-wrap {
+      padding: 80px 0px 40px;
+  }
+  
+ 
+}
+
+/************** ipad nd tab ***************/
+
+@media only screen and (min-width:768px) and (max-width: 1024px) and (orientation : portrait){
+
+  .video-blurb-item {
+      width: 50%;
+      margin-bottom: 40px;
+  }
+  
+  
+}
+
+/************** iphone roatate***************/
+
+@media (max-width: 767px) {
+ 
+  .video-blurb-item {
+      width: 50%;
+      margin-bottom: 40px;
+  }
+  
+  
+}
+
+/************** iphone ***************/
+
+@media (max-width: 479px) {
+
+ .video-blurb-item {
+      width: 100%;
+      margin-bottom: 25px;
+  }
+  
+  .video-blurb-wrap {
+      padding: 50px 0px 30px;
+  }
+  
+  
+  
+}
+
+
+
+
+
+
+
+
+

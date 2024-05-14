@@ -1,0 +1,43 @@
+<div class="case-blurb-wrap"> 
+   <div class="case-blurb-inner">
+      {% for item in module.content %}
+          <div class="case-blurb-item"> 
+            <div class="case-blurb">
+            <div class="case-blurb-top">
+             {% if !item.image_video %} 
+                  <div class="case-blurb-image">
+                    {% if item.image.src %}
+                      {% set sizeAttrs = 'width="{{ item.image.width }}" height="{{ item.image.height }}"' %}
+                      {% if item.image.size_type == 'auto' %}
+                        {% set sizeAttrs = 'style="max-width: 100%; height: auto;"' %}
+                      {% elif item.image.size_type == 'auto_custom_max' %}
+                        {% set sizeAttrs = 'width="100%" height="auto" style="max-width: {{ item.image.max_width }}px; max-height: {{ item.image.max_height }}px"' %}
+                      {% endif %}
+                      <img src="{{ item.image.src }}" alt="{{ item.image.alt }}" {{ sizeAttrs }}>
+                    {% endif %}
+                  </div>
+              {% endif %}
+               {% if item.image_video %} 
+                <div class="case-blurb-image">
+                 <video class="videoAnimation" data-statustype="on-track" poster="{{ item.video }}" muted="" playsinline="" autoplay="" loop="" src="{{ item.video }}"></video>   
+              </div>
+              {% endif %}
+            </div>
+              <div class="case-blurb-text"> 
+                  {{ item.content }} 
+              </div>  
+            </div> 
+     </div>  
+  {% endfor %} 
+   </div>
+</div>
+
+
+
+{% require_css %}
+<style>
+
+</style>
+{% end_require_css %}
+
+

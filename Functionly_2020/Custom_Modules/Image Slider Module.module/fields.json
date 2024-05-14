@@ -1,0 +1,178 @@
+[ {
+  "id" : "cb05872a-af9c-3c95-21a6-531af76a39a0",
+  "name" : "slides",
+  "display_width" : null,
+  "label" : "Slides",
+  "help_text" : "",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 1,
+    "max" : null,
+    "sorting_label_field" : "f092f4e1-3ed9-892f-924f-c5f64bbbc20e",
+    "default" : 7
+  },
+  "children" : [ {
+    "id" : "f092f4e1-3ed9-892f-924f-c5f64bbbc20e",
+    "name" : "slide_image",
+    "display_width" : null,
+    "label" : "Slide Image",
+    "required" : true,
+    "locked" : false,
+    "responsive" : false,
+    "resizable" : false,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/tab-image.png",
+      "alt" : "tab-image",
+      "width" : 1112,
+      "height" : 624
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "default" : [ {
+    "slide_image" : {
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/tab-image.png",
+      "alt" : "tab-image",
+      "width" : 1112,
+      "height" : 624
+    }
+  }, {
+    "slide_image" : {
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/tab-image.png",
+      "alt" : "tab-image",
+      "width" : 1112,
+      "height" : 624
+    }
+  }, {
+    "slide_image" : {
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/tab-image.png",
+      "alt" : "tab-image",
+      "width" : 1112,
+      "height" : 624
+    }
+  }, {
+    "slide_image" : {
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/tab-image.png",
+      "alt" : "tab-image",
+      "width" : 1112,
+      "height" : 624
+    }
+  }, {
+    "slide_image" : {
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/tab-image.png",
+      "alt" : "tab-image",
+      "width" : 1112,
+      "height" : 624
+    }
+  }, {
+    "slide_image" : {
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/tab-image.png",
+      "alt" : "tab-image",
+      "width" : 1112,
+      "height" : 624
+    }
+  }, {
+    "slide_image" : {
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/tab-image.png",
+      "alt" : "tab-image",
+      "width" : 1112,
+      "height" : 624
+    }
+  } ]
+}, {
+  "id" : "5112bd03-6d8f-ee73-a2d2-c8d42a053947",
+  "name" : "settings",
+  "display_width" : null,
+  "label" : "Settings",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "0fcc49e8-6861-1f07-502c-4446e3091da1",
+    "name" : "slides_to_show",
+    "display_width" : null,
+    "label" : "Testimonials to show at once",
+    "help_text" : "",
+    "required" : false,
+    "locked" : false,
+    "display" : "text",
+    "min" : 1,
+    "step" : 1,
+    "type" : "number",
+    "default" : 1
+  }, {
+    "id" : "4d669287-14ed-e2d4-4ee8-f5b4a7d7678b",
+    "name" : "autoplay",
+    "display_width" : null,
+    "label" : "Autoplay",
+    "help_text" : "",
+    "required" : false,
+    "locked" : false,
+    "display" : "checkbox",
+    "type" : "boolean",
+    "default" : true
+  }, {
+    "id" : "54dcede9-3d5d-0720-1d20-259b2e21c33a",
+    "name" : "show_dots",
+    "display_width" : null,
+    "label" : "Dot navigation",
+    "help_text" : "",
+    "required" : false,
+    "locked" : false,
+    "display" : "checkbox",
+    "type" : "boolean",
+    "default" : false
+  }, {
+    "id" : "a8d32b74-adfc-508b-c033-725358923de4",
+    "name" : "show_arrows",
+    "display_width" : null,
+    "label" : "Arrow navigation",
+    "help_text" : "",
+    "required" : false,
+    "locked" : false,
+    "display" : "checkbox",
+    "type" : "boolean",
+    "default" : false
+  }, {
+    "id" : "41108c8a-1764-415a-132c-a5e2a787a2b3",
+    "name" : "infinite_scrolling",
+    "display_width" : null,
+    "label" : "Infinite scrolling",
+    "help_text" : "",
+    "required" : false,
+    "locked" : false,
+    "display" : "checkbox",
+    "type" : "boolean",
+    "default" : true
+  }, {
+    "id" : "9089244f-5729-fee7-6461-1fa2a697c042",
+    "name" : "speed",
+    "display_width" : null,
+    "label" : "Transition speed in seconds",
+    "help_text" : "",
+    "required" : false,
+    "locked" : false,
+    "display" : "slider",
+    "min" : 0.5,
+    "max" : 10,
+    "step" : 0.5,
+    "type" : "number",
+    "default" : 5
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "default" : {
+    "slides_to_show" : 1,
+    "autoplay" : true,
+    "show_dots" : false,
+    "show_arrows" : false,
+    "infinite_scrolling" : true,
+    "speed" : 5
+  }
+} ]

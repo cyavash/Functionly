@@ -1,0 +1,13 @@
+[ {
+  "id" : "7c24dde2-12ea-fbb3-e8b1-f67046ced4a0",
+  "name" : "audio_link",
+  "display_width" : null,
+  "label" : "Audio Link",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : ""
+} ]

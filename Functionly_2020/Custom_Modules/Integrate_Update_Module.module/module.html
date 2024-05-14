@@ -1,0 +1,53 @@
+<div class="itrgn-text-wrap">
+  <div class="page-center"> 
+      <div class="itrgn-text-top">
+         <div class="itrgn-text-header">  
+           <h2>{{ module.header }}</h2>
+         </div> 
+         <div class="itrgn-text-txt"> 
+           {{ module.description }}
+         </div>
+      </div>
+    
+     <div class="itrgn-text-inner {% if module.flip_position %}flippos{% endif %}">
+         <div class="itrgn-text-left">
+             <div class="itrgn-text-image">
+               {% if !module.image_video %} 
+                {% if module.content.left_image.src %}
+                  {% set sizeAttrs = 'width="{{ module.content.left_image.width }}" height="{{ module.content.left_image.height }}"' %}
+                  {% if module.content.left_image.size_type == 'auto' %}
+                    {% set sizeAttrs = 'style="max-width: 100%; height: auto;"' %}
+                  {% elif module.content.left_image.size_type == 'auto_custom_max' %}
+                    {% set sizeAttrs = 'width="100%" height="auto" style="max-width: {{ module.content.left_image.max_width }}px; max-height: {{ module.content.left_image.max_height }}px"' %}
+                  {% endif %}
+                  <img src="{{ module.content.left_image.src }}" alt="{{ module.content.left_image.alt }}" {{ sizeAttrs }}>
+                {% endif %}
+               {% endif %} 
+                
+               {% if module.image_video %} 
+                 <video class="videoAnimation" data-statustype="on-track" poster="{{ module.content.video }}" muted="" playsinline="" autoplay="" loop="" src="{{ module.content.video }}"></video> 
+               {% endif %}  
+              </div>
+           </div>
+          <div class="itrgn-text-right">
+              <div class="itrgn-text-list"> 
+                {% for item in module.content.list_item %}
+                <div class="itrgn-text-item">
+                   <div class="itrgn-text-title">  
+                     <h3>{{ item.title }}</h3>
+                   </div> 
+                   <div class="itrgn-text-txt"> 
+                     <p>{{ item.sub_text }}</p>
+                   </div>
+                 </div>
+               {% endfor %}
+              </div>  
+              <div class="itrgn-text-cta ">
+                  {% cta guid="{{ module.content.cta_field }}" %}
+              </div>
+          </div>
+       </div> 
+   </div>
+</div>
+
+ 

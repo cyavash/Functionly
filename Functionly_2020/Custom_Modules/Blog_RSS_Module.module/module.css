@@ -1,0 +1,183 @@
+.blog-post-rss {
+    padding: 120px 0px ;
+    display: inline-block;
+    width: 100%;
+}
+
+.blog-post-rss1 {
+    padding: 0px 0px 120px; 
+}
+
+.blog-post-rss1 .post-item-rss {
+    width: 31.5%;
+}
+
+.blog-post-rss1 .post-rss-fimg {
+    min-height: 250px; 
+}
+
+.blog-post-rss1 .post-rss-wrap {
+    border-top: 1px solid #C4C4C4;
+    padding-top: 100px;
+}
+
+.post-rss-header h2 {
+    font-size: 48px;
+    line-height: 125%;
+    text-align: center;
+    color: #414042;
+}
+
+.post-rss-header {
+    padding-bottom: 50px;
+}
+
+.post-rss-wrap {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.post-item-rss {
+    width: 48.5%;
+}
+
+.post-rss-fimg {
+    min-height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+}
+
+.post-rss-tag p a {
+    font-size: 16px;
+    line-height: 125%;
+    color: #6B2D90;
+    font-family: 'ceragr-bolduploaded_file';
+}
+
+.post-rss-time p {
+    font-size: 16px;
+    line-height: 150%;
+    text-align: right;
+    color: #7E808B;
+}
+
+.post-rss-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.post-header-rss h4 {
+    font-size: 24px;
+    line-height: 125%;
+    color: #414042;
+    margin-bottom: 20px;
+}
+
+.post-rss-author {
+    font-size: 16px;
+    line-height: 150%;
+    color: #7E808B;
+}
+
+
+
+/******** Responsive code starts here *******/
+ 
+/************** ipad ***************/
+
+@media (max-width: 1080px) {
+
+  .blog-post-rss {
+      padding: 70px 0px; 
+  }
+  
+  .blog-post-rss1 {
+      padding: 0px 0px 70px; 
+  }
+  
+  .post-rss-header h2 {
+      font-size: 32px;
+  }
+ 
+  .post-rss-header {
+      padding-bottom: 30px;
+  }
+  
+  .post-rss-fimg {
+      min-height: 300px; 
+  }
+  
+  .post-header-rss h4 {
+      font-size: 20px; 
+      margin-bottom: 10px;
+  }
+
+  .post-rss-time p {
+      font-size: 14px; 
+  }
+  
+  .post-rss-tag p a {
+      font-size: 14px; 
+  }
+  
+  .post-rss-author {
+      font-size: 14px; 
+  }
+  
+  
+  
+  
+  
+}
+
+/************** ipad nd tab ***************/
+
+@media only screen and (min-width:768px) and (max-width: 1024px) and (orientation : portrait){
+
+  .blog-post-rss1 .post-rss-fimg {
+      min-height: 170px;
+  }
+  
+  
+  
+  
+}
+
+/************** iphone roatate***************/
+
+@media (max-width: 767px) {
+
+  .blog-post-rss {
+      padding: 50px 0px;
+  }
+  
+  
+}
+
+/************** iphone ***************/
+
+@media (max-width: 479px) {
+
+  .post-item-rss {
+      width: 100%;
+      padding-bottom: 40px;
+  }
+  
+  .post-rss-fimg {
+      min-height: 230px;
+  }
+  
+  .post-rss-header h2 {
+      font-size: 24px;
+  }
+  
+}
+
+
+

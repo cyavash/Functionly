@@ -1,0 +1,78 @@
+[ {
+  "id" : "8bf313d2-807c-cfca-b052-f6bcd6e6c32f",
+  "name" : "title",
+  "display_width" : null,
+  "label" : "Title",
+  "required" : false,
+  "locked" : true,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Get started for free"
+}, {
+  "id" : "5b807e94-6d1b-6e4e-61c2-f8acd3b9e1b5",
+  "name" : "description",
+  "display_width" : null,
+  "label" : "Description",
+  "required" : false,
+  "locked" : true,
+  "type" : "richtext",
+  "default" : "<p>Your first step towards a more effective &amp; effective organization</p>"
+}, {
+  "id" : "5d71d362-3581-8576-3e8f-a531ada42209",
+  "name" : "cta_1",
+  "display_width" : null,
+  "label" : "CTA 1",
+  "required" : false,
+  "locked" : true,
+  "type" : "cta",
+  "default" : "142385bb-bb96-4c41-8d44-7bf5a3b97dc7"
+}, {
+  "id" : "b0e3df2b-cbfb-aef7-78dd-bf88f1dad5b5",
+  "name" : "cta_2",
+  "display_width" : null,
+  "label" : "CTA 2",
+  "required" : false,
+  "locked" : true,
+  "type" : "cta",
+  "default" : "5aef27e8-6015-4fe7-a9db-844ac6133d8a"
+}, {
+  "id" : "7c8780ac-c128-bedc-96f0-ee5237b840a1",
+  "name" : "link_field",
+  "display_width" : null,
+  "label" : "Link",
+  "required" : false,
+  "locked" : true,
+  "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION", "PHONE_NUMBER", "WHATSAPP_NUMBER", "PAYMENT" ],
+  "show_advanced_rel_options" : false,
+  "type" : "link",
+  "default" : {
+    "url" : {
+      "content_id" : null,
+      "href" : "https://labs.functionly.com/sign-up/?plan=price_1HglepB3rgwynYaJ8QTgiA3K",
+      "type" : "EXTERNAL"
+    },
+    "open_in_new_tab" : false,
+    "no_follow" : false
+  }
+}, {
+  "id" : "cf6e4bac-ecc0-c899-30ce-66a8169ef69c",
+  "name" : "link_field_1",
+  "display_width" : null,
+  "label" : "Link",
+  "required" : false,
+  "locked" : true,
+  "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION", "PHONE_NUMBER", "WHATSAPP_NUMBER", "PAYMENT" ],
+  "show_advanced_rel_options" : false,
+  "type" : "link",
+  "default" : {
+    "url" : {
+      "content_id" : null,
+      "type" : "EXTERNAL",
+      "href" : ""
+    },
+    "open_in_new_tab" : false,
+    "no_follow" : false
+  }
+} ]

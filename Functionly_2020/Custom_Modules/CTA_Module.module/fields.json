@@ -1,0 +1,59 @@
+[ {
+  "id" : "8393c6ac-928a-0f0a-f594-61b7fdd5bee5",
+  "name" : "title",
+  "display_width" : null,
+  "label" : "Title",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Trial Functionly for free"
+}, {
+  "id" : "41b51eed-655c-2a30-0dc9-6b34dda17e4e",
+  "name" : "description",
+  "display_width" : null,
+  "label" : "Description",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<p>Take your first step towards a more effective organization</p>"
+}, {
+  "id" : "ba2728f8-cc2a-2de5-aff0-2a0984f1a7dc",
+  "name" : "cta_1",
+  "display_width" : null,
+  "label" : "CTA 1",
+  "required" : false,
+  "locked" : false,
+  "type" : "cta",
+  "default" : "142385bb-bb96-4c41-8d44-7bf5a3b97dc7"
+}, {
+  "id" : "92718283-3003-a18e-a1c3-c2e4bf16d101",
+  "name" : "cta_2",
+  "display_width" : null,
+  "label" : "CTA 2",
+  "required" : false,
+  "locked" : false,
+  "type" : "cta",
+  "default" : "5aef27e8-6015-4fe7-a9db-844ac6133d8a"
+}, {
+  "id" : "7dcbaa24-76d8-4ed7-3264-718f36dc1b3f",
+  "name" : "link_field",
+  "display_width" : null,
+  "label" : "Link",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG" ],
+  "show_advanced_rel_options" : false,
+  "type" : "link",
+  "default" : {
+    "url" : {
+      "type" : "EXTERNAL",
+      "href" : "https://labs.functionly.com/sign-up/?plan=price_1HglepB3rgwynYaJ8QTgiA3K",
+      "content_id" : null
+    },
+    "open_in_new_tab" : false,
+    "no_follow" : false
+  }
+} ]

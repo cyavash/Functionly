@@ -1,0 +1,67 @@
+<div class="img-sld-wrap"> 
+    <div id="hs-testimonial-slider_{{ name }}" class="hs-testimonial-slider">
+      {% for slide in module.slides %}  
+      <div>
+      <div class="img-sld-inner">  
+           <div class="slider-image">
+              <img src="{{ slide.slide_image.src }}">
+           </div>  
+      </div>
+      </div>
+      {% endfor %} 
+  </div>
+</div>
+
+
+
+{% require_js %}
+<script>
+$(document).ready(function() {
+  if ($.fn.slick) {
+      buildSlider_{{ name }}();
+  }
+  else {
+    $.getScript( "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js", function() {
+      $.when($.fn.slick).then(function() {
+        buildSlider_{{ name }}();
+      });
+    });
+  }
+  function buildSlider_{{ name }}() {
+  $('#hs-testimonial-slider_{{ name }}').slick({                                                   
+    dots: {{ module.settings.show_dots }},                    
+    arrows: {{ module.settings.show_arrows }},
+    autoplay: {{ module.settings.autoplay }},
+    fade: true,
+    cssEase: 'linear',
+    infinite: {{ module.settings.infinite_scrolling }},
+    autoplaySpeed: {{ module.settings.speed * 1000 }},
+    slidesToShow: {{ module.settings.slides_to_show }},
+    slidesToScroll: {{ module.settings.slides_to_show }},
+    responsive: [
+      {
+      breakpoint: 880,
+      settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      infinite: true
+      }
+    }]
+  });   
+  }
+});
+  
+</script>
+{% end_require_js %}
+
+
+
+{% require_css %}
+<style>
+  
+</style>
+{% end_require_css %}
+
+
+
+

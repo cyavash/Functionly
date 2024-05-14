@@ -1,0 +1,134 @@
+<div class="img-tab-wrap">
+  <div class="page-center">
+    <div class="image-tab-outer"> 
+      <div class="hs-tabs">
+        <div class="row-fluid">
+          <div class="span4">
+          <ul class="hs-tabs__nav">  
+            {% for item in module.tab -%}
+            <li><a href="#tab-{{ loop.index }}" class="hs-tabs__navitem{% if loop.index == 1 %} hs-tabs__navitem--active{% endif %}">{% inline_text field="tab_label" value="{{ item.tab_label }}" %}</a></li>
+            {%- endfor %} 
+          </ul> 
+          </div>
+          <div class="span8 tabs-content-container">
+            {% for item in module.tab %}
+              <div id="tab-{{ loop.index }}" class="hs-tabs__item{% if loop.index == 1 %} hs-tabs__item--active{% endif %}">
+                <div class="image-tab-inner">
+                  <div class="image-tab-left">
+                    <div class="image-tab-image"> 
+                    {% if !item.image_video %}  
+                      {% if item.left_image.src %}
+                          {% set sizeAttrs = 'width="{{ item.left_image.width }}" height="{{ item.left_image.height }}"' %}
+                          {% if item.left_image.size_type == 'auto' %}
+                            {% set sizeAttrs = 'style="max-width: 100%; height: auto;"' %}
+                          {% elif item.left_image.size_type == 'auto_custom_max' %}
+                            {% set sizeAttrs = 'width="100%" height="auto" style="max-width: {{ item.left_image.max_width }}px; max-height: {{ item.left_image.max_height }}px"' %}
+                          {% endif %}
+                           {% set loadingAttr = item.left_image.loading != 'disabled' ? 'loading="{{ item.left_image.loading }}"' : '' %}
+                          <img src="{{ item.left_image.src }}" alt="{{ item.left_image.alt }}" {{ loadingAttr }} {{ sizeAttrs }} preload>
+                        {% endif %}
+                      {% endif %}
+
+                     {% if item.image_video %} 
+                        {% if item.videoplayer_field.player_id %}
+                          {% set max_width = item.videoplayer_field.size_type == 'auto_custom_max' ? item.videoplayer_field.max_width : item.videoplayer_field.width %}
+                          {% set max_height = item.videoplayer_field.size_type == 'auto_custom_max' ? item.videoplayer_field.max_height : item.videoplayer_field.height %}
+                          {% widget_block video_player "embed_player"
+                            overrideable=False,
+                            type='scriptV4',
+                            hide_playlist=True,
+                            autoplay=True,
+                            loop=True,
+                            viral_sharing=False,
+                            embed_button=False,
+                            full_width={{ item.videoplayer_field.size_type == 'auto_full_width' }},
+                            width="{{ max_width }}",
+                            height="{{ max_height }}",
+                            player_id="{{ item.videoplayer_field.player_id }}"
+                          %}
+                            {% widget_attribute "conversion_asset" %}
+                              {{ item.videoplayer_field.conversion_asset|tojson|safe }}
+                            {% end_widget_attribute %}
+                          {% end_widget_block %}
+                        {% endif %}
+                     {% endif %} 
+                    </div>
+                  </div> 
+                </div><!-- end image-tab-inner -->
+              </div><!-- end tab -->  
+            {% endfor %}
+          </div>  
+      </div><!-- end row-fluid -->
+    </div><!-- end hs-tabs --> 
+    </div>
+  </div>
+</div>
+ 
+{% require_js %}
+<script>
+
+function tabs(context){
+  var nav 			= context.querySelector('.hs-tabs__nav'),
+      tabs 			= nav.querySelectorAll('a'),
+      content 	= context.querySelectorAll('.hs-tabs__item'),
+      switchTabs = function(id){
+        removeClassAll(content, 'hs-tabs__item--active');
+        context.querySelector(id).classList.add('hs-tabs__item--active');
+      },
+      tabEvent = function(event){
+        if(event.target.nodeName == "A"){
+          event.preventDefault();
+          switchTabs(event.target.getAttribute('href'));
+          removeClassAll(tabs, 'hs-tabs__navitem--active');
+          event.target.classList.add('hs-tabs__navitem--active');
+        }
+      },
+      removeClassAll = function(elemArr, className){
+        for(var i = elemArr.length; i--;){
+          elemArr[i].classList.remove(className);
+        }
+      },
+      init = (function(){
+        nav.addEventListener('click', tabEvent);
+      })();
+}
+
+var tabbers = document.querySelectorAll('.hs-tabs');
+for(var i = tabbers.length; i--;){
+  tabs(tabbers[i]);
+}
+
+  
+  
+$( document ).ready(function() {
+  
+  var switchTabs = function(id){
+        removeClassAll(content, 'hs-tabs__item--active');
+        context.querySelector(id).classList.add('hs-tabs__item--active');
+      }
+  
+    var tabChange = function(){
+        var tabs = $('.hs-tabs__nav > li a');
+        var active = tabs.filter('.hs-tabs__navitem--active');
+        var next = active.parent().next('li').length? active.parent().next('li').find('a') : tabs.parent().filter(':first-child').find('a');
+        // Bootsrap tab show, para ativar a tab
+        //console.log(next);
+        $(".hs-tabs__nav a").removeClass("hs-tabs__navitem--active");
+        $(".hs-tabs__item").removeClass("hs-tabs__item--active");
+        next.addClass("hs-tabs__navitem--active");
+        $(next.attr("href")).addClass("hs-tabs__item--active"); 
+       
+        //
+         //switchTabs(next.target.getAttribute('href'));
+    }
+    // Tab Cycle function
+    var tabCycle = setInterval(tabChange, {{ module.transition_time }});
+    // Tab click event handler
+    
+    
+});
+
+</script>
+
+{% end_require_js %}
+

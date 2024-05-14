@@ -1,0 +1,393 @@
+[ {
+  "id" : "3b5832b9-ddea-16ca-9925-b5c01b83c48e",
+  "name" : "header",
+  "display_width" : null,
+  "label" : "Header",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Brands who use Functionly"
+}, {
+  "id" : "09dd8023-d7bb-effd-97af-e2981ece3150",
+  "name" : "item",
+  "display_width" : null,
+  "label" : "Top Item",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 1,
+    "max" : null,
+    "sorting_label_field" : "bcf8e05a-f721-1d70-ae51-94a7fff0af93",
+    "default" : 12
+  },
+  "children" : [ {
+    "id" : "bcf8e05a-f721-1d70-ae51-94a7fff0af93",
+    "name" : "image",
+    "display_width" : null,
+    "label" : "Logo",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Gartner_logo.svg",
+      "alt" : "Gartner_logo",
+      "width" : 100,
+      "height" : 23
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "default" : [ {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Gartner_logo.svg",
+      "alt" : "Gartner_logo",
+      "width" : 100,
+      "height" : 23
+    }
+  }, {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Gartner_logo.svg",
+      "alt" : "Gartner_logo",
+      "width" : 100,
+      "height" : 23
+    }
+  }, {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Gartner_logo.svg",
+      "alt" : "Gartner_logo",
+      "width" : 100,
+      "height" : 23
+    }
+  }, {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Gartner_logo.svg",
+      "alt" : "Gartner_logo",
+      "width" : 100,
+      "height" : 23
+    }
+  }, {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Gartner_logo.svg",
+      "alt" : "Gartner_logo",
+      "width" : 100,
+      "height" : 23
+    }
+  }, {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Gartner_logo.svg",
+      "alt" : "Gartner_logo",
+      "width" : 100,
+      "height" : 23
+    }
+  }, {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Gartner_logo.svg",
+      "alt" : "Gartner_logo",
+      "width" : 100,
+      "height" : 23
+    }
+  }, {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Gartner_logo.svg",
+      "alt" : "Gartner_logo",
+      "width" : 100,
+      "height" : 23
+    }
+  }, {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Gartner_logo.svg",
+      "alt" : "Gartner_logo",
+      "width" : 100,
+      "height" : 23
+    }
+  }, {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Gartner_logo.svg",
+      "alt" : "Gartner_logo",
+      "width" : 100,
+      "height" : 23
+    }
+  }, {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Gartner_logo.svg",
+      "alt" : "Gartner_logo",
+      "width" : 100,
+      "height" : 23
+    }
+  }, {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Gartner_logo.svg",
+      "alt" : "Gartner_logo",
+      "width" : 100,
+      "height" : 23
+    }
+  } ]
+}, {
+  "id" : "560b61ea-1808-28fd-c35f-ca9fa929589b",
+  "name" : "style",
+  "display_width" : null,
+  "label" : "Style",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "e8d9b697-e89b-ede7-fead-91ee37924f0c",
+    "name" : "ptdesktop",
+    "display_width" : null,
+    "label" : "Padding Top - Desktop",
+    "required" : false,
+    "locked" : false,
+    "display" : "slider",
+    "min" : 0,
+    "max" : 300,
+    "step" : 1,
+    "type" : "number",
+    "default" : 80
+  }, {
+    "id" : "c2622f8d-ca96-562e-f35c-4eb1687a722c",
+    "name" : "pbdesktop",
+    "display_width" : null,
+    "label" : "Padding Bottom - Desktop",
+    "required" : false,
+    "locked" : false,
+    "display" : "slider",
+    "min" : 0,
+    "max" : 300,
+    "step" : 1,
+    "type" : "number",
+    "default" : 80
+  }, {
+    "id" : "b0848849-11f2-cdf6-ac40-db8a988c2be8",
+    "name" : "pttablet",
+    "display_width" : null,
+    "label" : "Padding Top - Tablet",
+    "required" : false,
+    "locked" : false,
+    "display" : "slider",
+    "min" : 0,
+    "max" : 200,
+    "step" : 1,
+    "type" : "number",
+    "default" : 50
+  }, {
+    "id" : "99f50b6c-1a67-3b3c-a710-f798a98c5d9b",
+    "name" : "pbtablet",
+    "display_width" : null,
+    "label" : "Padding Bottom - Tablet",
+    "required" : false,
+    "locked" : false,
+    "display" : "slider",
+    "min" : 0,
+    "max" : 200,
+    "step" : 1,
+    "type" : "number",
+    "default" : 50
+  }, {
+    "id" : "cf3a3712-614a-8710-f1a3-e4f8a0d93842",
+    "name" : "ptmobile",
+    "display_width" : null,
+    "label" : "Padding Top - Mobile",
+    "required" : false,
+    "locked" : false,
+    "display" : "slider",
+    "min" : 0,
+    "max" : 200,
+    "step" : 1,
+    "type" : "number",
+    "default" : 50
+  }, {
+    "id" : "d18d7eb1-4eb1-afe4-1cba-fc4b664d1c38",
+    "name" : "pbmobile",
+    "display_width" : null,
+    "label" : "Padding Bottom - Mobile",
+    "required" : false,
+    "locked" : false,
+    "display" : "slider",
+    "min" : 0,
+    "max" : 200,
+    "step" : 1,
+    "type" : "number",
+    "default" : 50
+  }, {
+    "id" : "9965ea95-0b9e-1876-a421-dc964a96b525",
+    "name" : "background_color",
+    "display_width" : null,
+    "label" : "Background Color",
+    "required" : false,
+    "locked" : false,
+    "type" : "color",
+    "default" : {
+      "color" : "#ffffff",
+      "opacity" : 100
+    }
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "default" : {
+    "ptdesktop" : 80,
+    "pbdesktop" : 80,
+    "pttablet" : 50,
+    "pbtablet" : 50,
+    "ptmobile" : 50,
+    "pbmobile" : 50,
+    "background_color" : {
+      "color" : "#ffffff",
+      "opacity" : 100
+    }
+  }
+}, {
+  "id" : "0672282c-6975-9368-417a-22ecad642029",
+  "name" : "btm",
+  "display_width" : null,
+  "label" : "Bottom Item",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 1,
+    "max" : null,
+    "sorting_label_field" : "ed41b357-8fe9-5655-3adb-4a422410763d",
+    "default" : 12
+  },
+  "children" : [ {
+    "id" : "ed41b357-8fe9-5655-3adb-4a422410763d",
+    "name" : "image",
+    "display_width" : null,
+    "label" : "Logo",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Netflix_2015_logo.svg",
+      "alt" : "Netflix_2015_logo",
+      "width" : 1024,
+      "height" : 277
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "default" : [ {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Netflix_2015_logo.svg",
+      "alt" : "Netflix_2015_logo",
+      "width" : 1024,
+      "height" : 277
+    }
+  }, {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Netflix_2015_logo.svg",
+      "alt" : "Netflix_2015_logo",
+      "width" : 1024,
+      "height" : 277
+    }
+  }, {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Netflix_2015_logo.svg",
+      "alt" : "Netflix_2015_logo",
+      "width" : 1024,
+      "height" : 277
+    }
+  }, {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Netflix_2015_logo.svg",
+      "alt" : "Netflix_2015_logo",
+      "width" : 1024,
+      "height" : 277
+    }
+  }, {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Netflix_2015_logo.svg",
+      "alt" : "Netflix_2015_logo",
+      "width" : 1024,
+      "height" : 277
+    }
+  }, {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Netflix_2015_logo.svg",
+      "alt" : "Netflix_2015_logo",
+      "width" : 1024,
+      "height" : 277
+    }
+  }, {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Netflix_2015_logo.svg",
+      "alt" : "Netflix_2015_logo",
+      "width" : 1024,
+      "height" : 277
+    }
+  }, {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Netflix_2015_logo.svg",
+      "alt" : "Netflix_2015_logo",
+      "width" : 1024,
+      "height" : 277
+    }
+  }, {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Netflix_2015_logo.svg",
+      "alt" : "Netflix_2015_logo",
+      "width" : 1024,
+      "height" : 277
+    }
+  }, {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Netflix_2015_logo.svg",
+      "alt" : "Netflix_2015_logo",
+      "width" : 1024,
+      "height" : 277
+    }
+  }, {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Netflix_2015_logo.svg",
+      "alt" : "Netflix_2015_logo",
+      "width" : 1024,
+      "height" : 277
+    }
+  }, {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Logos/Netflix_2015_logo.svg",
+      "alt" : "Netflix_2015_logo",
+      "width" : 1024,
+      "height" : 277
+    }
+  } ]
+} ]

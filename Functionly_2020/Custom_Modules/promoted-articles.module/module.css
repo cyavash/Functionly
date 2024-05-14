@@ -1,0 +1,106 @@
+.promoted-articles {
+  padding: 20px 0 100px 0; 
+}
+  .promoted-articles h2 {
+    text-align: center;
+    font-size: 34px;
+    padding-bottom: 30px;
+  }
+  .blog-post {
+    padding: 21px 20px 31px 20px;
+    border: 1px solid #C7C7C7;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+    margin-top: 20px;
+  }
+  .blog-post:hover {
+    box-shadow: 0px 2px 5px 0px #C7C7C7;
+  }
+  .blog-image {
+    overflow: hidden;
+  }
+  .blog-image img {
+    width: 100%;
+    height: auto;
+    max-height: 202px;
+    border: 1px solid #A2A3A8;
+  }
+  .blog-post h3 {
+    font-family: "Graphik";
+    min-height: 80px;
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 500!important;
+  }
+  .blog-post h3 a {
+    text-decoration: none;
+    color: #414042;
+  }
+  .blog-post .read-now-button {
+    display: inline-block;
+    padding: 6px 24px 6px 20px;
+    border: 2px solid #414042;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #414042;
+    position: relative;
+    font-size: 16px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+  .read-now-button span {
+    font-size: 16px;   
+  }
+  .blog-post .read-now-button::after {
+    margin-left: 10px;
+    display: inline-block;
+    content:"";
+    width: 33px;
+    height: 16px;
+    background: url('https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Arrow%202.svg') top right no-repeat;
+    position: relative;
+    top: 3px;
+  }
+
+/* Responsive */
+@media screen and (max-width: 1199px) {
+  .blog-post img {
+    max-height: 170px;
+  } 
+  .blog-post h3 {
+    min-height: 110px; 
+  }
+}
+@media screen and (max-width: 991px) {
+  .blog-post img {
+    max-height: 140px;
+  }  
+  .blog-post h3 {
+    min-height: 120px; 
+  }
+}
+@media screen and (max-width: 840px) {
+  .blog-post img {
+    max-height: 125px;
+  }
+  .blog-post h3 {
+    min-height : 150px; 
+  }
+}
+@media screen and (max-width: 768px) {
+  .blog-post {
+    width: 310px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+  .blog-image img {
+    max-height: 202px!important;
+    width: auto;
+  } 
+  .blog-post h3 {
+    min-height: auto!important; 
+  }
+}

@@ -1,0 +1,83 @@
+<div class="review-single-wrap">
+  <div class="page-center">
+    <div class="review-single-header">
+      <h2>{{ module.main_header }}</h2>
+    </div>
+    
+      <div class="review-single-inner">
+        <div class="review-single-quote">
+           {{ module.review.quote }}
+        </div>
+        <div class="review-single-details">
+           <div class="review-single-image">
+             {% if module.review.author_picture.src %}
+              {% set sizeAttrs = 'width="{{ module.review.author_picture.width }}" height="{{ module.review.author_picture.height }}"' %}
+              {% if module.review.author_picture.size_type == 'auto' %}
+                {% set sizeAttrs = 'style="max-width: 100%; height: auto;"' %}
+              {% elif module.review.author_picture.size_type == 'auto_custom_max' %}
+                {% set sizeAttrs = 'width="100%" height="auto" style="max-width: {{ module.review.author_picture.max_width }}px; max-height: {{ module.review.author_picture.max_height }}px"' %}
+              {% endif %}
+              <img src="{{ module.review.author_picture.src }}" alt="{{ module.review.author_picture.alt }}" {{ sizeAttrs }}>
+            {% endif %}
+           </div>
+           <div class="review-single-name">
+              <h4>{{ module.review.author_name }}</h4>
+              <h5>{{ module.review.job_title }}</h5>
+           </div>
+        </div>
+     </div> 
+  </div>
+</div> 
+
+
+{% require_js %}
+<script>
+$(document).ready(function() {
+  if ($.fn.slick) {
+      buildSlider_{{ name }}();
+  }
+  else {
+    $.getScript( "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js", function() {
+      $.when($.fn.slick).then(function() {
+        buildSlider_{{ name }}();
+      });
+    });
+  }
+  function buildSlider_{{ name }}() {
+  $('#hs-testimonial-slider_{{ name }}').slick({                                                   
+    dots: {{ module.settings.show_dots }},                    
+    arrows: {{ module.settings.show_arrows }},
+    autoplay: {{ module.settings.autoplay }},
+    infinite: {{ module.settings.infinite_scrolling }},
+    autoplaySpeed: {{ module.settings.speed * 1000 }},
+    fade: true,
+    cssEase: 'linear',
+    slidesToShow: {{ module.settings.slides_to_show }},
+    slidesToScroll: {{ module.settings.slides_to_show }},
+    responsive: [
+      {
+      breakpoint: 880,
+      settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      infinite: true
+      }
+    }]
+  });   
+  }
+});
+  
+</script>
+{% end_require_js %}
+
+
+
+{% require_css %}
+<style>
+  
+</style>
+{% end_require_css %}
+
+
+
+

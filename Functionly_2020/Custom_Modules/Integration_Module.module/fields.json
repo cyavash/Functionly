@@ -1,0 +1,122 @@
+[ {
+  "id" : "3b5832b9-ddea-16ca-9925-b5c01b83c48e",
+  "name" : "header",
+  "display_width" : null,
+  "label" : "Header",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Functionly integrates with tools you already use"
+}, {
+  "id" : "09dd8023-d7bb-effd-97af-e2981ece3150",
+  "name" : "item",
+  "display_width" : null,
+  "label" : "Item",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 1,
+    "max" : null,
+    "sorting_label_field" : "22b391ad-8395-74ad-3e1b-51973608dc0c",
+    "default" : 7
+  },
+  "children" : [ {
+    "id" : "bcf8e05a-f721-1d70-ae51-94a7fff0af93",
+    "name" : "image",
+    "display_width" : null,
+    "label" : "Logo",
+    "required" : false,
+    "locked" : false,
+    "responsive" : false,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "exact",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/slack.png",
+      "alt" : "slack",
+      "width" : 176,
+      "height" : 44,
+      "max_width" : 176,
+      "max_height" : 44
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "default" : [ {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/slack.png",
+      "alt" : "slack",
+      "width" : 176,
+      "height" : 44,
+      "max_width" : 176,
+      "max_height" : 44
+    }
+  }, {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/slack.png",
+      "alt" : "slack",
+      "width" : 176,
+      "height" : 44,
+      "max_width" : 176,
+      "max_height" : 44
+    }
+  }, {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/slack.png",
+      "alt" : "slack",
+      "width" : 176,
+      "height" : 44,
+      "max_width" : 176,
+      "max_height" : 44
+    }
+  }, {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/slack.png",
+      "alt" : "slack",
+      "width" : 176,
+      "height" : 44,
+      "max_width" : 176,
+      "max_height" : 44
+    }
+  }, {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/slack.png",
+      "alt" : "slack",
+      "width" : 176,
+      "height" : 44,
+      "max_width" : 176,
+      "max_height" : 44
+    }
+  }, {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/slack.png",
+      "alt" : "slack",
+      "width" : 176,
+      "height" : 44,
+      "max_width" : 176,
+      "max_height" : 44
+    }
+  }, {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/slack.png",
+      "alt" : "slack",
+      "width" : 176,
+      "height" : 44,
+      "max_width" : 176,
+      "max_height" : 44
+    }
+  } ]
+} ]

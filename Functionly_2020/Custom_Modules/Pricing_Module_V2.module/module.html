@@ -1,0 +1,56 @@
+<div class="price-outer-wrap price-toggle-wrap"> 
+  <div class="page-center"> 
+    
+  <div class="price-heading"> 
+    <h2>{{ module.main_header }} </h2>
+  </div>
+   
+<div class="price-inner">
+     {% for item in module.content %}
+          <div class="price-item"> 
+            <div class="price-content"> 
+              <div class="price-title"> 
+                 <h2>{{ item.title }}</h2>
+                 <p>{{ item.sub_title }}</p>
+              </div>  
+              <div class="price-amount">  
+                 <p>{{ item.price_country }}</p>
+                <h2>{{ item.price_number }}</h2>
+                <p>{{ item.price_sub_text }}</p>
+              </div>  
+              <div class="price-user">  
+                 <p>{{ item.price_user_text }} </p> 
+              </div>  
+              
+              <div class="price-cta">  
+                 <div class="price-cta1"> 
+                   <a class="cta_button" target="_blank" href="{{ item.link1.url.href }}">{{ item.link1_text }}</a>
+                   {# % cta guid="{{ item.cta_1 }}" % #}
+                 </div>
+                 <div class="price-cta2 cta-purple">   
+                   <a href="{{item.link2.url.href}}" class="cta_button">{{ item.link2_text }}</a>
+                   {# % cta guid="{{ item.cta_2 }}" % #}
+                 </div>
+              </div>
+              
+              <div class="price-details">  
+                {% inline_rich_text field="content" value="{{ item.content }}" %}
+              </div>  
+              
+            </div> 
+     </div>  
+  {% endfor %} 
+   </div> 
+    
+  <div class="price-open"> 
+    <a class="open-feature opened-feature">See features</a> 
+    <a class="open-feature close-feature">Minimize features</a>
+    
+  </div>    
+    
+    
+    
+    
+  </div> 
+</div>
+ 

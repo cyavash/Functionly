@@ -1,0 +1,92 @@
+<div class="home-hero-wrap">   
+  <div class="page-center">
+    <div class="row-fluid"> 
+      <div class="home-left"> 
+      <div class="content_part">
+        <div class="title"> 
+          <h1>{{ module.left.title }}</h1>
+        </div>
+        <div class="content">
+          <div class="Content-Text">
+            {{ module.left.description }}
+          </div> 
+          <div class="home-cta"> 
+            <div class="home-cta1">
+              <p class="cta_button">
+
+                <a class="cta_button" target="_blank" href="{{ module.left.link_field.url.href }}">Get started now</a>
+                {#% cta guid="{{ module.left.cta_1 }}" %#}
+              </p>
+            </div> 
+            <div class="secondary-text">
+              <p>
+              {{ module.left.text_field }}
+              </p>
+            </div> 
+            {% if module.left.image_1.src %}
+              {% set sizeAttrs = 'width="{{ module.left.image_1.width }}" height="{{ module.left.image_1.height }}"' %}
+              {% if module.left.image_1.size_type == 'auto' %}
+                {% set sizeAttrs = 'style="max-width: 100%; height: auto;"' %}
+              {% elif module.left.image_1.size_type == 'auto_custom_max' %}
+                {% set sizeAttrs = 'width="{{ module.left.image_1.max_width }}" height="{{ module.left.image_1.max_height }}" style="max-width: 100%; height: auto;"' %}
+              {% endif %}
+               {% set loadingAttr = module.left.image_1.loading != 'disabled' ? 'loading="{{ module.left.image_1.loading }}"' : '' %}
+              <img src="{{ module.left.image_1.src }}" alt="{{ module.left.image_1.alt }}" {{ loadingAttr }} {{ sizeAttrs }}>
+            {% endif %}
+            
+            {% if module.left.image_2.src %}
+            {% set sizeAttrs = 'width="{{ module.left.image_2.width }}" height="{{ module.left.image_2.height }}"' %}
+            {% if module.left.image_2.size_type == 'auto' %}
+              {% set sizeAttrs = 'style="max-width: 100%; height: auto;"' %}
+            {% elif module.left.image_2.size_type == 'auto_custom_max' %}
+              {% set sizeAttrs = 'width="{{ module.left.image_2.max_width }}" height="{{ module.left.image_2.max_height }}" style="max-width: 100%; height: auto;"' %}
+            {% endif %}
+             {% set loadingAttr = module.left.image_2.loading != 'disabled' ? 'loading="{{ module.left.image_2.loading }}"' : '' %}
+            <img src="{{ module.left.image_2.src }}" alt="{{ module.left.image_2.alt }}" {{ loadingAttr }} {{ sizeAttrs }}>
+          {% endif %}
+          </div> 
+        </div>
+      </div> 
+      </div> 
+      
+      <div class="home-right"> 
+        <div class="hright-image"> 
+          
+          
+        {% if !module.right.image_video %} 
+          {% if module.right.right_image.src %}
+            {% set sizeAttrs = 'width="{{ module.right.right_image.width }}" height="{{ module.right.right_image.height }}"' %}
+            {% if module.right.right_image.size_type == 'auto' %}
+              {% set sizeAttrs = 'style="max-width: 100%; height: auto;"' %}
+            {% elif module.right.right_image.size_type == 'auto_custom_max' %}
+              {% set sizeAttrs = 'width="100%" height="auto" style="max-width: {{ module.right.right_image.max_width }}px; max-height: {{ module.right.right_image.max_height }}px"' %}
+            {% endif %}
+            <img src="{{ module.right.right_image.src }}" alt="{{ module.right.right_image.alt }}" {{ sizeAttrs }}>
+          {% endif %}
+         {% endif %} 
+          {% if module.right.image_video %}
+             <video class="videoAnimation" data-statustype="on-track" poster="{{ module.right.video }}" muted="" playsinline="" autoplay="" loop="" src="{{ module.right.video }}"></video>     
+          {% endif %}
+          
+          
+          
+          
+          
+          <script type="text/partytown" async src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://assets2.lottiefiles.com/packages/lf20_tqravmqt.json" background="transparent" speed="1" style="" loop  autoplay></lottie-player>
+        </div> 
+      </div>  
+    </div>
+  </div>
+</div>
+  
+
+{% require_css %}
+<style>
+ 
+ 
+  
+</style>
+{% end_require_css %}
+
+ 
+

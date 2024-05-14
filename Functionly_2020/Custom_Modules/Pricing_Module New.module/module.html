@@ -1,0 +1,66 @@
+<div class="price1-outer-wrap price1-toggle-wrap"> 
+  <div class="page-center"> 
+     
+    
+
+<div class="pricing-toggle-wrsp">
+  <label class="toggler toggler--is-active" id="filt-month">Pay monthly</label>
+  <div class="toggle">
+    <input type="checkbox" id="switcher" class="check">
+    <b class="b switch"></b>
+  </div>
+  <label class="toggler" id="filt-annual">Pay annually</label> 
+</div>    
+     
+<div class="price1-inner">
+     {% for item in module.content %}
+          <div class="price1-item"> 
+            <div class="price1-content"> 
+              <div class="price1-title"> 
+                 <h2>{{ item.title }}</h2>
+                 <p>{{ item.sub_title }}</p>
+              </div>  
+              <div class="price1-amount">   
+                <h2 class="price-monthly">{{ item.mprice_number }}</h2> 
+                <p class="price-monthly">{{ item.mprice_sub_text }}</p>
+                <h2 class="price-annually">{{ item.aprice_number }}</h2>
+                <p class="price-annually">{{ item.aprice_sub_text }}</p>
+              </div>   
+              
+              <div class="price1-cta">  
+                <div class="pricing-cta-full-width">
+                 <div class="price1-cta1"> 
+                    <a class="cta_button test" target="_blank" href="{{ item.link_field.url.href }}">{{ item.link1_text }}</a>
+                  
+                    {# % cta guid="{{ item.cta_1 }}" % #}
+                 </div>
+                </div>
+                <div class="pricing-cta-full-width">
+                 <div class="price1-cta2 cta-purple">  
+                   <a class="cta_button" target="_blank" href="{{ item.link2.url.href }}">{{ item.link2_text }}</a>
+                   {#% cta guid="{{ item.cta_2 }}" % #}
+                 </div>
+                </div>
+              </div>
+              
+              <div class="price1-details price1-details-desktop">  
+                {% inline_rich_text field="content" value="{{ item.content }}" %}
+              </div>  
+                  
+            </div> 
+     </div>  
+  {% endfor %} 
+   </div> 
+     
+    
+  </div> 
+</div>
+
+
+
+{% require_css %}
+<style>
+
+</style>
+{% end_require_css %}
+ 

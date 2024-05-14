@@ -1,0 +1,49 @@
+[ {
+  "id" : "70c1f75b-f307-18d5-16b8-4aa7900c5454",
+  "name" : "title",
+  "display_width" : null,
+  "label" : "Title",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Next Level Org Strategy Articles"
+}, {
+  "id" : "d5138977-22b2-3904-7894-1c930965ff55",
+  "name" : "first_blog_post_id",
+  "display_width" : null,
+  "label" : "First Blog Post ID",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "150528841136"
+}, {
+  "id" : "dd5d853e-3e3d-ee72-7ea9-4952ce63cb9a",
+  "name" : "second_blog_post_id",
+  "display_width" : null,
+  "label" : "Second Blog Post ID",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "148700251975"
+}, {
+  "id" : "12eb245a-9786-88b1-838a-e061eb17024c",
+  "name" : "third_blog_post_id",
+  "display_width" : null,
+  "label" : "Third Blog Post ID",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "140720873364"
+} ]

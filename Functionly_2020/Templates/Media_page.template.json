@@ -1,0 +1,683 @@
+{
+  "isAvailableForNewContent" : true,
+  "templateType" : 4,
+  "attachedStylesheets" : [ {
+    "type" : "cos_extension_resource",
+    "path" : "/Functionly_2020/Codes/Stylesheet_2020.css"
+  } ],
+  "attachedJs" : [ {
+    "type" : "cos_extension_resource",
+    "path" : "/Functionly_2020/Codes/script_2020.js"
+  } ],
+  "customHead" : "<link href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\" rel=\"stylesheet\"> \n\n\n\n",
+  "customFooter" : "",
+  "bodyClass" : "",
+  "bodyCss" : "",
+  "bodyEditable" : false,
+  "layoutData" : {
+    "x" : 0,
+    "w" : 12,
+    "name" : "",
+    "label" : "",
+    "type" : "cell",
+    "params" : { },
+    "rows" : [ {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1599923101440995",
+        "label" : "Header_2020",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "path" : "/Functionly_2020/Global_Modules/Header_2020.template.json",
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "",
+        "label" : "",
+        "type" : "section_delimiter",
+        "params" : { },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1600251241860424",
+        "label" : "Hero_Module",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "hero" : {
+            "cta_1" : "",
+            "sub_title" : "Media",
+            "title" : "For partners and members <br> of the press"
+          },
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Hero_Module",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Hero_Module",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_16012984256141514",
+        "label" : "Media_Blurb_Module",
+        "type" : "custom_widget",
+        "params" : {
+          "content" : [ {
+            "content" : "<h3>WA Startup, Functionly, Wins $598k Federal Accelerating Commercialisation Grant</h3>",
+            "date" : "19/08/20",
+            "image" : {
+              "alt" : "news",
+              "height" : 60,
+              "max_height" : 60,
+              "max_width" : 78,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/news.svg",
+              "width" : 78
+            },
+            "link" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/TheWestAustralian23-jul-20.jpeg",
+            "tag_id" : "news",
+            "tag_name" : "In the news"
+          }, {
+            "content" : "<h3>Functionly wins $598k Accelerating Commercialisation grant</h3>",
+            "date" : "19/08/20",
+            "image" : {
+              "alt" : "press",
+              "height" : 261,
+              "max_height" : 261,
+              "max_width" : 416,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/press.png",
+              "width" : 416
+            },
+            "link" : "https://startupnews.com.au/2020/07/16/functionly-wins-598k-accelerating-commercialisation-grant/",
+            "tag_id" : "news",
+            "tag_name" : "In the news"
+          }, {
+            "content" : "<h3>Tech Startup Functionly gets govt boost</h3>",
+            "date" : "19/08/20",
+            "image" : {
+              "alt" : "news",
+              "height" : 60,
+              "max_height" : 60,
+              "max_width" : 78,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/news.svg",
+              "width" : 78
+            },
+            "link" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/TheWestAustralian23-jul-20.jpeg",
+            "tag_id" : "press",
+            "tag_name" : "Press release"
+          }, {
+            "content" : "<h3>Functionly wins $598k Accelerating Commercialisation grant</h3>",
+            "date" : "19/08/20",
+            "image" : {
+              "alt" : "news",
+              "height" : 60,
+              "max_height" : 60,
+              "max_width" : 78,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/news.svg",
+              "width" : 78
+            },
+            "link" : "https://startupnews.com.au/2020/07/16/functionly-wins-598k-accelerating-commercialisation-grant/",
+            "tag_id" : "news",
+            "tag_name" : "In the news"
+          }, {
+            "content" : "<h3>Tech Startup Functionly gets govt boost</h3>",
+            "date" : "19/08/20",
+            "image" : {
+              "alt" : "news",
+              "height" : 60,
+              "max_height" : 60,
+              "max_width" : 78,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/news.svg",
+              "width" : 78
+            },
+            "link" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/TheWestAustralian23-jul-20.jpeg",
+            "tag_id" : "press",
+            "tag_name" : "Press release"
+          } ],
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Media_Blurb_Module",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Media_Blurb_Module",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_16002604096721297",
+        "label" : "Press Resource Wrap",
+        "type" : "cell",
+        "params" : {
+          "css_class" : "press-resc-wrap",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ {
+          "0" : {
+            "x" : 0,
+            "w" : 12,
+            "name" : "module_16002604096721298",
+            "label" : "Page Center",
+            "type" : "cell",
+            "params" : {
+              "css_class" : "page-center",
+              "css_id" : "",
+              "css_id_str" : "",
+              "css_style" : "",
+              "overrideable" : false,
+              "per_widget_wrapper_html" : "",
+              "wrapping_html" : ""
+            },
+            "rows" : [ {
+              "0" : {
+                "x" : 0,
+                "w" : 12,
+                "name" : "module_16012897807901027",
+                "label" : "Press Resource Inner",
+                "type" : "cell",
+                "params" : {
+                  "css_class" : "press-resc-inner",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "overrideable" : false,
+                  "per_widget_wrapper_html" : "",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ {
+                  "0" : {
+                    "x" : 0,
+                    "w" : 4,
+                    "name" : "module_16012897609571008",
+                    "label" : "Press Resource Item",
+                    "type" : "cell",
+                    "params" : {
+                      "css_class" : "press-resc-item press-resc-item1",
+                      "css_id" : "",
+                      "css_id_str" : "",
+                      "css_style" : "",
+                      "overrideable" : false,
+                      "per_widget_wrapper_html" : "",
+                      "wrapping_html" : ""
+                    },
+                    "rows" : [ {
+                      "0" : {
+                        "x" : 0,
+                        "w" : 12,
+                        "name" : "module_16012897609561007",
+                        "label" : "Press Resource Image",
+                        "type" : "custom_widget",
+                        "params" : {
+                          "css_class" : "press-resc-img",
+                          "css_id" : "",
+                          "css_id_str" : "",
+                          "css_style" : "",
+                          "img" : {
+                            "alt" : "Press_Resource_1",
+                            "height" : 236,
+                            "max_height" : 236,
+                            "max_width" : 344,
+                            "size_type" : "auto",
+                            "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Press_Resource_1.svg",
+                            "width" : 344
+                          },
+                          "overrideable" : true,
+                          "path" : "@hubspot/linked_image",
+                          "per_widget_wrapper_html" : "",
+                          "schema_version" : 2,
+                          "widget_name" : "Image",
+                          "wrapping_html" : ""
+                        },
+                        "rows" : [ ],
+                        "rowMetaData" : [ ],
+                        "cells" : [ ],
+                        "cssId" : "",
+                        "cssClass" : "press-resc-img",
+                        "cssStyle" : "",
+                        "styles" : null,
+                        "widgets" : [ ]
+                      }
+                    }, {
+                      "0" : {
+                        "x" : 0,
+                        "w" : 12,
+                        "name" : "module_16002604096721303",
+                        "label" : "Press Resource Text",
+                        "type" : "custom_widget",
+                        "params" : {
+                          "css_class" : "press-resc-text",
+                          "css_id" : "",
+                          "css_id_str" : "",
+                          "css_style" : "",
+                          "html" : "<h3>Latest press release</h3>\n<p>Functionly wins $598k Federal Accelerating Commercialisation Grant</p>\n<a href=\"#1\">PDF</a> <a href=\"#1\">Article</a>",
+                          "overrideable" : true,
+                          "path" : "@hubspot/rich_text",
+                          "per_widget_wrapper_html" : "",
+                          "schema_version" : 2,
+                          "widget_name" : "Rich Text",
+                          "wrapping_html" : ""
+                        },
+                        "rows" : [ ],
+                        "rowMetaData" : [ ],
+                        "cells" : [ ],
+                        "cssId" : "",
+                        "cssClass" : "press-resc-text",
+                        "cssStyle" : "",
+                        "styles" : null,
+                        "widgets" : [ ]
+                      }
+                    } ],
+                    "rowMetaData" : [ ],
+                    "cells" : [ ],
+                    "cssId" : "",
+                    "cssClass" : "press-resc-item press-resc-item1",
+                    "cssStyle" : "",
+                    "styles" : null,
+                    "widgets" : [ ]
+                  },
+                  "4" : {
+                    "x" : 4,
+                    "w" : 4,
+                    "name" : "module_16012903672501303",
+                    "label" : "Press Resource Item",
+                    "type" : "cell",
+                    "params" : {
+                      "css_class" : "press-resc-item press-resc-item2",
+                      "css_id" : "",
+                      "css_id_str" : "",
+                      "css_style" : "",
+                      "overrideable" : false,
+                      "per_widget_wrapper_html" : "",
+                      "wrapping_html" : ""
+                    },
+                    "rows" : [ {
+                      "0" : {
+                        "x" : 0,
+                        "w" : 12,
+                        "name" : "module_16012903672501304",
+                        "label" : "Press Resource Image",
+                        "type" : "custom_widget",
+                        "params" : {
+                          "css_class" : "press-resc-img",
+                          "css_id" : "",
+                          "css_id_str" : "",
+                          "css_style" : "",
+                          "img" : {
+                            "alt" : "Press_Resource_2",
+                            "height" : 60,
+                            "max_height" : 60,
+                            "max_width" : 78,
+                            "size_type" : "auto",
+                            "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Press_Resource_2.svg",
+                            "width" : 78
+                          },
+                          "overrideable" : true,
+                          "path" : "@hubspot/linked_image",
+                          "per_widget_wrapper_html" : "",
+                          "schema_version" : 2,
+                          "widget_name" : "Image",
+                          "wrapping_html" : ""
+                        },
+                        "rows" : [ ],
+                        "rowMetaData" : [ ],
+                        "cells" : [ ],
+                        "cssId" : "",
+                        "cssClass" : "press-resc-img",
+                        "cssStyle" : "",
+                        "styles" : null,
+                        "widgets" : [ ]
+                      }
+                    }, {
+                      "0" : {
+                        "x" : 0,
+                        "w" : 12,
+                        "name" : "module_16012903672501305",
+                        "label" : "Press Resource Text",
+                        "type" : "custom_widget",
+                        "params" : {
+                          "css_class" : "press-resc-text",
+                          "css_id" : "",
+                          "css_id_str" : "",
+                          "css_style" : "",
+                          "html" : "<h3>Brand Downloads</h3>\n<p>For brand assets, see below:</p>\n<a href=\"#1\">Functionly logo package download (Zip)</a>",
+                          "overrideable" : true,
+                          "path" : "@hubspot/rich_text",
+                          "per_widget_wrapper_html" : "",
+                          "schema_version" : 2,
+                          "widget_name" : "Rich Text",
+                          "wrapping_html" : ""
+                        },
+                        "rows" : [ ],
+                        "rowMetaData" : [ ],
+                        "cells" : [ ],
+                        "cssId" : "",
+                        "cssClass" : "press-resc-text",
+                        "cssStyle" : "",
+                        "styles" : null,
+                        "widgets" : [ ]
+                      }
+                    } ],
+                    "rowMetaData" : [ ],
+                    "cells" : [ ],
+                    "cssId" : "",
+                    "cssClass" : "press-resc-item press-resc-item2",
+                    "cssStyle" : "",
+                    "styles" : null,
+                    "widgets" : [ ]
+                  },
+                  "8" : {
+                    "x" : 8,
+                    "w" : 4,
+                    "name" : "module_16012903720731325",
+                    "label" : "Press Resource Item",
+                    "type" : "cell",
+                    "params" : {
+                      "css_class" : "press-resc-item press-resc-item3",
+                      "css_id" : "",
+                      "css_id_str" : "",
+                      "css_style" : "",
+                      "overrideable" : false,
+                      "per_widget_wrapper_html" : "",
+                      "wrapping_html" : ""
+                    },
+                    "rows" : [ {
+                      "0" : {
+                        "x" : 0,
+                        "w" : 12,
+                        "name" : "module_16012903720731326",
+                        "label" : "Press Resource Image",
+                        "type" : "custom_widget",
+                        "params" : {
+                          "css_class" : "press-resc-img",
+                          "css_id" : "",
+                          "css_id_str" : "",
+                          "css_style" : "",
+                          "img" : {
+                            "alt" : "Press_Resource_3",
+                            "height" : 60,
+                            "max_height" : 60,
+                            "max_width" : 78,
+                            "size_type" : "auto",
+                            "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Press_Resource_3.svg",
+                            "width" : 78
+                          },
+                          "overrideable" : true,
+                          "path" : "@hubspot/linked_image",
+                          "per_widget_wrapper_html" : "",
+                          "schema_version" : 2,
+                          "widget_name" : "Image",
+                          "wrapping_html" : ""
+                        },
+                        "rows" : [ ],
+                        "rowMetaData" : [ ],
+                        "cells" : [ ],
+                        "cssId" : "",
+                        "cssClass" : "press-resc-img",
+                        "cssStyle" : "",
+                        "styles" : null,
+                        "widgets" : [ ]
+                      }
+                    }, {
+                      "0" : {
+                        "x" : 0,
+                        "w" : 12,
+                        "name" : "module_16012903720731327",
+                        "label" : "Press Resource Text",
+                        "type" : "custom_widget",
+                        "params" : {
+                          "css_class" : "press-resc-text",
+                          "css_id" : "",
+                          "css_id_str" : "",
+                          "css_style" : "",
+                          "html" : "<h3>Inquiries</h3>\n<p>For press inquiries, email: <a href=\"mailto:press@functionly.com\">press@functionly.com</a></p>",
+                          "overrideable" : true,
+                          "path" : "@hubspot/rich_text",
+                          "per_widget_wrapper_html" : "",
+                          "schema_version" : 2,
+                          "widget_name" : "Rich Text",
+                          "wrapping_html" : ""
+                        },
+                        "rows" : [ ],
+                        "rowMetaData" : [ ],
+                        "cells" : [ ],
+                        "cssId" : "",
+                        "cssClass" : "press-resc-text",
+                        "cssStyle" : "",
+                        "styles" : null,
+                        "widgets" : [ ]
+                      }
+                    } ],
+                    "rowMetaData" : [ ],
+                    "cells" : [ ],
+                    "cssId" : "",
+                    "cssClass" : "press-resc-item press-resc-item3",
+                    "cssStyle" : "",
+                    "styles" : null,
+                    "widgets" : [ ]
+                  }
+                } ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "press-resc-inner",
+                "cssStyle" : "",
+                "styles" : null,
+                "widgets" : [ ]
+              }
+            } ],
+            "rowMetaData" : [ ],
+            "cells" : [ ],
+            "cssId" : "",
+            "cssClass" : "page-center",
+            "cssStyle" : "",
+            "styles" : null,
+            "widgets" : [ ]
+          }
+        } ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "press-resc-wrap",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1601289376946778",
+        "label" : "Testimonial Slider Module",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Testimonial Slider Module",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Testimonial Slider Module",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1699889281607113",
+        "label" : "CTA_Module_Global",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "wrapping_html" : "",
+          "per_widget_wrapper_html" : "",
+          "overrideable" : true,
+          "widget_name" : "CTA_Module_Global",
+          "schema_version" : 2,
+          "path" : "/Functionly_2020/Custom_Modules/CTA_Module_Global"
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1603544109360375",
+        "label" : "Flexible column",
+        "type" : "widget_container",
+        "params" : {
+          "css_class" : "flex-column",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "flex-column",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "",
+        "label" : "",
+        "type" : "section_delimiter",
+        "params" : { },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_15999231076911006",
+        "label" : "Footer_2020",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "path" : "/Functionly_2020/Global_Modules/Footer_2020.template.json",
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    } ],
+    "rowMetaData" : [ ],
+    "cells" : [ ],
+    "cssId" : "",
+    "cssClass" : "",
+    "cssStyle" : "",
+    "styles" : null,
+    "widgets" : [ ]
+  }
+}

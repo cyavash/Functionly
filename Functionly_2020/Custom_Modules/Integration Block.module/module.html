@@ -1,0 +1,33 @@
+<div class="integration-block">
+  <div class="page-center">
+    <h2>{{ module.heading }}</h2>
+    {{ module.sub_heading }}
+    <div class="integration-block-mist">
+       <div class="top-white-mist"></div>
+    <div class="integration-block-outer">     
+      {% for item in module.field_group %}
+       <div class="integration-block-inner">
+         
+         {% if item.image_field.src %}
+              {% set sizeAttrs = 'width="{{ item.image_field.width }}" height="{{ item.image_field.height }}"' %}
+              {% if item.image_field.size_type == 'auto' %}
+                {% set sizeAttrs = 'style="max-width: 100%; height: auto;"' %}
+              {% elif item.image_field.size_type == 'auto_custom_max' %}
+                {% set sizeAttrs = 'width="{{ item.image_field.max_width }}" height="{{ item.image_field.max_height }}" style="max-width: 100%; height: auto;"' %}
+              {% endif %}
+               {% set loadingAttr = item.image_field.loading != 'disabled' ? 'loading="{{ item.image_field.loading }}"' : '' %}
+              <img src="{{ item.image_field.src }}" alt="{{ item.image_field.alt }}" {{ loadingAttr }} {{ sizeAttrs }}>
+            {% endif %}
+         <p>
+           {{ item.text_field }}
+         </p>
+       </div>
+     {% endfor %} 
+    </div>
+    <div class="bottom-white-mist"></div>
+    </div>
+   <p style="text-align:center">
+     {% cta guid="{{ module.cta_field }}" %}
+    </p> 
+  </div>
+</div>

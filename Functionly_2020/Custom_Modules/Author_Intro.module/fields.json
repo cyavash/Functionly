@@ -1,0 +1,90 @@
+[ {
+  "id" : "c2a7913d-dfa7-d91d-a997-16b0b5a14ce5",
+  "name" : "author_name",
+  "display_width" : null,
+  "label" : "Author Name",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Functionly"
+}, {
+  "id" : "8bc293fb-ff0b-d647-bee7-50617d48b704",
+  "name" : "image_field",
+  "display_width" : null,
+  "label" : "Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/download%20(2).png",
+    "alt" : "download (2)",
+    "loading" : "lazy",
+    "width" : 225,
+    "height" : 225,
+    "max_width" : 225,
+    "max_height" : 225
+  }
+}, {
+  "id" : "c6de2a97-8bd5-aee2-8f1a-0035fe283450",
+  "name" : "description",
+  "display_width" : null,
+  "label" : "Description",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+}, {
+  "id" : "df640603-6bc8-c110-5b57-19149a7a5959",
+  "name" : "website_link",
+  "display_width" : null,
+  "label" : "Website Link",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : ""
+}, {
+  "id" : "768a1941-dfc7-9dcb-680e-a94f060d5d75",
+  "name" : "linkedin",
+  "display_width" : null,
+  "label" : "LinkedIn",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : ""
+}, {
+  "id" : "c9e5026b-3725-e3fc-24c1-75b19360228c",
+  "name" : "twitter",
+  "display_width" : null,
+  "label" : "Twitter",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : ""
+}, {
+  "id" : "551fef61-f4c5-f4ab-5f5d-26bb108f7765",
+  "name" : "facebook",
+  "display_width" : null,
+  "label" : "Facebook",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text"
+} ]

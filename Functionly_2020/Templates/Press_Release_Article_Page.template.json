@@ -1,0 +1,337 @@
+{
+  "isAvailableForNewContent" : true,
+  "templateType" : 4,
+  "attachedStylesheets" : [ {
+    "type" : "cos_extension_resource",
+    "path" : "/Functionly_2020/Codes/Stylesheet_2020.css"
+  } ],
+  "attachedJs" : [ {
+    "type" : "cos_extension_resource",
+    "path" : "/Functionly_2020/Codes/script_2020.js"
+  } ],
+  "customHead" : "<link href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\" rel=\"stylesheet\"> \n\n\n\n",
+  "customFooter" : "",
+  "bodyClass" : "",
+  "bodyCss" : "",
+  "bodyEditable" : false,
+  "layoutData" : {
+    "x" : 0,
+    "w" : 12,
+    "name" : "",
+    "label" : "",
+    "type" : "cell",
+    "params" : { },
+    "rows" : [ {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1599923101440995",
+        "label" : "Header_2020",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "path" : "/Functionly_2020/Global_Modules/Header_2020.template.json",
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "",
+        "label" : "",
+        "type" : "section_delimiter",
+        "params" : { },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1601889594292466",
+        "label" : "Press_Hero_Module",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Press_Hero_Module",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Press_Hero_Module",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1601888752674240",
+        "label" : "PR Content Wrap",
+        "type" : "cell",
+        "params" : {
+          "css_class" : "pr-content-wrap",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ {
+          "0" : {
+            "x" : 0,
+            "w" : 12,
+            "name" : "module_1601888751257234",
+            "label" : "Page Center",
+            "type" : "cell",
+            "params" : {
+              "css_class" : "page-center",
+              "css_id" : "",
+              "css_id_str" : "",
+              "css_style" : "",
+              "overrideable" : false,
+              "per_widget_wrapper_html" : "",
+              "wrapping_html" : ""
+            },
+            "rows" : [ {
+              "0" : {
+                "x" : 0,
+                "w" : 12,
+                "name" : "module_1601888747267229",
+                "label" : "PR Content Text",
+                "type" : "custom_widget",
+                "params" : {
+                  "css_class" : "pr-content-text",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "html" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis nulla ante, nec laoreet arcu placerat vel.</p>\n<p>Donec vitae nunc molestie, convallis nisi sed, tempus mauris. Praesent congue augue quis nisi convallis, sit amet luctus ante mattis. Mauris id ex tortor. Nunc consequat vehicula sagittis. In odio ex, feugiat facilisis bibendum sit amet, venenatis scelerisque est.</p>\n<p>Aliquam bibendum turpis scelerisque enim volutpat tincidunt quis eu tellus. Curabitur at sollicitudin sapien, a laoreet ipsum. Cras vel ligula at turpis condimentum scelerisque a vitae lacus. Fusce vitae velit dictum, pulvinar velit a, iaculis velit. Morbi mattis neque id metus sodales, dapibus pulvinar sem sollicitudin. Donec urna felis, dapibus non fringilla sed, sagittis id erat. Aenean suscipit lectus id erat auctor dapibus.</p>\n<p>Morbi rhoncus vehicula ipsum a molestie. <a href=\"#1\">Nulla lobortis</a> felis a nulla maximus, id gravida est facilisis. Sed tempor nibh in aliquam ultrices. Nunc in dapibus ipsum. Etiam diam purus, blandit vitae est ac, egestas accumsan nulla.</p>\n<p>Sed semper sem quis dolor faucibus maximus. Nullam scelerisque quis felis accumsan rhoncus. <strong>Ut volutpat, ligula a elementum sollicitudin, eros diam accumsan diam,</strong> in mollis urna quam vel tortor. Donec vulputate fringilla laoreet.</p>\n<p>Nam vitae scelerisque neque. Nullam luctus lorem vel sapien lacinia, nec facilisis lacus viverra.</p>\n<p>Praesent vulputate lorem in pharetra pretium. <a href=\"#1\">Suspendisse pulvinar porta sem</a>, ut venenatis purus porta fermentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>\n<h2>Storytellers and clear communicators</h2>\n<p>In hac habitasse platea dictumst. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut quis mi luctus, ultrices mauris non, vehicula neque. Pellentesque velit dolor, condimentum vel efficitur a, tincidunt vitae tellus. Fusce convallis venenatis lorem sed suscipit.</p>\n<blockquote>Praesent vulputate lorem in pharetra pretium. Suspendisse pulvinar porta sem, ut venenatis purus porta fermentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</blockquote>\n<p><strong>Ut volutpat, ligula a elementum sollicitudin, eros diam accumsan diam,</strong> in mollis urna quam vel tortor. Donec vulputate fringilla laoreet.</p>\n<ul>\n<li>Nulla facilisis est vitae pharetra finibus.</li>\n<li>Nullam dapibus est augue, sed efficitur felis saittis ut.</li>\n<li>In sit amet mauris metus. Sed bibendum, metus eget sodales finibus,</li>\n<li>Urna velit sagittis est, sit amet rutrum nisi libero quis urna.</li>\n</ul>\n<h3>Moments of celebration</h3>\n<p>Curabitur at odio porttitor, tempor lacus non, volutpat lorem. Vivamus et aliquam enim. <a href=\"#1\">Sed in rhoncus diam</a>, ut elementum felis. Sed suscipit, ligula suscipit scelerisque feugiat, sapien quam fermentum nisi, interdum venenatis elit leo sed nisl.</p>\n<p>Proin bibendum aliquet metus id ullamcorper.</p>",
+                  "overrideable" : true,
+                  "path" : "@hubspot/rich_text",
+                  "per_widget_wrapper_html" : "",
+                  "schema_version" : 2,
+                  "widget_name" : "Rich Text",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "pr-content-text",
+                "cssStyle" : "",
+                "styles" : null,
+                "widgets" : [ ]
+              }
+            }, {
+              "0" : {
+                "x" : 0,
+                "w" : 12,
+                "name" : "module_1601890261343615",
+                "label" : "Media Tag",
+                "type" : "custom_widget",
+                "params" : {
+                  "css_class" : "media-tag",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "header_tag" : "h4",
+                  "overrideable" : true,
+                  "path" : "@hubspot/header",
+                  "per_widget_wrapper_html" : "",
+                  "schema_version" : 2,
+                  "value" : "Press",
+                  "widget_name" : "Header",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "media-tag",
+                "cssStyle" : "",
+                "styles" : null,
+                "widgets" : [ ]
+              }
+            } ],
+            "rowMetaData" : [ ],
+            "cells" : [ ],
+            "cssId" : "",
+            "cssClass" : "page-center",
+            "cssStyle" : "",
+            "styles" : null,
+            "widgets" : [ ]
+          }
+        } ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "pr-content-wrap",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1601888718969208",
+        "label" : "Post_Related_Articles",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Post_Related_Articles",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Post_Related_Articles",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_169988924100887",
+        "label" : "CTA_Module_Global",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "wrapping_html" : "",
+          "per_widget_wrapper_html" : "",
+          "overrideable" : true,
+          "widget_name" : "CTA_Module_Global",
+          "schema_version" : 2,
+          "path" : "/Functionly_2020/Custom_Modules/CTA_Module_Global"
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1603544186241461",
+        "label" : "Flexible column",
+        "type" : "widget_container",
+        "params" : {
+          "css_class" : "flex-column",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "flex-column",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "",
+        "label" : "",
+        "type" : "section_delimiter",
+        "params" : { },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_15999231076911006",
+        "label" : "Footer_2020",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "path" : "/Functionly_2020/Global_Modules/Footer_2020.template.json",
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    } ],
+    "rowMetaData" : [ ],
+    "cells" : [ ],
+    "cssId" : "",
+    "cssClass" : "",
+    "cssStyle" : "",
+    "styles" : null,
+    "widgets" : [ ]
+  }
+}

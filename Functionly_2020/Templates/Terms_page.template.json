@@ -1,0 +1,314 @@
+{
+  "isAvailableForNewContent" : true,
+  "templateType" : 4,
+  "attachedStylesheets" : [ {
+    "type" : "cos_extension_resource",
+    "path" : "/Functionly_2020/Codes/Stylesheet_2020.css"
+  } ],
+  "attachedJs" : [ {
+    "type" : "cos_extension_resource",
+    "path" : "/Functionly_2020/Codes/script_2020.js"
+  } ],
+  "customHead" : "<link href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\" rel=\"stylesheet\"> \n\n\n\n",
+  "customFooter" : "",
+  "bodyClass" : "",
+  "bodyCss" : "",
+  "bodyEditable" : false,
+  "layoutData" : {
+    "x" : 0,
+    "w" : 12,
+    "name" : "",
+    "label" : "",
+    "type" : "cell",
+    "params" : { },
+    "rows" : [ {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1599923101440995",
+        "label" : "Header_2020",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "path" : "/Functionly_2020/Global_Modules/Header_2020.template.json",
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "",
+        "label" : "",
+        "type" : "section_delimiter",
+        "params" : { },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1600251241860424",
+        "label" : "Hero_Module",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "hero" : {
+            "cta_1" : "",
+            "sub_title" : "Our Terms",
+            "title" : "Terms of Service"
+          },
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Hero_Module",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Hero_Module",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1599985755447963",
+        "label" : "Terms Text Wrap",
+        "type" : "cell",
+        "params" : {
+          "css_class" : "terms-text-wrap",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ {
+          "0" : {
+            "x" : 0,
+            "w" : 12,
+            "name" : "module_1599985755447964",
+            "label" : "Page Center",
+            "type" : "cell",
+            "params" : {
+              "css_class" : "page-center",
+              "css_id" : "",
+              "css_id_str" : "",
+              "css_style" : "",
+              "overrideable" : false,
+              "per_widget_wrapper_html" : "",
+              "wrapping_html" : ""
+            },
+            "rows" : [ {
+              "0" : {
+                "x" : 0,
+                "w" : 12,
+                "name" : "module_1600584590575699",
+                "label" : "Terms Inner",
+                "type" : "cell",
+                "params" : {
+                  "css_class" : "terms-inner",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "overrideable" : false,
+                  "per_widget_wrapper_html" : "",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ {
+                  "0" : {
+                    "x" : 0,
+                    "w" : 12,
+                    "name" : "module_1600582055937262",
+                    "label" : "Terms Header",
+                    "type" : "custom_widget",
+                    "params" : {
+                      "css_class" : "terms-header",
+                      "css_id" : "",
+                      "css_id_str" : "",
+                      "css_style" : "",
+                      "header_tag" : "h2",
+                      "overrideable" : true,
+                      "path" : "@hubspot/header",
+                      "per_widget_wrapper_html" : "",
+                      "schema_version" : 2,
+                      "value" : "Terms of Service",
+                      "widget_name" : "Header",
+                      "wrapping_html" : ""
+                    },
+                    "rows" : [ ],
+                    "rowMetaData" : [ ],
+                    "cells" : [ ],
+                    "cssId" : "",
+                    "cssClass" : "terms-header",
+                    "cssStyle" : "",
+                    "styles" : null,
+                    "widgets" : [ ]
+                  }
+                }, {
+                  "0" : {
+                    "x" : 0,
+                    "w" : 12,
+                    "name" : "module_1600448317047535",
+                    "label" : "Terms Text",
+                    "type" : "custom_widget",
+                    "params" : {
+                      "css_class" : "terms-text",
+                      "css_id" : "",
+                      "css_id_str" : "",
+                      "css_style" : "",
+                      "html" : "<p>As part of the Functionly Service (the Service), Functionly will provide the Subscriber with use of the Service, including a browser interface and data transmission, access and storage. Subscriber’s registration for, or use of, the Service shall be deemed to be agreement to abide by these Terms of Use (“Agreement”) including any materials and terms available on Functionly or Functionly websites incorporated by reference herein, including but not limited to Functionly’s privacy and security policies set forth at <a href=\"https://www.functionly.com/privacy/\">https://www.functionly.com/privacy/</a>.</p>\n<h2>DEFINITIONS</h2>\n<ul>\n<li><strong>Application</strong> means one or more of the Functionly software applications or such other software application as notified by Functionly from time to time.</li>\n<li><strong>Email</strong> means any email or other communications generated or sent through the Service by a User.</li>\n<li><strong>Fees</strong> means the charges by Functionly for subscription to or use of the Service.</li>\n<li><strong>Functionly</strong> means Functionly Inc of 1000 Van Ness Avenue, San Francisco, CA.</li>\n<li><strong>Contract</strong> means the Functionly order form or forms and any ancillary Functionly terms completed and processed by and with Subscriber to sign up for the relevant Service.</li>\n<li><strong>Service</strong> means hosting of the specific Functionly software Application identified during the ordering process, developed or licensed, operated, and maintained by Functionly, accessible via functionally.com or another designated Functionly web site or IP address, or ancillary online or offline products and services provided to Subscriber by Functionly, to which Subscriber is being granted access under this Agreement.</li>\n<li><strong>Subscriber</strong> means the individual or entity that has subscribed for the Service under the terms and conditions of this Agreement.</li>\n<li><strong>Subscriber Data</strong>&nbsp;means data submitted, stored, sent or received via the Services by Subscriber or a User (as defined below).</li>\n<li><strong>Technology</strong> means the Functionly technology and underlying software and proprietary and intellectual property rights therein.</li>\n<li><strong>Term</strong> means the Initial Term or any Renewal Term, as defined in Section 5 below.</li>\n<li><strong>USD</strong> means United States dollars.</li>\n<li><strong>User</strong> means Subscriber’s employees, representatives, consultants, contractors, customers or agents who are authorized to use the Service and have been supplied user identifications and passwords by Subscriber (or by or for Functionly at Subscriber’s request).</li>\n</ul>\n<p dir=\"ltr\">As used herein, “personal data”, “processing”, “processor”, “subprocessor”, “controller” “data exporter”, “data importer” and “data subject” shall have the meanings given to them in Directive 95/46/EC of 24 October 1995</p>\n<h2><strong>1. SAAS SERVICES AND SUPPORT</strong></h2>\n<ul class=\"editor-rich-text__tinymce mce-content-body\" contenteditable=\"true\" aria-label=\"Write list…\" aria-autocomplete=\"list\" aria-multiline=\"true\" data-is-placeholder-visible=\"false\" role=\"textbox\">\n<li>Subject to the terms of this Agreement, Company will use commercially reasonable efforts to provide Customer the Services in accordance with the Service Level Terms within Functionly Order Form. The Services will aim to be available 99.9%, measured monthly, excluding holidays and weekends and scheduled maintenance.&nbsp; If Customer requests maintenance during these hours, any uptime or downtime calculation will exclude periods affected by such maintenance.</li>\n<li>As part of the Implementation Services, Customer will identify an administrative user name and password for Customer’s account. Company reserves the right to refuse registration of, or cancel passwords it deems inappropriate.</li>\n<li>the Customer must not, without the consent of the Company provide the designated username, password and any other registration details to any other person, including its subsidiaries, representatives or affiliates.</li>\n</ul>\n<ul class=\"editor-rich-text__tinymce mce-content-body\" contenteditable=\"true\" aria-label=\"Write list…\" aria-autocomplete=\"list\" aria-multiline=\"true\" data-is-placeholder-visible=\"false\" role=\"textbox\">\n<li data-pd-redactor=\"\">Company will provide Technical Support to Customer via electronic mail on weekdays during the hours of 9:00 am through 5:00 pm Pacific time, with the exclusion of Federal Holidays (<strong data-redactor-tag=\"strong\">“Support Hours”)</strong>.</li>\n</ul>\n<ul id=\"mce_19\" class=\"editor-rich-text__tinymce mce-content-body\" contenteditable=\"true\" aria-label=\"Write list…\" aria-autocomplete=\"list\" aria-multiline=\"true\" data-is-placeholder-visible=\"false\" role=\"textbox\">\n<li data-pd-redactor=\"\">Company will use commercially reasonable efforts to respond to all Helpdesk tickets within one (1) business day. The company may at its discretion offer phone and Chat support as required.</li>\n</ul>\n<h2><strong>2. RESTRICTIONS AND RESPONSIBILITIES </strong></h2>\n<ul>\n<li>Customer will not, directly or indirectly: reverse engineer, decompile, disassemble or otherwise attempt to discover the source code, object code or underlying structure, ideas, know-how or algorithms relevant to the Services or any software, documentation or data related to the Services (“Software”); modify, translate, or create derivative works based on the Services or any Software (except to the extent expressly permitted by Company or authorized within the Services); use the Services or any Software for timesharing or service bureau purposes or otherwise for the benefit of a third; or remove any proprietary notices or labels.</li>\n<li>With respect to any Software that is distributed or provided to Customer for use on Customer premises or devices, Company hereby grants Customer a revocable, non-exclusive, non-transferable, non-sublicensable license to use such Software during the Term only in connection with the Services.</li>\n<li>Further, Customers based in the USA may not remove or export from the United States or allow the export or re-export of the Services, Software or anything related thereto, or any direct product thereof in violation of any restrictions, laws or regulations of the United States Department of Commerce, the United States Department of Treasury Office of Foreign Assets Control, or any other United States or foreign agency or authority. As defined in FAR section 2.101, the Software and documentation are “commercial items” and according to DFAR section 252.227-7014(a)(1) and (5) are deemed to be “commercial computer software” and “commercial computer software documentation.” Consistent with DFAR section 227.7202 and FAR section 12.212, any use modification, reproduction, release, performance, display, or disclosure of such commercial software or commercial software documentation by the U.S. Government will be governed solely by the terms of this Agreement and will be prohibited except to the extent expressly permitted by the terms of this Agreement.</li>\n<li>Customer represents, covenants, and warrants that Customer will use the Services only in compliance with Company’s standard published policies then in effect (the “Policy”) and all applicable laws and regulations. The Company will provide the Policy to the Customer. Customer hereby agrees to indemnify and hold harmless Company against any damages, losses, liabilities, settlements and expenses (including without limitation costs and attorneys’ fees) in connection with any claim or action that arises from an alleged violation of the foregoing or otherwise from Customer’s use of Services. Although Company has no obligation to monitor Customer’s use of the Services, Company may do so and may prohibit any use of the Services it believes may be (or alleged to be) in violation of the foregoing.</li>\n<li>Customer shall be responsible for obtaining and maintaining any equipment and ancillary services needed to connect to, access or otherwise use the Services, including, without limitation, modems, hardware, servers, software, operating systems, networking, web servers and the like (collectively, “Equipment”). Customer shall also be responsible for maintaining the security of the Equipment, Customer account, passwords (including but not limited to administrative and user passwords) and files, and for all uses of Customer account or the Equipment with or without Customer’s knowledge or consent.</li>\n</ul>\n<h2><strong>3. CONFIDENTIALITY; PROPRIETARY RIGHTS</strong></h2>\n<ul id=\"mce_28\" class=\"editor-rich-text__tinymce mce-content-body\" contenteditable=\"true\" aria-label=\"Write list…\" aria-autocomplete=\"list\" aria-multiline=\"true\" data-is-placeholder-visible=\"false\" role=\"textbox\">\n<li>Each party (the “Receiving Party”) understands that the other party (the “Disclosing Party”) has disclosed or may disclose business, technical or financial information relating to the Disclosing Party’s business (hereinafter referred to as “Proprietary Information” of the Disclosing Party). Proprietary Information of Company includes non-public information regarding features, functionality and performance of the Service. Proprietary Information of Customer includes non-public data provided by Customer to Company to enable the provision of the Services (“Customer Data”). The Receiving Party agrees: (i) to take reasonable precautions to protect such Proprietary Information, and (ii) not to use (except in performance of the Services or as otherwise permitted herein) or divulge to any third person any such Proprietary Information. The Disclosing Party agrees that the foregoing shall not apply with respect to any information after five (5) years following the disclosure thereof or any information that the Receiving Party can document (a) is or becomes generally available to the public, or (b) was in its possession or known by it prior to receipt from the Disclosing Party, or (c) was rightfully disclosed to it without restriction by a third party, or (d) was independently developed without use of any Proprietary Information of the Disclosing Party or (e) is required to be disclosed by law.</li>\n<li>Customer shall own all right, title and interest in and to the Customer Data. Company shall own and retain all right, title and interest in and to (a) the Services and Software, all improvements, enhancements or modifications thereto, (b) any software, applications, inventions or other technology developed in connection with Implementation Services, or support, and (c) all intellectual property related to any of the foregoing.</li>\n<li>Notwithstanding anything to the contrary, Company shall have the right collect and analyze data and other information relating to the provision, use and performance of various aspects of the Services provided to Customer as part of the Services and related systems and technologies (including, without limitation, information concerning Customer Data as well, any data that is based on or derived from the Customer Data and data derived therefrom), and Company will be free (during and after the term hereof) to (i) use such information and data to improve and enhance the Services and for other development, diagnostic and corrective purposes in connection with the Services and other Company offerings, and (ii) disclose such data solely in aggregate or other de-identified form in connection with its business. No rights or licenses are granted except as expressly set forth herein.</li>\n</ul>\n<h2><strong>4. PAYMENT OF FEES</strong></h2>\n<ul>\n<li>Customer will pay Company the then applicable fees described in the Order Form for the Services and Implementation Services in accordance with the terms therein (the “Fees”). If Customer’s use of the Services exceeds the Service Capacity set forth on the Order Form or otherwise requires the payment of additional fees (per the terms of this Agreement), Customer shall be billed for such usage and Customer agrees to pay the additional fees in the manner provided herein. Company reserves the right to change the Fees or applicable charges and to institute new charges and Fees at the end of the Initial Service Term or then-current renewal term, upon thirty (30) days prior notice to Customer (which may be sent by email). If Customer believes that Company has billed Customer incorrectly, Customer must contact Company no later than 60 days after the closing date on the first billing statement in which the error or problem appeared, in order to receive an adjustment or credit. Inquiries should be directed to Company’s customer support department.</li>\n<li>Company will issue an invoice to the Customer for payment of the Service Fees and the Customer must provide full payment for invoices issued in any given period within ten (10) days of the mailing date of the invoice. Unpaid amounts are subject to an interest of 1.5% per month on any outstanding balance, or the maximum permitted by law, whichever is lower, plus all expenses of collection and may result in immediate termination of Service. Customer shall be responsible for all taxes associated with Services other than U.S. taxes based on Company’s net income.</li>\n</ul>\n<h2><strong>5. TERM AND TERMINATION</strong></h2>\n<ul>\n<li>Subject to earlier termination as provided below, this Agreement is for the Initial Service Term as specified in the Order Form, and shall be automatically renewed for additional periods of the same duration as the Initial Service Term (collectively, the “Term”), unless either party requests termination at least thirty (30) days prior to the end of the then current term.</li>\n<li>In addition to any other remedies it may have, either party may also terminate this Agreement upon thirty (30) days’ notice (or without notice in the case of nonpayment), if the other party materially breaches any of the terms or conditions of this Agreement. Customer will pay in full for the Services up to and including the last day on which the Services are provided. Upon any termination, Company will make all Customer Data available to Customer for electronic retrieval for a period of thirty (30) days, but thereafter Company may, but is not obligated to, delete stored Customer Data. All sections of this Agreement which by their nature should survive termination will survive termination, including, without limitation, accrued rights to payment, confidentiality obligations, warranty disclaimers, and limitations of liability.</li>\n</ul>\n<h2><strong>6. WARRANTY AND DISCLAIMER</strong></h2>\n<p>Company shall use reasonable efforts consistent with prevailing industry standards to maintain the Services in a manner which minimizes errors and interruptions in the Services and shall perform the Services and Implementation Services in a professional and workmanlike manner. Services may be temporarily unavailable for scheduled maintenance or for unscheduled emergency maintenance, either by Company or by third-party providers, or because of other causes beyond Company’s reasonable control, but Company shall use reasonable efforts to provide advance notice in writing or by e-mail of any scheduled service disruption. However, Company does not warrant that the Services will be uninterrupted or error free; nor does it make any warranty as to the results that may be obtained from use of the Services. EXCEPT AS EXPRESSLY SET FORTH IN THIS SECTION, THE SERVICES AND IMPLEMENTATION SERVICES ARE PROVIDED “AS IS” AND COMPANY DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.</p>\n<h2><strong>7. INDEMNITY</strong></h2>\n<p>Company shall hold Customer harmless from liability to third parties resulting from infringement by the Service of any United States patent or any copyright or misappropriation of any trade secret, provided Company is promptly notified of any and all threats, claims and proceedings related thereto and given reasonable assistance and the opportunity to assume sole control over defense and settlement; Company will not be responsible for any settlement it does not approve in writing. The foregoing obligations do not apply with respect to portions or components of the Service (i) not supplied by Company, (ii) made in whole or in part in accordance with Customer specifications, (iii) that are modified after delivery by Company (iv) combined with other products, processes or materials where the alleged infringement relates to such combination, (v) where Customer continues allegedly infringing activity after being notified thereof or after being informed of modifications that would have avoided the alleged infringement, or (vi) where Customer’s use of the Service is not strictly in accordance with this Agreement. If, due to a claim of infringement, the Services are held by a court of competent jurisdiction to be or are believed by Company to be infringing, Company may, at its option and expense (a) replace or modify the Service to be non-infringing provided that such modification or replacement contains substantially similar features and functionality, (b) obtain for Customer a license to continue using the Service, or (c) if neither of the foregoing is commercially practicable, terminate this Agreement and Customer’s rights hereunder and provide Customer a refund of any prepaid, unused fees for the Service.</p>\n<h2><strong>8. LIMITATION OF LIABILITY</strong></h2>\n<p>NOTWITHSTANDING ANYTHING TO THE CONTRARY, EXCEPT FOR BODILY INJURY OF A PERSON, COMPANY AND ITS SUPPLIERS (INCLUDING BUT NOT LIMITED TO ALL EQUIPMENT AND TECHNOLOGY SUPPLIERS), OFFICERS, AFFILIATES, REPRESENTATIVES, CONTRACTORS AND EMPLOYEES SHALL NOT BE RESPONSIBLE OR LIABLE WITH RESPECT TO ANY SUBJECT MATTER OF THIS AGREEMENT OR TERMS AND CONDITIONS RELATED THERETO UNDER ANY CONTRACT, NEGLIGENCE, STRICT LIABILITY OR OTHER THEORY: (A) FOR ERROR OR INTERRUPTION OF USE OR FOR LOSS OR INACCURACY OR CORRUPTION OF DATA OR COST OF PROCUREMENT OF SUBSTITUTE GOODS, SERVICES OR TECHNOLOGY OR LOSS OF BUSINESS; (B) FOR ANY INDIRECT, EXEMPLARY, INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES; (C) FOR ANY MATTER BEYOND COMPANY’S REASONABLE CONTROL; OR (D) FOR ANY AMOUNTS THAT, TOGETHER WITH AMOUNTS ASSOCIATED WITH ALL OTHER CLAIMS, EXCEED THE FEES PAID BY CUSTOMER TO COMPANY FOR THE SERVICES UNDER THIS AGREEMENT IN THE 12 MONTHS PRIOR TO THE ACT THAT GAVE RISE TO THE LIABILITY, IN EACH CASE, WHETHER OR NOT COMPANY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES</p>",
+                      "overrideable" : true,
+                      "path" : "@hubspot/rich_text",
+                      "per_widget_wrapper_html" : "",
+                      "schema_version" : 2,
+                      "widget_name" : "Rich Text",
+                      "wrapping_html" : ""
+                    },
+                    "rows" : [ ],
+                    "rowMetaData" : [ ],
+                    "cells" : [ ],
+                    "cssId" : "",
+                    "cssClass" : "terms-text",
+                    "cssStyle" : "",
+                    "styles" : null,
+                    "widgets" : [ ]
+                  }
+                } ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "terms-inner",
+                "cssStyle" : "",
+                "styles" : null,
+                "widgets" : [ ]
+              }
+            } ],
+            "rowMetaData" : [ ],
+            "cells" : [ ],
+            "cssId" : "",
+            "cssClass" : "page-center",
+            "cssStyle" : "",
+            "styles" : null,
+            "widgets" : [ ]
+          }
+        } ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "terms-text-wrap",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1699889342688116",
+        "label" : "CTA_Module_Global",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "wrapping_html" : "",
+          "per_widget_wrapper_html" : "",
+          "overrideable" : true,
+          "widget_name" : "CTA_Module_Global",
+          "schema_version" : 2,
+          "path" : "/Functionly_2020/Custom_Modules/CTA_Module_Global"
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "",
+        "label" : "",
+        "type" : "section_delimiter",
+        "params" : { },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_15999231076911006",
+        "label" : "Footer_2020",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "path" : "/Functionly_2020/Global_Modules/Footer_2020.template.json",
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    } ],
+    "rowMetaData" : [ ],
+    "cells" : [ ],
+    "cssId" : "",
+    "cssClass" : "",
+    "cssStyle" : "",
+    "styles" : null,
+    "widgets" : [ ]
+  }
+}

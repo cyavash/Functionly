@@ -1,0 +1,1297 @@
+{
+  "isAvailableForNewContent" : true,
+  "templateType" : 4,
+  "attachedStylesheets" : [ {
+    "type" : "cos_extension_resource",
+    "path" : "/Functionly_2020/Codes/Stylesheet_2020.css"
+  } ],
+  "attachedJs" : [ {
+    "type" : "cos_extension_resource",
+    "path" : "/Functionly_2020/Codes/script_2020.js"
+  } ],
+  "customHead" : "<link href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\" rel=\"stylesheet\"> \n\n\n\n",
+  "customFooter" : "",
+  "bodyClass" : "",
+  "bodyCss" : "",
+  "bodyEditable" : false,
+  "layoutData" : {
+    "x" : 0,
+    "w" : 12,
+    "name" : "",
+    "label" : "",
+    "type" : "cell",
+    "params" : { },
+    "rows" : [ {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1599923101440995",
+        "label" : "Header_2020",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "path" : "/Functionly_2020/Global_Modules/Header_2020.template.json",
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "",
+        "label" : "",
+        "type" : "section_delimiter",
+        "params" : { },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1600251241860424",
+        "label" : "Hero_Module",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "hero" : {
+            "cta_2" : "5aef27e8-6015-4fe7-a9db-844ac6133d8a",
+            "sub_title" : "Mergers and Acquisitions",
+            "title" : "Done well, mergers and acquisitions deliver immense value to organizations and stakeholders."
+          },
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Hero_Module",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Hero_Module",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_159998324127067",
+        "label" : "Case Content Wrap",
+        "type" : "cell",
+        "params" : {
+          "css_class" : "csub-text-wrap",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ {
+          "0" : {
+            "x" : 0,
+            "w" : 12,
+            "name" : "module_159998323984556",
+            "label" : "Page Center",
+            "type" : "cell",
+            "params" : {
+              "css_class" : "page-center",
+              "css_id" : "",
+              "css_id_str" : "",
+              "css_style" : "",
+              "overrideable" : false,
+              "per_widget_wrapper_html" : "",
+              "wrapping_html" : ""
+            },
+            "rows" : [ {
+              "0" : {
+                "x" : 0,
+                "w" : 12,
+                "name" : "module_15999865020401097",
+                "label" : "Vertical Inner",
+                "type" : "cell",
+                "params" : {
+                  "css_class" : "vertical-inner csub-inner1",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "overrideable" : false,
+                  "per_widget_wrapper_html" : "",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ {
+                  "0" : {
+                    "x" : 0,
+                    "w" : 6,
+                    "name" : "module_1600099612351381",
+                    "label" : "Item",
+                    "type" : "cell",
+                    "params" : {
+                      "css_class" : "vertical-item vert-img",
+                      "css_id" : "",
+                      "css_id_str" : "",
+                      "css_style" : "",
+                      "overrideable" : false,
+                      "per_widget_wrapper_html" : "",
+                      "wrapping_html" : ""
+                    },
+                    "rows" : [ {
+                      "0" : {
+                        "x" : 0,
+                        "w" : 12,
+                        "name" : "module_160698071633281",
+                        "label" : "Image or Video",
+                        "type" : "custom_widget",
+                        "params" : {
+                          "css_class" : "it-img",
+                          "css_id" : "",
+                          "css_id_str" : "",
+                          "css_style" : "",
+                          "wrapping_html" : "",
+                          "per_widget_wrapper_html" : "",
+                          "overrideable" : true,
+                          "widget_name" : "Image or Video",
+                          "schema_version" : 2,
+                          "path" : "/Image or Video",
+                          "image_video" : false,
+                          "img" : {
+                            "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/SVG%20Plan%20with%20Certainty.svg",
+                            "alt" : "SVG Plan with Certainty",
+                            "width" : 78,
+                            "height" : 60,
+                            "max_width" : 78,
+                            "max_height" : 60,
+                            "size_type" : "auto"
+                          }
+                        },
+                        "rows" : [ ],
+                        "rowMetaData" : [ ],
+                        "cells" : [ ],
+                        "cssId" : "",
+                        "cssClass" : "it-img",
+                        "cssStyle" : "",
+                        "styles" : null,
+                        "widgets" : [ ]
+                      }
+                    } ],
+                    "rowMetaData" : [ ],
+                    "cells" : [ ],
+                    "cssId" : "",
+                    "cssClass" : "vertical-item vert-img",
+                    "cssStyle" : "",
+                    "styles" : null,
+                    "widgets" : [ ]
+                  },
+                  "6" : {
+                    "x" : 6,
+                    "w" : 6,
+                    "name" : "module_1600099610000371",
+                    "label" : "Item",
+                    "type" : "cell",
+                    "params" : {
+                      "css_class" : "vertical-item vert-text",
+                      "css_id" : "",
+                      "css_id_str" : "",
+                      "css_style" : "",
+                      "overrideable" : false,
+                      "per_widget_wrapper_html" : "",
+                      "wrapping_html" : ""
+                    },
+                    "rows" : [ {
+                      "0" : {
+                        "x" : 0,
+                        "w" : 12,
+                        "name" : "module_159998323562548",
+                        "label" : "Vertical Text",
+                        "type" : "custom_widget",
+                        "params" : {
+                          "css_class" : "it-text",
+                          "css_id" : "",
+                          "css_id_str" : "",
+                          "css_style" : "",
+                          "html" : "<h2>Plan with certainty</h2>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et scelerisque magna, sit amet tempus purus. Mauris auctor, neque ut lobortis ultricies, nibh quam ultricies diam, eget sollicitudin metus augue sit amet libero.</p>",
+                          "overrideable" : true,
+                          "path" : "@hubspot/rich_text",
+                          "per_widget_wrapper_html" : "",
+                          "schema_version" : 2,
+                          "widget_name" : "Rich Text",
+                          "wrapping_html" : ""
+                        },
+                        "rows" : [ ],
+                        "rowMetaData" : [ ],
+                        "cells" : [ ],
+                        "cssId" : "",
+                        "cssClass" : "it-text",
+                        "cssStyle" : "",
+                        "styles" : null,
+                        "widgets" : [ ]
+                      }
+                    } ],
+                    "rowMetaData" : [ ],
+                    "cells" : [ ],
+                    "cssId" : "",
+                    "cssClass" : "vertical-item vert-text",
+                    "cssStyle" : "",
+                    "styles" : null,
+                    "widgets" : [ ]
+                  }
+                } ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "vertical-inner csub-inner1",
+                "cssStyle" : "",
+                "styles" : null,
+                "widgets" : [ ]
+              }
+            }, {
+              "0" : {
+                "x" : 0,
+                "w" : 12,
+                "name" : "module_1600503592370658",
+                "label" : "Vertical Inner",
+                "type" : "cell",
+                "params" : {
+                  "css_class" : "vertical-inner csub-inner2",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "overrideable" : false,
+                  "per_widget_wrapper_html" : "",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ {
+                  "0" : {
+                    "x" : 0,
+                    "w" : 6,
+                    "name" : "module_1600503592370661",
+                    "label" : "Item",
+                    "type" : "cell",
+                    "params" : {
+                      "css_class" : "vertical-item vert-text",
+                      "css_id" : "",
+                      "css_id_str" : "",
+                      "css_style" : "",
+                      "overrideable" : false,
+                      "per_widget_wrapper_html" : "",
+                      "wrapping_html" : ""
+                    },
+                    "rows" : [ {
+                      "0" : {
+                        "x" : 0,
+                        "w" : 12,
+                        "name" : "module_1600503592370662",
+                        "label" : "Vertical Text",
+                        "type" : "custom_widget",
+                        "params" : {
+                          "css_class" : "it-text",
+                          "css_id" : "",
+                          "css_id_str" : "",
+                          "css_style" : "",
+                          "html" : "<h2>Uncover post deal efficiencies</h2>\n<p>Nunc imperdiet cursus tellus, et pharetra nisl elementum id. Suspendisse vel imperdiet neque, a iaculis ligula. Nulla nunc dolor, efficitur nec urna sit amet, facilisis interdum orci.</p>",
+                          "overrideable" : true,
+                          "path" : "@hubspot/rich_text",
+                          "per_widget_wrapper_html" : "",
+                          "schema_version" : 2,
+                          "widget_name" : "Rich Text",
+                          "wrapping_html" : ""
+                        },
+                        "rows" : [ ],
+                        "rowMetaData" : [ ],
+                        "cells" : [ ],
+                        "cssId" : "",
+                        "cssClass" : "it-text",
+                        "cssStyle" : "",
+                        "styles" : null,
+                        "widgets" : [ ]
+                      }
+                    } ],
+                    "rowMetaData" : [ ],
+                    "cells" : [ ],
+                    "cssId" : "",
+                    "cssClass" : "vertical-item vert-text",
+                    "cssStyle" : "",
+                    "styles" : null,
+                    "widgets" : [ ]
+                  },
+                  "6" : {
+                    "x" : 6,
+                    "w" : 6,
+                    "name" : "module_1600503592370659",
+                    "label" : "Item",
+                    "type" : "cell",
+                    "params" : {
+                      "css_class" : "vertical-item vert-img",
+                      "css_id" : "",
+                      "css_id_str" : "",
+                      "css_style" : "",
+                      "overrideable" : false,
+                      "per_widget_wrapper_html" : "",
+                      "wrapping_html" : ""
+                    },
+                    "rows" : [ {
+                      "0" : {
+                        "x" : 0,
+                        "w" : 12,
+                        "name" : "module_1606980824486161",
+                        "label" : "Image or Video",
+                        "type" : "custom_widget",
+                        "params" : {
+                          "css_class" : "it-img",
+                          "css_id" : "",
+                          "css_id_str" : "",
+                          "css_style" : "",
+                          "wrapping_html" : "",
+                          "per_widget_wrapper_html" : "",
+                          "overrideable" : true,
+                          "widget_name" : "Image or Video",
+                          "schema_version" : 2,
+                          "path" : "/Image or Video",
+                          "img" : {
+                            "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/SVG%20Deal%20Efficiencies.svg",
+                            "alt" : "SVG Deal Efficiencies",
+                            "width" : 78,
+                            "height" : 60,
+                            "max_width" : 78,
+                            "max_height" : 60,
+                            "size_type" : "auto"
+                          }
+                        },
+                        "rows" : [ ],
+                        "rowMetaData" : [ ],
+                        "cells" : [ ],
+                        "cssId" : "",
+                        "cssClass" : "it-img",
+                        "cssStyle" : "",
+                        "styles" : null,
+                        "widgets" : [ ]
+                      }
+                    } ],
+                    "rowMetaData" : [ ],
+                    "cells" : [ ],
+                    "cssId" : "",
+                    "cssClass" : "vertical-item vert-img",
+                    "cssStyle" : "",
+                    "styles" : null,
+                    "widgets" : [ ]
+                  }
+                } ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "vertical-inner csub-inner2",
+                "cssStyle" : "",
+                "styles" : null,
+                "widgets" : [ ]
+              }
+            }, {
+              "0" : {
+                "x" : 0,
+                "w" : 12,
+                "name" : "module_1600503595127673",
+                "label" : "Vertical Inner",
+                "type" : "cell",
+                "params" : {
+                  "css_class" : "vertical-inner csub-inner3",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "overrideable" : false,
+                  "per_widget_wrapper_html" : "",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ {
+                  "0" : {
+                    "x" : 0,
+                    "w" : 6,
+                    "name" : "module_1600503595127674",
+                    "label" : "Item",
+                    "type" : "cell",
+                    "params" : {
+                      "css_class" : "vertical-item vert-img",
+                      "css_id" : "",
+                      "css_id_str" : "",
+                      "css_style" : "",
+                      "overrideable" : false,
+                      "per_widget_wrapper_html" : "",
+                      "wrapping_html" : ""
+                    },
+                    "rows" : [ {
+                      "0" : {
+                        "x" : 0,
+                        "w" : 12,
+                        "name" : "module_1606980866671201",
+                        "label" : "Image or Video",
+                        "type" : "custom_widget",
+                        "params" : {
+                          "css_class" : "it-img",
+                          "css_id" : "",
+                          "css_id_str" : "",
+                          "css_style" : "",
+                          "wrapping_html" : "",
+                          "per_widget_wrapper_html" : "",
+                          "overrideable" : true,
+                          "widget_name" : "Image or Video",
+                          "schema_version" : 2,
+                          "path" : "/Image or Video",
+                          "img" : {
+                            "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/SVG%2010x%20Value.svg",
+                            "alt" : "SVG 10x Value",
+                            "width" : 78,
+                            "height" : 60,
+                            "max_width" : 78,
+                            "max_height" : 60,
+                            "size_type" : "auto"
+                          }
+                        },
+                        "rows" : [ ],
+                        "rowMetaData" : [ ],
+                        "cells" : [ ],
+                        "cssId" : "",
+                        "cssClass" : "it-img",
+                        "cssStyle" : "",
+                        "styles" : null,
+                        "widgets" : [ ]
+                      }
+                    } ],
+                    "rowMetaData" : [ ],
+                    "cells" : [ ],
+                    "cssId" : "",
+                    "cssClass" : "vertical-item vert-img",
+                    "cssStyle" : "",
+                    "styles" : null,
+                    "widgets" : [ ]
+                  },
+                  "6" : {
+                    "x" : 6,
+                    "w" : 6,
+                    "name" : "module_1600503595127676",
+                    "label" : "Item",
+                    "type" : "cell",
+                    "params" : {
+                      "css_class" : "vertical-item vert-text",
+                      "css_id" : "",
+                      "css_id_str" : "",
+                      "css_style" : "",
+                      "overrideable" : false,
+                      "per_widget_wrapper_html" : "",
+                      "wrapping_html" : ""
+                    },
+                    "rows" : [ {
+                      "0" : {
+                        "x" : 0,
+                        "w" : 12,
+                        "name" : "module_1600503595127677",
+                        "label" : "Vertical Text",
+                        "type" : "custom_widget",
+                        "params" : {
+                          "css_class" : "it-text",
+                          "css_id" : "",
+                          "css_id_str" : "",
+                          "css_style" : "",
+                          "html" : "<h2>10x the value of a transaction</h2>\n<p>Ut in turpis sed neque scelerisque molestie a in enim. Ut vitae ante sit amet libero pharetra tincidunt. Nullam pretium arcu et orci consectetur, et ornare magna malesuada.</p>",
+                          "overrideable" : true,
+                          "path" : "@hubspot/rich_text",
+                          "per_widget_wrapper_html" : "",
+                          "schema_version" : 2,
+                          "widget_name" : "Rich Text",
+                          "wrapping_html" : ""
+                        },
+                        "rows" : [ ],
+                        "rowMetaData" : [ ],
+                        "cells" : [ ],
+                        "cssId" : "",
+                        "cssClass" : "it-text",
+                        "cssStyle" : "",
+                        "styles" : null,
+                        "widgets" : [ ]
+                      }
+                    } ],
+                    "rowMetaData" : [ ],
+                    "cells" : [ ],
+                    "cssId" : "",
+                    "cssClass" : "vertical-item vert-text",
+                    "cssStyle" : "",
+                    "styles" : null,
+                    "widgets" : [ ]
+                  }
+                } ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "vertical-inner csub-inner3",
+                "cssStyle" : "",
+                "styles" : null,
+                "widgets" : [ ]
+              }
+            } ],
+            "rowMetaData" : [ ],
+            "cells" : [ ],
+            "cssId" : "",
+            "cssClass" : "page-center",
+            "cssStyle" : "",
+            "styles" : null,
+            "widgets" : [ ]
+          }
+        } ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "csub-text-wrap",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1600839502826372",
+        "label" : "Feature Blurb Wrap",
+        "type" : "cell",
+        "params" : {
+          "css_class" : "feature-blurb-wrap",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ {
+          "0" : {
+            "x" : 0,
+            "w" : 12,
+            "name" : "module_1600839502826373",
+            "label" : "Page Center",
+            "type" : "cell",
+            "params" : {
+              "css_class" : "page-center",
+              "css_id" : "",
+              "css_id_str" : "",
+              "css_style" : "",
+              "overrideable" : false,
+              "per_widget_wrapper_html" : "",
+              "wrapping_html" : ""
+            },
+            "rows" : [ {
+              "0" : {
+                "x" : 0,
+                "w" : 12,
+                "name" : "module_1600840168304902",
+                "label" : "Icon Main Header",
+                "type" : "custom_widget",
+                "params" : {
+                  "css_class" : "feature-main-header",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "header_tag" : "h2",
+                  "overrideable" : true,
+                  "path" : "@hubspot/header",
+                  "per_widget_wrapper_html" : "",
+                  "schema_version" : 2,
+                  "value" : "Align teams and lead with confidence.",
+                  "widget_name" : "Header",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "feature-main-header",
+                "cssStyle" : "",
+                "styles" : null,
+                "widgets" : [ ]
+              }
+            }, {
+              "0" : {
+                "x" : 0,
+                "w" : 12,
+                "name" : "module_1600840247927960",
+                "label" : "Feature_Blurb",
+                "type" : "custom_widget",
+                "params" : {
+                  "content" : [ {
+                    "content" : "<h3>Team accountabilities</h3>\n<p>Allocate the right accountabilities to the right leaders and teams.</p>",
+                    "image" : {
+                      "alt" : "SVG Accountabilities",
+                      "height" : 195,
+                      "max_height" : 195,
+                      "max_width" : 198,
+                      "size_type" : "auto",
+                      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/SVG%20Accountabilities.svg",
+                      "width" : 198
+                    }
+                  }, {
+                    "content" : "<h3>Scenario builder</h3>\n<p>Design future states in a collaborative and safe environment and drive powerful internal presentations.</p>",
+                    "image" : {
+                      "alt" : "SVG Scenario Builder",
+                      "height" : 183,
+                      "max_height" : 183,
+                      "max_width" : 178,
+                      "size_type" : "auto",
+                      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/SVG%20Scenario%20Builder.svg",
+                      "width" : 178
+                    }
+                  }, {
+                    "content" : "<h3>Function mapping</h3>\n<p>Map everything that gets done and see functional gaps and overlaps at a glance.</p>",
+                    "image" : {
+                      "alt" : "SVG Function Mapping",
+                      "height" : 60,
+                      "max_height" : 60,
+                      "max_width" : 78,
+                      "size_type" : "auto",
+                      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/SVG%20Function%20Mapping.svg",
+                      "width" : 78
+                    }
+                  }, {
+                    "content" : "<h3>One source of truth</h3>\n<p>Create a record of your current state org chart for export and sharing.</p>",
+                    "image" : {
+                      "alt" : "SVG Source of Truth",
+                      "height" : 179,
+                      "max_height" : 179,
+                      "max_width" : 200,
+                      "size_type" : "auto",
+                      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/SVG%20Source%20of%20Truth.svg",
+                      "width" : 200
+                    }
+                  }, {
+                    "content" : "<h3>Align responsibilities</h3>\n<p>Strategically assign responsibilities and roles for complete internal alignment.</p>",
+                    "image" : {
+                      "alt" : "SVG Align Responsibilities",
+                      "height" : 60,
+                      "max_height" : 60,
+                      "max_width" : 78,
+                      "size_type" : "auto",
+                      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/SVG%20Align%20Responsibilities.svg",
+                      "width" : 78
+                    }
+                  }, {
+                    "content" : "<h3>Job description export</h3>\n<p>Create responsibility-based job descriptions in 30-seconds.</p>",
+                    "image" : {
+                      "alt" : "SVG Job Export",
+                      "height" : 60,
+                      "max_height" : 60,
+                      "max_width" : 78,
+                      "size_type" : "auto",
+                      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/SVG%20Job%20Export.svg",
+                      "width" : 78
+                    }
+                  } ],
+                  "css_class" : "",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "overrideable" : true,
+                  "path" : "/Functionly_2020/Custom_Modules/Feature_Blurb",
+                  "per_widget_wrapper_html" : "",
+                  "schema_version" : 2,
+                  "widget_name" : "Feature_Blurb",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "",
+                "cssStyle" : "",
+                "styles" : null,
+                "widgets" : [ ]
+              }
+            } ],
+            "rowMetaData" : [ ],
+            "cells" : [ ],
+            "cssId" : "",
+            "cssClass" : "page-center",
+            "cssStyle" : "",
+            "styles" : null,
+            "widgets" : [ ]
+          }
+        } ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "feature-blurb-wrap",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1600840034871815",
+        "label" : "Video_Text_Module",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Video_Text_Module",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Video_Text_Module",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1600840020543798",
+        "label" : "Testimonial Slider Module",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Testimonial Slider Module",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Testimonial Slider Module",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1600840103405846",
+        "label" : "Action Outer Wrap",
+        "type" : "cell",
+        "params" : {
+          "css_class" : "action-outer-wrap",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ {
+          "0" : {
+            "x" : 0,
+            "w" : 12,
+            "name" : "module_1600840103405847",
+            "label" : "Page Center",
+            "type" : "cell",
+            "params" : {
+              "css_class" : "page-center",
+              "css_id" : "",
+              "css_id_str" : "",
+              "css_style" : "",
+              "overrideable" : false,
+              "per_widget_wrapper_html" : "",
+              "wrapping_html" : ""
+            },
+            "rows" : [ {
+              "0" : {
+                "x" : 0,
+                "w" : 12,
+                "name" : "module_1600840103405848",
+                "label" : "Inner",
+                "type" : "cell",
+                "params" : {
+                  "css_class" : "action-inner",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "overrideable" : false,
+                  "per_widget_wrapper_html" : "",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ {
+                  "0" : {
+                    "x" : 0,
+                    "w" : 12,
+                    "name" : "module_1600840103405849",
+                    "label" : "Action Text",
+                    "type" : "custom_widget",
+                    "params" : {
+                      "css_class" : "action-text",
+                      "css_id" : "",
+                      "css_id_str" : "",
+                      "css_style" : "",
+                      "html" : "<h2>Functionly in action</h2>\n<p>See for yourself the power and agility that Functionly provides teams to map the future with clarity.</p>",
+                      "overrideable" : true,
+                      "path" : "@hubspot/rich_text",
+                      "per_widget_wrapper_html" : "",
+                      "schema_version" : 2,
+                      "widget_name" : "Rich Text",
+                      "wrapping_html" : ""
+                    },
+                    "rows" : [ ],
+                    "rowMetaData" : [ ],
+                    "cells" : [ ],
+                    "cssId" : "",
+                    "cssClass" : "action-text",
+                    "cssStyle" : "",
+                    "styles" : null,
+                    "widgets" : [ ]
+                  }
+                }, {
+                  "0" : {
+                    "x" : 0,
+                    "w" : 12,
+                    "name" : "module_1602867046713311",
+                    "label" : "Popup_Button_Video",
+                    "type" : "custom_widget",
+                    "params" : {
+                      "btn_text" : "Live demo ",
+                      "css_class" : "",
+                      "css_id" : "",
+                      "css_id_str" : "",
+                      "css_style" : "",
+                      "overrideable" : true,
+                      "path" : "/Functionly_2020/Custom_Modules/Popup_Button_Video",
+                      "per_widget_wrapper_html" : "",
+                      "schema_version" : 2,
+                      "video_id" : "gwwbnrjC1h8 ",
+                      "widget_name" : "Popup_Button_Video",
+                      "wrapping_html" : ""
+                    },
+                    "rows" : [ ],
+                    "rowMetaData" : [ ],
+                    "cells" : [ ],
+                    "cssId" : "",
+                    "cssClass" : "",
+                    "cssStyle" : "",
+                    "styles" : null,
+                    "widgets" : [ ]
+                  }
+                }, {
+                  "0" : {
+                    "x" : 0,
+                    "w" : 12,
+                    "name" : "module_1600840103405851",
+                    "label" : "Action Image",
+                    "type" : "custom_widget",
+                    "params" : {
+                      "css_class" : "action-img",
+                      "css_id" : "",
+                      "css_id_str" : "",
+                      "css_style" : "",
+                      "img" : {
+                        "alt" : "action",
+                        "height" : 597,
+                        "max_height" : 597,
+                        "max_width" : 1082,
+                        "size_type" : "auto",
+                        "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/action.png",
+                        "width" : 1082
+                      },
+                      "overrideable" : true,
+                      "path" : "@hubspot/linked_image",
+                      "per_widget_wrapper_html" : "",
+                      "schema_version" : 2,
+                      "widget_name" : "Image",
+                      "wrapping_html" : ""
+                    },
+                    "rows" : [ ],
+                    "rowMetaData" : [ ],
+                    "cells" : [ ],
+                    "cssId" : "",
+                    "cssClass" : "action-img",
+                    "cssStyle" : "",
+                    "styles" : null,
+                    "widgets" : [ ]
+                  }
+                } ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "action-inner",
+                "cssStyle" : "",
+                "styles" : null,
+                "widgets" : [ ]
+              }
+            } ],
+            "rowMetaData" : [ ],
+            "cells" : [ ],
+            "cssId" : "",
+            "cssClass" : "page-center",
+            "cssStyle" : "",
+            "styles" : null,
+            "widgets" : [ ]
+          }
+        } ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "action-outer-wrap",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1600260851451189",
+        "label" : "IT Vertical Wrap",
+        "type" : "cell",
+        "params" : {
+          "css_class" : "it-vertical-wrap func-case-wrap",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ {
+          "0" : {
+            "x" : 0,
+            "w" : 12,
+            "name" : "module_1600260851451190",
+            "label" : "Page Center",
+            "type" : "cell",
+            "params" : {
+              "css_class" : "page-center",
+              "css_id" : "",
+              "css_id_str" : "",
+              "css_style" : "",
+              "overrideable" : false,
+              "per_widget_wrapper_html" : "",
+              "wrapping_html" : ""
+            },
+            "rows" : [ {
+              "0" : {
+                "x" : 0,
+                "w" : 12,
+                "name" : "module_1600260851451191",
+                "label" : "Vertical Inner",
+                "type" : "cell",
+                "params" : {
+                  "css_class" : "vertical-inner",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "overrideable" : false,
+                  "per_widget_wrapper_html" : "",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ {
+                  "0" : {
+                    "x" : 0,
+                    "w" : 6,
+                    "name" : "module_1600260851451192",
+                    "label" : "Item",
+                    "type" : "cell",
+                    "params" : {
+                      "css_class" : "vertical-item",
+                      "css_id" : "",
+                      "css_id_str" : "",
+                      "css_style" : "",
+                      "overrideable" : false,
+                      "per_widget_wrapper_html" : "",
+                      "wrapping_html" : ""
+                    },
+                    "rows" : [ {
+                      "0" : {
+                        "x" : 0,
+                        "w" : 12,
+                        "name" : "module_1600260851451193",
+                        "label" : "Vertical Text",
+                        "type" : "custom_widget",
+                        "params" : {
+                          "css_class" : "it-text",
+                          "css_id" : "",
+                          "css_id_str" : "",
+                          "css_style" : "",
+                          "html" : "<h2>Pre-designed<br>function libraries</h2>\n<p>No need to put everything in the system. Snap everything into place with pre-built roles and job descriptions based on real-world functions from other companies. Functionly fills in the gaps so you can assign with the click of a button.</p>",
+                          "overrideable" : true,
+                          "path" : "@hubspot/rich_text",
+                          "per_widget_wrapper_html" : "",
+                          "schema_version" : 2,
+                          "widget_name" : "Rich Text",
+                          "wrapping_html" : ""
+                        },
+                        "rows" : [ ],
+                        "rowMetaData" : [ ],
+                        "cells" : [ ],
+                        "cssId" : "",
+                        "cssClass" : "it-text",
+                        "cssStyle" : "",
+                        "styles" : null,
+                        "widgets" : [ ]
+                      }
+                    }, {
+                      "0" : {
+                        "x" : 0,
+                        "w" : 12,
+                        "name" : "module_1600260851451194",
+                        "label" : "Call-to-Action",
+                        "type" : "custom_widget",
+                        "params" : {
+                          "css_class" : "it-cta cta-purple",
+                          "css_id" : "",
+                          "css_id_str" : "",
+                          "css_style" : "",
+                          "guid" : "f27fff8e-b438-4d63-8009-704be298d3c5",
+                          "overrideable" : true,
+                          "path" : "@hubspot/cta",
+                          "per_widget_wrapper_html" : "",
+                          "schema_version" : 2,
+                          "widget_name" : "Call-to-Action",
+                          "wrapping_html" : ""
+                        },
+                        "rows" : [ ],
+                        "rowMetaData" : [ ],
+                        "cells" : [ ],
+                        "cssId" : "",
+                        "cssClass" : "it-cta cta-purple",
+                        "cssStyle" : "",
+                        "styles" : null,
+                        "widgets" : [ ]
+                      }
+                    } ],
+                    "rowMetaData" : [ ],
+                    "cells" : [ ],
+                    "cssId" : "",
+                    "cssClass" : "vertical-item",
+                    "cssStyle" : "",
+                    "styles" : null,
+                    "widgets" : [ ]
+                  },
+                  "6" : {
+                    "x" : 6,
+                    "w" : 6,
+                    "name" : "module_1600260851451195",
+                    "label" : "Item",
+                    "type" : "cell",
+                    "params" : {
+                      "css_class" : "vertical-item",
+                      "css_id" : "",
+                      "css_id_str" : "",
+                      "css_style" : "",
+                      "overrideable" : false,
+                      "per_widget_wrapper_html" : "",
+                      "wrapping_html" : ""
+                    },
+                    "rows" : [ {
+                      "0" : {
+                        "x" : 0,
+                        "w" : 12,
+                        "name" : "module_1600260851451196",
+                        "label" : "Vertical Image",
+                        "type" : "custom_widget",
+                        "params" : {
+                          "css_class" : "it-img",
+                          "css_id" : "",
+                          "css_id_str" : "",
+                          "css_style" : "",
+                          "img" : {
+                            "alt" : "SVG Function Libraries",
+                            "height" : 415,
+                            "max_height" : 415,
+                            "max_width" : 661,
+                            "size_type" : "auto",
+                            "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/SVG%20Function%20Libraries.png",
+                            "width" : 661
+                          },
+                          "overrideable" : true,
+                          "path" : "@hubspot/linked_image",
+                          "per_widget_wrapper_html" : "",
+                          "schema_version" : 2,
+                          "widget_name" : "Image",
+                          "wrapping_html" : ""
+                        },
+                        "rows" : [ ],
+                        "rowMetaData" : [ ],
+                        "cells" : [ ],
+                        "cssId" : "",
+                        "cssClass" : "it-img",
+                        "cssStyle" : "",
+                        "styles" : null,
+                        "widgets" : [ ]
+                      }
+                    } ],
+                    "rowMetaData" : [ ],
+                    "cells" : [ ],
+                    "cssId" : "",
+                    "cssClass" : "vertical-item",
+                    "cssStyle" : "",
+                    "styles" : null,
+                    "widgets" : [ ]
+                  }
+                } ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "vertical-inner",
+                "cssStyle" : "",
+                "styles" : null,
+                "widgets" : [ ]
+              }
+            } ],
+            "rowMetaData" : [ ],
+            "cells" : [ ],
+            "cssId" : "",
+            "cssClass" : "page-center",
+            "cssStyle" : "",
+            "styles" : null,
+            "widgets" : [ ]
+          }
+        } ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "it-vertical-wrap func-case-wrap",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1600839004804121",
+        "label" : "CTA_Module",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/CTA_Module",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "CTA_Module",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1603544255371587",
+        "label" : "Flexible column",
+        "type" : "widget_container",
+        "params" : {
+          "css_class" : "flex-column",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "flex-column",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "",
+        "label" : "",
+        "type" : "section_delimiter",
+        "params" : { },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_15999231076911006",
+        "label" : "Footer_2020",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "path" : "/Functionly_2020/Global_Modules/Footer_2020.template.json",
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    } ],
+    "rowMetaData" : [ ],
+    "cells" : [ ],
+    "cssId" : "",
+    "cssClass" : "",
+    "cssStyle" : "",
+    "styles" : null,
+    "widgets" : [ ]
+  }
+}

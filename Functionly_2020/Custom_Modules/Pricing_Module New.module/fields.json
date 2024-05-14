@@ -1,0 +1,274 @@
+[ {
+  "id" : "09dd8023-d7bb-effd-97af-e2981ece3150",
+  "name" : "content",
+  "display_width" : null,
+  "label" : "Item",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : 3,
+    "sorting_label_field" : "d2f7aa90-fe30-4602-562a-9f816336ed92",
+    "default" : 3
+  },
+  "children" : [ {
+    "id" : "d2f7aa90-fe30-4602-562a-9f816336ed92",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Free"
+  }, {
+    "id" : "d06e8103-65da-f9f0-9e62-40399040bbef",
+    "name" : "sub_title",
+    "display_width" : null,
+    "label" : "Sub Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Create & share beautiful org charts"
+  }, {
+    "id" : "a695970a-e2a3-fd29-d1a4-489249dcca4e",
+    "name" : "mprice_number",
+    "display_width" : null,
+    "label" : "Monthy Price Number",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "$99.95"
+  }, {
+    "id" : "7e25298a-3d5e-539d-1085-b793e62779b9",
+    "name" : "mprice_sub_text",
+    "display_width" : null,
+    "label" : "Monthy Price Sub Text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "per user, monthly"
+  }, {
+    "id" : "65d5632d-9694-f78e-11fe-17663dc39626",
+    "name" : "aprice_number",
+    "display_width" : null,
+    "label" : "Annually Price Number",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "$499.95"
+  }, {
+    "id" : "dbb5e927-d22d-533c-ac1b-2650ce6e1e3d",
+    "name" : "aprice_sub_text",
+    "display_width" : null,
+    "label" : "Annually Price Sub Text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "per user, annually"
+  }, {
+    "id" : "7e826c04-527f-eddf-a819-b89f65277f3a",
+    "name" : "link1_text",
+    "display_width" : null,
+    "label" : "Link1 Text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Trail Now"
+  }, {
+    "id" : "70e26e6c-702c-5036-25da-2e04320fe200",
+    "name" : "link_field",
+    "display_width" : null,
+    "label" : "Link",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : "7e826c04-527f-eddf-a819-b89f65277f3a",
+      "controlling_field_path" : null,
+      "controlling_value_regex" : null,
+      "property" : null,
+      "operator" : "NOT_EMPTY",
+      "access" : null
+    },
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG" ],
+    "show_advanced_rel_options" : false,
+    "type" : "link",
+    "default" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "https://labs.functionly.com/sign-up/?plan=price_1HglepB3rgwynYaJ8QTgiA3K",
+        "content_id" : null
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    }
+  }, {
+    "id" : "343477f1-19a0-80ba-b7ea-57d15ba04121",
+    "name" : "link2_text",
+    "display_width" : null,
+    "label" : "Link2 Text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Buy Now"
+  }, {
+    "id" : "e1c073a1-eb5e-96f7-1106-c835103e44b9",
+    "name" : "link2",
+    "display_width" : null,
+    "label" : "Link2",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : "343477f1-19a0-80ba-b7ea-57d15ba04121",
+      "controlling_field_path" : null,
+      "controlling_value_regex" : null,
+      "property" : null,
+      "operator" : "NOT_EMPTY",
+      "access" : null
+    },
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG" ],
+    "show_advanced_rel_options" : false,
+    "type" : "link",
+    "default" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "https://labs.functionly.com/sign-up/?plan=price_1HglepB3rgwynYaJ8QTgiA3K",
+        "content_id" : null
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    }
+  }, {
+    "id" : "22b391ad-8395-74ad-3e1b-51973608dc0c",
+    "name" : "content",
+    "display_width" : null,
+    "label" : "Price Details Content",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<h4>The perfect start</h4>\n<ul>\n<li>2 collaborators included (max)</li>\n<li>Org Chart Builder</li>\n<li>Team import</li>\n<li>Unlimited Org Size</li>\n<li>Private Scenarios</li>\n<li>Basic Integrations</li>\n<li>Basic Reporting</li>\n<li>Basic Exporting</li>\n<li>Self service</li>\n<li>Workspace Administration</li>\n<li>Privacy and Security</li>\n</ul>"
+  }, {
+    "id" : "f5f21de2-7cee-9e2b-bbff-a92a6648a026",
+    "name" : "custom_class",
+    "display_width" : null,
+    "label" : "Custom Class",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "default" : [ {
+    "title" : "Free",
+    "sub_title" : "Create & share beautiful org charts",
+    "mprice_number" : "$99.95",
+    "mprice_sub_text" : "per user, monthly",
+    "aprice_number" : "$499.95",
+    "aprice_sub_text" : "per user, annually",
+    "link1_text" : "Trail Now",
+    "link_field" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "https://labs.functionly.com/sign-up/?plan=price_1HglepB3rgwynYaJ8QTgiA3K",
+        "content_id" : null
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    },
+    "link2_text" : "Buy Now",
+    "link2" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "https://labs.functionly.com/sign-up/?plan=price_1HglepB3rgwynYaJ8QTgiA3K",
+        "content_id" : null
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    },
+    "content" : "<h4>The perfect start</h4>\n<ul>\n<li>2 collaborators included (max)</li>\n<li>Org Chart Builder</li>\n<li>Team import</li>\n<li>Unlimited Org Size</li>\n<li>Private Scenarios</li>\n<li>Basic Integrations</li>\n<li>Basic Reporting</li>\n<li>Basic Exporting</li>\n<li>Self service</li>\n<li>Workspace Administration</li>\n<li>Privacy and Security</li>\n</ul>"
+  }, {
+    "title" : "Free",
+    "sub_title" : "Create & share beautiful org charts",
+    "mprice_number" : "$99.95",
+    "mprice_sub_text" : "per user, monthly",
+    "aprice_number" : "$499.95",
+    "aprice_sub_text" : "per user, annually",
+    "link1_text" : "Trail Now",
+    "link_field" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "https://labs.functionly.com/sign-up/?plan=price_1HglepB3rgwynYaJ8QTgiA3K",
+        "content_id" : null
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    },
+    "link2_text" : "Buy Now",
+    "link2" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "https://labs.functionly.com/sign-up/?plan=price_1HglepB3rgwynYaJ8QTgiA3K",
+        "content_id" : null
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    },
+    "content" : "<h4>The perfect start</h4>\n<ul>\n<li>2 collaborators included (max)</li>\n<li>Org Chart Builder</li>\n<li>Team import</li>\n<li>Unlimited Org Size</li>\n<li>Private Scenarios</li>\n<li>Basic Integrations</li>\n<li>Basic Reporting</li>\n<li>Basic Exporting</li>\n<li>Self service</li>\n<li>Workspace Administration</li>\n<li>Privacy and Security</li>\n</ul>"
+  }, {
+    "title" : "Free",
+    "sub_title" : "Create & share beautiful org charts",
+    "mprice_number" : "$99.95",
+    "mprice_sub_text" : "per user, monthly",
+    "aprice_number" : "$499.95",
+    "aprice_sub_text" : "per user, annually",
+    "link1_text" : "Trail Now",
+    "link_field" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "https://labs.functionly.com/sign-up/?plan=price_1HglepB3rgwynYaJ8QTgiA3K",
+        "content_id" : null
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    },
+    "link2_text" : "Buy Now",
+    "link2" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "https://labs.functionly.com/sign-up/?plan=price_1HglepB3rgwynYaJ8QTgiA3K",
+        "content_id" : null
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    },
+    "content" : "<h4>The perfect start</h4>\n<ul>\n<li>2 collaborators included (max)</li>\n<li>Org Chart Builder</li>\n<li>Team import</li>\n<li>Unlimited Org Size</li>\n<li>Private Scenarios</li>\n<li>Basic Integrations</li>\n<li>Basic Reporting</li>\n<li>Basic Exporting</li>\n<li>Self service</li>\n<li>Workspace Administration</li>\n<li>Privacy and Security</li>\n</ul>"
+  } ]
+} ]

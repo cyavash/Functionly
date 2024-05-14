@@ -1,0 +1,380 @@
+{
+  "isAvailableForNewContent" : true,
+  "templateType" : 6,
+  "attachedStylesheets" : [ {
+    "type" : "cos_extension_resource",
+    "path" : "/Functionly_2020/Codes/Stylesheet_2020.css"
+  } ],
+  "attachedJs" : [ {
+    "type" : "cos_extension_resource",
+    "path" : "/Functionly_2020/Codes/script_2020.js"
+  } ],
+  "customHead" : "",
+  "customFooter" : "",
+  "bodyClass" : " ",
+  "bodyCss" : "",
+  "bodyEditable" : false,
+  "layoutData" : {
+    "x" : 0,
+    "w" : 12,
+    "name" : "",
+    "label" : "",
+    "type" : "cell",
+    "params" : { },
+    "rows" : [ {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1601443887360103",
+        "label" : "Header_2020",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "path" : "/Functionly_2020/Global_Modules/Header_2020.template.json",
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "",
+        "label" : "",
+        "type" : "section_delimiter",
+        "params" : { },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_170704938810845",
+        "label" : "Blog_Post_Hero_New",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Blog_Post_Hero_New",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Blog_Post_Hero_New",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_160145339806553",
+        "label" : "Blog Content Wrap",
+        "type" : "cell",
+        "params" : {
+          "css_class" : "blog-content-wrap",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ {
+          "0" : {
+            "x" : 0,
+            "w" : 12,
+            "name" : "module_151388195754751",
+            "label" : "Page Center",
+            "type" : "cell",
+            "params" : {
+              "css_class" : "page-center",
+              "css_id" : "",
+              "css_id_str" : "",
+              "css_style" : "",
+              "overrideable" : false,
+              "per_widget_wrapper_html" : "",
+              "wrapping_html" : ""
+            },
+            "rows" : [ {
+              "0" : {
+                "x" : 0,
+                "w" : 12,
+                "name" : "module_1601454163003172",
+                "label" : "Blog Post Inner",
+                "type" : "cell",
+                "params" : {
+                  "css_class" : "blog-post-inner",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "overrideable" : false,
+                  "per_widget_wrapper_html" : "",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ {
+                  "0" : {
+                    "x" : 0,
+                    "w" : 12,
+                    "name" : "module_151388194052436",
+                    "label" : "Blog Content",
+                    "type" : "custom_widget",
+                    "params" : {
+                      "blog_listing_source" : " ",
+                      "blog_post_source" : "{% text \"Custom_link\" label=\"Custom Link\", export_to_template_context=True %}  \n\n<div class=\"blog-section blog-post-inner\">\n    <div class=\"blog-post-wrapper cell-wrapper\">\n       <div class=\"blog-section\">\n            <div class=\"blog-post-wrapper cell-wrapper\">  \n                <div class=\"section post-body\">\n                    {{ content.post_body }}\n                </div> \n            </div>\n        </div>\n      <div class=\"post-tags-btm\">\n        {% if content.topic_list %}\n            <p id=\"hubspot-topic_data\" >  \n              {% for topic in content.topic_list %}\n                <a class=\"topic-link\" href=\"{{ blog_tag_url(group.id, topic.slug) }}\">{{ topic.name }}</a>{% if not loop.last %}{% endif %}\n              {% endfor %}\n            </p>\n        {% endif %}\n      </div>\n       \n    </div>\n</div>\n",
+                      "css_class" : "",
+                      "css_id" : "",
+                      "css_id_str" : "",
+                      "css_style" : "",
+                      "overrideable" : false,
+                      "path" : "@hubspot/blog_content",
+                      "per_widget_wrapper_html" : "",
+                      "schema_version" : 2,
+                      "template_to_edit" : "post",
+                      "widget_name" : "Blog Content",
+                      "wrapping_html" : ""
+                    },
+                    "rows" : [ ],
+                    "rowMetaData" : [ ],
+                    "cells" : [ ],
+                    "cssId" : "",
+                    "cssClass" : "",
+                    "cssStyle" : "",
+                    "styles" : null,
+                    "widgets" : [ ]
+                  }
+                }, {
+                  "0" : {
+                    "x" : 0,
+                    "w" : 12,
+                    "name" : "module_151388194555338",
+                    "label" : "Blog Comments",
+                    "type" : "custom_widget",
+                    "params" : {
+                      "css_class" : "",
+                      "css_id" : "",
+                      "css_id_str" : "",
+                      "css_style" : "display: none !important;",
+                      "overrideable" : false,
+                      "path" : "@hubspot/blog_comments",
+                      "per_widget_wrapper_html" : "",
+                      "schema_version" : 2,
+                      "widget_name" : "Blog Comments",
+                      "wrapping_html" : ""
+                    },
+                    "rows" : [ ],
+                    "rowMetaData" : [ ],
+                    "cells" : [ ],
+                    "cssId" : "",
+                    "cssClass" : "",
+                    "cssStyle" : "display: none !important;",
+                    "styles" : null,
+                    "widgets" : [ ]
+                  }
+                } ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "blog-post-inner",
+                "cssStyle" : "",
+                "styles" : null,
+                "widgets" : [ ]
+              }
+            } ],
+            "rowMetaData" : [ ],
+            "cells" : [ ],
+            "cssId" : "",
+            "cssClass" : "page-center",
+            "cssStyle" : "",
+            "styles" : null,
+            "widgets" : [ ]
+          }
+        } ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "blog-content-wrap",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1704264996961535",
+        "label" : "Image_Text_Module",
+        "type" : "custom_widget",
+        "params" : {
+          "content" : {
+            "content" : "<h2><strong>Subscribe Now</strong></h2>\n<p>Listen to the world’s best organizational design experts &amp; and leaders share their stories on how they designed and built the best organizations. We’ll highlight the challenges and breakthroughs of designing structures, organizing charts, optimizing teams, and building workplaces people love.<a href=\"https://functionly.buzzsprout.com/\" rel=\"noopener\" target=\"_blank\"></a></p>\n<h5>Subscribe at your favorite place to listen:</h5>\n<p><a href=\"https://open.spotify.com/show/0Xw3bbEISDbSDO5WT8O7bu?si=2gmioTB1SsCW83bDLiRAfA\" rel=\"noopener\" target=\"_blank\"><img src=\"https://f.hubspotusercontent00.net/hubfs/7832858/spotifylogo.svg\" alt=\"spotifylogo\" width=\"40\" style=\"width: 40px;\" loading=\"lazy\" height=\"168\"></a>&nbsp; &nbsp; <a href=\"https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS84OTU1NzkucnNz?sa=X&amp;ved=0CAYQrrcFahcKEwjg-eCQkZ_tAhUAAAAAHQAAAAAQAQ\" rel=\"noopener\" target=\"_blank\"><img src=\"https://f.hubspotusercontent00.net/hubfs/7832858/google-podcasts.svg\" alt=\"google-podcasts\" width=\"40\" style=\"width: 40px;\" loading=\"lazy\" height=\"2500\"></a> &nbsp;&nbsp;<a href=\"https://podcasts.apple.com/us/podcast/the-work-design-podcast/id1501527726\" rel=\"noopener\" target=\"_blank\"><img src=\"https://f.hubspotusercontent00.net/hubfs/7832858/Apple-Podcast.svg\" alt=\"Apple-Podcast\" width=\"36\" style=\"width: 36px;\" loading=\"lazy\" height=\"150\"></a></p>",
+            "cta_field" : "697166c7-7cbe-4ea6-96a4-d272efd1ae2b",
+            "left_image" : {
+              "alt" : "Org Design Podcast",
+              "height" : 520,
+              "max_height" : 520,
+              "max_width" : 442,
+              "size_type" : "auto",
+              "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Header%20IllustrationSVG.svg",
+              "width" : 442
+            }
+          },
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Image_Text_Module",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Image_Text_Module",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1601470971117772",
+        "label" : "Post_Related_Articles",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Post_Related_Articles",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "select_blog" : 136546161798,
+          "title" : "Other episodes",
+          "widget_name" : "Post_Related_Articles",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1711321387145128",
+        "label" : "CTA_Module_Global",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "wrapping_html" : "",
+          "per_widget_wrapper_html" : "",
+          "overrideable" : true,
+          "widget_name" : "CTA_Module_Global",
+          "schema_version" : 2,
+          "path" : "/Functionly_2020/Custom_Modules/CTA_Module_Global"
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "",
+        "label" : "",
+        "type" : "section_delimiter",
+        "params" : { },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1601443898658114",
+        "label" : "Footer_2020",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "path" : "/Functionly_2020/Global_Modules/Footer_2020.template.json",
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    } ],
+    "rowMetaData" : [ ],
+    "cells" : [ ],
+    "cssId" : "",
+    "cssClass" : "",
+    "cssStyle" : "",
+    "styles" : null,
+    "widgets" : [ ]
+  }
+}

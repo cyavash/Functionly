@@ -1,0 +1,49 @@
+<div class="home-tab-wrap">
+  <div class="page-center">
+    <div class="hs-tabs">
+      <ul class="hs-tabs__nav">  
+        {% for item in module.tab -%}
+        <li><a href="#tab-{{ loop.index }}" class="hs-tabs__navitem{% if loop.index == 1 %} hs-tabs__navitem--active{% endif %}">{% inline_text field="tab_label" value="{{ item.tab_label }}" %}</a></li>
+        {%- endfor %}
+      </ul>
+      {% for item in module.tab %}
+        <div id="tab-{{ loop.index }}" class="hs-tabs__item{% if loop.index == 1 %} hs-tabs__item--active{% endif %}">
+          <div class="home-tab-inner">
+            <div class="home-tab-left">
+              <div class="home-tab-image">
+                {% if item.left_image.src %}
+                    {% set sizeAttrs = 'width="{{ item.left_image.width }}" height="{{ item.left_image.height }}"' %}
+                    {% if item.left_image.size_type == 'auto' %}
+                      {% set sizeAttrs = 'style="max-width: 100%; height: auto;"' %}
+                    {% elif item.left_image.size_type == 'auto_custom_max' %}
+                      {% set sizeAttrs = 'width="100%" height="auto" style="max-width: {{ item.left_image.max_width }}px; max-height: {{ item.left_image.max_height }}px"' %}
+                    {% endif %}
+                    <img src="{{ item.left_image.src }}" alt="{{ item.left_image.alt }}" {{ sizeAttrs }}>
+                  {% endif %}
+              </div>
+            </div>
+            <div class="home-tab-right">
+              <div class="home-tab-text"> 
+                {% inline_rich_text field="content" value="{{ item.content }}" %}
+              </div> 
+              <div class="home-tab-cta">
+                  {% cta guid="{{ item.cta_field }}" %}
+              </div>
+            </div>
+          </div>
+          
+        </div>  
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+
+{% require_css %}
+<style>
+
+</style>
+{% end_require_css %}
+
+

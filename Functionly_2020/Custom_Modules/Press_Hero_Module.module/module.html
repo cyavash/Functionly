@@ -1,0 +1,55 @@
+<div class="post-hero-wrap">
+  <div class="page-center"> 
+    <div class="post-hero-outer">  
+      <div class="post-hero-left">  
+          <div class="post-hero-tag">  
+            <p> 
+              <a class="ucTopicLink1" > {{ module.tag }} </a>
+            </p> 
+      </div>    
+          <div class="post-hero-title">
+            <h1> {{ module.title }} </h1>
+          </div> 
+          {% if content.blog_post_author %} 
+             <div class="author-right-name"> 
+                  By: {{ module.author_name }} 
+                  </div>
+          {% endif %}  
+        
+       <div class="social-share-inner"> 
+         <p>Share:</p>
+          <ul> 
+            <li class="social_telegram">  
+            <a href="https://telegram.me/share/url?url={{ content.absolute_url }}&text" class="et_social_share" rel="nofollow" data-social_name="telegram"  data-social_type="share" data-location="inline" target="_blank">
+              <img src="https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Telegram_white.svg" alt="telegram-icon"> 
+            </a>
+            </li> 
+            <li class="social_twitter">
+            <a href="https://twitter.com/intent/tweet?url={{ content.absolute_url }}" class="et_social_share" rel="nofollow" data-social_name="twitter" data-post_id="85" data-social_type="share" data-location="inline" target="_blank">
+              <img src="https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Twitter_white.svg" alt="tweeter-icon"> 
+            </a>
+            </li> 
+            <li class="social_fb">
+              <a href="http://www.facebook.com/sharer.php?u={{ content.absolute_url }}" class="et_social_share" rel="nofollow" data-social_name="facebook" data-post_id="85" data-social_type="share" data-location="inline" target="_blank">
+                  <img src="https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Facebook_white.svg" alt="facebook-icon"> 
+              </a>
+            </li> 
+            <li class="social_linkedin">
+            <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ content.absolute_url }}" class="et_social_share" rel="nofollow" data-social_name="linkedin" data-post_id="85" data-social_type="share" data-location="inline" target="_blank">
+             <img src="https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/LinkedIN_white.svg" alt="linkedin-icon"> 
+            </a>
+            </li> 
+          </ul> 
+        </div>   
+        </div>  
+       <div class="post-hero-right">  
+        <div class="post-hero-frtimg"> 
+          <div class="featured-image" style="background-image: url('{{ module.right_image.src }}');"> 
+          </div>   
+        </div> 
+      </div> 
+    </div>   
+</div>
+  
+
+

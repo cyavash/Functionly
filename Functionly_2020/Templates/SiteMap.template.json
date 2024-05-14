@@ -1,0 +1,302 @@
+{
+  "isAvailableForNewContent" : true,
+  "templateType" : 4,
+  "attachedStylesheets" : [ {
+    "type" : "cos_extension_resource",
+    "path" : "/Functionly_2020/Codes/Stylesheet_2020.css"
+  } ],
+  "attachedJs" : [ {
+    "type" : "cos_extension_resource",
+    "path" : "/Functionly_2020/Codes/script_2020.js"
+  } ],
+  "customHead" : "<link href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\" rel=\"stylesheet\"> \n\n\n\n",
+  "customFooter" : "",
+  "bodyClass" : "",
+  "bodyCss" : "",
+  "bodyEditable" : false,
+  "layoutData" : {
+    "x" : 0,
+    "w" : 12,
+    "name" : "",
+    "label" : "",
+    "type" : "cell",
+    "params" : { },
+    "rows" : [ {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1599923101440995",
+        "label" : "Header_2020",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "path" : "/Functionly_2020/Global_Modules/Header_2020.template.json",
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "",
+        "label" : "",
+        "type" : "section_delimiter",
+        "params" : { },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1615391411953459",
+        "label" : "Module group",
+        "type" : "cell",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "padding:60px 0px",
+          "overrideable" : false,
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ {
+          "0" : {
+            "x" : 0,
+            "w" : 12,
+            "name" : "module_1615389683480327",
+            "label" : "Module group",
+            "type" : "cell",
+            "params" : {
+              "css_class" : "flex-column page-center",
+              "css_id" : "",
+              "css_id_str" : "",
+              "css_style" : "",
+              "overrideable" : false,
+              "per_widget_wrapper_html" : "",
+              "wrapping_html" : ""
+            },
+            "rows" : [ {
+              "0" : {
+                "x" : 0,
+                "w" : 12,
+                "name" : "module_1615391438864510",
+                "label" : "Header",
+                "type" : "custom_widget",
+                "params" : {
+                  "css_class" : "",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "padding-bottom:40px;",
+                  "header_tag" : "h1",
+                  "overrideable" : true,
+                  "path" : "@hubspot/header",
+                  "per_widget_wrapper_html" : "",
+                  "schema_version" : 2,
+                  "value" : "Functionly Site Map",
+                  "widget_name" : "Header",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "",
+                "cssStyle" : "padding-bottom:40px;",
+                "styles" : null,
+                "widgets" : [ ]
+              }
+            }, {
+              "0" : {
+                "x" : 0,
+                "w" : 6,
+                "name" : "module_1603544010121280",
+                "label" : "Flexible column",
+                "type" : "widget_container",
+                "params" : {
+                  "css_class" : "",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "overrideable" : false,
+                  "per_widget_wrapper_html" : "",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "",
+                "cssStyle" : "",
+                "styles" : null,
+                "widgets" : [ {
+                  "x" : 0,
+                  "w" : 12,
+                  "name" : "module_1615389693737346",
+                  "label" : "Rich Text",
+                  "type" : "custom_widget",
+                  "params" : {
+                    "css_class" : "",
+                    "css_id" : "",
+                    "css_id_str" : "",
+                    "css_style" : "",
+                    "html" : "<h3>Product</h3>\n<ul class=\"active-branch\">\n<li class=\"hs-menu-item hs-menu-depth-1 active active-branch\"><a href=\"https://www.functionly.com/features\" target=\"_self\" role=\"menuitem\">Features</a></li>\n<li class=\"hs-menu-item hs-menu-depth-1\"><a href=\"https://www.functionly.com/pricing\" target=\"_self\" role=\"menuitem\">Pricing</a></li>\n<li class=\"hs-menu-item hs-menu-depth-1\"><a href=\"https://www.functionly.com/demo\" target=\"_self\" role=\"menuitem\">See Demo</a></li>\n<li class=\"hs-menu-item hs-menu-depth-1\"><a href=\"https://labs.functionly.com/sign-up\" target=\"_blank\" rel=\"noopener\" role=\"menuitem\">Trial Now</a></li>\n</ul>\n<h3>Company</h3>\n<ul>\n<li class=\"hs-menu-item hs-menu-depth-1\"><a href=\"https://www.functionly.com/about-us\" target=\"_self\" role=\"menuitem\">About</a></li>\n<li class=\"hs-menu-item hs-menu-depth-1\"><a href=\"https://www.functionly.com/contact-us\" target=\"_self\" role=\"menuitem\">Contact</a></li>\n<li class=\"hs-menu-item hs-menu-depth-1\"><a href=\"https://www.functionly.com/media\" target=\"_self\" role=\"menuitem\">Press</a></li>\n<li class=\"hs-menu-item hs-menu-depth-1\"><a href=\"https://share.hsforms.com/1HpccQRGwQiCX-foPT0vJ-Q4nvve\" target=\"_blank\" rel=\"noopener\" role=\"menuitem\">Careers</a></li>\n</ul>",
+                    "overrideable" : true,
+                    "path" : "@hubspot/rich_text",
+                    "per_widget_wrapper_html" : "",
+                    "schema_version" : 2,
+                    "widget_name" : "Rich Text",
+                    "wrapping_html" : ""
+                  },
+                  "rows" : [ ],
+                  "rowMetaData" : [ ],
+                  "cells" : [ ],
+                  "cssId" : "",
+                  "cssClass" : "",
+                  "cssStyle" : "",
+                  "styles" : null,
+                  "widgets" : [ ]
+                } ]
+              },
+              "6" : {
+                "x" : 6,
+                "w" : 6,
+                "name" : "module_1615389674418312",
+                "label" : "Flexible column",
+                "type" : "widget_container",
+                "params" : {
+                  "css_class" : "",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "overrideable" : false,
+                  "per_widget_wrapper_html" : "",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "",
+                "cssStyle" : "",
+                "styles" : null,
+                "widgets" : [ {
+                  "x" : 0,
+                  "w" : 12,
+                  "name" : "module_1615389697005348",
+                  "label" : "Rich Text",
+                  "type" : "custom_widget",
+                  "params" : {
+                    "css_class" : "",
+                    "css_id" : "",
+                    "css_id_str" : "",
+                    "css_style" : "",
+                    "html" : "<h3>Resources</h3>\n<ul>\n<li class=\"hs-menu-item hs-menu-depth-1\"><a href=\"https://www.functionly.com/blog\" target=\"_self\" role=\"menuitem\">Articles</a></li>\n<li class=\"hs-menu-item hs-menu-depth-1\"><a href=\"https://www.functionly.com/podcast\" target=\"_self\" role=\"menuitem\">Podcast</a></li>\n<li class=\"hs-menu-item hs-menu-depth-1\"><a href=\"https://www.functionly.com/work-design\" target=\"_self\" role=\"menuitem\">About Work Design</a></li>\n<li class=\"hs-menu-item hs-menu-depth-1\"><a href=\"https://www.functionly.com/functionly-tv\" target=\"_self\" role=\"menuitem\">Functionly TV</a></li>\n</ul>",
+                    "overrideable" : true,
+                    "path" : "@hubspot/rich_text",
+                    "per_widget_wrapper_html" : "",
+                    "schema_version" : 2,
+                    "widget_name" : "Rich Text",
+                    "wrapping_html" : ""
+                  },
+                  "rows" : [ ],
+                  "rowMetaData" : [ ],
+                  "cells" : [ ],
+                  "cssId" : "",
+                  "cssClass" : "",
+                  "cssStyle" : "",
+                  "styles" : null,
+                  "widgets" : [ ]
+                } ]
+              }
+            } ],
+            "rowMetaData" : [ ],
+            "cells" : [ ],
+            "cssId" : "",
+            "cssClass" : "flex-column page-center",
+            "cssStyle" : "",
+            "styles" : null,
+            "widgets" : [ ]
+          }
+        } ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "padding:60px 0px",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "",
+        "label" : "",
+        "type" : "section_delimiter",
+        "params" : { },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_15999231076911006",
+        "label" : "Footer_2020",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "path" : "/Functionly_2020/Global_Modules/Footer_2020.template.json",
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    } ],
+    "rowMetaData" : [ ],
+    "cells" : [ ],
+    "cssId" : "",
+    "cssClass" : "",
+    "cssStyle" : "",
+    "styles" : null,
+    "widgets" : [ ]
+  }
+}

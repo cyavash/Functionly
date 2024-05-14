@@ -1,0 +1,186 @@
+
+
+
+.img-text-wrap {
+    padding: 120px 0px;
+}
+
+.img-text-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.img-text-right {
+    width: 50%;
+    padding-left: 50px;
+}
+
+.img-text-left {
+    width: 50%;
+    padding-right: 50px;
+}
+
+.img-text-text h2 {
+    font-size: 34px;
+    line-height: 125%;
+    color: #414042;
+}
+
+.img-text-text p {
+    font-size: 20px;
+    line-height: 150%;
+    color: #414042;
+}
+
+.img-text-cta a {
+    font-size: 16px;
+    line-height: 125%;
+    color: #662d91;
+    font-family: 'ceragr-mediumuploaded_file';
+    display: flex;
+    align-items: center;
+    background-image: url(https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/arrow-purple.svg);
+    padding-right: 20px;
+    background-repeat: no-repeat;
+    background-position: 100% 5px;
+    display: inline-block;
+    position: relative;
+    background-size: 13px;
+}
+
+.img-text-cta a:hover:before {
+    width: 100%;
+    left: 0;
+    right: auto;
+}
+
+.img-text-cta a:before {
+    content: "";
+    width: 0;
+    height: 1px;
+    background: #662d91;
+    position: absolute;
+    bottom: 0;
+    left: auto;
+    right: 0;
+    transition: all 0.2s linear;
+}
+.flippos .img-text-left {
+    order: 2;
+    padding-left: 50px;
+    padding-right: 0;
+}
+.vidyard-player-container {
+    pointer-events: none;
+}
+.flippos .img-text-right {
+    padding-left: 0px;
+    padding-right: 50px;
+}
+
+
+/******** Responsive code starts here *******/
+ 
+/************** ipad ***************/
+
+@media (max-width: 1080px) {
+
+  .img-text-wrap {
+      padding: 70px 0px;
+  }
+  
+  .img-text-text h2 {
+      font-size: 25px; 
+  }
+
+  .img-text-text p {
+      font-size: 16px; 
+  }
+   
+}
+
+/************** ipad nd tab ***************/
+
+@media only screen and (min-width:768px) and (max-width: 1024px) and (orientation : portrait){
+
+   .img-text-wrap {
+        padding: 70px 0px;
+    } 
+}
+
+/************** iphone roatate***************/
+
+@media (max-width: 767px) {
+   
+ .img-text-wrap {
+      padding: 50px 0px;
+  }
+   
+  .img-text-text h2 {
+      font-size: 22px;
+      line-height: 125%;
+  }
+   
+  .img-text-text p { 
+      font-size: 16px;
+      line-height: 150%;
+  }
+ 
+  .img-text-inner {
+        display: -webkit-box;   
+        display: -moz-box;      
+        display: -ms-flexbox;   
+        display: -webkit-flex;  
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        -moz-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+  }
+
+  .img-text-left {
+        order: 2;
+        -webkit-order: 2;
+        -moz-order: 2;
+        -ms-order: 2;
+        width: 100%;
+        padding-right: 0px;
+        width: 100%; 
+  }
+  
+  .img-text-right {
+        order: 1;
+        -webkit-order: 1;
+        -moz-order: 1;
+        -ms-order: 1;
+        width: 100%;
+        padding-left: 0px;
+        padding-bottom: 50px;
+   }
+  
+  
+  .img-text-image { 
+      max-width: 80%;
+      margin: 0px auto;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}
+
+/************** iphone ***************/
+
+@media (max-width: 479px) {
+
+
+}
+
+

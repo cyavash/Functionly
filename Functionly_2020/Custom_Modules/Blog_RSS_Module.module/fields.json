@@ -1,0 +1,10 @@
+[ {
+  "id" : "96ff8751-c8a0-c48d-4ddd-94a14954dcde",
+  "name" : "select_blog",
+  "display_width" : null,
+  "label" : "Select Blog",
+  "required" : false,
+  "locked" : false,
+  "type" : "blog",
+  "default" : 29999495033
+} ]

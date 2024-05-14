@@ -1,0 +1,23 @@
+.author-intro {
+  padding: 60px 0 50px 0;
+}
+.author-intro img {
+  padding: 15px 0;
+  width: 400px!important;
+  max-width: 100%!important;
+}
+@media screen and (max-width: 520px) {
+  .author-intro img {
+    max-width: 100%!important;
+  }  
+  .author-intro h1 {
+    font-size: 40px;
+  }
+}
+.author-intro p {
+  
+}
+.author-intro h2 {
+  position: relative;
+  top: 50px;
+}

@@ -1,0 +1,38 @@
+<div class="intg-logo-wrap"> 
+  <div class="page-center"> 
+    <div class="intg-logo-header">
+      <h2>{{ module.header }}</h2>
+    </div>
+    
+   <div class="intg-logo-inner">
+       <div class="intg-logo-item"> 
+          {% for item in module.item %}
+            <div class="intg-logo"> 
+              <div class="intg-logo-image">
+               	 {% if item.image.src %}
+                  {% set sizeAttrs = 'width="{{ item.image.width }}" height="{{ item.image.height }}"' %}
+                  {% if item.image.size_type == 'auto' %}
+                    {% set sizeAttrs = 'style="max-width: 100%; height: auto;"' %}
+                  {% elif item.image.size_type == 'auto_custom_max' %}
+                    {% set sizeAttrs = 'width="100%" height="auto" style="max-width: {{ item.image.max_width }}px; max-height: {{ item.image.max_height }}px"' %}
+                  {% endif %}
+                   {% set loadingAttr = item.image.loading != 'disabled' ? 'loading="{{ item.image.loading }}"' : '' %}
+                  <img src="{{ item.image.src }}" alt="{{ item.image.alt }}" {{ loadingAttr }} {{ sizeAttrs }}>
+                {% endif %}
+              </div>
+          </div>  
+        {% endfor %} 
+      </div>  
+   </div>
+  </div>
+</div>
+
+
+
+{% require_css %}
+<style>
+
+</style>
+{% end_require_css %}
+
+

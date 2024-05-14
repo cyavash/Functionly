@@ -1,0 +1,87 @@
+[ {
+  "id" : "09dd8023-d7bb-effd-97af-e2981ece3150",
+  "name" : "content",
+  "display_width" : null,
+  "label" : "Content",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "bcf8e05a-f721-1d70-ae51-94a7fff0af93",
+    "name" : "left_image",
+    "display_width" : null,
+    "label" : "Video Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : false,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/video-img.png",
+      "alt" : "video-img",
+      "width" : 1440,
+      "height" : 798,
+      "max_width" : 1440,
+      "max_height" : 798
+    }
+  }, {
+    "id" : "f4f985da-382c-fc6a-5704-629d8d9da4ab",
+    "name" : "play_icon",
+    "display_width" : null,
+    "label" : "Play Icon",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : false,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/play.svg",
+      "alt" : "play",
+      "width" : 56,
+      "height" : 56,
+      "max_width" : 56,
+      "max_height" : 56
+    }
+  }, {
+    "id" : "857517de-05d8-b2e5-6ec0-e21635a2a442",
+    "name" : "youyube_video_id",
+    "display_width" : null,
+    "label" : "Youyube Video ID",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "gwwbnrjC1h8",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "gwwbnrjC1h8"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "default" : {
+    "left_image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/video-img.png",
+      "alt" : "video-img",
+      "width" : 1440,
+      "height" : 798,
+      "max_width" : 1440,
+      "max_height" : 798
+    },
+    "play_icon" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/play.svg",
+      "alt" : "play",
+      "width" : 56,
+      "height" : 56,
+      "max_width" : 56,
+      "max_height" : 56
+    },
+    "youyube_video_id" : "gwwbnrjC1h8"
+  }
+} ]

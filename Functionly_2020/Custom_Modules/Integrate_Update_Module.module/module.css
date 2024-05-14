@@ -1,0 +1,192 @@
+.itrgn-text-wrap {
+    padding: 120px 0px;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    background-color: #F9F7FA;
+}
+
+.itrgn-text-top {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+
+.itrgn-text-inner {
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.itrgn-text-right {
+    width: 60%;
+    padding-left: 50px;
+}
+
+.itrgn-text-left {
+    width: 40%;
+    padding-right: 50px;
+}
+
+.itrgn-text-text h2 {
+    font-size: 34px;
+    line-height: 125%;
+    color: #414042;
+}
+
+.itrgn-text-text p {
+    font-size: 20px;
+    line-height: 150%;
+    color: #414042;
+}
+ 
+.flippos .itrgn-text-left {
+    order: 2;
+    padding-left: 50px;
+    padding-right: 0;
+}
+.vidyard-player-container {
+    pointer-events: none;
+}
+.flippos .itrgn-text-right {
+    padding-left: 0px;
+    padding-right: 50px;
+}
+
+.itrgn-text-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.itrgn-text-item {
+    width: 48%;
+}
+
+.itrgn-text-cta {
+    padding-top: 50px;
+}
+
+.itrgn-text-cta .cta_button {  
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 15px 30px;
+    border: 0px solid #fff;
+    background: radial-gradient(127.65% 127.79% at 48.62% -14.13%, #FF8E35 0%, #F24398 100%);
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight:500;
+}
+
+.itrgn-text-cta .cta_button:hover {  
+    text-decoration: none;
+}
+
+.itrgn-text-item {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+
+/******** Responsive code starts here *******/
+ 
+/************** ipad ***************/
+
+@media (max-width: 1080px) {
+
+  .itrgn-text-wrap {
+      padding: 70px 0px;
+  }
+  
+  .itrgn-text-text h2 {
+      font-size: 25px; 
+  }
+
+  .itrgn-text-text p {
+      font-size: 16px; 
+  }
+   
+}
+
+/************** ipad nd tab ***************/
+
+@media only screen and (min-width:768px) and (max-width: 1024px) and (orientation : portrait){
+
+   .itrgn-text-wrap {
+        padding: 70px 0px;
+    } 
+}
+
+/************** iphone roatate***************/
+
+@media (max-width: 767px) {
+   
+ .itrgn-text-wrap {
+      padding: 50px 0px;
+  }
+   
+  .itrgn-text-text h2 {
+      font-size: 22px;
+      line-height: 125%;
+  }
+   
+  .itrgn-text-text p { 
+      font-size: 16px;
+      line-height: 150%;
+  }
+ 
+  .itrgn-text-inner {
+        display: -webkit-box;   
+        display: -moz-box;      
+        display: -ms-flexbox;   
+        display: -webkit-flex;  
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        -moz-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+  }
+
+  .itrgn-text-left {
+        order: 2;
+        -webkit-order: 2;
+        -moz-order: 2;
+        -ms-order: 2;
+        width: 100%;
+        padding-right: 0px;
+        width: 100%; 
+  }
+  
+  .itrgn-text-right {
+        order: 1;
+        -webkit-order: 1;
+        -moz-order: 1;
+        -ms-order: 1;
+        width: 100%;
+        padding-left: 0px;
+        padding-bottom: 50px;
+   }
+   
+  .itrgn-text-image { 
+      max-width: 80%;
+      margin: 0px auto;
+  }
+  
+  .itrgn-text-item {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+  
+}
+
+/************** iphone ***************/
+
+@media (max-width: 479px) {
+
+
+}
+
+

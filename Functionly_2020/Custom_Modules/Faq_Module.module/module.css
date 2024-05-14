@@ -1,0 +1,9 @@
+@media(max-width:767px){
+  .accordion-content{
+   max-width:90%; 
+  }
+}
+
+.price-faq .faq-accrodion {
+    padding: 100px 0px 90px; 
+}

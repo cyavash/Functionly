@@ -1,0 +1,29 @@
+[ {
+  "id" : "09dd8023-d7bb-effd-97af-e2981ece3150",
+  "name" : "content",
+  "display_width" : null,
+  "label" : "Content",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "857517de-05d8-b2e5-6ec0-e21635a2a442",
+    "name" : "youyube_video_id",
+    "display_width" : null,
+    "label" : "Youyube Video ID",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "gwwbnrjC1h8",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "gwwbnrjC1h8"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "default" : {
+    "youyube_video_id" : "gwwbnrjC1h8"
+  }
+} ]

@@ -1,0 +1,116 @@
+<div class="price-table-wrap"> 
+  <div class="page-center"> 
+       
+    <div class="price-table-inner"> 
+    <div class="cm-table-wrap">
+      <table class="criteria">
+        {% for item in module.table_left_item %}
+        <tbody>
+        <tr>
+          <th><h4>{{ item.table_title }} </h4></th>
+        </tr> 
+          {% for item2 in item.item %}
+        <tr>
+          <td>
+            <div class="tooltip {{ item2.category }}"><span style="border-bottom: 0px dashed #662D91;">{{ item2.text }}</span>
+              {% if item2.tooltip_text %}
+              <span class="tooltiptext">{{ item2.tooltip_text }}</span>
+              {% endif %}
+            </div>
+          </td>
+        </tr>
+        {% endfor %}  
+        </tbody>
+        {% endfor %}
+      </table>
+      {% for item in module.table_item %}
+      <table class="small-suppliers {% if item.column_setting.featured_column %}featured-column{% endif %} cm-{{ loop.index}}col-type">
+        <tbody>
+          <tr><th>{{ item.table_column_title }}</th></tr>
+          {% for item2 in item.item %}
+          <tr>
+            <td>{{ item2.details }}</td>
+          </tr>
+          {% endfor %}
+          <tr class="btm-link1">
+            <td>
+              {% set href = item.link_field.url.href %}
+                {% if item.link_field.url.type is equalto "EMAIL_ADDRESS" %}
+                  {% set href = "mailto:" + href %}
+                {% endif %}
+                {% set rel = [] %}
+                {% if item.link_field.no_follow %}
+                  {% do rel.append("nofollow") %}
+                {% endif %}
+                {% if item.link_field.open_in_new_tab %}
+                  {% do rel.append("noopener") %}
+                {% endif %}
+                <a href="{{ href }}"
+                  {% if item.link_field.open_in_new_tab %}target="_blank"{% endif %}
+                  {% if rel %}rel="{{ rel|join(" ") }}"{% endif %}
+                  >
+                  {{ item.link1_text }}
+                </a>
+            </td>
+          </tr> 
+          <tr class="btm-link2">
+            <td>
+              {% set href = item.link2.url.href %}
+                {% if item.link2.url.type is equalto "EMAIL_ADDRESS" %}
+                  {% set href = "mailto:" + href %}
+                {% endif %}
+                {% set rel = [] %}
+                {% if item.link2.no_follow %}
+                  {% do rel.append("nofollow") %}
+                {% endif %}
+                {% if item.link2.open_in_new_tab %}
+                  {% do rel.append("noopener") %}
+                {% endif %}
+                <a href="{{ href }}"
+                  {% if item.link2.open_in_new_tab %}target="_blank"{% endif %}
+                  {% if rel %}rel="{{ rel|join(" ") }}"{% endif %}
+                  >
+                  {{ item.link2_text }}
+                </a>
+            </td>
+          </tr> 
+        </tbody>
+      </table>  
+      {% endfor %}
+    </div> 
+    </div>
+ 
+  </div> 
+</div>
+
+{% if item2.tooltip_text  %}
+
+<style>
+  
+.tooltip span {
+   border-bottom: 1px dashed #662D91;
+}
+   
+</style>
+{% else %}
+  
+<style>
+  
+.tooltip span {
+   border-bottom: 0px dashed #662D91;
+}
+   
+</style>
+{% endif %}
+
+{% require_css %}
+<style>
+
+  
+
+  
+  
+  
+</style>
+{% end_require_css %}
+ 

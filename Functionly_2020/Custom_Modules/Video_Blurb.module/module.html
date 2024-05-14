@@ -1,0 +1,38 @@
+<div class="video-blurb-wrap"> 
+  <div class="page-center"> 
+   <div class="video-blurb-inner">
+      {% for item in module.content %}
+          <div class="video-blurb-item"> 
+            <div class="video-blurb"> 
+              <div class="video-blurb-image">
+                {% if item.image.src %}
+                  {% set sizeAttrs = 'width="{{ item.image.width }}" height="{{ item.image.height }}"' %}
+                  {% if item.image.size_type == 'auto' %}
+                    {% set sizeAttrs = 'style="max-width: 100%; height: auto;"' %}
+                  {% elif item.image.size_type == 'auto_custom_max' %}
+                    {% set sizeAttrs = 'width="100%" height="auto" style="max-width: {{ item.image.max_width }}px; max-height: {{ item.image.max_height }}px"' %}
+                  {% endif %}
+                  <img src="{{ item.image.src }}" alt="{{ item.image.alt }}" {{ sizeAttrs }}>
+                {% endif %}
+                
+                
+               <div class="video-play ">
+                  <a class="youtube-link" youtubeid="{{ item.youtube_video_id }}">
+                    <img src="{{ item.play_icon.src }}">
+                  </a> 
+              </div>
+                
+              </div>
+              
+               
+              <div class="video-blurb-text"> 
+                  {{ item.content }} 
+              </div>  
+            </div> 
+     </div>  
+  {% endfor %} 
+   </div>
+  </div>
+</div>
+
+    

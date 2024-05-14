@@ -1,0 +1,11 @@
+.audio-play {
+    display: flex;
+}
+
+.audio-btn {
+  width: 20%;
+}
+
+.audio-wave {
+  width: 80%;
+}

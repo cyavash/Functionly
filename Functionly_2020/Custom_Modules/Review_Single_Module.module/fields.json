@@ -1,0 +1,87 @@
+[ {
+  "id" : "f52f478d-0c1e-e864-769a-35299a555d10",
+  "name" : "main_header",
+  "display_width" : null,
+  "label" : "Main Header",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Better work design is building a better future"
+}, {
+  "id" : "cb05872a-af9c-3c95-21a6-531af76a39a0",
+  "name" : "review",
+  "display_width" : null,
+  "label" : "Review",
+  "help_text" : "",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "88dc5289-f9e7-2b49-c604-e8cf17fa7372",
+    "name" : "quote",
+    "display_width" : null,
+    "label" : "Quote",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<p>Work design concerns the \"content and organization of one’s work tasks, activities, relationships, and responsibilities.</p>"
+  }, {
+    "id" : "11c8fa78-1ba7-5757-62d9-e24c52c01e25",
+    "name" : "author_name",
+    "display_width" : null,
+    "label" : "Author name",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Sharon Parker"
+  }, {
+    "id" : "44c45b3b-72b9-42d8-3684-8f172b46c301",
+    "name" : "job_title",
+    "display_width" : null,
+    "label" : "Job title or company",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Professor"
+  }, {
+    "id" : "f092f4e1-3ed9-892f-924f-c5f64bbbc20e",
+    "name" : "author_picture",
+    "display_width" : null,
+    "label" : "Author picture",
+    "required" : true,
+    "locked" : false,
+    "responsive" : false,
+    "resizable" : false,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/person.svg",
+      "alt" : "person",
+      "width" : 78,
+      "height" : 60
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "default" : {
+    "quote" : "<p>Work design concerns the \"content and organization of one’s work tasks, activities, relationships, and responsibilities.</p>",
+    "author_name" : "Sharon Parker",
+    "job_title" : "Professor",
+    "author_picture" : {
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/person.svg",
+      "alt" : "person",
+      "width" : 78,
+      "height" : 60
+    }
+  }
+} ]

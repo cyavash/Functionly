@@ -1,0 +1,75 @@
+<div id="author-page" class="author-page-main ">
+  <div class="blog-list-wrap blog-list-wraptop">
+    <div class="page-center">        
+      
+      <!-- code in variable field to set author name as "author" variable -->
+      {{ module.author_name }}
+      
+       <!-- sets a variable for posts of by author of first blog -->
+      {% set blog_one_posts = blog_recent_author_posts('29999495033', author, 100) %}
+
+      <!-- sets a variable for posts by author of second blog -->
+      {% set blog_two_posts = blog_recent_author_posts('69790394419', author, 100) %}    
+      
+      <!-- combines the two variables into a single variable and sorts them by publish date. Please note the sort filter requires all three parameters -->
+      <!--
+      {% set all_posts = (blog_one_posts + blog_two_posts) | sort(true, false, 'publish_date')  %} 
+      -->
+      <div class="blog-section">
+          <div class="blog-listing-wrapper blog-listing-wrapper1 cell-wrapper">
+            <div class="post-listing blog-list-inner">
+              <!-- loop through posts in custom all posts variable -->
+              {% for post in all_posts %} 
+               
+            <div class="post-item list-item-rss blog-list-item"> 
+              <div class="post-list-inner">
+                <a href="{{post.absolute_url}}">
+                <div class="post-list-fimg" style="background-image: url({{ post.post_list_summary_featured_image }});">
+                  <!-- <a href="{{ post.absolute_url }}">
+                   <img src="{{ post.post_list_summary_featured_image }}">
+                  </a> -->
+                </div>
+                </a>
+                
+                <div class="post-list-content">   
+                  <div class="post-list-top"> 
+                     <div class="post-list-tag">  
+                        {% if post.tag_list %}
+                          <p>
+                            {% for tag in post.tag_list %}
+                            {% if loop.index <= 3 %}
+                            <a class="ucTopicLink1" href="{{ blog_tag_url(group.id, tag.slug) }}">{{ tag.name }}</a>{% if not loop.last %},{% endif %}
+                            {% endif %}
+                            {% endfor %}
+                          </p>
+                      {% endif %}      
+                    </div>
+                    <div class="post-list-time">   
+                        <p>{{ post.publish_date_local_time|datetimeformat('%e/%m/%y') }}</p> 
+                    </div> 
+                  </div>
+                  <div class="post-header-list">   
+                      <h4><a href="{{ post.absolute_url }}">{{ post.name }}</a></h4> 
+                  </div> 
+                   <div class="post-list-author">   
+                     {% if post.blog_post_author %}  
+                          By: {{ post.blog_post_author.display_name }}
+                            <a class="author-link" href="{{ blog_author_url(group.id, post.blog_post_author.slug) }}"></a>
+                    {% endif %}  
+                  </div> 
+                  
+                </div>
+              </div>  
+            </div>
+              
+              {% endfor %} 
+ 
+            </div><!-- end post-listing -->
+          </div><!-- end blog-listing-wrapper1 -->
+      </div><!-- end blog-section -->
+    </div><!-- end page-center -->
+  </div><!-- end blog-list-wrap -->
+</div><!-- end author-page -->
+
+
+

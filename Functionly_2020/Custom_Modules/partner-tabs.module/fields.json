@@ -1,0 +1,141 @@
+[ {
+  "id" : "c5d5dcd9-7201-205c-0c9c-642877d26375",
+  "name" : "tab_item",
+  "display_width" : null,
+  "label" : "Tab Item",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : 5
+  },
+  "children" : [ {
+    "id" : "cc208e2f-446e-63b1-ac8f-77072ee4eb61",
+    "name" : "tab_heading",
+    "display_width" : null,
+    "label" : "Tab Heading",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Org design sandbox"
+  }, {
+    "id" : "36777f35-9d33-a1eb-ce4e-6aa6c68831aa",
+    "name" : "tab_content",
+    "display_width" : null,
+    "label" : "Tab Content",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<p>Unleash unique org change strategies for clients. Sandbox new ideas across M&amp;A, expansion into new markets, and restructures.</p>"
+  }, {
+    "id" : "46e2b446-1f3f-d466-488d-ab5193d5bca1",
+    "name" : "tab_image",
+    "display_width" : null,
+    "label" : "Tab Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/img11-1.png",
+      "alt" : "img11-1",
+      "loading" : "lazy",
+      "width" : 2000,
+      "height" : 1131,
+      "max_width" : 2000,
+      "max_height" : 1131
+    }
+  }, {
+    "id" : "d6671f72-9fbd-69f0-3b49-91dee7fa190b",
+    "name" : "cta_field",
+    "display_width" : null,
+    "label" : "CTA",
+    "required" : false,
+    "locked" : false,
+    "type" : "cta",
+    "default" : "015a6f28-1f10-42ff-9851-9c67584d3d0f"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "default" : [ {
+    "tab_heading" : "Org design sandbox",
+    "tab_content" : "<p>Unleash unique org change strategies for clients. Sandbox new ideas across M&amp;A, expansion into new markets, and restructures.</p>",
+    "tab_image" : {
+      "size_type" : "auto",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/img11-1.png",
+      "alt" : "img11-1",
+      "loading" : "lazy",
+      "width" : 2000,
+      "height" : 1131,
+      "max_width" : 2000,
+      "max_height" : 1131
+    },
+    "cta_field" : "015a6f28-1f10-42ff-9851-9c67584d3d0f"
+  }, {
+    "tab_heading" : "Org design sandbox",
+    "tab_content" : "<p>Unleash unique org change strategies for clients. Sandbox new ideas across M&amp;A, expansion into new markets, and restructures.</p>",
+    "tab_image" : {
+      "size_type" : "auto",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/img11-1.png",
+      "alt" : "img11-1",
+      "loading" : "lazy",
+      "width" : 2000,
+      "height" : 1131,
+      "max_width" : 2000,
+      "max_height" : 1131
+    },
+    "cta_field" : "015a6f28-1f10-42ff-9851-9c67584d3d0f"
+  }, {
+    "tab_heading" : "Org design sandbox",
+    "tab_content" : "<p>Unleash unique org change strategies for clients. Sandbox new ideas across M&amp;A, expansion into new markets, and restructures.</p>",
+    "tab_image" : {
+      "size_type" : "auto",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/img11-1.png",
+      "alt" : "img11-1",
+      "loading" : "lazy",
+      "width" : 2000,
+      "height" : 1131,
+      "max_width" : 2000,
+      "max_height" : 1131
+    },
+    "cta_field" : "015a6f28-1f10-42ff-9851-9c67584d3d0f"
+  }, {
+    "tab_heading" : "Org design sandbox",
+    "tab_content" : "<p>Unleash unique org change strategies for clients. Sandbox new ideas across M&amp;A, expansion into new markets, and restructures.</p>",
+    "tab_image" : {
+      "size_type" : "auto",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/img11-1.png",
+      "alt" : "img11-1",
+      "loading" : "lazy",
+      "width" : 2000,
+      "height" : 1131,
+      "max_width" : 2000,
+      "max_height" : 1131
+    },
+    "cta_field" : "015a6f28-1f10-42ff-9851-9c67584d3d0f"
+  }, {
+    "tab_heading" : "Org design sandbox",
+    "tab_content" : "<p>Unleash unique org change strategies for clients. Sandbox new ideas across M&amp;A, expansion into new markets, and restructures.</p>",
+    "tab_image" : {
+      "size_type" : "auto",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/img11-1.png",
+      "alt" : "img11-1",
+      "loading" : "lazy",
+      "width" : 2000,
+      "height" : 1131,
+      "max_width" : 2000,
+      "max_height" : 1131
+    },
+    "cta_field" : "015a6f28-1f10-42ff-9851-9c67584d3d0f"
+  } ]
+} ]

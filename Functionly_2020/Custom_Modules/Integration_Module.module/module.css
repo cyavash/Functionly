@@ -1,0 +1,95 @@
+.intg-logo-wrap {
+    padding: 70px 0px;
+    text-align: center;
+}
+.intg-logo-image img {
+    height: 100% !important;
+    width: 100% !important;
+}
+.intg-logo-image {
+    max-width: 225px;
+}
+
+.home-intgr-wrap .intg-logo-wrap {
+    padding: 10px 0px 90px;
+    text-align: center;
+}
+
+.featr-intgr-wrap .intg-logo-wrap {
+    padding: 20px 0px 100px;
+}
+
+.price-intgr-wrap .intg-logo-wrap {
+    padding: 20px 0px 100px;
+    text-align: center;
+}
+
+.intg-logo-header {
+    padding-bottom: 50px;
+}
+
+.intg-logo-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.intg-logo {
+    padding: 30px;
+}
+
+
+
+
+
+/******** Responsive code starts here *******/
+ 
+/************** ipad ***************/
+
+@media (max-width: 1080px) {
+
+  .intg-logo {
+      padding: 20px;
+  }
+ 
+  .intg-logo-wrap {
+      padding: 50px 0px;
+      text-align: center;
+  }
+  
+  .home-intgr-wrap .intg-logo-wrap  {
+      padding: 10px 0px 70px;
+      text-align: center;
+  }
+  
+}
+
+/************** ipad nd tab ***************/
+
+@media only screen and (min-width:768px) and (max-width: 1024px) and (orientation : portrait){
+
+ 
+}
+
+/************** iphone roatate***************/
+
+@media (max-width: 767px) {
+
+  .intg-logo-header {
+      padding-bottom: 20px;
+  }
+  
+}
+
+/************** iphone ***************/
+
+@media (max-width: 479px) {
+
+  .intg-logo-wrap {
+      padding: 50px 0px 10px;
+      text-align: center;
+  }
+
+}
+

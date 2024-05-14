@@ -1,0 +1,111 @@
+[ {
+  "id" : "09dd8023-d7bb-effd-97af-e2981ece3150",
+  "name" : "content",
+  "display_width" : null,
+  "label" : "Content",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "bcf8e05a-f721-1d70-ae51-94a7fff0af93",
+    "name" : "left_image",
+    "display_width" : null,
+    "label" : "Left Image",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : "26a23548-9fe9-d9a6-d02a-5f9535e1a881",
+      "controlling_field_path" : null,
+      "controlling_value_regex" : "false",
+      "property" : null,
+      "operator" : "EQUAL",
+      "access" : null
+    },
+    "responsive" : true,
+    "resizable" : false,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Strategy.png",
+      "alt" : "Strategy",
+      "width" : 662,
+      "height" : 364,
+      "max_width" : 662,
+      "max_height" : 364
+    }
+  }, {
+    "id" : "22b391ad-8395-74ad-3e1b-51973608dc0c",
+    "name" : "content",
+    "display_width" : null,
+    "label" : "Content",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<h2>More agility and resilience to your future strategy</h2>\n<p>Make the right moves at the right time by investing into the things that matter.</p>"
+  }, {
+    "id" : "35c8e969-ff82-fd81-1080-89d955620490",
+    "name" : "cta_field",
+    "display_width" : null,
+    "label" : "CTA",
+    "required" : false,
+    "locked" : false,
+    "type" : "cta",
+    "default" : "ed088566-2d12-45ff-877b-30aa807aa6d4"
+  }, {
+    "picker" : "file",
+    "id" : "94993be6-0fd8-d904-0cbf-627cfd119751",
+    "name" : "video",
+    "display_width" : null,
+    "label" : "Video",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : "26a23548-9fe9-d9a6-d02a-5f9535e1a881",
+      "controlling_field_path" : null,
+      "controlling_value_regex" : "true",
+      "property" : null,
+      "operator" : "EQUAL",
+      "access" : null
+    },
+    "type" : "file",
+    "default" : "https://f.hubspotusercontent00.net/hubfs/7832858/2-OrgChart-1.mp4"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "default" : {
+    "left_image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Strategy.png",
+      "alt" : "Strategy",
+      "width" : 662,
+      "height" : 364,
+      "max_width" : 662,
+      "max_height" : 364
+    },
+    "content" : "<h2>More agility and resilience to your future strategy</h2>\n<p>Make the right moves at the right time by investing into the things that matter.</p>",
+    "cta_field" : "ed088566-2d12-45ff-877b-30aa807aa6d4",
+    "video" : "https://f.hubspotusercontent00.net/hubfs/7832858/2-OrgChart-1.mp4"
+  }
+}, {
+  "id" : "23ab7b11-9bed-e534-b516-8977e7e09691",
+  "name" : "flip_position",
+  "display_width" : null,
+  "label" : "Flip Position",
+  "required" : false,
+  "locked" : false,
+  "display" : "checkbox",
+  "type" : "boolean",
+  "default" : false
+}, {
+  "id" : "26a23548-9fe9-d9a6-d02a-5f9535e1a881",
+  "name" : "image_video",
+  "display_width" : null,
+  "label" : "Image/Video",
+  "required" : false,
+  "locked" : false,
+  "display" : "checkbox",
+  "type" : "boolean",
+  "default" : false
+} ]

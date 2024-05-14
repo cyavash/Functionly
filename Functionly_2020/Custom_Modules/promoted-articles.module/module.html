@@ -1,0 +1,27 @@
+<div class="promoted-articles">  
+  <div class="page-center">
+    <h2>{{ module.title }}</h2>
+    <div class="row-fluid row-promoted">
+      {% set blogPostIds = [ 
+          module.first_blog_post_id,
+          module.second_blog_post_id,
+          module.third_blog_post_id
+      ] %}
+        
+        {% for postId in blogPostIds %}
+          {% set content = content_by_id(postId) %}
+          {% if content %}
+            <div class="span4">
+              <div class="blog-post">
+                <div class="blog-image">
+                  <a href="{{ content.absolute_url }}"><img src="{{ content.featured_image }}" alt=""></a>  
+                </div>
+                <h3><a href="{{ content.absolute_url }}">{{ content.title }}</a></h3>
+                <a href="{{ content.absolute_url }}" class="read-now-button"><span>Read Now</span></a>
+              </div><!-- end blog-post -->
+            </div>
+          {% endif %}
+        {% endfor %}
+    </div><!-- end row-fluid -->
+  </div><!-- end page-center -->
+</div><!-- end promoted-articles -->

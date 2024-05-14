@@ -1,0 +1,451 @@
+{
+  "isAvailableForNewContent" : true,
+  "templateType" : 4,
+  "attachedStylesheets" : [ {
+    "type" : "cos_extension_resource",
+    "path" : "/Functionly_2020/Codes/Stylesheet_2020.css"
+  } ],
+  "attachedJs" : [ {
+    "type" : "cos_extension_resource",
+    "path" : "/Functionly_2020/Codes/script_2020.js"
+  } ],
+  "customHead" : "<link href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\" rel=\"stylesheet\"> \n\n\n\n",
+  "customFooter" : "",
+  "bodyClass" : "",
+  "bodyCss" : "",
+  "bodyEditable" : false,
+  "layoutData" : {
+    "x" : 0,
+    "w" : 12,
+    "name" : "",
+    "label" : "",
+    "type" : "cell",
+    "params" : { },
+    "rows" : [ {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1599923101440995",
+        "label" : "Header_2020",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "path" : "/Functionly_2020/Global_Modules/Header_2020.template.json",
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "",
+        "label" : "",
+        "type" : "section_delimiter",
+        "params" : { },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1600251241860424",
+        "label" : "Hero_Module",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "hero" : {
+            "cta_1" : "",
+            "sub_title" : "Functionly TV",
+            "title" : "Explore the world of Functionly through video"
+          },
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Hero_Module",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Hero_Module",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1601024694396755",
+        "label" : "Video_Blurb",
+        "type" : "custom_widget",
+        "params" : {
+          "content" : [ {
+            "content" : "<h3>Secrets Of Successful Teamwork: Insights From Functionly</h3>",
+            "image" : {
+              "alt" : "Image-tv-1",
+              "height" : 60,
+              "max_height" : 60,
+              "max_width" : 78,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Image-tv-1.svg",
+              "width" : 78
+            },
+            "play_icon" : {
+              "alt" : "play",
+              "height" : 56,
+              "max_height" : 56,
+              "max_width" : 56,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/play.svg",
+              "width" : 56
+            },
+            "youtube_video_id" : "b4p0N2YEBko"
+          }, {
+            "content" : "<h3>Teamwork Reimagined | Kevin Cahill interview with Functionly</h3>",
+            "image" : {
+              "alt" : "Image-tv-2",
+              "height" : 60,
+              "max_height" : 60,
+              "max_width" : 78,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Image-tv-2.svg",
+              "width" : 78
+            },
+            "play_icon" : {
+              "alt" : "play",
+              "height" : 56,
+              "max_height" : 56,
+              "max_width" : 56,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/play.svg",
+              "width" : 56
+            },
+            "youtube_video_id" : "b4p0N2YEBko"
+          }, {
+            "content" : "<h3>Leadership and effective collaboration</h3>",
+            "image" : {
+              "alt" : "Image-tv-3",
+              "height" : 60,
+              "max_height" : 60,
+              "max_width" : 78,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Image-tv-3.svg",
+              "width" : 78
+            },
+            "play_icon" : {
+              "alt" : "play",
+              "height" : 56,
+              "max_height" : 56,
+              "max_width" : 56,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/play.svg",
+              "width" : 56
+            },
+            "youtube_video_id" : "b4p0N2YEBko"
+          }, {
+            "content" : "<h3>What is Organizational Change Management? | Introduction to Change Management</h3>",
+            "image" : {
+              "alt" : "Image-tv-4",
+              "height" : 60,
+              "max_height" : 60,
+              "max_width" : 78,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Image-tv-4.svg",
+              "width" : 78
+            },
+            "play_icon" : {
+              "alt" : "play",
+              "height" : 56,
+              "max_height" : 56,
+              "max_width" : 56,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/play.svg",
+              "width" : 56
+            },
+            "youtube_video_id" : "b4p0N2YEBko"
+          }, {
+            "content" : "<h3>Leadership: Execution and Teamwork</h3>",
+            "image" : {
+              "alt" : "Image-tv-5",
+              "height" : 60,
+              "max_height" : 60,
+              "max_width" : 78,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Image-tv-5.svg",
+              "width" : 78
+            },
+            "play_icon" : {
+              "alt" : "play",
+              "height" : 56,
+              "max_height" : 56,
+              "max_width" : 56,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/play.svg",
+              "width" : 56
+            },
+            "youtube_video_id" : "b4p0N2YEBko"
+          }, {
+            "content" : "<h3>5 Reasons Why Effective Teamwork is Important for all Organisations</h3>",
+            "image" : {
+              "alt" : "Image-tv-6",
+              "height" : 60,
+              "max_height" : 60,
+              "max_width" : 78,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Image-tv-6.svg",
+              "width" : 78
+            },
+            "play_icon" : {
+              "alt" : "play",
+              "height" : 56,
+              "max_height" : 56,
+              "max_width" : 56,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/play.svg",
+              "width" : 56
+            },
+            "youtube_video_id" : "b4p0N2YEBko"
+          }, {
+            "content" : "<h3>Organisational Behaviour: Structures &amp; Cultures</h3>",
+            "image" : {
+              "alt" : "Image-tv-7",
+              "height" : 60,
+              "max_height" : 60,
+              "max_width" : 78,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Image-tv-7.svg",
+              "width" : 78
+            },
+            "play_icon" : {
+              "alt" : "play",
+              "height" : 56,
+              "max_height" : 56,
+              "max_width" : 56,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/play.svg",
+              "width" : 56
+            },
+            "youtube_video_id" : "b4p0N2YEBko"
+          }, {
+            "content" : "<h3>Recruiting and Hiring Tips | How to Hire or Recruit Employees</h3>",
+            "image" : {
+              "alt" : "Image-tv-8",
+              "height" : 60,
+              "max_height" : 60,
+              "max_width" : 78,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Image-tv-8.svg",
+              "width" : 78
+            },
+            "play_icon" : {
+              "alt" : "play",
+              "height" : 56,
+              "max_height" : 56,
+              "max_width" : 56,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/play.svg",
+              "width" : 56
+            },
+            "youtube_video_id" : "b4p0N2YEBko"
+          }, {
+            "content" : "<h3>How to Hire the Best Employees: What to REALLY Look for in Interviews</h3>",
+            "image" : {
+              "alt" : "Image-tv-9",
+              "height" : 60,
+              "max_height" : 60,
+              "max_width" : 78,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Image-tv-9.svg",
+              "width" : 78
+            },
+            "play_icon" : {
+              "alt" : "play",
+              "height" : 56,
+              "max_height" : 56,
+              "max_width" : 56,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/play.svg",
+              "width" : 56
+            },
+            "youtube_video_id" : "b4p0N2YEBko"
+          } ],
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Video_Blurb",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Video_Blurb",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1601021506666673",
+        "label" : "Testimonial Slider Module",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Testimonial Slider Module",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Testimonial Slider Module",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1699891204872136",
+        "label" : "CTA_Module_Global",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "wrapping_html" : "",
+          "per_widget_wrapper_html" : "",
+          "overrideable" : true,
+          "widget_name" : "CTA_Module_Global",
+          "schema_version" : 2,
+          "path" : "/Functionly_2020/Custom_Modules/CTA_Module_Global"
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1603544067723310",
+        "label" : "Flexible column",
+        "type" : "widget_container",
+        "params" : {
+          "css_class" : "flex-column",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "flex-column",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "",
+        "label" : "",
+        "type" : "section_delimiter",
+        "params" : { },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_15999231076911006",
+        "label" : "Footer_2020",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "path" : "/Functionly_2020/Global_Modules/Footer_2020.template.json",
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    } ],
+    "rowMetaData" : [ ],
+    "cells" : [ ],
+    "cssId" : "",
+    "cssClass" : "",
+    "cssStyle" : "",
+    "styles" : null,
+    "widgets" : [ ]
+  }
+}

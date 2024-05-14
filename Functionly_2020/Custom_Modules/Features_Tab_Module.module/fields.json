@@ -1,0 +1,296 @@
+[ {
+  "id" : "876ec876-14da-773a-4cfc-c11945744931",
+  "name" : "header",
+  "display_width" : null,
+  "label" : "Header",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : ""
+}, {
+  "id" : "6e905e76-cd0d-9af3-5490-b4fcd7bf71f3",
+  "name" : "description",
+  "display_width" : null,
+  "label" : "Description",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : ""
+}, {
+  "id" : "0dc5bedc-ceee-b991-53cb-55f4c39af73c",
+  "name" : "list_item",
+  "display_width" : null,
+  "label" : "List Item",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : 12,
+    "sorting_label_field" : "618f1aea-1775-0eba-628e-5f24d03ed24d",
+    "default" : 4
+  },
+  "children" : [ {
+    "id" : "b7a09cf5-7eca-bf56-ee92-499d8db81dae",
+    "name" : "image",
+    "display_width" : null,
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : "d8c5d845-ac93-d259-0e8e-f01d11adc932",
+      "controlling_field_path" : null,
+      "controlling_value_regex" : "false",
+      "property" : null,
+      "operator" : "EQUAL",
+      "access" : null
+    },
+    "responsive" : false,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Feature_2022/Image_1.png",
+      "alt" : "Image_1",
+      "width" : 168,
+      "height" : 184,
+      "loading" : "lazy"
+    }
+  }, {
+    "id" : "73923ca3-3efc-84f8-8f91-b1d1b3b36952",
+    "name" : "videoplayer_field",
+    "display_width" : null,
+    "label" : "Video",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : "d8c5d845-ac93-d259-0e8e-f01d11adc932",
+      "controlling_field_path" : null,
+      "controlling_value_regex" : "true",
+      "property" : null,
+      "operator" : "EQUAL",
+      "access" : null
+    },
+    "resizable" : true,
+    "show_preview" : true,
+    "show_advanced_options" : false,
+    "type" : "videoplayer",
+    "default" : {
+      "player_id" : null
+    }
+  }, {
+    "id" : "d8c5d845-ac93-d259-0e8e-f01d11adc932",
+    "name" : "image_video",
+    "display_width" : null,
+    "label" : "Image/Video",
+    "required" : false,
+    "locked" : false,
+    "display" : "checkbox",
+    "type" : "boolean",
+    "default" : false
+  }, {
+    "id" : "41b89fb4-b15f-6f17-c5ae-3d6ea20e3a68",
+    "name" : "heading",
+    "display_width" : null,
+    "label" : "Heading",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : ""
+  }, {
+    "id" : "618f1aea-1775-0eba-628e-5f24d03ed24d",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Auto create and update"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "default" : [ {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Feature_2022/Image_1.png",
+      "alt" : "Image_1",
+      "width" : 168,
+      "height" : 184,
+      "loading" : "lazy"
+    },
+    "videoplayer_field" : {
+      "player_id" : null
+    },
+    "image_video" : false,
+    "title" : "Auto create and update",
+    "heading" : ""
+  }, {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Feature_2022/Image_1.png",
+      "alt" : "Image_1",
+      "width" : 168,
+      "height" : 184,
+      "loading" : "lazy"
+    },
+    "videoplayer_field" : {
+      "player_id" : null
+    },
+    "image_video" : false,
+    "title" : "Auto create and update",
+    "heading" : ""
+  }, {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Feature_2022/Image_1.png",
+      "alt" : "Image_1",
+      "width" : 168,
+      "height" : 184,
+      "loading" : "lazy"
+    },
+    "videoplayer_field" : {
+      "player_id" : null
+    },
+    "image_video" : false,
+    "title" : "Auto create and update",
+    "heading" : ""
+  }, {
+    "image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Feature_2022/Image_1.png",
+      "alt" : "Image_1",
+      "width" : 168,
+      "height" : 184,
+      "loading" : "lazy"
+    },
+    "videoplayer_field" : {
+      "player_id" : null
+    },
+    "image_video" : false,
+    "title" : "Auto create and update",
+    "heading" : ""
+  } ]
+}, {
+  "id" : "09dd8023-d7bb-effd-97af-e2981ece3150",
+  "name" : "tab",
+  "display_width" : null,
+  "label" : "Tab",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 2,
+    "max" : 10,
+    "sorting_label_field" : "070958a6-04f3-3b8e-3d57-d8850a2753f4",
+    "default" : 4
+  },
+  "children" : [ {
+    "id" : "070958a6-04f3-3b8e-3d57-d8850a2753f4",
+    "name" : "tab_label",
+    "display_width" : null,
+    "label" : "Tab Label",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<h4>Custom org layouts</h4>\n<p>Choose between our wide and condensed views, or create your own custom layouts.</p>"
+  }, {
+    "id" : "bcf8e05a-f721-1d70-ae51-94a7fff0af93",
+    "name" : "left_image",
+    "display_width" : null,
+    "label" : "Tab Image",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : "5b5a4551-55ab-b4e6-5603-8c287a128c8b",
+      "controlling_field_path" : null,
+      "controlling_value_regex" : "false",
+      "property" : null,
+      "operator" : "EQUAL",
+      "access" : null
+    },
+    "responsive" : false,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Feature_2022/Image.png",
+      "alt" : "Image",
+      "width" : 640,
+      "height" : 640,
+      "loading" : "lazy"
+    }
+  }, {
+    "id" : "fd187cec-4e64-f805-51b2-2be80b081ce9",
+    "name" : "videoplayer_field",
+    "display_width" : null,
+    "label" : "Video",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : "5b5a4551-55ab-b4e6-5603-8c287a128c8b",
+      "controlling_field_path" : null,
+      "controlling_value_regex" : "true",
+      "property" : null,
+      "operator" : "EQUAL",
+      "access" : null
+    },
+    "resizable" : true,
+    "show_preview" : true,
+    "show_advanced_options" : false,
+    "type" : "videoplayer",
+    "default" : {
+      "player_id" : 92881211410,
+      "height" : 900,
+      "width" : 900,
+      "player_type" : "hsvideo2"
+    }
+  }, {
+    "id" : "5b5a4551-55ab-b4e6-5603-8c287a128c8b",
+    "name" : "image_video",
+    "display_width" : null,
+    "label" : "Image/Video",
+    "required" : false,
+    "locked" : false,
+    "display" : "checkbox",
+    "type" : "boolean",
+    "default" : true
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "default" : [ {
+    "tab_label" : "<h4>Custom org layouts</h4>\n<p>Choose between our wide and condensed views, or create your own custom layouts.</p>",
+    "left_image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Feature_2022/Image.png",
+      "alt" : "Image",
+      "width" : 640,
+      "height" : 640,
+      "loading" : "lazy"
+    },
+    "videoplayer_field" : {
+      "player_id" : 92881211410,
+      "height" : 900,
+      "width" : 900,
+      "player_type" : "hsvideo2"
+    },
+    "image_video" : true
+  }, {
+    "tab_label" : "<h4>Custom org layouts</h4>\n<p>Choose between our wide and condensed views, or create your own custom layouts.</p>",
+    "left_image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Feature_2022/Image.png",
+      "alt" : "Image",
+     

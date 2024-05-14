@@ -1,0 +1,21 @@
+<div class="faq-accrodion">
+  <div class="page-center">
+    <div class="content_part">
+      <h2>{{ module.title }}</h2>
+      <div class="row-fluid">
+        {% for item in module.accordion_item %}
+        <div class="accordion-item">
+          <div class="accordion-inner">
+            <p class="accordion-title">
+              {{ item.title }} 
+              <span class="acc-plus" >+</span>
+              <span class="acc-minus" >-</span>
+            </p>
+            <div class="accordion-content" style="display:none">{{ item.content }}</div> 
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

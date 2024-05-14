@@ -1,0 +1,198 @@
+[ {
+  "id" : "43120c95-92c7-93a6-4b5f-cc7a6eab7605",
+  "name" : "title",
+  "display_width" : null,
+  "label" : "Title",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Authors"
+}, {
+  "id" : "e0f2cca2-0dd4-1f4b-5776-cab18bc9922e",
+  "name" : "author_card",
+  "display_width" : null,
+  "label" : "Author Card",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : 8
+  },
+  "children" : [ {
+    "id" : "467c2c85-6567-9b84-423d-5511e6fc2e42",
+    "name" : "author_name",
+    "display_width" : null,
+    "label" : "Name",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Aadil Maan"
+  }, {
+    "id" : "8eb592c1-d5f6-72cc-c349-f0242f64b051",
+    "name" : "link",
+    "display_width" : null,
+    "label" : "Link",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "/author/aadil-maan"
+  }, {
+    "id" : "01f233ce-495d-00fb-03ed-b863074e5ccd",
+    "name" : "image_field",
+    "display_width" : null,
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Aadil-Maan-profile.jpeg",
+      "alt" : "Aadil-Maan-profile",
+      "loading" : "lazy",
+      "width" : 500,
+      "height" : 500,
+      "max_width" : 500,
+      "max_height" : 500
+    }
+  }, {
+    "id" : "4fd9f3f4-4a0c-db3e-6fcd-570c1b99c517",
+    "name" : "description",
+    "display_width" : null,
+    "label" : "Description",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<p>With more than 12+ years of experience as technical program manager in both individual contributor and leadership roles, Aadil writes a newsletter about the art of technical program management leaning on his work at companies like Apple, Google, Nike, Blackberry, and currently at tech startup, Humane.</p>"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "default" : [ {
+    "author_name" : "Aadil Maan",
+    "link" : "/author/aadil-maan",
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Aadil-Maan-profile.jpeg",
+      "alt" : "Aadil-Maan-profile",
+      "loading" : "lazy",
+      "width" : 500,
+      "height" : 500,
+      "max_width" : 500,
+      "max_height" : 500
+    },
+    "description" : "<p>With more than 12+ years of experience as technical program manager in both individual contributor and leadership roles, Aadil writes a newsletter about the art of technical program management leaning on his work at companies like Apple, Google, Nike, Blackberry, and currently at tech startup, Humane.</p>"
+  }, {
+    "author_name" : "Aadil Maan",
+    "link" : "/author/aadil-maan",
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Aadil-Maan-profile.jpeg",
+      "alt" : "Aadil-Maan-profile",
+      "loading" : "lazy",
+      "width" : 500,
+      "height" : 500,
+      "max_width" : 500,
+      "max_height" : 500
+    },
+    "description" : "<p>With more than 12+ years of experience as technical program manager in both individual contributor and leadership roles, Aadil writes a newsletter about the art of technical program management leaning on his work at companies like Apple, Google, Nike, Blackberry, and currently at tech startup, Humane.</p>"
+  }, {
+    "author_name" : "Aadil Maan",
+    "link" : "/author/aadil-maan",
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Aadil-Maan-profile.jpeg",
+      "alt" : "Aadil-Maan-profile",
+      "loading" : "lazy",
+      "width" : 500,
+      "height" : 500,
+      "max_width" : 500,
+      "max_height" : 500
+    },
+    "description" : "<p>With more than 12+ years of experience as technical program manager in both individual contributor and leadership roles, Aadil writes a newsletter about the art of technical program management leaning on his work at companies like Apple, Google, Nike, Blackberry, and currently at tech startup, Humane.</p>"
+  }, {
+    "author_name" : "Aadil Maan",
+    "link" : "/author/aadil-maan",
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Aadil-Maan-profile.jpeg",
+      "alt" : "Aadil-Maan-profile",
+      "loading" : "lazy",
+      "width" : 500,
+      "height" : 500,
+      "max_width" : 500,
+      "max_height" : 500
+    },
+    "description" : "<p>With more than 12+ years of experience as technical program manager in both individual contributor and leadership roles, Aadil writes a newsletter about the art of technical program management leaning on his work at companies like Apple, Google, Nike, Blackberry, and currently at tech startup, Humane.</p>"
+  }, {
+    "author_name" : "Aadil Maan",
+    "link" : "/author/aadil-maan",
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Aadil-Maan-profile.jpeg",
+      "alt" : "Aadil-Maan-profile",
+      "loading" : "lazy",
+      "width" : 500,
+      "height" : 500,
+      "max_width" : 500,
+      "max_height" : 500
+    },
+    "description" : "<p>With more than 12+ years of experience as technical program manager in both individual contributor and leadership roles, Aadil writes a newsletter about the art of technical program management leaning on his work at companies like Apple, Google, Nike, Blackberry, and currently at tech startup, Humane.</p>"
+  }, {
+    "author_name" : "Aadil Maan",
+    "link" : "/author/aadil-maan",
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Aadil-Maan-profile.jpeg",
+      "alt" : "Aadil-Maan-profile",
+      "loading" : "lazy",
+      "width" : 500,
+      "height" : 500,
+      "max_width" : 500,
+      "max_height" : 500
+    },
+    "description" : "<p>With more than 12+ years of experience as technical program manager in both individual contributor and leadership roles, Aadil writes a newsletter about the art of technical program management leaning on his work at companies like Apple, Google, Nike, Blackberry, and currently at tech startup, Humane.</p>"
+  }, {
+    "author_name" : "Aadil Maan",
+    "link" : "/author/aadil-maan",
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Aadil-Maan-profile.jpeg",
+      "alt" : "Aadil-Maan-profile",
+      "loading" : "lazy",
+      "width" : 500,
+      "height" : 500,
+      "max_width" : 500,
+      "max_height" : 500
+    },
+    "description" : "<p>With more than 12+ years of experience as technical program manager in both individual contributor and leadership roles, Aadil writes a newsletter about the art of technical program management leaning on his work at companies like Apple, Google, Nike, Blackberry, and currently at tech startup, Humane.</p>"
+  }, {
+    "author_name" : "Aadil Maan",
+    "link" : "/author/aadil-maan",
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Aadil-Maan-profile.jpeg",
+      "alt" : "Aadil-Maan-profile",
+      "loading" : "lazy",
+      "width" : 500,
+      "height" : 500,
+      "max_width" : 500,
+      "max_height" : 500
+    },
+    "description" : "<p>With more than 12+ years of experience as technical program manager in both individual contributor and leadership roles, Aadil writes a newsletter about the art of technical program management leaning on his work at companies like Apple, Google, Nike, Blackberry, and currently at tech startup, Humane.</p>"
+  } ]
+} ]

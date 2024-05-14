@@ -1,0 +1,82 @@
+.video-slg-wrap {
+    padding: 100px 0px;
+}
+
+.video-slg-inner {
+    max-width: 1088px;
+    margin: 0px auto;
+}
+
+.video-slg-image {
+    position: relative;
+}
+
+.video-slg-image {
+    position: relative;
+    filter: drop-shadow(0px 1px 5px rgba(0,0,0,0.2));
+    border-radius: 12px;
+    padding: 20px;
+}
+
+
+
+
+
+/******** Responsive code starts here *******/
+ 
+/************** ipad ***************/
+
+@media (max-width: 1080px) {
+ 
+  .video-slg-wrap {
+      padding: 70px 0px;
+  }
+
+}
+
+/************** ipad nd tab ***************/
+
+@media only screen and (min-width:768px) and (max-width: 1024px) and (orientation : portrait){
+
+ 
+}
+
+/************** iphone roatate***************/
+
+@media (max-width: 767px) {
+
+
+  .video-slg-image { 
+      padding: 0px;
+  }
+  
+}
+
+/************** iphone ***************/
+
+@media (max-width: 479px) {
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

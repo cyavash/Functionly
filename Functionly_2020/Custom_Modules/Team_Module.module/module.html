@@ -1,0 +1,27 @@
+<div class="team-outer-wrap"> 
+  <div class="page-center"> 
+   <div class="team-outer-inner">
+      {% for item in module.content %}
+          <div class="team-item"> 
+            <div class="team-blurb"> 
+              <div class="team-image" style="background-image: url({{ item.image.src }})";>
+                 
+              </div> 
+              <div class="team-text"> 
+                  <h3>{{ item.person_name }}</h3>
+                  <p>{{ item.person_position }}</p>
+              </div>  
+            </div> 
+     </div>  
+  {% endfor %} 
+   </div>
+  </div>
+</div>
+ 
+{% require_css %}
+<style>
+
+</style>
+{% end_require_css %}
+
+

@@ -1,0 +1,77 @@
+[ {
+  "id" : "12bb3298-5c3a-98b9-8470-51d9f919b43f",
+  "name" : "title",
+  "display_width" : null,
+  "label" : "Title",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "FAQs"
+}, {
+  "id" : "8d6a5c6e-fa27-609e-4035-877d4542d445",
+  "name" : "accordion_item",
+  "display_width" : null,
+  "label" : "Accordion Item",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : 8
+  },
+  "children" : [ {
+    "id" : "f47679e9-b791-cbbe-824a-a20099418de9",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "What’s a designer seat?"
+  }, {
+    "id" : "d3d5a7d6-2f9b-1b23-62a3-b7e5214de3e9",
+    "name" : "content",
+    "display_width" : null,
+    "label" : "Content",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<p>A work designer seat is for anyone that needs access to design an org, team or position for their organization.</p>"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "default" : [ {
+    "title" : "What’s a designer seat?",
+    "content" : "<p>A work designer seat is for anyone that needs access to design an org, team or position for their organization.</p>"
+  }, {
+    "title" : "What’s a designer seat?",
+    "content" : "<p>A work designer seat is for anyone that needs access to design an org, team or position for their organization.</p>"
+  }, {
+    "title" : "What’s a designer seat?",
+    "content" : "<p>A work designer seat is for anyone that needs access to design an org, team or position for their organization.</p>"
+  }, {
+    "title" : "What’s a designer seat?",
+    "content" : "<p>A work designer seat is for anyone that needs access to design an org, team or position for their organization.</p>"
+  }, {
+    "title" : "What’s a designer seat?",
+    "content" : "<p>A work designer seat is for anyone that needs access to design an org, team or position for their organization.</p>"
+  }, {
+    "title" : "What’s a designer seat?",
+    "content" : "<p>A work designer seat is for anyone that needs access to design an org, team or position for their organization.</p>"
+  }, {
+    "title" : "What’s a designer seat?",
+    "content" : "<p>A work designer seat is for anyone that needs access to design an org, team or position for their organization.</p>"
+  }, {
+    "title" : "What’s a designer seat?",
+    "content" : "<p>A work designer seat is for anyone that needs access to design an org, team or position for their organization.</p>"
+  } ]
+} ]

@@ -1,0 +1,269 @@
+[ {
+  "id" : "dd451e75-dd0b-cc0e-c679-d8504a5a98fb",
+  "name" : "left",
+  "display_width" : null,
+  "label" : "Left",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "8393c6ac-928a-0f0a-f594-61b7fdd5bee5",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Bring your org<br> strategy to life"
+  }, {
+    "id" : "41b51eed-655c-2a30-0dc9-6b34dda17e4e",
+    "name" : "description",
+    "display_width" : null,
+    "label" : "Description",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<p>Say goodbye to messy spreadsheets, diagrams, and slides.</p>"
+  }, {
+    "id" : "ba2728f8-cc2a-2de5-aff0-2a0984f1a7dc",
+    "name" : "cta_1",
+    "display_width" : null,
+    "label" : "CTA 1",
+    "required" : false,
+    "locked" : false,
+    "type" : "cta",
+    "default" : "016196c3-83d9-4458-9e35-e68a65a44950"
+  }, {
+    "id" : "b6846e1f-c438-0a5b-37fa-7590c29c28d6",
+    "name" : "cta_2_text",
+    "display_width" : null,
+    "label" : "CTA 2 Text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Watch Video"
+  }, {
+    "id" : "1b94ec12-f42a-aa58-2154-71a04ba6e531",
+    "name" : "link_field",
+    "display_width" : null,
+    "label" : "Link",
+    "required" : false,
+    "locked" : false,
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG" ],
+    "show_advanced_rel_options" : false,
+    "type" : "link",
+    "default" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "https://labs.functionly.com/sign-up",
+        "content_id" : null
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
+  }, {
+    "id" : "8c7f35b2-d06a-cd43-32b1-8b010494c4ea",
+    "name" : "video_link",
+    "display_width" : null,
+    "label" : "Video Link",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "https://www.functionly.com/cs/c/?cta_guid=e60910b1-2c48-4dce-a044-76a260777d20&signature=AAH58kF4XvXyTHR8-I7buqYcWILdH8R8Eg&pageId=106501423379&placement_guid=5aef27e8-6015-4fe7-a9db-844ac6133d8a&click=94977b53-1745-4f62-93c3-e70102415dcb&hsutk=91687cff77f9b9908007ff59378c0b39&canon=https%3A%2F%2Fwww.functionly.com%2F&portal_id=7832858&redirect_url=APefjpFZXot-OsbHIj5tP8jlfhnMNYcAoFN7M3ES0pBUjEBFbB-_kR8MzcL2nI8MwCDYbzVZYCbn-esfDQoacXSsmjVNBvVsvLHOK5hGzHzyDssUuGdwtyjuE7W5lFnAuEGSS-gMkJZuj9JLY07re2WQRGfCRVRO_p-OWFInrk-O6cy5hr9st2_1IqUebbaJEBPnTjQlSuWoRgUhqCI4B2nthIg81NRjnMqccd3w1N_nhqXMXKf2K9U_uo01uiLoelU85golCiXX0ElKjUl_VLCBk5XCMX84_A&__hstc=76580746.91687cff77f9b9908007ff59378c0b39.1699540568695.1699540568695.1699540568695.1&__hssc=76580746.2.1699540568695&__hsfp=4146146937&contentType=standard-page"
+  }, {
+    "id" : "56c794e1-229d-cfd2-fdcf-db5a15b7ce69",
+    "name" : "video_id",
+    "display_width" : null,
+    "label" : "Video Id",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "gwwbnrjC1h8"
+  }, {
+    "id" : "c4ae90db-0e97-c0ed-7071-6bf454398bc1",
+    "name" : "image_1",
+    "display_width" : null,
+    "label" : "Image 1",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/G2-BestSupport-2021.svg",
+      "alt" : "G2-BestSupport-2021",
+      "loading" : "lazy",
+      "width" : 162,
+      "height" : 182,
+      "max_width" : 162,
+      "max_height" : 182
+    }
+  }, {
+    "id" : "33c45fa9-2948-8ebd-27cd-20b617f6a265",
+    "name" : "image_2",
+    "display_width" : null,
+    "label" : "Image 2",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/G2-HighPerformer-2021.svg",
+      "alt" : "G2-HighPerformer-2021",
+      "loading" : "lazy",
+      "width" : 161,
+      "height" : 181,
+      "max_width" : 161,
+      "max_height" : 181
+    }
+  }, {
+    "id" : "21805642-1496-631b-6bc5-c0c114c75e78",
+    "name" : "text_field",
+    "display_width" : null,
+    "label" : "Text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "default" : {
+    "title" : "Bring your org<br> strategy to life",
+    "description" : "<p>Say goodbye to messy spreadsheets, diagrams, and slides.</p>",
+    "cta_1" : "016196c3-83d9-4458-9e35-e68a65a44950",
+    "cta_2_text" : "Watch Video",
+    "link_field" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "https://labs.functionly.com/sign-up",
+        "content_id" : null
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    },
+    "video_link" : "https://www.functionly.com/cs/c/?cta_guid=e60910b1-2c48-4dce-a044-76a260777d20&signature=AAH58kF4XvXyTHR8-I7buqYcWILdH8R8Eg&pageId=106501423379&placement_guid=5aef27e8-6015-4fe7-a9db-844ac6133d8a&click=94977b53-1745-4f62-93c3-e70102415dcb&hsutk=91687cff77f9b9908007ff59378c0b39&canon=https%3A%2F%2Fwww.functionly.com%2F&portal_id=7832858&redirect_url=APefjpFZXot-OsbHIj5tP8jlfhnMNYcAoFN7M3ES0pBUjEBFbB-_kR8MzcL2nI8MwCDYbzVZYCbn-esfDQoacXSsmjVNBvVsvLHOK5hGzHzyDssUuGdwtyjuE7W5lFnAuEGSS-gMkJZuj9JLY07re2WQRGfCRVRO_p-OWFInrk-O6cy5hr9st2_1IqUebbaJEBPnTjQlSuWoRgUhqCI4B2nthIg81NRjnMqccd3w1N_nhqXMXKf2K9U_uo01uiLoelU85golCiXX0ElKjUl_VLCBk5XCMX84_A&__hstc=76580746.91687cff77f9b9908007ff59378c0b39.1699540568695.1699540568695.1699540568695.1&__hssc=76580746.2.1699540568695&__hsfp=4146146937&contentType=standard-page",
+    "video_id" : "gwwbnrjC1h8",
+    "image_1" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/G2-BestSupport-2021.svg",
+      "alt" : "G2-BestSupport-2021",
+      "loading" : "lazy",
+      "width" : 162,
+      "height" : 182,
+      "max_width" : 162,
+      "max_height" : 182
+    },
+    "image_2" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/G2-HighPerformer-2021.svg",
+      "alt" : "G2-HighPerformer-2021",
+      "loading" : "lazy",
+      "width" : 161,
+      "height" : 181,
+      "max_width" : 161,
+      "max_height" : 181
+    }
+  }
+}, {
+  "id" : "8c144838-2c5f-d168-c7a6-88e16aeb73ee",
+  "name" : "right",
+  "display_width" : null,
+  "label" : "Right",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "7ec78444-c643-b40e-374d-e55be7058cb9",
+    "name" : "right_image",
+    "display_width" : null,
+    "label" : "Right Image",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : "9a8d2515-eeb5-7813-b1d4-9c0daac9e9fa",
+      "controlling_field_path" : null,
+      "controlling_value_regex" : "false",
+      "property" : null,
+      "operator" : "EQUAL",
+      "access" : null
+    },
+    "responsive" : true,
+    "resizable" : false,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/2NewHomeHereToThere.svg",
+      "alt" : "2NewHomeHereToThere",
+      "width" : 97,
+      "height" : 150,
+      "max_width" : 97,
+      "max_height" : 150
+    }
+  }, {
+    "id" : "9a8d2515-eeb5-7813-b1d4-9c0daac9e9fa",
+    "name" : "image_video",
+    "display_width" : null,
+    "label" : "Image/Video",
+    "required" : false,
+    "locked" : false,
+    "display" : "checkbox",
+    "type" : "boolean",
+    "default" : false
+  }, {
+    "picker" : "file",
+    "id" : "fded1468-229f-19eb-e053-a523d1858879",
+    "name" : "video",
+    "display_width" : null,
+    "label" : "Video",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : "9a8d2515-eeb5-7813-b1d4-9c0daac9e9fa",
+      "controlling_field_path" : null,
+      "controlling_value_regex" : "true",
+      "property" : null,
+      "operator" : "EQUAL",
+      "access" : null
+    },
+    "type" : "file",
+    "default" : "https://f.hubspotusercontent00.net/hubfs/7832858/1-Hero-1.mp4"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "default" : {
+    "right_image" : {
+      "size_type" : "exact",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/2NewHomeHereToThere.svg",
+      "alt" : "2NewHomeHereToThere",
+      "width" : 97,
+      "height" : 150,
+      "max_width" : 97,
+      "max_height" : 150
+    },
+    "image_video" : false,
+    "video" : "https://f.hubspotusercontent00.net/hubfs/7832858/1-Hero-1.mp4"
+  }
+} ]

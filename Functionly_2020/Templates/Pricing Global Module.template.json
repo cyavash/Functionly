@@ -1,0 +1,143 @@
+{
+  "isAvailableForNewContent" : true,
+  "templateType" : 18,
+  "attachedStylesheets" : [ ],
+  "attachedJs" : [ ],
+  "customHead" : "",
+  "customFooter" : "",
+  "bodyClass" : "",
+  "bodyCss" : "",
+  "bodyEditable" : false,
+  "layoutData" : {
+    "x" : 0,
+    "w" : 12,
+    "name" : "",
+    "label" : "",
+    "type" : "cell",
+    "params" : { },
+    "rows" : [ {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1631779230259291",
+        "label" : "Pricing_Module New",
+        "type" : "custom_widget",
+        "params" : {
+          "content" : [ {
+            "aprice_number" : "Free forever",
+            "aprice_sub_text" : "2 user included",
+            "content" : "<h4>The perfect start</h4>\n<ul>\n<li>2 collaborators included (max)</li>\n<li>Org Chart Builder</li>\n<li>Team import</li>\n<li>Unlimited Org Size</li>\n<li>Private Scenarios</li>\n<li>Basic Integrations</li>\n<li>Basic Reporting</li>\n<li>Basic Exporting</li>\n<li>Self service</li>\n<li>Workspace Administration</li>\n<li>Privacy and Security</li>\n</ul>",
+            "link1_text" : "Get started",
+            "link2" : {
+              "no_follow" : false,
+              "open_in_new_tab" : true,
+              "url" : {
+                "href" : "https://labs.functionly.com/sign-up/?plan=price_1HglepB3rgwynYaJ8QTgiA3K",
+                "type" : "EXTERNAL"
+              }
+            },
+            "link2_text" : "cc",
+            "link_field" : {
+              "no_follow" : false,
+              "open_in_new_tab" : true,
+              "url" : {
+                "href" : "https://labs.functionly.com/sign-up/?plan=price_1ITTpmB3rgwynYaJhrevaQjj&amp;__hstc=76580746.7b0829e49f7b78147c84224485e4a79a.1608814645992.1631631308879.1631776941409.19&amp;__hssc=76580746.1.1631776941409&amp;__hsfp=2007689537&amp;hsutk=7b0829e49f7b78147c84224485e4a79a&amp;contentType=standard-page",
+                "type" : "EXTERNAL"
+              }
+            },
+            "mprice_number" : "Free forever",
+            "mprice_sub_text" : "2 user included",
+            "price_acc_title" : "Key features:",
+            "price_details_acc" : "<ul>\n<li>2 collaborators included (max)</li>\n<li>Org Chart Builder</li>\n<li>Team import</li>\n<li>Unlimited Org Size</li>\n<li>Private Scenarios</li>\n<li>Basic Integrations</li>\n<li>Basic Reporting</li>\n<li>Basic Exporting</li>\n<li>Self service</li>\n<li>Workspace Administration</li>\n<li>Privacy and Security</li>\n</ul>",
+            "price_sub_text" : "2 user included",
+            "sub_title" : "Create & share beautiful org charts",
+            "title" : "Free"
+          }, {
+            "aprice_number" : "$119.70",
+            "aprice_sub_text" : "per user , monthly",
+            "content" : "<h4>Everything in Free plus</h4>\n<ul>\n<li>5 collaborators included</li>\n<li>Advanced Team Import</li>\n<li>Add more users (no max)</li>\n<li>HRIS Integrations</li>\n<li>Customizable Reporting</li>\n<li>Basic Roles &amp; Responsibilites</li>\n<li>Additional Exporting Options</li>\n<li>Priority email support</li>\n<li>Privacy and Security Management</li>\n<li>Workspace Administration</li>\n</ul>",
+            "link1_text" : "Trial now",
+            "link2" : {
+              "no_follow" : false,
+              "open_in_new_tab" : true,
+              "url" : {
+                "href" : "https://labs.functionly.com/sign-up/?plan=plan_H8oyTyQaWB5OMU&amp;__hstc=76580746.7b0829e49f7b78147c84224485e4a79a.1608814645992.1631631308879.1631776941409.19&amp;__hssc=76580746.1.1631776941409&amp;__hsfp=2007689537&amp;hsutk=7b0829e49f7b78147c84224485e4a79a&amp;contentType=standard-page",
+                "type" : "EXTERNAL"
+              }
+            },
+            "link2_text" : "Buy Now",
+            "link_field" : {
+              "no_follow" : false,
+              "open_in_new_tab" : true,
+              "url" : {
+                "href" : "https://labs.functionly.com/sign-up/?plan=price_1HATpAB3rgwynYaJKjFFeMTW&amp;__hstc=76580746.7b0829e49f7b78147c84224485e4a79a.1608814645992.1631631308879.1631776941409.19&amp;__hssc=76580746.1.1631776941409&amp;__hsfp=2007689537&amp;hsutk=7b0829e49f7b78147c84224485e4a79a&amp;contentType=standard-page",
+                "type" : "EXTERNAL"
+              }
+            },
+            "mprice_number" : "$99.75",
+            "mprice_sub_text" : "per user , monthly",
+            "price_acc_title" : "Key features:",
+            "price_details_acc" : "<ul>\n<li>5 collaborators included</li>\n<li>Advanced Team Import</li>\n<li>Add more users (no max)</li>\n<li>HRIS Integrations</li>\n<li>Customizable Reporting</li>\n<li>Basic Roles &amp; Responsibilites</li>\n<li>Additional Exporting Options</li>\n<li>Priority email support</li>\n<li>Privacy and Security Management</li>\n<li>Workspace Administration</li>\n</ul>",
+            "price_sub_text" : "per user, monthly",
+            "sub_title" : "Keep your org up to date & collaborate",
+            "title" : "Starter"
+          }, {
+            "aprice_number" : "$249.75",
+            "aprice_sub_text" : "per user , monthly",
+            "content" : "<h4>Everything in Free &amp; Premium plus</h4>\n<ul>\n<li>5 collaborators included</li>\n<li>Advanced Team Import</li>\n<li>Team Chart</li>\n<li>Advanced integrations</li>\n<li>Advanced Reporting</li>\n<li>Advanced Exporting</li>\n<li>Advanced Roles &amp; Responsibilites</li>\n<li>Functional Resourcing</li>\n<li>Workforce Planning</li>\n<li>Customer Success Management</li>\n</ul>",
+            "link1_text" : "Trail Now",
+            "link2" : {
+              "no_follow" : false,
+              "open_in_new_tab" : true,
+              "url" : {
+                "href" : "#1",
+                "type" : "EXTERNAL"
+              }
+            },
+            "link2_text" : "Buy Now",
+            "link_field" : {
+              "no_follow" : false,
+              "open_in_new_tab" : true,
+              "url" : {
+                "href" : "#1",
+                "type" : "EXTERNAL"
+              }
+            },
+            "mprice_number" : "$299.70",
+            "mprice_sub_text" : "per user , monthly",
+            "price_acc_title" : "Everything in Free &amp; Premium plus ",
+            "price_details_acc" : "<ul>\n<li>5 collaborators included</li>\n<li>Advanced Team Import</li>\n<li>Team Chart</li>\n<li>Advanced integrations</li>\n<li>Advanced Reporting</li>\n<li>Advanced Exporting</li>\n<li>Advanced Roles &amp; Responsibilites</li>\n<li>Functional Resourcing</li>\n<li>Workforce Planning</li>\n<li>Customer Success Management</li>\n</ul>",
+            "price_sub_text" : "per user, monthly",
+            "sub_title" : "Advanced workforce optimization",
+            "title" : "Team"
+          } ],
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "path" : "/Functionly_2020/Custom_Modules/Pricing_Module New",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Pricing_Module New",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    } ],
+    "rowMetaData" : [ ],
+    "cells" : [ ],
+    "cssId" : "",
+    "cssClass" : "",
+    "cssStyle" : "",
+    "styles" : null,
+    "widgets" : [ ]
+  }
+}

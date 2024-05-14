@@ -1,0 +1,42 @@
+<div class="author-intro">
+  <div class="page-center">
+    <h1>
+      Author: {{ module.author_name }}
+    </h1>
+    
+    {% if module.image_field.src %}
+      {% set sizeAttrs = 'width="{{ module.image_field.width }}" height="{{ module.image_field.height }}"' %}
+      {% if module.image_field.size_type == 'auto' %}
+        {% set sizeAttrs = 'width="{{ module.image_field.width }}" height="{{ module.image_field.height }}" style="max-width: 100%; height: auto;"' %}
+      {% elif module.image_field.size_type == 'auto_custom_max' %}
+        {% set sizeAttrs = 'width="{{ module.image_field.max_width }}" height="{{ module.image_field.max_height }}" style="max-width: 100%; height: auto;"' %}
+      {% endif %}
+       {% set loadingAttr = module.image_field.loading != 'disabled' ? 'loading="{{ module.image_field.loading }}"' : '' %}
+      <img src="{{ module.image_field.src }}" alt="{{ module.image_field.alt }}" {{ loadingAttr }} {{ sizeAttrs }}>
+    {% endif %}
+             
+    <p style="font-size: 25px; margin: 0;">
+      {% if module.website_link %}
+        <a href="{{ module.website_link }}" target="_blank"> <i class="fa fa-link"></i></a>
+      {% endif %}
+      &nbsp;
+      {% if module.linkedin %}
+        <a href="{{ module.linkedin }}" target="_blank"> <i class="fa fa-linkedin"></i></a>
+      {% endif %}
+      &nbsp;
+      {% if module.twitter %}
+        <a href="{{ module.twitter }}" target="_blank"> <i class="fa fa-twitter"></i></a>
+      {% endif %}
+      &nbsp;
+      {% if module.facebook %}
+        <a href="{{ module.facebook }}" target="_blank"> <i class="fa fa-facebook"></i></a>
+      {% endif %}
+    </p>
+    
+    {% inline_rich_text field="description" value="{{ module.description }}" %}
+    
+    <h2>
+      Content by Author:
+    </h2>
+  </div><!-- end page-center -->
+</div><!-- end author-intro -->

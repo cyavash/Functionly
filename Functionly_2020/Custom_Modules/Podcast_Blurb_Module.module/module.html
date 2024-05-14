@@ -1,0 +1,57 @@
+<div class="pod-blurb-wrap"> 
+  <div class="page-center"> 
+   <div class="pod-blurb-inner">
+      {% for item in module.content %}
+          <div class="pod-blurb-item"> 
+            <div class="pod-blurb">
+            <div class="pod-blurb-top">
+              <div class="pod-blurb-text"> 
+                  {{ item.content }} 
+              </div>  
+              <div class="pod-blurb-details"> 
+                  <div class="pod-blurb-name"> 
+                    <p>{{ item.author_name }}</p>
+                  </div> 
+                  <div class="pod-blurb-date"> 
+                    <p>{{ item.date }} </p>
+                  </div> 
+              </div>  
+              <div class="pod-audio-inner">  
+                <div class="pod-blurb-audio">  
+                    <a class="fa" data-audio="{{ item.audio_link }}"> </a>
+                </div> 
+                <div class="pod-wave"> 
+                      <img src="https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/wave.svg">
+                 </div>
+              </div>
+            </div> 
+            <div class="pod-blurb-btm"> 
+              <div class="pod-blurb-image">
+                {% if item.image.src %}
+                  {% set sizeAttrs = 'width="{{ item.image.width }}" height="{{ item.image.height }}"' %}
+                  {% if item.image.size_type == 'auto' %}
+                    {% set sizeAttrs = 'style="max-width: 100%; height: auto;"' %}
+                  {% elif item.image.size_type == 'auto_custom_max' %}
+                    {% set sizeAttrs = 'width="100%" height="auto" style="max-width: {{ item.image.max_width }}px; max-height: {{ item.image.max_height }}px"' %}
+                  {% endif %}
+                  <img src="{{ item.image.src }}" alt="{{ item.image.alt }}" {{ sizeAttrs }}>
+                {% endif %}
+              </div>
+            </div>  
+         </div> 
+     </div>  
+  {% endfor %} 
+   </div>
+  </div>
+</div>
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" >
+
+
+{% require_css %}
+<style>
+
+</style>
+{% end_require_css %}
+
+

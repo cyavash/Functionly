@@ -1,0 +1,25 @@
+<div class="video-slg-wrap">
+  <div class="page-center"> 
+          <div class="video-slg-inner">  
+              <div class="video-slg-image">
+                {% if module.content.left_image.src %}
+                  {% set sizeAttrs = 'width="{{ module.content.left_image.width }}" height="{{ module.content.left_image.height }}"' %}
+                  {% if module.content.left_image.size_type == 'auto' %}
+                    {% set sizeAttrs = 'style="max-width: 100%; height: auto;"' %}
+                  {% elif module.content.left_image.size_type == 'auto_custom_max' %}
+                    {% set sizeAttrs = 'width="100%" height="auto" style="max-width: {{ module.content.left_image.max_width }}px; max-height: {{ module.content.left_image.max_height }}px"' %}
+                  {% endif %}
+                  <img src="{{ module.content.left_image.src }}" alt="{{ module.content.left_image.alt }}" {{ sizeAttrs }}>
+                {% endif %} 
+                <div class="video-play ">
+                  <a class="youtube-link" youtubeid="{{ module.content.youyube_video_id }}">
+                    <img src="{{ module.content.play_icon.src }}">
+                  </a> 
+           </div> 
+       </div>
+     </div> 
+   </div>
+</div>
+
+
+ 

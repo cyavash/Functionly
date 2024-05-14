@@ -1,0 +1,40 @@
+<div class="cta-module-wrap">   
+  <div class="page-center">
+    <div class="row-fluid"> 
+      <div class="cta-module-inner"> 
+      <div class="content_part">
+        <div class="title"> 
+          <h2>{{ module.title }}</h2>
+        </div>
+        <div class="content">
+          <div class="content-Text">
+            {{ module.description }} 
+          </div> 
+          <div class="cta_links"> 
+          <div class="cta_link1">
+            {# % cta guid="{{ module.cta_1 }}" % #}
+            <p class="cta_button"><a class="cta_button" target="_blank" href="{{ module.link_field.url.href }}">Get started now</a></p>
+          </div> 
+          <div class="cta_link2">
+            <p class="cta_button">{% cta guid="{{ module.cta_2 }}" %}</p> 
+          </div> 
+          </div> 
+        </div>
+      </div> 
+      </div> 
+       
+    </div>
+  </div>
+</div>
+  
+
+{% require_css %}
+<style>
+ 
+ 
+  
+</style>
+{% end_require_css %}
+
+ 
+

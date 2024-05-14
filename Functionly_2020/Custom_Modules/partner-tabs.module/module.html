@@ -1,0 +1,42 @@
+<div class="partner-tabs">
+  <div class="page-center"> 
+    <div class="tabs-container">
+      <ul class="tabs">
+        {% for item in module.tab_item %}
+          <li class="tab"><span>{{ item.tab_heading }}</span></li>
+        {% endfor %}
+      </ul>
+    </div><!-- end tabs-container -->
+
+    <div class="tab-content">
+      {% for item in module.tab_item %}
+      <div class="tab-pane">
+        <div class="tab-pane-heading">
+          <h2>{{ item.tab_heading }}</h2>  
+        </div><!-- end tab-pane-heading -->
+        <div class="tab-pane-content">
+          <div class="tp-text">
+            <h3>
+              {{ item.tab_heading }}
+            </h3>
+            {% inline_rich_text field="tab_content" value="{{ item.tab_content }}" %}
+            {% cta guid="{{ item.cta_field }}" %}
+          </div>
+          <div class="tp-image">
+            {% if item.tab_image.src %}
+              {% set sizeAttrs = 'width="{{ item.tab_image.width }}" height="{{ item.tab_image.height }}"' %}
+              {% if item.tab_image.size_type == 'auto' %}
+                {% set sizeAttrs = 'width="{{ item.tab_image.width }}" height="{{ item.tab_image.height }}" style="max-width: 100%; height: auto;"' %}
+              {% elif item.tab_image.size_type == 'auto_custom_max' %}
+                {% set sizeAttrs = 'width="{{ item.tab_image.max_width }}" height="{{ item.tab_image.max_height }}" style="max-width: 100%; height: auto;"' %}
+              {% endif %}
+               {% set loadingAttr = item.tab_image.loading != 'disabled' ? 'loading="{{ item.tab_image.loading }}"' : '' %}
+              <img src="{{ item.tab_image.src }}" alt="{{ item.tab_image.alt }}" {{ loadingAttr }} {{ sizeAttrs }}>
+            {% endif %}
+          </div>
+        </div><!-- end tab-pane-content -->
+      </div><!-- end tab-pane -->
+      {% endfor %}
+    </div><!-- end tab-content -->
+  </div><!-- end page-center -->
+</div><!-- end partner-tabs -->

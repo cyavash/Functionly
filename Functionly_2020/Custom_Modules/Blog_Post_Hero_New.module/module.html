@@ -1,0 +1,86 @@
+<div class="post-hero-wrap">
+  <div class="page-center"> 
+    <div class="post-hero-outer">  
+      <div class="post-hero-left">  
+          <div class="post-hero-tag"> 
+          {% if content.tag_list %}
+            <p>
+              {% for tag in content.tag_list %}
+              {% if loop.index <= 3 %}
+              <a class="ucTopicLink1" href="{{ blog_tag_url(group.id, tag.slug) }}">{{ tag.name }}</a>{% if not loop.last %},{% endif %}
+              {% endif %}
+              {% endfor %}
+            </p>
+        {% endif %}  
+      </div>    
+          <div class="post-hero-title">
+            <h1>{{ content.name }}</h1>
+          </div> 
+          {% if content.blog_post_author %} 
+             <div class="author-right-name"> 
+                 Expert author: <a class="author-link" href="{{ blog_author_url(group.id, content.blog_post_author.slug) }}">{{ content.blog_post_author.display_name }}</a>  
+             </div>
+          {% endif %}  
+        
+        {% if module.audio_link %}       
+          <div class="pod-blurb-wrap">
+           <div class="pod-audio-inner">  
+              <div class="pod-blurb-audio">   
+                  <a class="fa" data-audio="{{ module.audio_link }}"> </a>
+               </div> 
+               <div class="pod-wave"> 
+                      <img src="https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/wave.svg">
+               </div>
+           </div>
+          </div>  
+        {% endif %}
+        
+        
+        
+       <div class="social-share-inner"> 
+         <p>Share:</p>
+          <ul> 
+            <li class="social_telegram">  
+            <a href="https://telegram.me/share/url?url={{ content.absolute_url }}&text" class="et_social_share" rel="nofollow" data-social_name="telegram"  data-social_type="share" data-location="inline" target="_blank">
+              <img src="https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Telegram_white.svg" alt="telegram"> 
+            </a>
+            </li> 
+            <li class="social_twitter">
+            <a href="https://twitter.com/intent/tweet?url={{ content.absolute_url }}" class="et_social_share" rel="nofollow" data-social_name="twitter" data-post_id="85" data-social_type="share" data-location="inline" target="_blank">
+              <img src="https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Twitter_white.svg" alt="twitter"> 
+            </a>
+            </li> 
+            <li class="social_fb">
+              <a href="http://www.facebook.com/sharer.php?u={{ content.absolute_url }}" class="et_social_share" rel="nofollow" data-social_name="facebook" data-post_id="85" data-social_type="share" data-location="inline" target="_blank">
+                  <img src="https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Facebook_white.svg"alt="facebook"> 
+              </a>
+            </li> 
+            <li class="social_linkedin">
+            <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ content.absolute_url }}" class="et_social_share" rel="nofollow" data-social_name="linkedin" data-post_id="85" data-social_type="share" data-location="inline" target="_blank">
+             <img src="https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/LinkedIN_white.svg" alt="linked_in"> 
+            </a>
+            </li> 
+          </ul> 
+        </div>   
+        </div>  
+       <div class="post-hero-right">  
+        <div class="post-hero-frtimg"> 
+          <div class="featured-image" style="background-image: url('{{ content.post_list_summary_featured_image }}');">
+         </div>   
+        </div> 
+      </div> 
+    </div>   
+</div>
+ 
+<!–– Post Hero Styling ––>
+{% require_css %}
+<style> 
+  
+ 
+  
+</style>
+{% end_require_css %}
+
+
+
+

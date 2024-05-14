@@ -1,0 +1,581 @@
+{
+  "isAvailableForNewContent" : true,
+  "templateType" : 4,
+  "attachedStylesheets" : [ {
+    "type" : "cos_extension_resource",
+    "path" : "/Functionly_2020/Codes/Stylesheet_2020.css"
+  } ],
+  "attachedJs" : [ {
+    "type" : "cos_extension_resource",
+    "path" : "/Functionly_2020/Codes/script_2020.js"
+  } ],
+  "customHead" : "<link href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\" rel=\"stylesheet\"> \n\n\n\n",
+  "customFooter" : "",
+  "bodyClass" : "",
+  "bodyCss" : "",
+  "bodyEditable" : false,
+  "layoutData" : {
+    "x" : 0,
+    "w" : 12,
+    "name" : "",
+    "label" : "",
+    "type" : "cell",
+    "params" : { },
+    "rows" : [ {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1599923101440995",
+        "label" : "Header_2020",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "path" : "/Functionly_2020/Global_Modules/Header_2020.template.json",
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "",
+        "label" : "",
+        "type" : "section_delimiter",
+        "params" : { },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1600251241860424",
+        "label" : "Hero_Module",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "hero" : {
+            "cta_1" : "",
+            "sub_title" : "Pricing",
+            "title" : "Navigate change in uncertain times and lead with confidence."
+          },
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Hero_Module",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Hero_Module",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_160067315409941",
+        "label" : "Pricing_Module",
+        "type" : "custom_widget",
+        "params" : {
+          "content" : [ {
+            "content" : "<h4>Key features:</h4>\n<ul>\n<li>Unlimited org size</li>\n<li>Access all libraries</li>\n<li>Quickly redesign your org</li>\n<li>Functional org charts</li>\n</ul>\n<h4>Account security:</h4>\n<ul>\n<li>SSO - Secure logins</li>\n<li>SSL - Encrypted at transit &amp; rest</li>\n<li>Secure data centres</li>\n<li>GDPR compliant</li>\n</ul>\n<h4>Easily import people:</h4>\n<ul>\n<li>People data import (CSV, HRIS)</li>\n<li>Import from slack</li>\n<li>More integrations coming soon</li>\n</ul>\n<h4>Org change exports:</h4>\n<ul>\n<li>Export org charts</li>\n<li>Export job descriptions</li>\n<li>Job descriptions</li>\n<li>Team allocations</li>\n</ul>\n<h4>Ongoing support:</h4>\n<ul>\n<li>Email support</li>\n<li>Self onboarding</li>\n<li>Assisted onboarding</li>\n<li>Assigned success manager</li>\n</ul>",
+            "cta_1" : "",
+            "cta_2" : "233f4e6b-e2e7-4177-b37a-8ddcd6e4f2ee",
+            "price_acc_title" : "Key features :",
+            "price_country" : "From (USD)",
+            "price_number" : "$249.75 <span>p/m</span>",
+            "price_sub_text" : "Annual commitment (billed monthly)",
+            "price_user_text" : "5 user accounts included <br>$49.95 per extra user per month",
+            "sub_title" : "For Executive Team Collaboration <b>Small to Large Organisations</b>",
+            "title" : "Professional"
+          }, {
+            "content" : "<h4>Key features:</h4>\n<ul>\n<li>Unlimited org size</li>\n<li>Access all libraries</li>\n<li>Quickly redesign your org</li>\n<li>Functional org charts</li>\n</ul>\n<h4>Account security:</h4>\n<ul>\n<li>Secure login</li>\n<li>SSL - Encrypted at transit &amp; rest</li>\n<li>Secure data centres</li>\n<li>GDPR compliant</li>\n</ul>\n<h4>Easily import people:</h4>\n<ul>\n<li>People data import (CSV, HRIS)</li>\n<li>Import from slack</li>\n<li>More integrations coming soon</li>\n</ul>\n<h4>Org change exports:</h4>\n<ul>\n<li>Export org charts</li>\n<li>Export job descriptions</li>\n<li>Job descriptions</li>\n<li>Team allocations</li>\n</ul>\n<h4>Ongoing support:</h4>\n<ul>\n<li>Email support</li>\n<li>Self onboarding</li>\n<li>Assisted onboarding (Ltd. time only)</li>\n<li>Email support</li>\n</ul>",
+            "cta_1" : "016196c3-83d9-4458-9e35-e68a65a44950",
+            "cta_2" : "233f4e6b-e2e7-4177-b37a-8ddcd6e4f2ee",
+            "price_country" : "From (USD)",
+            "price_number" : "$99.95 <span>p/m</span>",
+            "price_sub_text" : "Monthly commitment",
+            "price_user_text" : "1 user account included <br> $99.95 per extra user per month",
+            "sub_title" : "For Modern Leaders <b>Small to Large Organisations</b>",
+            "title" : "Starter"
+          }, {
+            "content" : "<h4>Key features:</h4>\n<ul>\n<li>Multiple clients</li>\n<li>Access all libraries</li>\n<li>Quickly redesign your client orgs</li>\n<li>Functional org charts</li>\n</ul>\n<h4>Account security:</h4>\n<ul>\n<li>SSO - Secure logins</li>\n<li>SSL - Encrypted at transit &amp; rest</li>\n<li>Secure data centres</li>\n<li>GDPR compliant</li>\n</ul>\n<h4>Easily import people:</h4>\n<ul>\n<li>People data import (CSV, HRIS)</li>\n<li>Import from slack</li>\n<li>More integrations coming soon</li>\n</ul>\n<h4>Org change exports:</h4>\n<ul>\n<li>Export org charts</li>\n<li>Export job descriptions</li>\n<li>Job descriptions</li>\n<li>Team allocations</li>\n</ul>\n<h4>Ongoing support:</h4>\n<ul>\n<li>Email support</li>\n<li>Self onboarding</li>\n<li>Assisted onboarding</li>\n<li>Partner support manager</li>\n</ul>",
+            "cta_1" : "63ffb503-7f0f-4b6e-976d-dc99ff2efbe1",
+            "cta_2" : "",
+            "price_country" : "From (USD)",
+            "price_number" : "$249.75 <span>p/m</span>",
+            "price_sub_text" : "Annual commitment (billed monthly)",
+            "price_user_text" : "5 user accounts included <br>$49.95 per extra user per month",
+            "sub_title" : "For Org Change Specialists <b>Multiple Organisations</b>",
+            "title" : "Premium"
+          } ],
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Pricing_Module",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Pricing_Module",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_162494171859137",
+        "label" : "Integration Block",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Integration Block",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Integration Block",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_16002604096721297",
+        "label" : "Price Solution Wrap",
+        "type" : "cell",
+        "params" : {
+          "css_class" : "price-sol-wrap",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ {
+          "0" : {
+            "x" : 0,
+            "w" : 12,
+            "name" : "module_16002604096721298",
+            "label" : "Page Center",
+            "type" : "cell",
+            "params" : {
+              "css_class" : "page-center",
+              "css_id" : "",
+              "css_id_str" : "",
+              "css_style" : "",
+              "overrideable" : false,
+              "per_widget_wrapper_html" : "",
+              "wrapping_html" : ""
+            },
+            "rows" : [ {
+              "0" : {
+                "x" : 0,
+                "w" : 12,
+                "name" : "module_16002604096721303",
+                "label" : "Price Solution Text",
+                "type" : "custom_widget",
+                "params" : {
+                  "css_class" : "price-sol-text",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "html" : "<h2>Looking for Enterprise solutions?</h2>\n<p>For organizations that need additional security, control, and support. For enterprise leaders &amp; institutional consultants</p>",
+                  "overrideable" : true,
+                  "path" : "@hubspot/rich_text",
+                  "per_widget_wrapper_html" : "",
+                  "schema_version" : 2,
+                  "widget_name" : "Rich Text",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "price-sol-text",
+                "cssStyle" : "",
+                "styles" : null,
+                "widgets" : [ ]
+              }
+            }, {
+              "0" : {
+                "x" : 0,
+                "w" : 12,
+                "name" : "module_1600501958146186",
+                "label" : "Call-to-Action",
+                "type" : "custom_widget",
+                "params" : {
+                  "css_class" : "price-sol-cta",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "guid" : "0dc337b0-ef28-48ae-ae7b-32c50609db2c",
+                  "overrideable" : true,
+                  "path" : "@hubspot/cta",
+                  "per_widget_wrapper_html" : "",
+                  "schema_version" : 2,
+                  "widget_name" : "Call-to-Action",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "price-sol-cta",
+                "cssStyle" : "",
+                "styles" : null,
+                "widgets" : [ ]
+              }
+            } ],
+            "rowMetaData" : [ ],
+            "cells" : [ ],
+            "cssId" : "",
+            "cssClass" : "page-center",
+            "cssStyle" : "",
+            "styles" : null,
+            "widgets" : [ ]
+          }
+        } ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "price-sol-wrap",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_160066287859013",
+        "label" : "Video_Text_Module",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Video_Text_Module",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Video_Text_Module",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_160049344815269",
+        "label" : "Testimonial Slider Module",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Testimonial Slider Module",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Testimonial Slider Module",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1600494160645121",
+        "label" : "Faq_Module",
+        "type" : "custom_widget",
+        "params" : {
+          "accordion_item" : [ {
+            "content" : "<p>A work designer seat is for anyone that needs access to design an org, team or position for their organization.</p>",
+            "title" : "What’s a designer seat?"
+          }, {
+            "content" : "<p>Non-Designers are free and un-capped, so you can import your entire organization of 30 – 3000.</p>",
+            "title" : "How much do employees / contractors cost?"
+          }, {
+            "content" : "<p>Business Functions are the building blocks: strategic capabilities, expectations, key activities and people processes that your business needs in order to run effectively and deliver on your company’s goals and objectives. Think of them like departments.</p>",
+            "title" : "What is a business “Function”?"
+          }, {
+            "content" : "<p>It’s easy. We can help you to get up and running in less than an hour; If you have a complex, custom or unique organization then we have partners that can work on an implementation plan to help you navigate the process.</p>",
+            "title" : "How long does it take to implement Functionly?"
+          }, {
+            "content" : "<p>Functional architecture is an independent abstraction from the reporting structure (although there can be overlap). It represents the modern agility that most organizations have already developed but struggle to articulate and lead effectively with the tools available today.</p>",
+            "title" : "Is a Functional structure the same as a reporting structure?"
+          }, {
+            "content" : "<p>Functionly offers month to month terms or yearly terms. Paying in advance helps us and in turn, we help you by offering a 17% discount.</p>",
+            "title" : "When will I be billed?"
+          }, {
+            "content" : "<p>We are able to integrate from all the commonly-used HRIS tools via excel and CSV exports. In time will offer real-time APIs to keep everything magically up to date.</p>\n<p>We do partner closely with our client’s HR leaders so they have access to the valuable data we provide and can support in strategizing how it can be used to adapt the organization as it grows.</p>",
+            "title" : "Can you intigrate with HRMS/HRIS/Colaboration/Auth platforms?"
+          }, {
+            "content" : "<p>We are really unlike almost everything else on the market, but we are more closely related to work design, org design, team design, and job design. We most commonly replace spreadsheets, whiteboards, sticky-notes, and word documents.</p>",
+            "title" : "What are the alternatives to Functionly?"
+          } ],
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Faq_Module",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Faq_Module",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_161418142677060",
+        "label" : "Integration_Module",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "price-intgr-wrap",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "item" : [ {
+            "image" : {
+              "alt" : "Slack",
+              "height" : 44,
+              "max_height" : 44,
+              "max_width" : 176,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Slack.svg",
+              "width" : 176
+            }
+          }, {
+            "image" : {
+              "alt" : "ADP",
+              "height" : 57,
+              "max_height" : 57,
+              "max_width" : 125,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/ADP.svg",
+              "width" : 125
+            }
+          }, {
+            "image" : {
+              "alt" : "zenefits",
+              "height" : 46,
+              "max_height" : 46,
+              "max_width" : 195,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/zenefits.svg",
+              "width" : 195
+            }
+          }, {
+            "image" : {
+              "alt" : "quickbooks",
+              "height" : 47,
+              "max_height" : 47,
+              "max_width" : 243,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/quickbooks.svg",
+              "width" : 243
+            }
+          }, {
+            "image" : {
+              "alt" : "gusto",
+              "height" : 53,
+              "max_height" : 53,
+              "max_width" : 137,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/gusto.svg",
+              "width" : 137
+            }
+          }, {
+            "image" : {
+              "alt" : "just",
+              "height" : 37,
+              "max_height" : 37,
+              "max_width" : 198,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/just.svg",
+              "width" : 198
+            }
+          }, {
+            "image" : {
+              "alt" : "Rippling-1",
+              "height" : 38,
+              "max_height" : 38,
+              "max_width" : 263,
+              "size_type" : "auto",
+              "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Rippling-1.svg",
+              "width" : 263
+            }
+          } ],
+          "overrideable" : true,
+          "path" : "/Functionly_2020/Custom_Modules/Integration_Module",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Integration_Module",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "price-intgr-wrap",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1603544212102497",
+        "label" : "Flexible column",
+        "type" : "widget_container",
+        "params" : {
+          "css_class" : "flex-column",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "flex-column",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "",
+        "label" : "",
+        "type" : "section_delimiter",
+        "params" : { },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_15999231076911006",
+        "label" : "Footer_2020",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "path" : "/Functionly_2020/Global_Modules/Footer_2020.template.json",
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    } ],
+    "rowMetaData" : [ ],
+    "cells" : [ ],
+    "cssId" : "",
+    "cssClass" : "",
+    "cssStyle" : "",
+    "styles" : null,
+    "widgets" : [ ]
+  }
+}

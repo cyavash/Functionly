@@ -1,0 +1,40 @@
+{
+  "content_tags" : [ {
+    "name" : "COMPATIBLE_BLOG",
+    "source" : "MARKETPLACE"
+  }, {
+    "name" : "COMPATIBLE_PAGE",
+    "source" : "MARKETPLACE"
+  } ],
+  "global" : false,
+  "content_types" : [ "LANDING_PAGE", "SITE_PAGE", "BLOG_LISTING", "BLOG_POST" ],
+  "host_template_types" : [ "PAGE", "BLOG_POST", "BLOG_LISTING" ],
+  "module_id" : 34878912164,
+  "css_assets" : [ {
+    "url" : "https://cdn2.hubspot.net/hubfs/7832858/hs_marketplace_assets/modules/Testimonial_Slider/6/slick.min.css",
+    "autoload" : false,
+    "name" : "slick.min.css"
+  } ],
+  "other_assets" : [ {
+    "url" : "https://cdn2.hubspot.net/hubfs/7832858/hs_marketplace_assets/modules/Testimonial_Slider/6/slick.woff",
+    "autoload" : false,
+    "name" : "slick.woff"
+  }, {
+    "url" : "https://cdn2.hubspot.net/hubfs/7832858/hs_marketplace_assets/modules/Testimonial_Slider/6/slick.ttf",
+    "autoload" : false,
+    "name" : "slick.ttf"
+  }, {
+    "url" : "https://cdn2.hubspot.net/hubfs/7832858/hs_marketplace_assets/modules/Testimonial_Slider/6/slick.eot",
+    "autoload" : false,
+    "name" : "slick.eot"
+  }, {
+    "url" : "https://cdn2.hubspot.net/hubfs/7832858/hs_marketplace_assets/modules/Testimonial_Slider/6/slick.svg",
+    "autoload" : false,
+    "name" : "slick.svg"
+  }, {
+    "url" : "https://cdn2.hubspot.net/hubfs/7832858/hs_marketplace_assets/modules/Testimonial_Slider/6/ajax-loader.gif",
+    "autoload" : false,
+    "name" : "ajax-loader.gif"
+  } ],
+  "is_available_for_new_content" : true
+}

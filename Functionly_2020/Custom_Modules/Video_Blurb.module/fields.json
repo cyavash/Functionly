@@ -1,0 +1,270 @@
+[ {
+  "id" : "09dd8023-d7bb-effd-97af-e2981ece3150",
+  "name" : "content",
+  "display_width" : null,
+  "label" : "Item",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 3,
+    "max" : null,
+    "sorting_label_field" : "22b391ad-8395-74ad-3e1b-51973608dc0c",
+    "default" : 9
+  },
+  "children" : [ {
+    "id" : "bcf8e05a-f721-1d70-ae51-94a7fff0af93",
+    "name" : "image",
+    "display_width" : null,
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : false,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Image-tv-1.svg",
+      "alt" : "Image-tv-1",
+      "width" : 78,
+      "height" : 60,
+      "max_width" : 78,
+      "max_height" : 60
+    }
+  }, {
+    "id" : "22bcc06c-4fc8-df6d-dc15-2396db332307",
+    "name" : "play_icon",
+    "display_width" : null,
+    "label" : "Play Icon",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : false,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/play.svg",
+      "alt" : "play",
+      "width" : 56,
+      "height" : 56,
+      "max_width" : 56,
+      "max_height" : 56
+    }
+  }, {
+    "id" : "22b391ad-8395-74ad-3e1b-51973608dc0c",
+    "name" : "content",
+    "display_width" : null,
+    "label" : "Content",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<h3>Secrets Of Successful Teamwork: Insights From Functionly</h3>"
+  }, {
+    "id" : "41a672c2-0fcf-55e8-eb15-cd021835fc59",
+    "name" : "youtube_video_id",
+    "display_width" : null,
+    "label" : "Youtube Video ID",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "b4p0N2YEBko"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "default" : [ {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Image-tv-1.svg",
+      "alt" : "Image-tv-1",
+      "width" : 78,
+      "height" : 60,
+      "max_width" : 78,
+      "max_height" : 60
+    },
+    "play_icon" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/play.svg",
+      "alt" : "play",
+      "width" : 56,
+      "height" : 56,
+      "max_width" : 56,
+      "max_height" : 56
+    },
+    "content" : "<h3>Secrets Of Successful Teamwork: Insights From Functionly</h3>",
+    "youtube_video_id" : "b4p0N2YEBko"
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Image-tv-1.svg",
+      "alt" : "Image-tv-1",
+      "width" : 78,
+      "height" : 60,
+      "max_width" : 78,
+      "max_height" : 60
+    },
+    "play_icon" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/play.svg",
+      "alt" : "play",
+      "width" : 56,
+      "height" : 56,
+      "max_width" : 56,
+      "max_height" : 56
+    },
+    "content" : "<h3>Secrets Of Successful Teamwork: Insights From Functionly</h3>",
+    "youtube_video_id" : "b4p0N2YEBko"
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Image-tv-1.svg",
+      "alt" : "Image-tv-1",
+      "width" : 78,
+      "height" : 60,
+      "max_width" : 78,
+      "max_height" : 60
+    },
+    "play_icon" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/play.svg",
+      "alt" : "play",
+      "width" : 56,
+      "height" : 56,
+      "max_width" : 56,
+      "max_height" : 56
+    },
+    "content" : "<h3>Secrets Of Successful Teamwork: Insights From Functionly</h3>",
+    "youtube_video_id" : "b4p0N2YEBko"
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Image-tv-1.svg",
+      "alt" : "Image-tv-1",
+      "width" : 78,
+      "height" : 60,
+      "max_width" : 78,
+      "max_height" : 60
+    },
+    "play_icon" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/play.svg",
+      "alt" : "play",
+      "width" : 56,
+      "height" : 56,
+      "max_width" : 56,
+      "max_height" : 56
+    },
+    "content" : "<h3>Secrets Of Successful Teamwork: Insights From Functionly</h3>",
+    "youtube_video_id" : "b4p0N2YEBko"
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Image-tv-1.svg",
+      "alt" : "Image-tv-1",
+      "width" : 78,
+      "height" : 60,
+      "max_width" : 78,
+      "max_height" : 60
+    },
+    "play_icon" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/play.svg",
+      "alt" : "play",
+      "width" : 56,
+      "height" : 56,
+      "max_width" : 56,
+      "max_height" : 56
+    },
+    "content" : "<h3>Secrets Of Successful Teamwork: Insights From Functionly</h3>",
+    "youtube_video_id" : "b4p0N2YEBko"
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Image-tv-1.svg",
+      "alt" : "Image-tv-1",
+      "width" : 78,
+      "height" : 60,
+      "max_width" : 78,
+      "max_height" : 60
+    },
+    "play_icon" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/play.svg",
+      "alt" : "play",
+      "width" : 56,
+      "height" : 56,
+      "max_width" : 56,
+      "max_height" : 56
+    },
+    "content" : "<h3>Secrets Of Successful Teamwork: Insights From Functionly</h3>",
+    "youtube_video_id" : "b4p0N2YEBko"
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Image-tv-1.svg",
+      "alt" : "Image-tv-1",
+      "width" : 78,
+      "height" : 60,
+      "max_width" : 78,
+      "max_height" : 60
+    },
+    "play_icon" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/play.svg",
+      "alt" : "play",
+      "width" : 56,
+      "height" : 56,
+      "max_width" : 56,
+      "max_height" : 56
+    },
+    "content" : "<h3>Secrets Of Successful Teamwork: Insights From Functionly</h3>",
+    "youtube_video_id" : "b4p0N2YEBko"
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Image-tv-1.svg",
+      "alt" : "Image-tv-1",
+      "width" : 78,
+      "height" : 60,
+      "max_width" : 78,
+      "max_height" : 60
+    },
+    "play_icon" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/play.svg",
+      "alt" : "play",
+      "width" : 56,
+      "height" : 56,
+      "max_width" : 56,
+      "max_height" : 56
+    },
+    "content" : "<h3>Secrets Of Successful Teamwork: Insights From Functionly</h3>",
+    "youtube_video_id" : "b4p0N2YEBko"
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Image-tv-1.svg",
+      "alt" : "Image-tv-1",
+      "width" : 78,
+      "height" : 60,
+      "max_width" : 78,
+      "max_height" : 60
+    },
+    "play_icon" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/play.svg",
+      "alt" : "play",
+      "width" : 56,
+      "height" : 56,
+      "max_width" : 56,
+      "max_height" : 56
+    },
+    "content" : "<h3>Secrets Of Successful Teamwork: Insights From Functionly</h3>",
+    "youtube_video_id" : "b4p0N2YEBko"
+  } ]
+} ]

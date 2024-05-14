@@ -1,0 +1,47 @@
+<div class="product_signup" style="background-color:'{{ module.background_color.color }}';">
+  <div class="container">
+    <div class="row">
+      {% for item in module.product_signup_packages %}
+ <div class="inner_sec popup_main">
+ 	<button class="open_popup">Get Started</button>
+     <div class="tiles_img popup_body">
+    	 <div class="popup_back"></div>
+    	 <div class="popup_contain">
+        <div class="popup_close"><img src="https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/cross-icon.png" alt=""></div>
+          <div class="tile_con">
+             <!-- <span>{{ item.trial_heading }}</span>  -->
+         <img src="{{item.image.src }}" alt="{{ item.image.alt }}" {{ loadingAttr }} {{ sizeAttrs }}>
+      </div>
+      <div class="tiles_con">
+        <h3>{{ item.package_heading }} </h3>
+        <p>{{ item.package_subtext }} </p>
+      </div>
+         
+      <!-- Form Content Starts -->   
+      <div class="sub_form">
+        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+        <script>
+          hbspt.forms.create({
+            region: "na1",
+            portalId: "7832858",
+            formId: "5a65b0e3-8d0c-4eb3-bd9f-227defc88b2b",
+               
+            inlineMessage: ' ',
+            onFormSubmit: function($form){
+                setTimeout( function() {
+                    var formData = $form.serialize();
+                    window.location = "https://labs.functionly.com/sign-up/?plan=price_1HglepB3rgwynYaJ8QTgiA3K&login_hint=" + formData.slice(6);
+                }, 250 ); // Redirects to url with query string data from form fields after 250 milliseconds.
+            }
+            
+          });
+        </script>
+      </div><!-- end sub_form -->
+         
+      </div><!-- end popup_contain -->
+       </div><!-- end popup_body -->
+    </div><!-- end popup_main -->
+    {% endfor %}
+    </div>
+  </div>
+</div>

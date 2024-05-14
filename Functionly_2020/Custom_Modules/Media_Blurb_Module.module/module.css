@@ -1,0 +1,205 @@
+
+
+
+.media-blurb-wrap {
+    padding: 80px 0px 20px;
+}
+
+.media-blurb-inner {
+    display: flex;
+    align-items: normal;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.media-blurb-item {
+    width: 33.33%;
+    margin-bottom: 50px;
+    border-radius: 12px;
+}
+ 
+.media-blurb {
+    padding: 20px;
+}
+
+.media-blurb-item:hover .media-blurb {
+    padding: 20px;
+    background: #F8F7FA; 
+    border-radius: 8px;
+}
+
+.media-blurb-item:hover .media-blurb .media-blurb-text h3 {
+    color: #25004C;
+}
+
+.media-blurb-text h3 {
+    font-size: 22px;
+}
+
+.media-blurb-text p {
+    font-size: 16px;
+    line-height: 150%;
+    color: #7E808B;
+}
+
+.media-blurb-details { 
+     display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+} 
+
+.media-blurb-name p {
+    font-size: 16px;
+    line-height: 125%;
+    color: #6B2D90;
+}
+
+.media-blurb-date p {
+  font-size: 16px;
+  line-height: 150%;  
+  text-align: right; 
+  color: #7E808B;
+}
+
+.media-blurb-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+  
+ul#filterOptions {
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 50px;
+    display: inline-block;
+}
+
+ul#filterOptions li {
+    margin-left: 20px;
+    float: left;
+    list-style: none;
+}
+
+ul#filterOptions li a {
+    font-weight: 500;
+    text-decoration: none;
+    display: block;
+    padding: 10px 30px;
+    text-align: center;
+    border: 1px solid #737373;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+    color: #7E808B;
+    min-width: 120px;
+}
+ul#filterOptions li a:hover { 
+    color: #662D91;
+    background: rgba(102, 45, 145, 0.1);
+    border: 1px solid #662D91;
+}
+
+ul#filterOptions li.active a {
+    color: #662D91;
+    background: rgba(102, 45, 145, 0.1);
+    border: 1px solid #662D91;
+}
+ 
+.media-blurb-title p {
+    font-size: 18px;
+    line-height: 150%;
+    color: #7E808B;
+    padding-left: 20px;
+}
+
+
+
+
+/******** Responsive code starts here *******/
+ 
+/************** ipad ***************/
+
+@media (max-width: 1080px) {
+
+  .media-blurb-wrap {
+      padding: 60px 0px 20px;
+  }
+  
+  .media-blurb-title p {
+      font-size: 16px; 
+  }
+  
+  .media-blurb-text h3 {
+     
+      font-size: 18px;
+  }
+ 
+}
+
+/************** ipad nd tab ***************/
+
+@media only screen and (min-width:768px) and (max-width: 1024px) and (orientation : portrait){
+
+   .media-blurb-item {
+      width: 50%;
+      margin-bottom: 30px;
+      border-radius: 12px;
+  }
+
+}
+
+/************** iphone roatate***************/
+
+@media (max-width: 767px) {
+
+  .media-blurb-item {
+      width: 50%;
+      margin-bottom: 30px;
+      border-radius: 12px;
+  }
+
+}
+
+/************** iphone ***************/
+
+@media (max-width: 479px) {
+
+   
+  .media-blurb-item {
+      width: 100%;
+      margin-bottom: 30px;
+      border-radius: 12px;
+  }
+
+  ul#filterOptions li {
+      margin-left: 10px;
+      float: left;
+      list-style: none;
+  }
+  
+  ul#filterOptions li a {
+      padding: 8px 15px;
+      font-size: 14px;
+      min-width: auto;
+      margin-bottom: 15px;
+  }
+  
+  ul#filterOptions {
+      margin: 0px;
+      padding: 0px;
+      padding-bottom: 10px;
+      display: inline-block;
+  }
+  
+  
+}
+
+
+
+
+
+
+

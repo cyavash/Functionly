@@ -1,0 +1,52 @@
+<div class="blog-post-rss blog-post-rss1">
+  <div class="page-center"> 
+    {% set rec_posts = blog_recent_posts('{{ module.select_blog }}', 3) %} 
+    <div class="post-rss-wrap"> 
+      {% for rec_post in rec_posts %}
+            <div class="post-item-rss"> 
+              <div class="post-rss-inner">
+                <a href="{{rec_post.absolute_url}}">
+                <div class="post-rss-fimg" style="background-image: url({{ rec_post.post_list_summary_featured_image }});">
+                  <!-- <a href="{{ rec_post.absolute_url }}">
+                   <img src="{{ rec_post.post_list_summary_featured_image }}">
+                  </a> -->
+                </div>
+                </a>
+                
+                <div class="post-rss-content">   
+                  <div class="post-rss-top"> 
+                     <div class="post-rss-tag">  
+                        {% if rec_post.tag_list %}
+                          <p>
+                            {% for tag in rec_post.tag_list %}
+                            {% if loop.index <= 3 %}
+                            <a class="ucTopicLink1" href="{{ blog_tag_url(group.id, tag.slug) }}">{{ tag.name }}</a>{% if not loop.last %},{% endif %}
+                            {% endif %}
+                            {% endfor %}
+                          </p>
+                      {% endif %}      
+                    </div>
+                    <div class="post-rss-time">   
+                        <p>{{ rec_post.publish_date_local_time|datetimeformat('%e/%m/%y') }}</p> 
+                    </div> 
+                  </div>
+                  <div class="post-header-rss">   
+                      <h4><a href="{{ rec_post.absolute_url }}">{{ rec_post.name }}</a></h4> 
+                  </div> 
+                   <div class="post-rss-author">   
+                     {% if rec_post.blog_post_author %}  
+                          By: {{ rec_post.blog_post_author.display_name }}
+                              <a class="author-link" href="{{ blog_author_url(group.id, rec_post.blog_post_author.slug) }}"> </a>   
+                    {% endif %}  
+                  </div> 
+                  
+                </div>
+              </div>  
+            </div>    
+    {% endfor %}  
+    </div>   
+  </div> 
+</div>   
+
+ 
+

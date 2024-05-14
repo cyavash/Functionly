@@ -1,0 +1,69 @@
+<div class="prce-table-wrap"> 
+  <div class="page-center"> 
+        
+  <div class="price1-open"> 
+    <a class="open-feature opened-feature">Expand all features <i class="fa fa-angle-down" aria-hidden="true"></i> </a> 
+    <a class="open-feature close-feature">Minimize features <i class="fa fa-angle-up" aria-hidden="true"></i></a> 
+  </div>   
+    
+    <div class="prce-table-inner"> 
+    <div class="cm-table-wrap">
+      <table class="prce-table"> 
+        <tbody> 
+          {% for item in module.item %}
+          <tr>
+            <td style="height: {{ item.height }}px;" class="table-col1">
+              <div class="tooltip {{ item.category }}">
+                <span style="border-bottom: 0px dashed #662D91;">{{ item.text }}</span>
+                {% if item.tooltip_text %}
+                <span class="tooltiptext">{{ item.tooltip_text }}</span>
+                {% endif %}
+              </div>
+            </td>
+            <td style="height: {{ item.height }}px;" class="table-col table-col2">
+              <div class="table-prm">  
+                {{ item.premium_detail }}
+              </div>
+            </td>
+            <td style="height: {{ item.height }}px;" class="table-col table-col3">
+              <div class="table-etps">  
+                {{ item.enterprise_detail }}
+              </div>
+            </td>
+          </tr> 
+          {% endfor %}
+        </tbody> 
+      </table> 
+    </div> 
+    </div>
+ 
+  </div> 
+</div>
+
+{% if item2.tooltip_text  %}
+
+<style>
+  
+.tooltip span {
+   border-bottom: 1px dashed #662D91;
+}
+   
+</style>
+{% else %}
+  
+<style>
+  
+.tooltip span {
+   border-bottom: 0px dashed #662D91;
+}
+   
+</style>
+{% endif %}
+
+{% require_css %}
+<style>
+ 
+  
+</style>
+{% end_require_css %}
+ 

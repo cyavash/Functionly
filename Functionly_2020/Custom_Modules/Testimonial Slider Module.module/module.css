@@ -1,0 +1,415 @@
+.tsml-slider-wrap {
+    background: radial-gradient(110.34% 110.34% at 51.54% -10.34%, rgba(255, 184, 0, 0.5) 0%, rgba(255, 184, 0, 0.5) 15.62%, #FED3E8 57.29%, rgba(242, 242, 242, 0) 100%);
+    padding: 120px 0px 150px;
+    text-align: center;
+}
+
+.tsml-slider-header h3 {
+    font-size: 34px;
+    line-height: 125%;
+    text-align: center;
+    color: #414042;
+}
+
+.tsml-slider-header {
+    padding-bottom: 55px;
+}
+
+.tsml-slider-inner {
+    background: #fff;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 12px rgba(0,0,0,0.2);
+    border-radius: 12px;
+    padding: 60px 85px;
+    max-width: 1080px;
+    margin: 20px auto;
+    float: none;
+}
+
+.tsml-quote {
+    position: relative;
+    padding: 0px 50px;
+}
+
+.tsml-quote:before {
+    content: "";
+    position: absolute;
+    background-image: url(https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/quote-btm.png);
+    width: 45px;
+    height: 32px;
+    left: 0px;
+    top: -20px;
+    background-size: cover;
+}
+
+.tsml-quote:after {
+    content: "";
+    position: absolute;
+    background-image: url(https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/quote-top.png);
+    width: 45px;
+    height: 32px;
+    right: 0px;
+    bottom: -20px;
+    background-size: cover;
+}
+
+.tsml-quote p {
+    font-size: 18px;
+    line-height: 150%;
+    color: #414042;
+}
+
+.tsml-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 70px;
+}
+
+.tsml-image img {
+    max-width: 80px;
+    border-radius: 50%;
+    border: 4px solid #662D91;
+    box-sizing: border-box;
+}
+
+.tsml-name h4 {
+    font-size: 24px;
+    line-height: 26px;
+    color: #414042;
+
+}
+
+.tsml-name h5 {
+    font-size: 21px; 
+}
+
+.tsml-name {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.hs-testimonial-slider {
+  position: relative;
+}
+
+.hs-gallery .slick-slide {
+  max-width: 100%;
+  text-align: center;
+}
+  
+/* Slick-theme */
+
+/* Slider */
+ 
+.tsml-slider-wrap .slick-loading .slick-list {
+  background: #fff url('//design-assets.hubspot.com/hubfs/Slick%20Slider/ajax-loader.gif') center center no-repeat;
+}
+/* Icons */
+@font-face {
+  font-family: 'slick';
+  font-weight: normal;
+  font-style: normal;
+  src: url('//design-assets.hubspot.com/hubfs/Slick%20Slider/slick.eot');
+  src: url('//design-assets.hubspot.com/hubfs/Slick%20Slider/slick.eot') format('embedded-opentype'), url('//design-assets.hubspot.com/hubfs/Slick%20Slider/slick.woff') format('woff'), url('//design-assets.hubspot.com/hubfs/Slick%20Slider/slick.ttf') format('truetype'), url('//design-assets.hubspot.com/hubfs/Slick%20Slider/slick.svg') format('svg');
+}
+/* Arrows */
+.tsml-slider-wrap .slick-prev,
+.tsml-slider-wrap .slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block; 
+  padding: 0;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.tsml-slider-wrap .slick-prev:hover,
+.tsml-slider-wrap .slick-prev:focus,
+.tsml-slider-wrap .slick-next:hover,
+.tsml-slider-wrap .slick-next:focus {
+  color: transparent;
+  outline: none;
+  background: transparent;
+}
+.tsml-slider-wrap .slick-prev:hover:before,
+.tsml-slider-wrap .slick-prev:focus:before,
+.tsml-slider-wrap .slick-next:hover:before,
+.tsml-slider-wrap .slick-next:focus:before {
+  opacity: 1;
+}
+.tsml-slider-wrap .slick-prev.slick-disabled:before,
+.tsml-slider-wrap .slick-next.slick-disabled:before {
+  opacity: 1;
+}
+.tsml-slider-wrap .slick-prev:before,
+.tsml-slider-wrap .slick-next:before {
+  font-family: FontAwesome;
+  font-size: 24px;
+  line-height: 1;
+  opacity: 1;
+  color:  #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 50px 15px;
+}
+.tsml-slider-wrap .slick-prev {
+  left: 25px;
+  z-index: 1;
+}
+[dir='rtl'] .slick-prev {
+  right: 25px;
+  left: auto;
+}
+.tsml-slider-wrap .slick-prev:before {
+  content: '\f053';
+}
+
+[dir='rtl'] .slick-prev:before {
+  content: '\f053';
+}
+
+.tsml-slider-wrap .slick-next {
+  right: 25px;
+}
+
+[dir='rtl'] .slick-next {
+  right: auto;
+  left: 25px;
+}
+
+.tsml-slider-wrap .slick-next:before {
+  content: '\f054';
+}
+[dir='rtl'] .slick-next:before {
+  content: '\f054';
+}
+
+
+/* Dots */
+.tsml-slider-wrap .slick-dotted.slick-slider {
+  margin-bottom: 30px;
+}
+.tsml-slider-wrap .slick-dots {
+  position: absolute;
+  bottom: -55px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+.tsml-slider-wrap .slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.tsml-slider-wrap .slick-dots li button {
+    font-size: 0px;
+    line-height: 0;
+    display: block;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border-radius: 50%;
+    outline: none;
+    background: transparent;
+    border: 1px solid #414042;
+}
+
+.tsml-slider-wrap .slick-dots li.slick-active button { 
+    background: #414042;
+    border: 1px solid #414042;
+}
+
+.tsml-slider-wrap .slick-dots li button:hover,
+.tsml-slider-wrap .slick-dots li button:focus {
+  outline: none;
+}
+
+ 
+
+
+
+/******** Responsive code starts here *******/
+ 
+/************** ipad ***************/
+
+@media (max-width: 1080px) {
+
+  .tsml-slider-wrap {
+      padding: 80px 0px 120px; 
+  }
+
+  .tsml-slider-header h3 {
+      font-size: 30px; 
+  }
+  
+  .tsml-slider-header {
+      padding-bottom: 35px;
+  }
+  
+  .tsml-slider-inner {
+      padding: 40px 55px;
+  }
+   
+  .tsml-quote p {
+      font-size: 16px; 
+  }
+  
+}
+
+/************** ipad nd tab ***************/
+
+@media only screen and (min-width:768px) and (max-width: 1024px) and (orientation : portrait){
+
+ 
+}
+
+/************** iphone roatate***************/
+
+@media (max-width: 767px) {
+
+ 
+  .tsml-slider-wrap {
+      padding: 70px 0px 100px;
+  }
+  
+  .tsml-slider-header {
+      padding-bottom: 25px;
+  }
+  
+  .tsml-quote p { 
+      font-size: 16px; 
+  }
+  
+  .tsml-quote:before { 
+      background-size: 30px;
+      background-repeat: no-repeat;
+  }
+   
+  .tsml-quote:after { 
+      background-size: 30px;
+      background-repeat: no-repeat;
+  }
+  
+  .tsml-details { 
+      padding-top: 40px;
+  }
+  
+  .tsml-name h4 { 
+      font-size: 18px;
+      line-height: 20px;
+  }
+  
+  .tsml-name h5 {
+      font-size: 16px;
+      line-height: 20px;
+  }
+  
+  .tsml-slider-wrap .slick-dots li button {
+      width: 15px;
+      height: 15px;
+  }
+  
+  
+  
+}
+
+/************** iphone ***************/
+
+@media (max-width: 479px) {
+
+  .tsml-slider-header h3 {
+      font-size: 22px;
+  }
+  
+  .tsml-slider-header {
+      padding-bottom: 15px;
+  }
+  
+  .tsml-slider-inner {
+      padding: 30px 15px;
+  }
+  
+  .tsml-quote {
+      position: relative;
+      padding: 0px 20px;
+  }
+  
+  .tsml-quote p br {
+    display: none !important;
+  }
+  
+  .tsml-image img {
+      max-width: 64px; 
+      border: 2px solid #662d91; 
+  }
+  
+  .tsml-name {
+      text-align: left;
+      padding-left: 15px;
+  }
+  
+  .tsml-name h4 {
+      font-size: 16px;
+      line-height: 20px;
+  }
+
+  .tsml-quote:before {
+      background-size: 20px; 
+  }
+  
+  .tsml-quote:after {
+      background-size: 20px;
+      background-repeat: no-repeat;
+  }
+  
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

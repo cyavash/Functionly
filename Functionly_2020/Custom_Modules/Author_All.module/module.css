@@ -1,0 +1,31 @@
+.author-page-main{
+  
+}
+
+.author-item {
+  display: block;
+  text-decoration: none;
+  color: #414042!important;
+  margin-top: 50px;
+}
+.author-item h2 {
+  font-size: 24px;
+} 
+.author-item img {
+  width: 100%;
+  padding-top: 10px;
+} 
+
+/* Responsive */
+@media (max-width: 767px) {
+  
+}
+@media (min-width: 768px) {
+  .author-page-main .row-fluid .span3:nth-child(5n),
+  .author-page-main .row-fluid .span3:nth-child(9n)
+  {
+    margin-left: 0!important;  
+    clear: left;
+  }
+  
+} 

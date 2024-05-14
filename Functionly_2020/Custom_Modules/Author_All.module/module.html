@@ -1,0 +1,29 @@
+<div id="author-page" class="author-page-main ">
+  <div class="blog-list-wrap blog-list-wraptop">
+    <div class="page-center">        
+      <h1>
+        {{ module.title }}
+      </h1> 
+      <div class="row-fluid">
+        {% for item in module.author_card %}
+          <div class="span3">
+            <a href="{{ item.link }}" class="author-item">
+            <h2>{{ item.author_name }}</h2>
+            {% if item.image_field.src %}
+              {% set sizeAttrs = 'width="{{ item.image_field.width }}" height="{{ item.image_field.height }}"' %}
+              {% if item.image_field.size_type == 'auto' %}
+                {% set sizeAttrs = 'width="{{ item.image_field.width }}" height="{{ item.image_field.height }}" style="max-width: 100%; height: auto;"' %}
+              {% elif item.image_field.size_type == 'auto_custom_max' %}
+                {% set sizeAttrs = 'width="{{ item.image_field.max_width }}" height="{{ item.image_field.max_height }}" style="max-width: 100%; height: auto;"' %}
+              {% endif %}
+               {% set loadingAttr = item.image_field.loading != 'disabled' ? 'loading="{{ item.image_field.loading }}"' : '' %}
+              <img src="{{ item.image_field.src }}" alt="{{ item.image_field.alt }}" {{ loadingAttr }} {{ sizeAttrs }}>
+            {% endif %}
+            {% inline_rich_text field="description" value="{{ item.description }}" %}
+            </a>  
+          </div>  
+        {% endfor %}
+      </div><!-- end row-fluid -->
+    </div><!-- end page-center -->
+  </div><!-- end blog-list-wrap -->
+</div><!-- end author-page -->

@@ -1,0 +1,179 @@
+<div class="hs_cos_wrapper_{{name}} wbst-sldr-wrap">
+  <div class="page-center1"> 
+    
+    <div class="wbst-sldr-header">
+      <h2>{{ module.header }}</h2> 
+    </div>
+    
+    <div class="wbst-sldr-lr "> 
+      {% for item in module.item %}
+      <div class="wbst-sldr-inner">  
+        {{ "<a href='" ~ item.link ~"' target='_blank'>" if item.link }}
+        <div class="wbst-sldr-list">
+          <div class="wbst-list"> 
+            <div class="wbst-logo"> 
+              {% if item.image.src %}
+                {% set sizeAttrs = 'width="{{ item.image.width }}" height="{{ item.image.height }}"' %}
+                {% if item.image.size_type == 'auto' %}
+                  {% set sizeAttrs = 'width="{{ item.image.width }}" height="{{ item.image.height }}" style="max-width: 100%; height: auto;"' %}
+                {% elif item.image.size_type == 'auto_custom_max' %}
+                  {% set sizeAttrs = 'width="{{ item.image.max_width }}" height="{{ item.image.max_height }}" style="max-width: 100%; height: auto;"' %}
+                {% endif %}
+                 {% set loadingAttr = item.image.loading != 'disabled' ? 'loading="{{ item.image.loading }}"' : '' %}
+                <img src="{{ item.image.src }}" alt="{{ item.image.alt }}" {{ loadingAttr }} {{ sizeAttrs }}>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+        {{ "</a>" if item.link }} 
+      </div>
+      {% endfor %}
+    </div> 
+     
+    
+    <div class="wbst-sldr-rt "> 
+      {% for item in module.btm %}
+      <div class="wbst-sldr-inner">  
+        {{ "<a href='" ~ item.link ~"' target='_blank'>" if item.link }}
+        <div class="wbst-sldr-list">
+          <div class="wbst-list"> 
+            <div class="wbst-logo"> 
+              {% if item.image.src %}
+                {% set sizeAttrs = 'width="{{ item.image.width }}" height="{{ item.image.height }}"' %}
+                {% if item.image.size_type == 'auto' %}
+                  {% set sizeAttrs = 'width="{{ item.image.width }}" height="{{ item.image.height }}" style="max-width: 100%; height: auto;"' %}
+                {% elif item.image.size_type == 'auto_custom_max' %}
+                  {% set sizeAttrs = 'width="{{ item.image.max_width }}" height="{{ item.image.max_height }}" style="max-width: 100%; height: auto;"' %}
+                {% endif %}
+                 {% set loadingAttr = item.image.loading != 'disabled' ? 'loading="{{ item.image.loading }}"' : '' %}
+                <img src="{{ item.image.src }}" alt="{{ item.image.alt }}" {{ loadingAttr }} {{ sizeAttrs }}>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+        {{ "</a>" if item.link }} 
+      </div>
+      {% endfor %}
+    </div> 
+    
+	</div>
+</div> 
+ 
+  
+{% require_js %}
+<script>
+  
+  $(document).ready(function() {
+    $('.wbst-sldr-lr').slick({                                        
+      speed: 12000,
+      autoplay: true,
+      autoplaySpeed: 0,
+      centerMode: true,
+      cssEase: 'linear',
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      variableWidth: true,
+      infinite: true,
+      initialSlide: 1,
+      arrows: false,
+      buttons: false,
+      responsive: [
+  				  {
+  				    breakpoint: 1024,
+  				    settings: { 
+  				    }
+  				  },
+    				{
+      				breakpoint: 600,
+      				settings: {
+        			slidesToShow: 2,
+        			slidesToScroll: 1,
+                dots: false
+     					}
+    				},
+    				{
+     					breakpoint: 480,
+     					settings: {
+        			slidesToShow: 2,
+        			slidesToScroll: 1,
+                dots: false
+      			}
+    				}
+  				] 
+    });    
+  }); 
+  
+  
+  $(document).ready(function() {
+    $('.wbst-sldr-rt').slick({                                        
+      speed: 12000,
+      autoplay: true,
+      autoplaySpeed: 0,
+      centerMode: true,
+      cssEase: 'linear',
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      variableWidth: true,
+      infinite: true,
+      initialSlide: 1,
+      arrows: false,
+      buttons: false,
+      responsive: [
+  				  {
+  				    breakpoint: 1024,
+  				    settings: { 
+  				    }
+  				  },
+    				{
+      				breakpoint: 600,
+      				settings: {
+        			slidesToShow: 2,
+        			slidesToScroll: 1,
+                dots: false
+     					}
+    				},
+    				{
+     					breakpoint: 480,
+     					settings: {
+        			slidesToShow: 2,
+        			slidesToScroll: 1,
+                dots: false
+      			}
+    				}
+  				] 
+    });    
+  }); 
+  
+</script>
+{% end_require_js %}
+
+{% require_css %}
+<style>
+  
+  .hs_cos_wrapper_{{name}}.wbst-sldr-wrap {  
+    background-color: {{ module.style.background_color.color }} ;
+    padding: {{ module.style.ptdesktop }}px 0px {{ module.style.pbdesktop }}px;
+  } 
+  
+  @media (max-width: 1080px) { 
+
+    .hs_cos_wrapper_{{name}}.wbst-sldr-wrap {   
+      padding: {{ module.style.pttablet }}px 0px {{ module.style.pbtablet }}px;
+    } 
+
+  }
+  
+  @media (max-width: 767px) { 
+
+    .hs_cos_wrapper_{{name}}.wbst-sldr-wrap {   
+      padding: {{ module.style.ptmobile }}px 0px {{ module.style.pbmobile }}px;
+    } 
+
+  }
+  
+  
+</style>
+{% end_require_css %}
+
+ 
+ 

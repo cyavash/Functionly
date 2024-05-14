@@ -1,0 +1,144 @@
+.pricing-toggle-wrsp {
+    padding-bottom: 40px;
+}
+ 
+.toggle, .toggler {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px;
+}
+
+.toggler {
+  color: #737373;
+  transition: .2s;
+  font-weight: 500;
+}
+
+.toggler--is-active {
+  color: #662D91;
+  font-weight: 600;
+}
+ 
+.toggle {
+  position: relative;
+  width: 80px;
+  height: 35px;
+  border-radius: 100px;
+  background-color: #662D91;
+  overflow: hidden;
+  box-shadow: inset 0 0 2px 1px rgba(0, 0, 0, 0.05);
+}
+
+.check {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 6;
+}
+
+.check:checked ~ .switch {
+  right: 2px;
+  left: 57.5%;
+  transition: 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition-property: left, right;
+  transition-delay: .08s, 0s;
+}
+
+.switch {
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  bottom: 2px;
+  right: 57.5%;
+  background-color: #fff;
+  border-radius: 36px;
+  z-index: 1;
+  transition: 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition-property: left, right;
+  transition-delay: 0s, .08s;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+ 
+.hide{
+  display: none;
+}
+
+
+.price-annually {
+    display: none;
+}
+
+.price1-inner.active .price-annually {
+    display: block;
+}
+
+.price1-inner.active .price-monthly {
+    display: none;
+}
+
+.price1-inner .price-monthly {
+    display: block;
+}
+
+/******** Responsive code starts here *******/
+ 
+/************** ipad ***************/
+
+@media (max-width: 1080px) {
+
+ 
+}
+
+/************** ipad nd tab ***************/
+
+@media only screen and (min-width:768px) and (max-width: 1024px) and (orientation : portrait){
+
+ 
+}
+
+/************** iphone roatate***************/
+
+@media (max-width: 767px) {
+
+  body .price1-details.price1-details-desktop {
+      display: inline-block !important;
+  }
+
+  .price1-toggle-wrap .price1-open {
+      padding-top: 20px;
+      display: none;
+  }
+  
+  .toggle, .toggler { 
+      margin: 2px;
+      font-size: 16px;
+  }
+  
+  
+}
+
+/************** iphone ***************/
+
+@media (max-width: 479px) {
+
+
+}
+
+.price1-cta {
+  flex-direction: column;
+}
+
+.pricing-cta-full-width .price1-cta2.cta-purple {
+  width: 100% !important;
+}
+
+.pricing-cta-full-width .price1-cta1 {
+  width: 100% !important;
+}
+
+

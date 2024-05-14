@@ -1,0 +1,1151 @@
+[ {
+  "id" : "23a8b65d-13ad-c2b5-e901-af7107259505",
+  "name" : "table_left_item",
+  "display_width" : null,
+  "label" : "Table Left Item",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 1,
+    "max" : 30,
+    "sorting_label_field" : "f8d6b57e-32b9-7957-2c36-d3d4f991f49c",
+    "default" : 10
+  },
+  "children" : [ {
+    "id" : "f8d6b57e-32b9-7957-2c36-d3d4f991f49c",
+    "name" : "table_title",
+    "display_width" : null,
+    "label" : "Table Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Sharing & Collaboration"
+  }, {
+    "id" : "26f708af-a8b0-6cf3-8860-45123ac5a2e5",
+    "name" : "item",
+    "display_width" : null,
+    "label" : "Item",
+    "required" : false,
+    "locked" : false,
+    "occurrence" : {
+      "min" : 1,
+      "max" : 50,
+      "sorting_label_field" : "993c10ff-a243-f2c3-6db0-55b55ca7b31b",
+      "default" : 8
+    },
+    "children" : [ {
+      "id" : "993c10ff-a243-f2c3-6db0-55b55ca7b31b",
+      "name" : "text",
+      "display_width" : null,
+      "label" : "Text",
+      "required" : false,
+      "locked" : false,
+      "validation_regex" : "",
+      "allow_new_line" : false,
+      "show_emoji_picker" : false,
+      "type" : "text",
+      "default" : "Included collaborators"
+    }, {
+      "id" : "0886977c-3d8f-455b-e07f-3d7a6a401e87",
+      "name" : "tooltip_text",
+      "display_width" : null,
+      "label" : "Tooltip Text",
+      "required" : false,
+      "locked" : false,
+      "validation_regex" : "",
+      "allow_new_line" : false,
+      "show_emoji_picker" : false,
+      "type" : "text",
+      "default" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "id" : "a11bb683-94ab-e029-4e87-ac2de5a5d017",
+      "name" : "category",
+      "display_width" : null,
+      "label" : "Category",
+      "required" : false,
+      "locked" : false,
+      "display" : "select",
+      "choices" : [ [ "", "None" ], [ "new ", "New" ], [ "soon", "Coming soon" ] ],
+      "multiple" : false,
+      "reordering_enabled" : true,
+      "preset" : null,
+      "type" : "choice"
+    } ],
+    "tab" : "CONTENT",
+    "expanded" : false,
+    "group_occurrence_meta" : null,
+    "type" : "group",
+    "default" : [ {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    } ]
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "default" : [ {
+    "table_title" : "Sharing & Collaboration",
+    "item" : [ {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    } ]
+  }, {
+    "table_title" : "Sharing & Collaboration",
+    "item" : [ {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    } ]
+  }, {
+    "table_title" : "Sharing & Collaboration",
+    "item" : [ {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    } ]
+  }, {
+    "table_title" : "Sharing & Collaboration",
+    "item" : [ {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    } ]
+  }, {
+    "table_title" : "Sharing & Collaboration",
+    "item" : [ {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    } ]
+  }, {
+    "table_title" : "Sharing & Collaboration",
+    "item" : [ {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    } ]
+  }, {
+    "table_title" : "Sharing & Collaboration",
+    "item" : [ {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    } ]
+  }, {
+    "table_title" : "Sharing & Collaboration",
+    "item" : [ {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    } ]
+  }, {
+    "table_title" : "Sharing & Collaboration",
+    "item" : [ {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    } ]
+  }, {
+    "table_title" : "Sharing & Collaboration",
+    "item" : [ {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    }, {
+      "text" : "Included collaborators",
+      "tooltip_text" : "Invite colleagues to co-build and co-design your charts and scenarios in real-time"
+    } ]
+  } ]
+}, {
+  "id" : "09dd8023-d7bb-effd-97af-e2981ece3150",
+  "name" : "table_item",
+  "display_width" : null,
+  "label" : "Table Item",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 1,
+    "max" : 3,
+    "sorting_label_field" : "d2f7aa90-fe30-4602-562a-9f816336ed92",
+    "default" : 3
+  },
+  "children" : [ {
+    "id" : "d2f7aa90-fe30-4602-562a-9f816336ed92",
+    "name" : "table_column_title",
+    "display_width" : null,
+    "label" : "Table Column Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Free"
+  }, {
+    "id" : "996cf0a6-cbe9-f393-e1f8-3577091bdee8",
+    "name" : "item",
+    "display_width" : null,
+    "label" : "Item",
+    "required" : false,
+    "locked" : false,
+    "occurrence" : {
+      "min" : 1,
+      "max" : 200,
+      "sorting_label_field" : "d85e1abb-da5b-3bef-d734-c6d8b857af30",
+      "default" : 70
+    },
+    "children" : [ {
+      "id" : "d85e1abb-da5b-3bef-d734-c6d8b857af30",
+      "name" : "details",
+      "display_width" : null,
+      "label" : "Details",
+      "required" : false,
+      "locked" : false,
+      "validation_regex" : "",
+      "allow_new_line" : false,
+      "show_emoji_picker" : false,
+      "type" : "text",
+      "default" : "<em class=\" fa-check \"></em>"
+    } ],
+    "tab" : "CONTENT",
+    "expanded" : false,
+    "group_occurrence_meta" : null,
+    "type" : "group",
+    "default" : [ {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    } ]
+  }, {
+    "id" : "7e826c04-527f-eddf-a819-b89f65277f3a",
+    "name" : "link1_text",
+    "display_width" : null,
+    "label" : "Link1 Text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Trail Now"
+  }, {
+    "id" : "70e26e6c-702c-5036-25da-2e04320fe200",
+    "name" : "link_field",
+    "display_width" : null,
+    "label" : "Link 1",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : "7e826c04-527f-eddf-a819-b89f65277f3a",
+      "controlling_field_path" : null,
+      "controlling_value_regex" : null,
+      "property" : null,
+      "operator" : "NOT_EMPTY",
+      "access" : null
+    },
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG" ],
+    "show_advanced_rel_options" : false,
+    "type" : "link",
+    "default" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "#1",
+        "content_id" : null
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    }
+  }, {
+    "id" : "343477f1-19a0-80ba-b7ea-57d15ba04121",
+    "name" : "link2_text",
+    "display_width" : null,
+    "label" : "Link2 Text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Buy Now"
+  }, {
+    "id" : "e1c073a1-eb5e-96f7-1106-c835103e44b9",
+    "name" : "link2",
+    "display_width" : null,
+    "label" : "Link2",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : "343477f1-19a0-80ba-b7ea-57d15ba04121",
+      "controlling_field_path" : null,
+      "controlling_value_regex" : null,
+      "property" : null,
+      "operator" : "NOT_EMPTY",
+      "access" : null
+    },
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG" ],
+    "show_advanced_rel_options" : false,
+    "type" : "link",
+    "default" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "#1",
+        "content_id" : null
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "default" : [ {
+    "table_column_title" : "Free",
+    "item" : [ {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    } ],
+    "link1_text" : "Trail Now",
+    "link_field" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "#1",
+        "content_id" : null
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    },
+    "link2_text" : "Buy Now",
+    "link2" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "#1",
+        "content_id" : null
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    }
+  }, {
+    "table_column_title" : "Free",
+    "item" : [ {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    } ],
+    "link1_text" : "Trail Now",
+    "link_field" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "#1",
+        "content_id" : null
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    },
+    "link2_text" : "Buy Now",
+    "link2" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "#1",
+        "content_id" : null
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    }
+  }, {
+    "table_column_title" : "Free",
+    "item" : [ {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    }, {
+      "details" : "<em class=\" fa-check \"></em>"
+    } ],
+    "link1_text" : "Trail Now",
+    "link_field" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "#1",
+        "content_id" : null
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    },
+    "link2_text" : "Buy Now",
+    "link2" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "#1",
+        "content_id" : null
+      },
+      "open_in_new_tab" : true,
+      "no_follow" : false
+    }
+  } ]
+} ]

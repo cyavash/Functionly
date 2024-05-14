@@ -1,0 +1,252 @@
+.product_signup .container {max-width: 1170px;margin: 0 auto;padding: 0 15px;}
+.product_signup .row {display: flex;flex-wrap: wrap;margin: 0 -15px;}
+.inner_sec {width: 33.33%;padding: 0 15px;margin-bottom: 30px;}
+.tile_con img {max-width: 250px; max-width: 375px; width: 310px; width: 270px; margin: 25px auto;display: block;}
+.tiles_img {text-align: center;box-shadow: 0px 2px 12px rgb(0 0 0 / 20%);
+    border-radius: 12px;padding: 30px;}
+.product_signup {padding: 80px 0;}
+.inner_sec span {font-size: 14px;display: block;padding-bottom: 10px;}
+.tile_con {margin-bottom: 15px;}
+.tiles_con h3 {font-size: 24px; color: #414042;}
+.tiles_con p {margin: 0;font-size: 18px; font-size: 16px; color: #565656cc;}
+.sub_form li a{color: #565656cc;font-weight: 500;}
+.inner_sec .hs_email.hs-email label {display: none;}
+.sub_form {
+  padding-top: 25px;
+}
+.popup_body {
+    z-index: 99;
+}
+.inner_sec .actions input[type="submit"] {color: #fff;
+    padding: 14px 100px 14px 100px;
+    text-align: center;
+    margin: 0px;
+    background-color: #009bff;
+    border: 1px solid #009bff;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 125%;
+    width: 100%;
+    padding: 14px 20px;
+}
+
+.inner_sec input[type="email"] {
+  height: 45px;
+  border: 1px solid #737373;
+  border: 1px solid #d4d6db;
+  box-sizing: border-box;
+  border-radius: 6px;
+  color: #737373;
+  padding: 10px 20px;
+}
+.inner_sec input[type="email"]:focus
+{
+   border-color: #737373;
+}
+
+.inner_sec .input {margin-top: 15px;}
+.inner_sec .actions input[type=submit] {
+   font-size: 14px;
+   padding: 12px 20px;
+   font-weight: 500;
+}
+.inner_sec .actions input[type=submit]:hover {
+  background: #33afff;  
+}
+
+.inner_sec input.error {
+  outline: 2px solid red; 
+}
+.sub_form .hs-error-msgs {
+  color: red; 
+}
+
+------------------------------------------------
+body{
+  background:#ddd;
+}
+.open_popup{
+  background:tomato;
+  border:none;
+  padding:5px 15px;
+  color:#fff;
+}
+.popup_body{
+  display:none;
+  position:fixed;
+  top:0;left:0;right:0;bottom:0;
+  -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    -ms-transition: 300ms;
+    transition: 300ms;
+}
+.popup_body_show{
+  display:block;
+  -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    -ms-transition: 300ms;
+    transition: 300ms;
+}
+.popup_contain li.hs-form-booleancheckbox span {
+    font-size: 11px;
+      line-height: 25px;
+}
+.popup_back{
+  background: rgba(0,0,0,0.4);
+  position: fixed;
+  left:0;right:0;top:0;bottom:0;
+}
+.popup_contain {max-width: 550px;margin: 0 auto;position: absolute;z-index: 3;background: #fff;width: 100%;padding: 30px 80px;border-radius: 10px;left: 50%;top: 60%; top: 57%; transform: translate(-50%, -50%);}
+.popup_close {
+  cursor: pointer;
+    padding: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 28px;
+    top: 20px;
+    width: 18px;
+}
+
+button.open_popup {color: #fff;
+    padding: 14px 54px 14px 28px;
+    text-align: center;
+    margin: 0px;
+    background-color: #009bff;
+    border: 1px solid #009bff;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 125%;
+    background-image: url(https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/Functionly_2020/Images/arrow-white.svg);
+    background-repeat: no-repeat;
+    background-position: 83% 17px;
+    background-size: 17px;
+    transition: none;}
+
+button.open_popup:hover {opacity: .8;}
+.changeCursor {overflow: hidden;}
+
+.changeCursor .main-hero-wrap {z-index: 0;}
+.sub_form .inputs-list input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.sub_form .inputs-list label {
+  position: relative;
+  cursor: pointer;
+}
+
+.sub_form .inputs-list span:before {
+  content:'';
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 2px solid #009bff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 7px;
+  position: absolute;
+  cursor: pointer;
+  left: 0;
+  top: 3px;
+}
+
+.sub_form .inputs-list input:checked + span:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 7px;
+  width: 5px;
+  height: 11px;
+  border: solid #009bff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  z-index: 10;
+}
+
+.sub_form .inputs-list label span {
+    text-align: left;
+    padding-left: 25px;
+    position: relative;
+}
+
+.sub_form span.hs-form-required {
+    display: none;
+} 
+
+.sub_form .hs-error-msgs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  margin-top: -30px;
+}
+.sub_form .hs_error_rollup {
+  padding-left: 20px;
+}
+.sub_form .hs-error-msgs  {
+  font-size: 11px; 
+}
+.sub_form .hs_submit {      
+  position: relative;
+  top: -50px; 
+  top: -80px;
+}
+.sub_form .hs_modal_agree_to_fn_terms___privacy {
+  position: relative;
+  top: 75px;
+  top: 60px;
+  z-index: 100;
+  clear: both;
+}
+.popup_contain {
+  padding-bottom: 15px;
+} 
+
+.sub_form .hs_email{
+  margin-bottom: 40px; 
+}
+
+.sub_form .hs_email,
+.sub_form .hs_submit
+{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.product_signup form.submitted-message{
+  	display: none!important;
+}
+.sub_form li a {
+  font-weight: 500; 
+}
+.sub_form .hs_modal_agree_to_fn_terms___privacy {  
+  padding: 0 6% 0 8%; 
+}
+
+@media screen and (max-width: 534px) {
+  .sub_form .hs_submit {
+   top: -75px;
+   top: -90px;
+  } 
+  .sub_form .hs_email{
+    margin-bottom: 30px; 
+  }
+  .sub_form .hs_modal_agree_to_fn_terms___privacy { 
+    top: 67px; 
+  }
+}
+@media screen and (max-width: 390px) {
+  .tile_con img {
+    max-width: 100%; 
+  }
+}
+
+/**/

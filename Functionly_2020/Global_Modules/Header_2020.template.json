@@ -1,0 +1,287 @@
+{
+  "isAvailableForNewContent" : true,
+  "templateType" : 18,
+  "attachedStylesheets" : [ ],
+  "attachedJs" : [ ],
+  "customHead" : "",
+  "customFooter" : "",
+  "bodyClass" : "",
+  "bodyCss" : "",
+  "bodyEditable" : false,
+  "layoutData" : {
+    "x" : 0,
+    "w" : 12,
+    "name" : "",
+    "label" : "",
+    "type" : "cell",
+    "params" : { },
+    "rows" : [ {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_159991107585619",
+        "label" : "Header Outer Wrap",
+        "type" : "cell",
+        "params" : {
+          "css_class" : "header-outer-wrap header-desktop",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ {
+          "0" : {
+            "x" : 0,
+            "w" : 12,
+            "name" : "module_159991107458311",
+            "label" : "Page Center",
+            "type" : "cell",
+            "params" : {
+              "css_class" : "page-center1",
+              "css_id" : "",
+              "css_id_str" : "",
+              "css_style" : "",
+              "overrideable" : false,
+              "per_widget_wrapper_html" : "",
+              "wrapping_html" : ""
+            },
+            "rows" : [ {
+              "0" : {
+                "x" : 0,
+                "w" : 3,
+                "name" : "module_1600081684093209",
+                "label" : "Header Logo Wrap",
+                "type" : "cell",
+                "params" : {
+                  "css_class" : "header-logo-wrap",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "overrideable" : false,
+                  "per_widget_wrapper_html" : "",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ {
+                  "0" : {
+                    "x" : 0,
+                    "w" : 12,
+                    "name" : "module_15999110365595",
+                    "label" : "Header Logo",
+                    "type" : "custom_widget",
+                    "params" : {
+                      "css_class" : "header-logo",
+                      "css_id" : "",
+                      "css_id_str" : "",
+                      "css_style" : "",
+                      "img" : {
+                        "alt" : "Functionly_Logo",
+                        "height" : 60,
+                        "max_height" : 60,
+                        "max_width" : 78,
+                        "size_type" : "auto_custom_max",
+                        "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Functionly_Logo.svg",
+                        "width" : 78
+                      },
+                      "img_link" : {
+                        "no_follow" : false,
+                        "url" : {
+                          "href" : "/",
+                          "type" : "EXTERNAL"
+                        }
+                      },
+                      "link" : "/",
+                      "overrideable" : false,
+                      "path" : "@hubspot/linked_image",
+                      "per_widget_wrapper_html" : "",
+                      "schema_version" : 2,
+                      "widget_name" : "Image",
+                      "wrapping_html" : ""
+                    },
+                    "rows" : [ ],
+                    "rowMetaData" : [ ],
+                    "cells" : [ ],
+                    "cssId" : "",
+                    "cssClass" : "",
+                    "cssStyle" : "",
+                    "styles" : null,
+                    "widgets" : [ ]
+                  }
+                }, {
+                  "0" : {
+                    "x" : 0,
+                    "w" : 12,
+                    "name" : "module_1600081681709198",
+                    "label" : "Header Logo",
+                    "type" : "custom_widget",
+                    "params" : {
+                      "css_class" : "header-logo header-logo-white",
+                      "css_id" : "",
+                      "css_id_str" : "",
+                      "css_style" : "",
+                      "img" : {
+                        "alt" : "Functionly Logo White",
+                        "height" : 60,
+                        "max_height" : 60,
+                        "max_width" : 78,
+                        "size_type" : "auto",
+                        "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Functionly%20Logo%20White.svg",
+                        "width" : 78
+                      },
+                      "img_link" : {
+                        "no_follow" : false,
+                        "url" : {
+                          "href" : "/",
+                          "type" : "EXTERNAL"
+                        }
+                      },
+                      "link" : "/",
+                      "overrideable" : false,
+                      "path" : "@hubspot/linked_image",
+                      "per_widget_wrapper_html" : "",
+                      "schema_version" : 2,
+                      "widget_name" : "Image",
+                      "wrapping_html" : ""
+                    },
+                    "rows" : [ ],
+                    "rowMetaData" : [ ],
+                    "cells" : [ ],
+                    "cssId" : "",
+                    "cssClass" : "",
+                    "cssStyle" : "",
+                    "styles" : null,
+                    "widgets" : [ ]
+                  }
+                } ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "",
+                "cssStyle" : "",
+                "styles" : null,
+                "widgets" : [ ]
+              },
+              "3" : {
+                "x" : 3,
+                "w" : 6,
+                "name" : "module_159991109017435",
+                "label" : "Header Menu",
+                "type" : "custom_widget",
+                "params" : {
+                  "css_class" : "header-menu center-menu custom-menu-pri1mary",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "id" : 34868232788,
+                  "overrideable" : false,
+                  "path" : "@hubspot/menu",
+                  "per_widget_wrapper_html" : "",
+                  "schema_version" : 2,
+                  "widget_name" : "Menu",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "",
+                "cssStyle" : "",
+                "styles" : null,
+                "widgets" : [ ]
+              },
+              "9" : {
+                "x" : 9,
+                "w" : 3,
+                "name" : "module_1600272772968505",
+                "label" : "Header Login Menu",
+                "type" : "custom_widget",
+                "params" : {
+                  "css_class" : "header-Rmenu custom-menu-primary",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "menu_tree" : [ {
+                    "children" : [ ],
+                    "isPublished" : false,
+                    "linkLabel" : "Login",
+                    "type" : "PAGE_LINK"
+                  }, {
+                    "children" : [ ],
+                    "isPublished" : false,
+                    "linkLabel" : "Trial for free",
+                    "type" : "PAGE_LINK"
+                  } ],
+                  "orientation" : "horizontal",
+                  "overrideable" : false,
+                  "path" : "@hubspot/simple_menu",
+                  "per_widget_wrapper_html" : "",
+                  "schema_version" : 2,
+                  "widget_name" : "Simple Menu",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "",
+                "cssStyle" : "",
+                "styles" : null,
+                "widgets" : [ ]
+              }
+            } ],
+            "rowMetaData" : [ ],
+            "cells" : [ ],
+            "cssId" : "",
+            "cssClass" : "",
+            "cssStyle" : "",
+            "styles" : null,
+            "widgets" : [ ]
+          }
+        } ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1601187827667626",
+        "label" : "Header_2020",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "path" : "/Functionly_2020/Global_Modules/Header_2020",
+          "per_widget_wrapper_html" : "",
+          "schema_version" : 2,
+          "widget_name" : "Header_2020",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null,
+        "widgets" : [ ]
+      }
+    } ],
+    "rowMetaData" : [ ],
+    "cells" : [ ],
+    "cssId" : "",
+    "cssClass" : "",
+    "cssStyle" : "",
+    "styles" : null,
+    "widgets" : [ ]
+  }
+}

@@ -1,0 +1,42 @@
+[ {
+  "id" : "ecbcfe16-c9f7-6d8b-0134-d1c1747103f0",
+  "name" : "logo",
+  "display_width" : null,
+  "label" : "Logo",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto_custom_max",
+    "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/Functionly_Logo.svg",
+    "alt" : "Functionly_Logo",
+    "width" : 78,
+    "height" : 60,
+    "max_width" : 153,
+    "max_height" : 118
+  }
+}, {
+  "id" : "64ba3c1f-1e86-df6b-2eb6-bcd652fd9c25",
+  "name" : "logo_link",
+  "display_width" : null,
+  "label" : "Logo Link",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "/"
+}, {
+  "id" : "087e4cbc-c617-1d46-2439-abc65732c203",
+  "name" : "mobile_menu",
+  "display_width" : null,
+  "label" : "Mobile Menu",
+  "required" : false,
+  "locked" : false,
+  "type" : "menu",
+  "default" : 35005942910
+} ]

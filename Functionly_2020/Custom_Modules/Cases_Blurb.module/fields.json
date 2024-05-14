@@ -1,0 +1,172 @@
+[ {
+  "id" : "09dd8023-d7bb-effd-97af-e2981ece3150",
+  "name" : "content",
+  "display_width" : null,
+  "label" : "Item",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 3,
+    "max" : 12,
+    "sorting_label_field" : "22b391ad-8395-74ad-3e1b-51973608dc0c",
+    "default" : 8
+  },
+  "children" : [ {
+    "id" : "bcf8e05a-f721-1d70-ae51-94a7fff0af93",
+    "name" : "image",
+    "display_width" : null,
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : "f44ff266-f37a-277b-8932-478789d74cbe",
+      "controlling_field_path" : null,
+      "controlling_value_regex" : "false",
+      "property" : null,
+      "operator" : "EQUAL",
+      "access" : null
+    },
+    "responsive" : true,
+    "resizable" : false,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/icon-8.svg",
+      "alt" : "icon-8",
+      "width" : 119,
+      "height" : 119,
+      "max_width" : 119,
+      "max_height" : 119
+    }
+  }, {
+    "id" : "22b391ad-8395-74ad-3e1b-51973608dc0c",
+    "name" : "content",
+    "display_width" : null,
+    "label" : "Content",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<h3>Restructuring</h3>\n<p>Once you pass a certain size, complexity becomes difficult to manage on one piece of paper. Organizations need to remain fluid and undergo transformation to keep winning.</p>"
+  }, {
+    "id" : "f44ff266-f37a-277b-8932-478789d74cbe",
+    "name" : "image_video",
+    "display_width" : null,
+    "label" : "Image/Video",
+    "required" : false,
+    "locked" : false,
+    "display" : "checkbox",
+    "type" : "boolean",
+    "default" : false
+  }, {
+    "picker" : "file",
+    "id" : "48538b83-42d9-97da-c8a4-e6775027583c",
+    "name" : "video",
+    "display_width" : null,
+    "label" : "Video",
+    "required" : false,
+    "locked" : false,
+    "type" : "file"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "default" : [ {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/icon-8.svg",
+      "alt" : "icon-8",
+      "width" : 119,
+      "height" : 119,
+      "max_width" : 119,
+      "max_height" : 119
+    },
+    "content" : "<h3>Restructuring</h3>\n<p>Once you pass a certain size, complexity becomes difficult to manage on one piece of paper. Organizations need to remain fluid and undergo transformation to keep winning.</p>",
+    "image_video" : false
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/icon-8.svg",
+      "alt" : "icon-8",
+      "width" : 119,
+      "height" : 119,
+      "max_width" : 119,
+      "max_height" : 119
+    },
+    "content" : "<h3>Restructuring</h3>\n<p>Once you pass a certain size, complexity becomes difficult to manage on one piece of paper. Organizations need to remain fluid and undergo transformation to keep winning.</p>",
+    "image_video" : false
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/icon-8.svg",
+      "alt" : "icon-8",
+      "width" : 119,
+      "height" : 119,
+      "max_width" : 119,
+      "max_height" : 119
+    },
+    "content" : "<h3>Restructuring</h3>\n<p>Once you pass a certain size, complexity becomes difficult to manage on one piece of paper. Organizations need to remain fluid and undergo transformation to keep winning.</p>",
+    "image_video" : false
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/icon-8.svg",
+      "alt" : "icon-8",
+      "width" : 119,
+      "height" : 119,
+      "max_width" : 119,
+      "max_height" : 119
+    },
+    "content" : "<h3>Restructuring</h3>\n<p>Once you pass a certain size, complexity becomes difficult to manage on one piece of paper. Organizations need to remain fluid and undergo transformation to keep winning.</p>",
+    "image_video" : false
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/icon-8.svg",
+      "alt" : "icon-8",
+      "width" : 119,
+      "height" : 119,
+      "max_width" : 119,
+      "max_height" : 119
+    },
+    "content" : "<h3>Restructuring</h3>\n<p>Once you pass a certain size, complexity becomes difficult to manage on one piece of paper. Organizations need to remain fluid and undergo transformation to keep winning.</p>",
+    "image_video" : false
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/icon-8.svg",
+      "alt" : "icon-8",
+      "width" : 119,
+      "height" : 119,
+      "max_width" : 119,
+      "max_height" : 119
+    },
+    "content" : "<h3>Restructuring</h3>\n<p>Once you pass a certain size, complexity becomes difficult to manage on one piece of paper. Organizations need to remain fluid and undergo transformation to keep winning.</p>",
+    "image_video" : false
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/icon-8.svg",
+      "alt" : "icon-8",
+      "width" : 119,
+      "height" : 119,
+      "max_width" : 119,
+      "max_height" : 119
+    },
+    "content" : "<h3>Restructuring</h3>\n<p>Once you pass a certain size, complexity becomes difficult to manage on one piece of paper. Organizations need to remain fluid and undergo transformation to keep winning.</p>",
+    "image_video" : false
+  }, {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent00.net/hubfs/7832858/Functionly_2020/Images/icon-8.svg",
+      "alt" : "icon-8",
+      "width" : 119,
+      "height" : 119,
+      "max_width" : 119,
+      "max_height" : 119
+    },
+    "content" : "<h3>Restructuring</h3>\n<p>Once you pass a certain size, complexity becomes difficult to manage on one piece of paper. Organizations need to remain fluid and undergo transformation to keep winning.</p>",
+    "image_video" : false
+  } ]
+} ]

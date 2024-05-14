@@ -1,0 +1,125 @@
+[ {
+  "id" : "fbbf4589-ded5-cb8a-7a3c-1164a917d237",
+  "name" : "heading",
+  "display_width" : null,
+  "label" : "Heading",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "When to use Functionly"
+}, {
+  "id" : "0b5c31ae-e9d3-e8d2-e03f-e03d3f53d092",
+  "name" : "card_item",
+  "display_width" : null,
+  "label" : "Card Item",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : 5
+  },
+  "children" : [ {
+    "id" : "dd5b4c40-6aec-f60c-26bb-2bf9b4c1b59b",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Restructures"
+  }, {
+    "id" : "0807e4ac-6811-9670-5f1b-f413a6aaf2e0",
+    "name" : "image_field",
+    "display_width" : null,
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/when-img1.svg",
+      "alt" : "when-img1",
+      "loading" : "lazy",
+      "width" : 222,
+      "height" : 141,
+      "max_width" : 222,
+      "max_height" : 141
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "default" : [ {
+    "title" : "Restructures",
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/when-img1.svg",
+      "alt" : "when-img1",
+      "loading" : "lazy",
+      "width" : 222,
+      "height" : 141,
+      "max_width" : 222,
+      "max_height" : 141
+    }
+  }, {
+    "title" : "Restructures",
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/when-img1.svg",
+      "alt" : "when-img1",
+      "loading" : "lazy",
+      "width" : 222,
+      "height" : 141,
+      "max_width" : 222,
+      "max_height" : 141
+    }
+  }, {
+    "title" : "Restructures",
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/when-img1.svg",
+      "alt" : "when-img1",
+      "loading" : "lazy",
+      "width" : 222,
+      "height" : 141,
+      "max_width" : 222,
+      "max_height" : 141
+    }
+  }, {
+    "title" : "Restructures",
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/when-img1.svg",
+      "alt" : "when-img1",
+      "loading" : "lazy",
+      "width" : 222,
+      "height" : 141,
+      "max_width" : 222,
+      "max_height" : 141
+    }
+  }, {
+    "title" : "Restructures",
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://7832858.fs1.hubspotusercontent-na1.net/hubfs/7832858/when-img1.svg",
+      "alt" : "when-img1",
+      "loading" : "lazy",
+      "width" : 222,
+      "height" : 141,
+      "max_width" : 222,
+      "max_height" : 141
+    }
+  } ]
+} ]
