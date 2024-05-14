@@ -1,8 +1,8 @@
 # Functionly
 
-About the project<br>
+About the projec:t<br><br>
 Functionly SaaS template website templates.
-<br>
+<br><br>
 Build with:<br>
 » Hubspot / HuBL<br>
 » HTML / CSS / JavaScript
