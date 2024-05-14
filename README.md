@@ -2,7 +2,7 @@
 
 About the project
 Functionly SaaS template website templates.
-
-Build with:
-» Hubspot / HuBL
-» HTMl / CSS / JavaScript
+<br>
+Build with:<br>
+» Hubspot / HuBL<br>
+» HTML / CSS / JavaScript
