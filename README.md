@@ -1,6 +1,6 @@
 # Functionly
 
-About the projec:t<br><br>
+About the project:<br><br>
 Functionly SaaS template website templates.
 <br><br>
 Build with:<br>
