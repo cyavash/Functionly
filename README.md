@@ -1,10 +1,10 @@
 # Functionly
 
-About the project
+About the project<br>
 Functionly SaaS template website templates.
 <br>
 Build with:<br>
 » Hubspot / HuBL<br>
 » HTML / CSS / JavaScript
-<br>
+<br><br>
 <a href="https://functionly.com/">Live Demo:</a>
